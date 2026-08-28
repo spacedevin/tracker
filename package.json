@@ -1,0 +1,16 @@
+{
+  "name": "tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Public portfolio catalog sync for spacedevin — GitHub Actions, no PAT",
+  "scripts": {
+    "sync": "node scripts/sync-catalog.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "yaml": "^2.7.0"
+  }
+}

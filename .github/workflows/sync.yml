@@ -1,0 +1,46 @@
+name: Sync catalog
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "config/catalog.yml"
+      - "scripts/sync-catalog.mjs"
+      - "package.json"
+      - ".github/workflows/sync.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Sync catalog
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run sync
+
+      - name: Commit tables
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add TRACKER.md docs/
+          if git diff --staged --quiet; then
+            echo "No catalog table changes"
+            exit 0
+          fi
+          git commit -m "chore: sync public catalog tables"
+          git push

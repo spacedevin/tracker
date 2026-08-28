@@ -1,0 +1,749 @@
+# Public-only portfolio catalog. Edit descriptions/status here; sync refreshes presence + releases.
+# Private GitHub repos are intentionally omitted. Public websites are included.
+
+include_prereleases: false
+
+items:
+  # --- tish ---
+  - id: sem
+    title: sem
+    url: https://github.com/tishlang/sem
+    github: tishlang/sem
+    npm: "@tishlang/sem"
+    cargo: false
+    description: Semantic release with conventional commits built in tish
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: tishlang-com
+    title: tishlang.com
+    url: https://tishlang.com
+    github: tishlang/tishlang.com
+    npm: false
+    cargo: false
+    description: Native typed typescript-like compileable and transpilable language to both js and rust
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: tish
+    title: tish
+    url: https://github.com/tishlang/tish
+    github: tishlang/tish
+    npm: false
+    cargo: tishlang
+    description: AI native hybrid AOT/JIT language and tooling (monorepo; crates publish from here)
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: tish-desktop
+    title: tish-desktop
+    url: https://github.com/tishlang/tish-desktop
+    github: tishlang/tish-desktop
+    npm: false
+    cargo: false
+    description: "Cross-device Tish app runtime (umbrella): shell Tish + BrokerCore + Tauri desktop webviews"
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: tish-apple
+    title: tish-apple
+    url: https://github.com/tishlang/tish-apple
+    github: tishlang/tish-apple
+    npm: false
+    cargo: false
+    description: Reusable Apple-platform UI hosts for Tish JSX
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: lattish
+    title: lattish
+    url: https://lattish.com
+    github: tishlang/lattish
+    npm: "@tishlang/lattish"
+    cargo: false
+    description: React-like APIs for tish and tish native
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: lattish-com
+    title: lattish.com
+    url: https://lattish.com
+    github: tishlang/lattish.com
+    npm: false
+    cargo: false
+    description: Lattish docs and homepage
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: tishdoc-render-html
+    title: tishdoc-render-html
+    url: https://github.com/tishlang/tishdoc-render-html
+    github: tishlang/tishdoc-render-html
+    npm: false
+    cargo: false
+    description: Tish-native renderer that walks a tishdoc-parse AST and emits safe, semantic HTML
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: tishdoc-parse
+    title: tishdoc-parse
+    url: https://github.com/tishlang/tishdoc-parse
+    github: tishlang/tishdoc-parse
+    npm: false
+    cargo: false
+    description: Tish-native Markdown / TishDoc parser
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: tish-syntax-highlight
+    title: tish-syntax-highlight
+    url: https://github.com/tishlang/tish-syntax-highlight
+    github: tishlang/tish-syntax-highlight
+    npm: false
+    cargo: false
+    description: Pure-Tish fenced-code syntax highlighter (hljs-style spans)
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: learn-tishlang
+    title: learn.tishlang.com
+    url: https://learn.tishlang.com/
+    github: tishlang/learn
+    npm: false
+    cargo: false
+    description: Learn tish with tutorials
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: tish-sh
+    title: tish.sh
+    url: https://tish.sh/
+    github: tishlang/tish-playground
+    npm: false
+    cargo: false
+    description: A tish playground with web embedded tish
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: tish-browser-server
+    title: tish-browser-server
+    url: https://github.com/tishlang/tish-browser-server
+    github: tishlang/tish-browser-server
+    npm: false
+    cargo: false
+    description: Browser server for tish
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: tish-ide-panels
+    title: tish-ide-panels
+    url: https://github.com/tishlang/tish-ide-panels
+    github: tishlang/tish-ide-panels
+    npm: false
+    cargo: false
+    description: Shared ide-panels package
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: tish-tailwind
+    title: tish-tailwind
+    url: https://github.com/tishlang/tish-tailwind
+    github: tishlang/tish-tailwind
+    npm: false
+    cargo: false
+    description: Tailwind-inspired CSS preprocessor for web and native tish apps
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: tish-vscode
+    title: tish-vscode
+    url: https://github.com/tishlang/tish-vscode
+    github: tishlang/tish-vscode
+    npm: false
+    cargo: false
+    description: Dev tools for the tish language
+    status: shipped
+    family: tish
+    kind: company
+
+  - id: tish-audio
+    title: tish-audio
+    url: https://github.com/spacedevin/tish-audio
+    github: spacedevin/tish-audio
+    npm: false
+    cargo: false
+    description: Pedal and rack friendly web audio platform
+    status: shipped
+    family: tish
+    kind: personal
+
+  # --- tish-crates (crates.io; monorepo tishlang/tish) ---
+  - id: tishlang_build_utils
+    title: tishlang_build_utils
+    url: https://crates.io/crates/tishlang_build_utils
+    github: null
+    npm: false
+    cargo: tishlang_build_utils
+    description: Tish build utilities crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_ast
+    title: tishlang_ast
+    url: https://crates.io/crates/tishlang_ast
+    github: null
+    npm: false
+    cargo: tishlang_ast
+    description: Tish AST crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_lexer
+    title: tishlang_lexer
+    url: https://crates.io/crates/tishlang_lexer
+    github: null
+    npm: false
+    cargo: tishlang_lexer
+    description: Tish lexer crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_runtime_gba
+    title: tishlang_runtime_gba
+    url: https://crates.io/crates/tishlang_runtime_gba
+    github: null
+    npm: false
+    cargo: tishlang_runtime_gba
+    description: Tish GBA runtime crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_compile
+    title: tishlang_compile
+    url: https://crates.io/crates/tishlang_compile
+    github: null
+    npm: false
+    cargo: tishlang_compile
+    description: Tish compile crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_runtime
+    title: tishlang_runtime
+    url: https://crates.io/crates/tishlang_runtime
+    github: null
+    npm: false
+    cargo: tishlang_runtime
+    description: Tish runtime crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_cranelift
+    title: tishlang_cranelift
+    url: https://crates.io/crates/tishlang_cranelift
+    github: null
+    npm: false
+    cargo: tishlang_cranelift
+    description: Tish Cranelift backend crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_compile_js
+    title: tishlang_compile_js
+    url: https://crates.io/crates/tishlang_compile_js
+    github: null
+    npm: false
+    cargo: tishlang_compile_js
+    description: Tish JS compile crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_wasm
+    title: tishlang_wasm
+    url: https://crates.io/crates/tishlang_wasm
+    github: null
+    npm: false
+    cargo: tishlang_wasm
+    description: Tish WASM crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_wasm_runtime
+    title: tishlang_wasm_runtime
+    url: https://crates.io/crates/tishlang_wasm_runtime
+    github: null
+    npm: false
+    cargo: tishlang_wasm_runtime
+    description: Tish WASM runtime crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_lsp
+    title: tishlang_lsp
+    url: https://crates.io/crates/tishlang_lsp
+    github: null
+    npm: false
+    cargo: tishlang_lsp
+    description: Tish LSP crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_core
+    title: tishlang_core
+    url: https://crates.io/crates/tishlang_core
+    github: null
+    npm: false
+    cargo: tishlang_core
+    description: Tish core crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_ffi
+    title: tishlang_ffi
+    url: https://crates.io/crates/tishlang_ffi
+    github: null
+    npm: false
+    cargo: tishlang_ffi
+    description: Tish FFI crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_resolve
+    title: tishlang_resolve
+    url: https://crates.io/crates/tishlang_resolve
+    github: null
+    npm: false
+    cargo: tishlang_resolve
+    description: Tish resolve crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_ui
+    title: tishlang_ui
+    url: https://crates.io/crates/tishlang_ui
+    github: null
+    npm: false
+    cargo: tishlang_ui
+    description: Tish UI crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_jsx_web
+    title: tishlang_jsx_web
+    url: https://crates.io/crates/tishlang_jsx_web
+    github: null
+    npm: false
+    cargo: tishlang_jsx_web
+    description: Tish JSX web crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_builtins
+    title: tishlang_builtins
+    url: https://crates.io/crates/tishlang_builtins
+    github: null
+    npm: false
+    cargo: tishlang_builtins
+    description: Tish builtins crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_parser
+    title: tishlang_parser
+    url: https://crates.io/crates/tishlang_parser
+    github: null
+    npm: false
+    cargo: tishlang_parser
+    description: Tish parser crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_opt
+    title: tishlang_opt
+    url: https://crates.io/crates/tishlang_opt
+    github: null
+    npm: false
+    cargo: tishlang_opt
+    description: Tish opt crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_bytecode
+    title: tishlang_bytecode
+    url: https://crates.io/crates/tishlang_bytecode
+    github: null
+    npm: false
+    cargo: tishlang_bytecode
+    description: Tish bytecode crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_js_to_tish
+    title: tishlang_js_to_tish
+    url: https://crates.io/crates/tishlang_js_to_tish
+    github: null
+    npm: false
+    cargo: tishlang_js_to_tish
+    description: JS to Tish crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_pg
+    title: tishlang_pg
+    url: https://crates.io/crates/tishlang_pg
+    github: null
+    npm: false
+    cargo: tishlang_pg
+    description: Postgres for tish crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_eval
+    title: tishlang_eval
+    url: https://crates.io/crates/tishlang_eval
+    github: null
+    npm: false
+    cargo: tishlang_eval
+    description: Tish eval crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_cargo_bindgen
+    title: tishlang_cargo_bindgen
+    url: https://crates.io/crates/tishlang_cargo_bindgen
+    github: null
+    npm: false
+    cargo: tishlang_cargo_bindgen
+    description: Tish cargo bindgen crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_vm
+    title: tishlang_vm
+    url: https://crates.io/crates/tishlang_vm
+    github: null
+    npm: false
+    cargo: tishlang_vm
+    description: Tish VM crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_llvm
+    title: tishlang_llvm
+    url: https://crates.io/crates/tishlang_llvm
+    github: null
+    npm: false
+    cargo: tishlang_llvm
+    description: Tish LLVM crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_native
+    title: tishlang_native
+    url: https://crates.io/crates/tishlang_native
+    github: null
+    npm: false
+    cargo: tishlang_native
+    description: Tish native crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_compiler_wasm
+    title: tishlang_compiler_wasm
+    url: https://crates.io/crates/tishlang_compiler_wasm
+    github: null
+    npm: false
+    cargo: tishlang_compiler_wasm
+    description: Tish WASM compiler crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_cranelift_runtime
+    title: tishlang_cranelift_runtime
+    url: https://crates.io/crates/tishlang_cranelift_runtime
+    github: null
+    npm: false
+    cargo: tishlang_cranelift_runtime
+    description: Tish Cranelift runtime crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_fmt
+    title: tishlang_fmt
+    url: https://crates.io/crates/tishlang_fmt
+    github: null
+    npm: false
+    cargo: tishlang_fmt
+    description: Tish formatter crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_lint
+    title: tishlang_lint
+    url: https://crates.io/crates/tishlang_lint
+    github: null
+    npm: false
+    cargo: tishlang_lint
+    description: Tish lint crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  - id: tishlang_test
+    title: tishlang_test
+    url: https://crates.io/crates/tishlang_test
+    github: null
+    npm: false
+    cargo: tishlang_test
+    description: Tish test crate
+    status: shipped
+    family: tish-crates
+    kind: company
+
+  # --- schlop ---
+  - id: chuggie
+    title: chuggie.dev
+    url: https://chuggie.dev
+    github: schlopai/chuggie
+    npm: "@schlopai/chuggie"
+    cargo: false
+    description: GBA game engine — write Game Boy Advance games in tish
+    status: shipped
+    family: schlop
+    kind: company
+
+  - id: chuggie-ci
+    title: chuggie-ci
+    url: https://github.com/schlopai/chuggie-ci
+    github: schlopai/chuggie-ci
+    npm: false
+    cargo: false
+    description: GBA toolchain image for chuggie CI
+    status: shipped
+    family: schlop
+    kind: company
+
+  - id: spider-gwen-webgpu
+    title: spider-gwen-webgpu
+    url: https://github.com/schlopai/spider-gwen-webgpu
+    github: schlopai/spider-gwen-webgpu
+    npm: false
+    cargo: false
+    description: WASM + WebGPU demo using Spider-Gwen
+    status: shipped
+    family: schlop
+    kind: company
+
+  - id: tish-dark-matter
+    title: tish-dark-matter
+    url: https://github.com/schlopai/tish-dark-matter
+    github: schlopai/tish-dark-matter
+    npm: false
+    cargo: false
+    description: Frontmatter for tish and js
+    status: shipped
+    family: schlop
+    kind: company
+
+  - id: schlop-ai
+    title: schlop.ai
+    url: https://schlop.ai
+    github: null
+    npm: false
+    cargo: false
+    description: schlop.ai — public site
+    status: shipped
+    family: schlop
+    kind: company
+
+  # --- hypery ---
+  - id: hypery-ai
+    title: hypery.ai
+    url: https://hypery.ai/
+    github: null
+    npm: false
+    cargo: false
+    description: Unified API gateway for multiple AI providers, authentication, billing, and team monitoring
+    status: shipped
+    family: hypery
+    kind: company
+
+  - id: hypery-sdk
+    title: hypery-sdk
+    url: https://github.com/hyperyai/hypery-sdk
+    github: hyperyai/hypery-sdk
+    npm: false
+    cargo: false
+    description: "Open-source SDK for Hypery — @hypery/auth OAuth 2.0 + PKCE, checkout, error handling for React"
+    status: shipped
+    family: hypery
+    kind: company
+
+  - id: hypery-examples
+    title: hypery-examples
+    url: https://github.com/hyperyai/hypery-examples
+    github: hyperyai/hypery-examples
+    npm: false
+    cargo: false
+    description: Runnable example apps for building on Hypery
+    status: shipped
+    family: hypery
+    kind: company
+
+  # --- dune ---
+  - id: dune-you
+    title: dune.you
+    url: https://dune.you/
+    github: duneyou/dune
+    npm: false
+    cargo: false
+    description: The agentic self skill learning IDE for modern dev workflows
+    status: shipped
+    family: dune
+    kind: company
+
+  - id: homebrew-dune
+    title: homebrew-dune
+    url: https://github.com/duneyou/homebrew-dune
+    github: duneyou/homebrew-dune
+    npm: false
+    cargo: false
+    description: Homebrew tap for Dune
+    status: shipped
+    family: dune
+    kind: company
+
+  - id: dune-extensions
+    title: dune-extensions
+    url: https://github.com/duneyou/dune-extensions
+    github: duneyou/dune-extensions
+    npm: false
+    cargo: false
+    description: Community and example extensions for Dune IDE
+    status: shipped
+    family: dune
+    kind: company
+
+  # --- personal ---
+  - id: deckard
+    title: deckard.lol
+    url: https://deckard.lol
+    github: spacedevin/deckard
+    npm: false
+    cargo: false
+    description: Real time 4 deck collaborative DJ and production platform
+    status: shipped
+    family: personal
+    kind: personal
+
+  - id: deck
+    title: deck
+    url: https://github.com/spacedevin/deck
+    github: spacedevin/deck
+    npm: "@spacedevin/deck"
+    cargo: false
+    description: Deck patch language for tish and rust. Used by deckard and chuggie
+    status: shipped
+    family: personal
+    kind: personal
+
+  - id: juke-sh
+    title: juke.sh
+    url: https://juke.sh
+    github: spacedevin/juke.sh
+    npm: false
+    cargo: false
+    description: Jukebox
+    status: shipped
+    family: personal
+    kind: personal
+
+  - id: react-mui-multi-range-picker
+    title: react-mui-multi-range-picker
+    url: https://github.com/spacedevin/react-mui-multi-range-picker
+    github: spacedevin/react-mui-multi-range-picker
+    npm: "@spacedevin/react-mui-multi-range-picker"
+    cargo: false
+    description: Multi date range picker for MUI free and pro
+    status: shipped
+    family: personal
+    kind: personal
+
+  - id: tish-polars
+    title: tish-polars
+    url: https://github.com/spacedevin/tish-polars
+    github: spacedevin/tish-polars
+    npm: false
+    cargo: false
+    description: Polars for tish
+    status: wip
+    family: personal
+    kind: personal
+
+  # --- other public sites ---
+  - id: birdland
+    title: birdlandgov.com
+    url: https://birdlandgov.com/
+    github: null
+    npm: false
+    cargo: false
+    description: birdlandgov.com
+    status: shipped
+    family: other
+    kind: company
+
+  - id: nihmbus
+    title: nihmbus.ai
+    url: https://nihmbus.ai/
+    github: null
+    npm: false
+    cargo: false
+    description: nihmbus.ai
+    status: shipped
+    family: other
+    kind: company
