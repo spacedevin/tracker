@@ -4,25 +4,22 @@ Syncs the public portfolio catalog into:
 
 **https://github.com/users/spacedevin/projects/3**
 
-Every row has a **Project** field (chuggie, tish, dune, hypery, …). In the Project table view: **Group by → Project**.
+Every row has:
 
-- **Source:** [`config/catalog.yml`](config/catalog.yml) — each item must set `project:`
-- **Action:** hourly + on catalog changes
-- **Auth:** `PROJECT_TOKEN` writes the board; `GITHUB_TOKEN` reads public repos
+| Field | Purpose |
+|-------|---------|
+| **Project** | Product name — use **Group by → Project** |
+| **Latest updates** | Release tag/notes, or crates/npm/push summary |
+| **Last updated** | Newest of release / push / npm / crates timestamps |
+| **Synced** | When this row was last refreshed by Actions |
+| **Latest release** / **Released** | Tip GitHub release |
 
-## Secrets / variables
-
-| Name | Where | Value |
-|------|--------|--------|
-| `PROJECT_TOKEN` | Actions secret | classic PAT: `project` + `public_repo` |
-| `PROJECT_OWNER` | Actions variable | `spacedevin` |
-| `PROJECT_NUMBER` | Actions variable | `3` |
-
-## Group by Project
+## Views
 
 1. Open https://github.com/users/spacedevin/projects/3  
-2. Table view → **Group by** → **Project**  
-3. Optional: second view sorted by **Released** for recent releases  
+2. Table view → add columns: Project, Latest updates, Last updated, Synced  
+3. **Group by → Project**  
+4. New view **Recent**: no group, sort by **Last updated** descending  
 
 ## Add a product
 

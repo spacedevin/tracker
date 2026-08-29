@@ -87,8 +87,10 @@ async function checkGithub(repo) {
     headers,
     okStatuses: [200],
   });
-  if (!ok || !data || data.private) return { exists: false };
-  return { exists: true };
+  if (!ok || !data || data.private) {
+    return { exists: false, pushedAt: null };
+  }
+  return { exists: true, pushedAt: data.pushed_at || null };
 }
 
 async function latestRelease(repo, includePrereleases) {
@@ -98,33 +100,49 @@ async function latestRelease(repo, includePrereleases) {
     `https://api.github.com/repos/${repo}/releases?per_page=30`,
     { headers, okStatuses: [200] },
   );
-  if (!ok || !Array.isArray(data)) return { tag: null, publishedAt: null };
+  if (!ok || !Array.isArray(data)) {
+    return { tag: null, publishedAt: null, name: null, summary: null };
+  }
   for (const r of data) {
     if (r.draft) continue;
     if (!includePrereleases && r.prerelease) continue;
-    return { tag: r.tag_name || null, publishedAt: r.published_at || null };
+    const body = (r.body || "").replace(/\r\n/g, "\n").trim();
+    const firstLine = body.split("\n").find((l) => l.trim()) || "";
+    return {
+      tag: r.tag_name || null,
+      publishedAt: r.published_at || null,
+      name: r.name || r.tag_name || null,
+      summary: firstLine.slice(0, 160),
+    };
   }
-  return { tag: null, publishedAt: null };
+  return { tag: null, publishedAt: null, name: null, summary: null };
 }
 
 async function checkNpm(pkg) {
-  if (!pkg || pkg === false) return { exists: false, version: null };
+  if (!pkg || pkg === false) return { exists: false, version: null, updatedAt: null };
   const path = pkg.startsWith("@") ? pkg.replace("/", "%2F") : encodeURIComponent(pkg);
   const { ok, data } = await fetchJson(`https://registry.npmjs.org/${path}`, {
     okStatuses: [200],
   });
-  if (!ok || !data) return { exists: false, version: null };
-  return { exists: true, version: data["dist-tags"]?.latest ?? null };
+  if (!ok || !data) return { exists: false, version: null, updatedAt: null };
+  const version = data["dist-tags"]?.latest ?? null;
+  const updatedAt =
+    (version && data.time?.[version]) || data.time?.modified || null;
+  return { exists: true, version, updatedAt };
 }
 
 async function checkCargo(name) {
-  if (!name || name === false) return { exists: false, version: null };
+  if (!name || name === false) return { exists: false, version: null, updatedAt: null };
   const { ok, data } = await fetchJson(
     `https://crates.io/api/v1/crates/${encodeURIComponent(name)}`,
     { okStatuses: [200] },
   );
-  if (!ok || !data?.crate) return { exists: false, version: null };
-  return { exists: true, version: data.crate.newest_version || null };
+  if (!ok || !data?.crate) return { exists: false, version: null, updatedAt: null };
+  return {
+    exists: true,
+    version: data.crate.newest_version || null,
+    updatedAt: data.crate.updated_at || null,
+  };
 }
 
 async function mapPool(items, concurrency, fn) {
@@ -142,6 +160,16 @@ async function mapPool(items, concurrency, fn) {
   return results;
 }
 
+function toDay(iso) {
+  if (!iso) return null;
+  return String(iso).slice(0, 10);
+}
+
+function maxDay(dates) {
+  const days = dates.filter(Boolean).map(toDay).filter(Boolean).sort();
+  return days.length ? days[days.length - 1] : null;
+}
+
 async function enrich(item, includePrereleases) {
   const out = {
     ...item,
@@ -151,6 +179,12 @@ async function enrich(item, includePrereleases) {
     live: false,
     latestRelease: null,
     released: null,
+    latestUpdates: "",
+    lastUpdated: null,
+    syncedAt: toDay(new Date().toISOString()),
+    pushedAt: null,
+    npmVersion: null,
+    cargoVersion: null,
   };
   const tasks = [];
   if (item.url) {
@@ -161,10 +195,17 @@ async function enrich(item, includePrereleases) {
       (async () => {
         const gh = await checkGithub(item.github);
         out.githubYes = gh.exists;
+        out.pushedAt = gh.pushedAt;
         if (gh.exists) {
           const rel = await latestRelease(item.github, includePrereleases);
           out.latestRelease = rel.tag;
-          out.released = rel.publishedAt ? rel.publishedAt.slice(0, 10) : null;
+          out.released = rel.publishedAt ? toDay(rel.publishedAt) : null;
+          if (rel.tag) {
+            const bits = [rel.tag];
+            if (rel.name && rel.name !== rel.tag) bits.push(rel.name);
+            if (rel.summary) bits.push(rel.summary);
+            out.latestUpdates = bits.join(" — ").slice(0, 240);
+          }
         }
       })(),
     );
@@ -173,6 +214,8 @@ async function enrich(item, includePrereleases) {
     tasks.push(
       checkNpm(item.npm).then((n) => {
         out.npmYes = n.exists;
+        out.npmVersion = n.version;
+        out.npmUpdatedAt = n.updatedAt;
       }),
     );
   }
@@ -180,10 +223,30 @@ async function enrich(item, includePrereleases) {
     tasks.push(
       checkCargo(item.cargo).then((c) => {
         out.cargoYes = c.exists;
+        out.cargoVersion = c.version;
+        out.cargoUpdatedAt = c.updatedAt;
       }),
     );
   }
   await Promise.all(tasks);
+
+  // Build latest updates if release didn't fill it
+  if (!out.latestUpdates) {
+    const bits = [];
+    if (out.cargoYes && out.cargoVersion) bits.push(`crates.io ${out.cargoVersion}`);
+    if (out.npmYes && out.npmVersion) bits.push(`npm ${out.npmVersion}`);
+    if (out.pushedAt) bits.push(`pushed ${toDay(out.pushedAt)}`);
+    if (out.live && item.url && !item.github) bits.push("site live");
+    out.latestUpdates = bits.join(" · ").slice(0, 240);
+  }
+
+  out.lastUpdated = maxDay([
+    out.released,
+    out.pushedAt,
+    out.npmUpdatedAt,
+    out.cargoUpdatedAt,
+  ]);
+
   return out;
 }
 
@@ -410,7 +473,10 @@ async function ensureSchema(projectId, fields) {
   await ensureTextField(projectId, "Github repo", existing);
   await ensureTextField(projectId, "Description", existing);
   await ensureTextField(projectId, "Latest release", existing);
+  await ensureTextField(projectId, "Latest updates", existing);
   await ensureDateField(projectId, "Released", existing);
+  await ensureDateField(projectId, "Last updated", existing);
+  await ensureDateField(projectId, "Synced", existing);
   await ensureSingleSelect(projectId, "Github", ["yes", "no"], existing);
   await ensureSingleSelect(projectId, "NPM", ["yes", "no"], existing);
   await ensureSingleSelect(projectId, "Cargo", ["yes", "no"], existing);
@@ -549,8 +615,22 @@ async function applyItemFields(projectId, itemId, fields, item) {
       item.latestRelease || "",
     );
   }
+  if (fields["Latest updates"]) {
+    await setText(
+      projectId,
+      itemId,
+      fields["Latest updates"].id,
+      item.latestUpdates || "",
+    );
+  }
   if (fields.Released && item.released) {
     await setDate(projectId, itemId, fields.Released.id, item.released);
+  }
+  if (fields["Last updated"] && item.lastUpdated) {
+    await setDate(projectId, itemId, fields["Last updated"].id, item.lastUpdated);
+  }
+  if (fields.Synced && item.syncedAt) {
+    await setDate(projectId, itemId, fields.Synced.id, item.syncedAt);
   }
   if (fields.Github) await setSelect(projectId, itemId, fields.Github, yesNo(item.githubYes));
   if (fields.NPM) await setSelect(projectId, itemId, fields.NPM, yesNo(item.npmYes));
