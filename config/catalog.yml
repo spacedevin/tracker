@@ -23,7 +23,7 @@ items:
     github: tishlang/tishlang.com
     npm: false
     cargo: false
-    description: Native typed typescript-like compileable and transpilable language to both js and rust
+    description: "Tish language homepage — docs, feature overview, and playground links for the native/WASM/JS targets"
     status: shipped
     family: tish
     project: tish
@@ -131,7 +131,7 @@ items:
     github: tishlang/learn
     npm: false
     cargo: false
-    description: Learn tish with tutorials
+    description: Interactive tutorials for learning to code in Tish
     status: shipped
     family: tish
     project: tish
@@ -649,7 +649,7 @@ items:
     github: null
     npm: false
     cargo: false
-    description: schlop.ai — public site
+    description: "Schlop Studios site — retro-styled game studio: synthwave platformers, tactical shooters, and 8-bit roguelikes"
     status: shipped
     family: schlop
     project: schlop
@@ -760,7 +760,7 @@ items:
     github: spacedevin/juke.sh
     npm: false
     cargo: false
-    description: Jukebox
+    description: Spotify-connected WebGL jukebox in the browser
     status: shipped
     family: personal
     project: juke
@@ -797,7 +797,7 @@ items:
     github: null
     npm: false
     cargo: false
-    description: birdlandgov.com
+    description: "Official site of the Sovereign Nation of Birdland — news, government services, wildlife, and visitor resources"
     status: shipped
     family: other
     project: birdland
@@ -809,7 +809,7 @@ items:
     github: null
     npm: false
     cargo: false
-    description: nihmbus.ai
+    description: "AI-powered autonomous marketing platform — social media management, branding, and campaign automation"
     status: shipped
     family: other
     project: nihmbus
