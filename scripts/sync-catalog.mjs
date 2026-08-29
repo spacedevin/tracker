@@ -405,6 +405,7 @@ async function ensureSingleSelect(projectId, name, optionNames, existing) {
 async function ensureSchema(projectId, fields) {
   const existing = fieldMap(fields);
   await ensureTextField(projectId, "ID", existing);
+  await ensureTextField(projectId, "Project", existing);
   await ensureTextField(projectId, "URL", existing);
   await ensureTextField(projectId, "Github repo", existing);
   await ensureTextField(projectId, "Description", existing);
@@ -520,6 +521,14 @@ async function applyItemFields(projectId, itemId, fields, item) {
   }
 
   if (fields.ID) await setText(projectId, itemId, fields.ID.id, item.id);
+  if (fields.Project) {
+    await setText(
+      projectId,
+      itemId,
+      fields.Project.id,
+      item.project || item.family || item.id,
+    );
+  }
   if (fields.URL) await setText(projectId, itemId, fields.URL.id, item.url || "");
   if (fields["Github repo"]) {
     await setText(

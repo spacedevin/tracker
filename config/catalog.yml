@@ -14,6 +14,7 @@ items:
     description: Semantic release with conventional commits built in tish
     status: shipped
     family: tish
+    project: sem
     kind: company
 
   - id: tishlang-com
@@ -25,6 +26,7 @@ items:
     description: Native typed typescript-like compileable and transpilable language to both js and rust
     status: shipped
     family: tish
+    project: tish
     kind: company
 
   - id: tish
@@ -36,6 +38,7 @@ items:
     description: AI native hybrid AOT/JIT language and tooling (monorepo; crates publish from here)
     status: shipped
     family: tish
+    project: tish
     kind: company
 
   - id: tish-desktop
@@ -47,6 +50,7 @@ items:
     description: "Cross-device Tish app runtime (umbrella): shell Tish + BrokerCore + Tauri desktop webviews"
     status: shipped
     family: tish
+    project: tish
     kind: company
 
   - id: tish-apple
@@ -58,6 +62,7 @@ items:
     description: Reusable Apple-platform UI hosts for Tish JSX
     status: shipped
     family: tish
+    project: tish
     kind: company
 
   - id: lattish
@@ -69,6 +74,7 @@ items:
     description: React-like APIs for tish and tish native
     status: shipped
     family: tish
+    project: lattish
     kind: company
 
   - id: lattish-com
@@ -80,6 +86,7 @@ items:
     description: Lattish docs and homepage
     status: shipped
     family: tish
+    project: lattish
     kind: company
 
   - id: tishdoc-render-html
@@ -91,6 +98,7 @@ items:
     description: Tish-native renderer that walks a tishdoc-parse AST and emits safe, semantic HTML
     status: shipped
     family: tish
+    project: tishdoc
     kind: company
 
   - id: tishdoc-parse
@@ -102,6 +110,7 @@ items:
     description: Tish-native Markdown / TishDoc parser
     status: shipped
     family: tish
+    project: tishdoc
     kind: company
 
   - id: tish-syntax-highlight
@@ -113,6 +122,7 @@ items:
     description: Pure-Tish fenced-code syntax highlighter (hljs-style spans)
     status: shipped
     family: tish
+    project: tishdoc
     kind: company
 
   - id: learn-tishlang
@@ -124,6 +134,7 @@ items:
     description: Learn tish with tutorials
     status: shipped
     family: tish
+    project: tish
     kind: company
 
   - id: tish-sh
@@ -135,6 +146,7 @@ items:
     description: A tish playground with web embedded tish
     status: shipped
     family: tish
+    project: tish
     kind: company
 
   - id: tish-browser-server
@@ -146,6 +158,7 @@ items:
     description: Browser server for tish
     status: shipped
     family: tish
+    project: tish
     kind: company
 
   - id: tish-ide-panels
@@ -157,6 +170,7 @@ items:
     description: Shared ide-panels package
     status: shipped
     family: tish
+    project: tish
     kind: company
 
   - id: tish-tailwind
@@ -168,6 +182,7 @@ items:
     description: Tailwind-inspired CSS preprocessor for web and native tish apps
     status: shipped
     family: tish
+    project: tish
     kind: company
 
   - id: tish-vscode
@@ -179,6 +194,7 @@ items:
     description: Dev tools for the tish language
     status: shipped
     family: tish
+    project: tish
     kind: company
 
   - id: tish-audio
@@ -190,6 +206,7 @@ items:
     description: Pedal and rack friendly web audio platform
     status: shipped
     family: tish
+    project: tish-audio
     kind: personal
 
   # --- tish-crates (crates.io; monorepo tishlang/tish) ---
@@ -202,6 +219,7 @@ items:
     description: Tish build utilities crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_ast
@@ -213,6 +231,7 @@ items:
     description: Tish AST crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_lexer
@@ -224,6 +243,7 @@ items:
     description: Tish lexer crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_runtime_gba
@@ -235,6 +255,7 @@ items:
     description: Tish GBA runtime crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_compile
@@ -246,6 +267,7 @@ items:
     description: Tish compile crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_runtime
@@ -257,6 +279,7 @@ items:
     description: Tish runtime crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_cranelift
@@ -268,6 +291,7 @@ items:
     description: Tish Cranelift backend crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_compile_js
@@ -279,6 +303,7 @@ items:
     description: Tish JS compile crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_wasm
@@ -290,6 +315,7 @@ items:
     description: Tish WASM crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_wasm_runtime
@@ -301,6 +327,7 @@ items:
     description: Tish WASM runtime crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_lsp
@@ -312,6 +339,7 @@ items:
     description: Tish LSP crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_core
@@ -323,6 +351,7 @@ items:
     description: Tish core crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_ffi
@@ -334,6 +363,7 @@ items:
     description: Tish FFI crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_resolve
@@ -345,6 +375,7 @@ items:
     description: Tish resolve crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_ui
@@ -356,6 +387,7 @@ items:
     description: Tish UI crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_jsx_web
@@ -367,6 +399,7 @@ items:
     description: Tish JSX web crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_builtins
@@ -378,6 +411,7 @@ items:
     description: Tish builtins crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_parser
@@ -389,6 +423,7 @@ items:
     description: Tish parser crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_opt
@@ -400,6 +435,7 @@ items:
     description: Tish opt crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_bytecode
@@ -411,6 +447,7 @@ items:
     description: Tish bytecode crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_js_to_tish
@@ -422,6 +459,7 @@ items:
     description: JS to Tish crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_pg
@@ -433,6 +471,7 @@ items:
     description: Postgres for tish crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_eval
@@ -444,6 +483,7 @@ items:
     description: Tish eval crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_cargo_bindgen
@@ -455,6 +495,7 @@ items:
     description: Tish cargo bindgen crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_vm
@@ -466,6 +507,7 @@ items:
     description: Tish VM crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_llvm
@@ -477,6 +519,7 @@ items:
     description: Tish LLVM crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_native
@@ -488,6 +531,7 @@ items:
     description: Tish native crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_compiler_wasm
@@ -499,6 +543,7 @@ items:
     description: Tish WASM compiler crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_cranelift_runtime
@@ -510,6 +555,7 @@ items:
     description: Tish Cranelift runtime crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_fmt
@@ -521,6 +567,7 @@ items:
     description: Tish formatter crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_lint
@@ -532,6 +579,7 @@ items:
     description: Tish lint crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   - id: tishlang_test
@@ -543,6 +591,7 @@ items:
     description: Tish test crate
     status: shipped
     family: tish-crates
+    project: tish
     kind: company
 
   # --- schlop ---
@@ -555,6 +604,7 @@ items:
     description: GBA game engine — write Game Boy Advance games in tish
     status: shipped
     family: schlop
+    project: chuggie
     kind: company
 
   - id: chuggie-ci
@@ -566,6 +616,7 @@ items:
     description: GBA toolchain image for chuggie CI
     status: shipped
     family: schlop
+    project: chuggie
     kind: company
 
   - id: spider-gwen-webgpu
@@ -577,6 +628,7 @@ items:
     description: WASM + WebGPU demo using Spider-Gwen
     status: shipped
     family: schlop
+    project: schlop
     kind: company
 
   - id: tish-dark-matter
@@ -588,6 +640,7 @@ items:
     description: Frontmatter for tish and js
     status: shipped
     family: schlop
+    project: tish-dark-matter
     kind: company
 
   - id: schlop-ai
@@ -599,6 +652,7 @@ items:
     description: schlop.ai — public site
     status: shipped
     family: schlop
+    project: schlop
     kind: company
 
   # --- hypery ---
@@ -611,6 +665,7 @@ items:
     description: Unified API gateway for multiple AI providers, authentication, billing, and team monitoring
     status: shipped
     family: hypery
+    project: hypery
     kind: company
 
   - id: hypery-sdk
@@ -622,6 +677,7 @@ items:
     description: "Open-source SDK for Hypery — @hypery/auth OAuth 2.0 + PKCE, checkout, error handling for React"
     status: shipped
     family: hypery
+    project: hypery
     kind: company
 
   - id: hypery-examples
@@ -633,6 +689,7 @@ items:
     description: Runnable example apps for building on Hypery
     status: shipped
     family: hypery
+    project: hypery
     kind: company
 
   # --- dune ---
@@ -645,6 +702,7 @@ items:
     description: The agentic self skill learning IDE for modern dev workflows
     status: shipped
     family: dune
+    project: dune
     kind: company
 
   - id: homebrew-dune
@@ -656,6 +714,7 @@ items:
     description: Homebrew tap for Dune
     status: shipped
     family: dune
+    project: dune
     kind: company
 
   - id: dune-extensions
@@ -667,6 +726,7 @@ items:
     description: Community and example extensions for Dune IDE
     status: shipped
     family: dune
+    project: dune
     kind: company
 
   # --- personal ---
@@ -679,6 +739,7 @@ items:
     description: Real time 4 deck collaborative DJ and production platform
     status: shipped
     family: personal
+    project: deckard
     kind: personal
 
   - id: deck
@@ -690,6 +751,7 @@ items:
     description: Deck patch language for tish and rust. Used by deckard and chuggie
     status: shipped
     family: personal
+    project: deck
     kind: personal
 
   - id: juke-sh
@@ -701,6 +763,7 @@ items:
     description: Jukebox
     status: shipped
     family: personal
+    project: juke
     kind: personal
 
   - id: react-mui-multi-range-picker
@@ -712,6 +775,7 @@ items:
     description: Multi date range picker for MUI free and pro
     status: shipped
     family: personal
+    project: react-mui-multi-range-picker
     kind: personal
 
   - id: tish-polars
@@ -723,6 +787,7 @@ items:
     description: Polars for tish
     status: wip
     family: personal
+    project: tish-polars
     kind: personal
 
   # --- other public sites ---
@@ -735,6 +800,7 @@ items:
     description: birdlandgov.com
     status: shipped
     family: other
+    project: birdland
     kind: company
 
   - id: nihmbus
@@ -746,4 +812,5 @@ items:
     description: nihmbus.ai
     status: shipped
     family: other
+    project: nihmbus
     kind: company

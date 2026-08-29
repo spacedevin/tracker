@@ -1,39 +1,41 @@
 # Tracker
 
-Syncs the public portfolio catalog into GitHub Project:
+Syncs the public portfolio catalog into:
 
 **https://github.com/users/spacedevin/projects/3**
 
-- **Source:** [`config/catalog.yml`](config/catalog.yml)
+Every row has a **Project** field (chuggie, tish, dune, hypery, …). In the Project table view: **Group by → Project**.
+
+- **Source:** [`config/catalog.yml`](config/catalog.yml) — each item must set `project:`
 - **Action:** hourly + on catalog changes
-- **Auth:** `PROJECT_TOKEN` (classic PAT: `project` + `public_repo`) writes the Project; `GITHUB_TOKEN` reads public repos
-- **Scope:** public sites, public GitHub, public npm/crates only
+- **Auth:** `PROJECT_TOKEN` writes the board; `GITHUB_TOKEN` reads public repos
 
 ## Secrets / variables
 
 | Name | Where | Value |
 |------|--------|--------|
-| `PROJECT_TOKEN` | Actions secret | classic PAT with `project` + `public_repo` |
+| `PROJECT_TOKEN` | Actions secret | classic PAT: `project` + `public_repo` |
 | `PROJECT_OWNER` | Actions variable | `spacedevin` |
 | `PROJECT_NUMBER` | Actions variable | `3` |
 
-## Local sync
+## Group by Project
 
-```bash
-export PROJECT_TOKEN=ghp_...
-export PROJECT_OWNER=spacedevin
-export PROJECT_NUMBER=3
-npm install
-npm run sync
-```
-
-## Grouped view
-
-The sync populates a `Family` single-select on every item, but GitHub's
-API cannot configure a view's group-by — that is a one-time manual step:
-open the [Project](https://github.com/users/spacedevin/projects/3) → view
-menu (▾ on the view tab) → **Group by** → `Family`.
+1. Open https://github.com/users/spacedevin/projects/3  
+2. Table view → **Group by** → **Project**  
+3. Optional: second view sorted by **Released** for recent releases  
 
 ## Add a product
 
-Append an item in `config/catalog.yml`, push — the Project table updates on the next sync.
+```yaml
+- id: my-thing
+  title: my-thing
+  url: https://example.com
+  github: null
+  npm: false
+  cargo: false
+  description: ...
+  status: shipped
+  family: other
+  project: my-thing   # required — grouping key
+  kind: company
+```
