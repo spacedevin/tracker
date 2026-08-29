@@ -240,6 +240,18 @@ async function enrich(item, includePrereleases) {
     out.latestUpdates = bits.join(" · ").slice(0, 240);
   }
 
+  // Crate-/npm-only rows have no GitHub release — fall back to the registry's
+  // newest version and its publish date so Latest release / Released still fill.
+  if (!out.latestRelease) {
+    if (out.cargoYes && out.cargoVersion) {
+      out.latestRelease = `v${out.cargoVersion}`;
+      out.released = toDay(out.cargoUpdatedAt);
+    } else if (out.npmYes && out.npmVersion) {
+      out.latestRelease = `v${out.npmVersion}`;
+      out.released = toDay(out.npmUpdatedAt);
+    }
+  }
+
   out.lastUpdated = maxDay([
     out.released,
     out.pushedAt,
