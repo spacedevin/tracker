@@ -596,7 +596,7 @@ items:
 
   # --- schlop ---
   - id: chuggie
-    title: chuggie.dev
+    title: chuggie
     url: https://chuggie.dev
     github: schlopai/chuggie
     npm: "@schlopai/chuggie"
