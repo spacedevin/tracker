@@ -597,7 +597,7 @@ items:
   # --- schlop ---
   - id: chuggie
     title: chuggie
-    url: https://chuggie.dev
+    url: https://github.com/schlopai/chuggie
     github: schlopai/chuggie
     npm: "@schlopai/chuggie"
     cargo: false
@@ -607,13 +607,25 @@ items:
     project: chuggie
     kind: company
 
-  - id: chuggie-ci
-    title: chuggie-ci
-    url: https://github.com/schlopai/chuggie-ci
-    github: schlopai/chuggie-ci
+  - id: chuggie-dev
+    title: chuggie.dev
+    url: https://chuggie.dev
+    github: null
     npm: false
     cargo: false
-    description: GBA toolchain image for chuggie CI
+    description: Homepage and docs for the Chuggie GBA engine
+    status: shipped
+    family: schlop
+    project: chuggie
+    kind: company
+
+  - id: chuggie-ci
+    title: chuggie-toolchain
+    url: https://github.com/schlopai/chuggie-toolchain
+    github: schlopai/chuggie-toolchain
+    npm: false
+    cargo: false
+    description: GBA toolchain image that chuggie's CI runs on
     status: shipped
     family: schlop
     project: chuggie
