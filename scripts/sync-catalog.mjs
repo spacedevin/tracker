@@ -205,7 +205,7 @@ async function loadProject() {
               ... on ProjectV2Field { id name dataType }
               ... on ProjectV2SingleSelectField {
                 id name dataType
-                options { id name }
+                options { id name color description }
               }
               ... on ProjectV2IterationField { id name dataType }
             }
@@ -335,12 +335,37 @@ async function ensureDateField(projectId, name, existing) {
 async function ensureSingleSelect(projectId, name, optionNames, existing) {
   if (existing[name]?.options?.length) {
     const have = new Set(existing[name].options.map((o) => o.name));
-    // If missing options, create a new field isn't easy to update; rely on existing
     const missing = optionNames.filter((n) => !have.has(n));
     if (missing.length === 0) return existing[name];
-  }
-  if (existing[name] && !existing[name].options) {
-    // wrong type
+    // Append missing options (e.g. the built-in Status field ships with
+    // Todo/In Progress/Done and lacks shipped/wip). updateProjectV2Field
+    // REPLACES the option list, so resubmit existing options too.
+    const data = await graphql(
+      `mutation($fieldId: ID!, $options: [ProjectV2SingleSelectFieldOptionInput!]!) {
+        updateProjectV2Field(input: {
+          fieldId: $fieldId
+          singleSelectOptions: $options
+        }) {
+          projectV2Field {
+            ... on ProjectV2SingleSelectField { id name dataType options { id name color description } }
+          }
+        }
+      }`,
+      {
+        fieldId: existing[name].id,
+        options: [
+          ...existing[name].options.map((o) => ({
+            name: o.name,
+            color: o.color || "GRAY",
+            description: o.description || "",
+          })),
+          ...missing.map((n) => ({ name: n, color: "GRAY", description: "" })),
+        ],
+      },
+    );
+    existing[name] = data.updateProjectV2Field.projectV2Field;
+    console.log(`Added options to ${name}: ${missing.join(", ")}`);
+    return existing[name];
   }
   if (!existing[name]) {
     const data = await graphql(
@@ -354,7 +379,7 @@ async function ensureSingleSelect(projectId, name, optionNames, existing) {
           projectV2Field {
             ... on ProjectV2SingleSelectField {
               id name dataType
-              options { id name }
+              options { id name color description }
             }
           }
         }
