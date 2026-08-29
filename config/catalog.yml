@@ -616,11 +616,11 @@ items:
     description: Homepage and docs for the Chuggie GBA engine
     status: shipped
     family: schlop
-    project: chuggie
+    project: chuggie.dev
     kind: company
 
   - id: chuggie-ci
-    title: chuggie-toolchain
+    title: chuggie-ci
     url: https://github.com/schlopai/chuggie-toolchain
     github: schlopai/chuggie-toolchain
     npm: false
@@ -628,7 +628,7 @@ items:
     description: GBA toolchain image that chuggie's CI runs on
     status: shipped
     family: schlop
-    project: chuggie
+    project: chuggie-ci
     kind: company
 
   - id: spider-gwen-webgpu
