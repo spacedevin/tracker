@@ -576,14 +576,14 @@ async function addDraftItem(projectId, title, body) {
 async function updateDraftTitle(itemId, title, body) {
   // Draft issues: update via updateProjectV2DraftIssue
   await graphql(
-    `mutation($itemId: ID!, $title: String!, $body: String!) {
+    `mutation($draftIssueId: ID!, $title: String!, $body: String!) {
       updateProjectV2DraftIssue(input: {
-        itemId: $itemId
+        draftIssueId: $draftIssueId
         title: $title
         body: $body
       }) { draftIssue { id } }
     }`,
-    { itemId, title, body: body ?? "" },
+    { draftIssueId: itemId, title, body: body ?? "" },
   );
 }
 
