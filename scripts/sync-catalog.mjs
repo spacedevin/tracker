@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * Sync public catalog → markdown spreadsheet views.
- * Uses GITHUB_TOKEN when present (Actions); public APIs otherwise.
- * Never touches private repos — only items with public github: in catalog.yml.
+ * Sync public catalog → GitHub Project V2 (spacedevin/projects/3).
+ * Public GitHub/npm/crates/live checks; Project writes need PROJECT_TOKEN
+ * (classic PAT with `project` + `public_repo` for user-owned Projects).
  */
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse as parseYaml } from "yaml";
@@ -14,7 +14,10 @@ const ROOT = join(__dirname, "..");
 const CATALOG_PATH = join(ROOT, "config", "catalog.yml");
 const UA = "spacedevin-tracker/1.0 (+https://github.com/spacedevin/tracker)";
 
-const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
+const readToken = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
+const projectToken = process.env.PROJECT_TOKEN || readToken;
+const projectOwner = process.env.PROJECT_OWNER || "spacedevin";
+const projectNumber = Number(process.env.PROJECT_NUMBER || "3");
 
 function loadCatalog() {
   const raw = readFileSync(CATALOG_PATH, "utf8");
@@ -34,8 +37,27 @@ async function fetchJson(url, { headers = {}, okStatuses = [200] } = {}) {
   if (!okStatuses.includes(res.status)) {
     return { ok: false, status: res.status, data: null };
   }
-  const data = await res.json();
-  return { ok: true, status: res.status, data };
+  return { ok: true, status: res.status, data: await res.json() };
+}
+
+async function graphql(query, variables = {}, token = projectToken) {
+  if (!token) throw new Error("PROJECT_TOKEN is required to write the Project");
+  const res = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: {
+      "user-agent": UA,
+      authorization: `Bearer ${token}`,
+      "content-type": "application/json",
+      accept: "application/vnd.github+json",
+    },
+    body: JSON.stringify({ query, variables }),
+  });
+  const json = await res.json();
+  if (json.errors?.length) {
+    const msg = json.errors.map((e) => e.message).join("; ");
+    throw new Error(`GraphQL: ${msg}`);
+  }
+  return json.data;
 }
 
 async function checkLive(url) {
@@ -47,7 +69,6 @@ async function checkLive(url) {
       redirect: "follow",
     });
     if (head.status >= 200 && head.status < 400) return true;
-    // Some hosts reject HEAD
     const get = await fetch(url, {
       method: "GET",
       headers: { "user-agent": UA },
@@ -61,29 +82,23 @@ async function checkLive(url) {
 
 async function checkGithub(repo) {
   const headers = {};
-  if (token) headers.authorization = `Bearer ${token}`;
+  if (readToken) headers.authorization = `Bearer ${readToken}`;
   const { ok, data } = await fetchJson(`https://api.github.com/repos/${repo}`, {
     headers,
     okStatuses: [200],
   });
-  if (!ok || !data) return { exists: false, private: false };
-  if (data.private) {
-    // Should never appear in catalog; treat as absent for public table
-    return { exists: false, private: true };
-  }
-  return { exists: true, private: false };
+  if (!ok || !data || data.private) return { exists: false };
+  return { exists: true };
 }
 
 async function latestRelease(repo, includePrereleases) {
   const headers = {};
-  if (token) headers.authorization = `Bearer ${token}`;
+  if (readToken) headers.authorization = `Bearer ${readToken}`;
   const { ok, data } = await fetchJson(
     `https://api.github.com/repos/${repo}/releases?per_page=30`,
     { headers, okStatuses: [200] },
   );
-  if (!ok || !Array.isArray(data) || data.length === 0) {
-    return { tag: null, publishedAt: null };
-  }
+  if (!ok || !Array.isArray(data)) return { tag: null, publishedAt: null };
   for (const r of data) {
     if (r.draft) continue;
     if (!includePrereleases && r.prerelease) continue;
@@ -94,14 +109,12 @@ async function latestRelease(repo, includePrereleases) {
 
 async function checkNpm(pkg) {
   if (!pkg || pkg === false) return { exists: false, version: null };
-  // npm wants @scope%2Fname (keep @, encode slash)
   const path = pkg.startsWith("@") ? pkg.replace("/", "%2F") : encodeURIComponent(pkg);
   const { ok, data } = await fetchJson(`https://registry.npmjs.org/${path}`, {
     okStatuses: [200],
   });
   if (!ok || !data) return { exists: false, version: null };
-  const version = data["dist-tags"]?.latest ?? null;
-  return { exists: true, version };
+  return { exists: true, version: data["dist-tags"]?.latest ?? null };
 }
 
 async function checkCargo(name) {
@@ -111,110 +124,7 @@ async function checkCargo(name) {
     { okStatuses: [200] },
   );
   if (!ok || !data?.crate) return { exists: false, version: null };
-  return {
-    exists: true,
-    version: data.crate.newest_version || null,
-  };
-}
-
-function mark(yes) {
-  return yes ? "✅" : "";
-}
-
-function escCell(v) {
-  if (v == null || v === "") return "";
-  return String(v).replace(/\|/g, "\\|").replace(/\r?\n/g, " ");
-}
-
-function linkOrText(url, text) {
-  if (!url) return escCell(text || "");
-  const label = escCell(text || url);
-  return `[${label}](${url})`;
-}
-
-function rowCells(item) {
-  const ghUrl = item.github ? `https://github.com/${item.github}` : "";
-  return [
-    escCell(item.id),
-    escCell(item.title),
-    item.url ? linkOrText(item.url, item.url.replace(/^https?:\/\//, "")) : "",
-    item.githubYes ? linkOrText(ghUrl, item.github) : "",
-    mark(item.npmYes),
-    mark(item.cargoYes),
-    mark(item.live),
-    escCell(item.description),
-    escCell(item.status),
-    escCell(item.family),
-    escCell(item.latestRelease || ""),
-    escCell(item.released || ""),
-  ];
-}
-
-const HEADERS = [
-  "ID",
-  "Title",
-  "URL",
-  "Github",
-  "NPM",
-  "Cargo",
-  "Live",
-  "Description",
-  "Status",
-  "Family",
-  "Latest release",
-  "Released",
-];
-
-function tableMarkdown(items) {
-  const header = `| ${HEADERS.join(" | ")} |`;
-  const sep = `| ${HEADERS.map(() => "---").join(" | ")} |`;
-  const rows = items.map((it) => `| ${rowCells(it).join(" | ")} |`);
-  return [header, sep, ...rows].join("\n");
-}
-
-function writeViews(items) {
-  const now = new Date().toISOString();
-  const banner = `<!-- Generated by scripts/sync-catalog.mjs — do not edit by hand. ${now} -->\n`;
-
-  mkdirSync(join(ROOT, "docs"), { recursive: true });
-
-  const full = `${banner}
-# Tracker
-
-Public portfolio catalog. Source: [\`config/catalog.yml\`](config/catalog.yml). Synced hourly by GitHub Actions (\`GITHUB_TOKEN\` only; public artifacts only).
-
-${tableMarkdown(items)}
-`;
-  writeFileSync(join(ROOT, "TRACKER.md"), full);
-
-  const shipped = items.filter((i) => i.status === "shipped");
-  writeFileSync(
-    join(ROOT, "docs", "shipped.md"),
-    `${banner}\n# Shipped\n\n${tableMarkdown(shipped)}\n`,
-  );
-
-  const wip = items.filter((i) => i.status === "wip");
-  writeFileSync(
-    join(ROOT, "docs", "wip.md"),
-    `${banner}\n# WIP\n\n${tableMarkdown(wip)}\n`,
-  );
-
-  const families = [...new Set(items.map((i) => i.family))].sort();
-  let byFamily = `${banner}\n# By family\n\n`;
-  for (const f of families) {
-    const group = items.filter((i) => i.family === f);
-    byFamily += `## ${f}\n\n${tableMarkdown(group)}\n\n`;
-  }
-  writeFileSync(join(ROOT, "docs", "by-family.md"), byFamily);
-
-  const recent = items
-    .filter((i) => i.released)
-    .slice()
-    .sort((a, b) => String(b.released).localeCompare(String(a.released)));
-  writeFileSync(
-    join(ROOT, "docs", "recent-releases.md"),
-    `${banner}\n# Recent releases\n\n${tableMarkdown(recent)}\n`,
-  );
+  return { exists: true, version: data.crate.newest_version || null };
 }
 
 async function mapPool(items, concurrency, fn) {
@@ -241,20 +151,11 @@ async function enrich(item, includePrereleases) {
     live: false,
     latestRelease: null,
     released: null,
-    npmVersion: null,
-    cargoVersion: null,
   };
-
   const tasks = [];
-
   if (item.url) {
-    tasks.push(
-      checkLive(item.url).then((live) => {
-        out.live = live;
-      }),
-    );
+    tasks.push(checkLive(item.url).then((live) => { out.live = live; }));
   }
-
   if (item.github) {
     tasks.push(
       (async () => {
@@ -263,51 +164,418 @@ async function enrich(item, includePrereleases) {
         if (gh.exists) {
           const rel = await latestRelease(item.github, includePrereleases);
           out.latestRelease = rel.tag;
-          out.released = rel.publishedAt
-            ? rel.publishedAt.slice(0, 10)
-            : null;
+          out.released = rel.publishedAt ? rel.publishedAt.slice(0, 10) : null;
         }
       })(),
     );
   }
-
   if (item.npm) {
     tasks.push(
       checkNpm(item.npm).then((n) => {
         out.npmYes = n.exists;
-        out.npmVersion = n.version;
       }),
     );
   }
-
   if (item.cargo) {
     tasks.push(
       checkCargo(item.cargo).then((c) => {
         out.cargoYes = c.exists;
-        out.cargoVersion = c.version;
       }),
     );
   }
-
   await Promise.all(tasks);
   return out;
 }
 
+function yesNo(v) {
+  return v ? "yes" : "no";
+}
+
+async function loadProject() {
+  const data = await graphql(
+    `query($login: String!, $number: Int!) {
+      user(login: $login) {
+        projectV2(number: $number) {
+          id
+          title
+          url
+          fields(first: 50) {
+            nodes {
+              __typename
+              ... on ProjectV2Field { id name dataType }
+              ... on ProjectV2SingleSelectField {
+                id name dataType
+                options { id name }
+              }
+              ... on ProjectV2IterationField { id name dataType }
+            }
+          }
+          items(first: 100) {
+            nodes {
+              id
+              fieldValues(first: 30) {
+                nodes {
+                  __typename
+                  ... on ProjectV2ItemFieldTextValue {
+                    text
+                    field { ... on ProjectV2FieldCommon { name } }
+                  }
+                }
+              }
+            }
+            pageInfo { hasNextPage endCursor }
+          }
+        }
+      }
+    }`,
+    { login: projectOwner, number: projectNumber },
+  );
+  const project = data.user?.projectV2;
+  if (!project) {
+    throw new Error(
+      `Project not found: https://github.com/users/${projectOwner}/projects/${projectNumber}`,
+    );
+  }
+  return project;
+}
+
+async function loadAllItems(projectId) {
+  const items = [];
+  let cursor = null;
+  for (;;) {
+    const data = await graphql(
+      `query($id: ID!, $cursor: String) {
+        node(id: $id) {
+          ... on ProjectV2 {
+            items(first: 100, after: $cursor) {
+              nodes {
+                id
+                fieldValues(first: 40) {
+                  nodes {
+                    __typename
+                    ... on ProjectV2ItemFieldTextValue {
+                      text
+                      field { ... on ProjectV2FieldCommon { name } }
+                    }
+                  }
+                }
+              }
+              pageInfo { hasNextPage endCursor }
+            }
+          }
+        }
+      }`,
+      { id: projectId, cursor },
+    );
+    const conn = data.node.items;
+    items.push(...conn.nodes);
+    if (!conn.pageInfo.hasNextPage) break;
+    cursor = conn.pageInfo.endCursor;
+  }
+  return items;
+}
+
+function fieldMap(fields) {
+  const map = {};
+  for (const f of fields) {
+    if (f?.name) map[f.name] = f;
+  }
+  return map;
+}
+
+function itemIdFromNode(node) {
+  for (const fv of node.fieldValues?.nodes || []) {
+    if (fv.__typename === "ProjectV2ItemFieldTextValue" && fv.field?.name === "ID") {
+      return fv.text;
+    }
+  }
+  return null;
+}
+
+async function ensureTextField(projectId, name, existing) {
+  if (existing[name]) return existing[name];
+  const data = await graphql(
+    `mutation($projectId: ID!, $name: String!) {
+      createProjectV2Field(input: {
+        projectId: $projectId
+        dataType: TEXT
+        name: $name
+      }) {
+        projectV2Field { ... on ProjectV2Field { id name dataType } }
+      }
+    }`,
+    { projectId, name },
+  );
+  const field = data.createProjectV2Field.projectV2Field;
+  existing[name] = field;
+  console.log(`Created field: ${name}`);
+  return field;
+}
+
+async function ensureDateField(projectId, name, existing) {
+  if (existing[name]) return existing[name];
+  const data = await graphql(
+    `mutation($projectId: ID!, $name: String!) {
+      createProjectV2Field(input: {
+        projectId: $projectId
+        dataType: DATE
+        name: $name
+      }) {
+        projectV2Field { ... on ProjectV2Field { id name dataType } }
+      }
+    }`,
+    { projectId, name },
+  );
+  const field = data.createProjectV2Field.projectV2Field;
+  existing[name] = field;
+  console.log(`Created field: ${name}`);
+  return field;
+}
+
+async function ensureSingleSelect(projectId, name, optionNames, existing) {
+  if (existing[name]?.options?.length) {
+    const have = new Set(existing[name].options.map((o) => o.name));
+    // If missing options, create a new field isn't easy to update; rely on existing
+    const missing = optionNames.filter((n) => !have.has(n));
+    if (missing.length === 0) return existing[name];
+  }
+  if (existing[name] && !existing[name].options) {
+    // wrong type
+  }
+  if (!existing[name]) {
+    const data = await graphql(
+      `mutation($projectId: ID!, $name: String!, $options: [ProjectV2SingleSelectFieldOptionInput!]!) {
+        createProjectV2Field(input: {
+          projectId: $projectId
+          dataType: SINGLE_SELECT
+          name: $name
+          singleSelectOptions: $options
+        }) {
+          projectV2Field {
+            ... on ProjectV2SingleSelectField {
+              id name dataType
+              options { id name }
+            }
+          }
+        }
+      }`,
+      {
+        projectId,
+        name,
+        options: optionNames.map((n) => ({
+          name: n,
+          color: "GRAY",
+          description: "",
+        })),
+      },
+    );
+    const field = data.createProjectV2Field.projectV2Field;
+    existing[name] = field;
+    console.log(`Created field: ${name}`);
+    return field;
+  }
+  return existing[name];
+}
+
+async function ensureSchema(projectId, fields) {
+  const existing = fieldMap(fields);
+  await ensureTextField(projectId, "ID", existing);
+  await ensureTextField(projectId, "URL", existing);
+  await ensureTextField(projectId, "Github repo", existing);
+  await ensureTextField(projectId, "Description", existing);
+  await ensureTextField(projectId, "Latest release", existing);
+  await ensureDateField(projectId, "Released", existing);
+  await ensureSingleSelect(projectId, "Github", ["yes", "no"], existing);
+  await ensureSingleSelect(projectId, "NPM", ["yes", "no"], existing);
+  await ensureSingleSelect(projectId, "Cargo", ["yes", "no"], existing);
+  await ensureSingleSelect(projectId, "Live", ["yes", "no"], existing);
+  await ensureSingleSelect(projectId, "Status", ["shipped", "wip"], existing);
+  await ensureSingleSelect(
+    projectId,
+    "Family",
+    ["tish", "tish-crates", "schlop", "hypery", "dune", "personal", "other"],
+    existing,
+  );
+  await ensureSingleSelect(projectId, "Kind", ["company", "personal"], existing);
+
+  // reload fields after creates
+  const project = await loadProject();
+  return fieldMap(project.fields.nodes);
+}
+
+async function setText(projectId, itemId, fieldId, text) {
+  await graphql(
+    `mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $value: String!) {
+      updateProjectV2ItemFieldValue(input: {
+        projectId: $projectId
+        itemId: $itemId
+        fieldId: $fieldId
+        value: { text: $value }
+      }) { projectV2Item { id } }
+    }`,
+    { projectId, itemId, fieldId, value: text ?? "" },
+  );
+}
+
+async function setDate(projectId, itemId, fieldId, date) {
+  if (!date) return;
+  await graphql(
+    `mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $value: Date!) {
+      updateProjectV2ItemFieldValue(input: {
+        projectId: $projectId
+        itemId: $itemId
+        fieldId: $fieldId
+        value: { date: $value }
+      }) { projectV2Item { id } }
+    }`,
+    { projectId, itemId, fieldId, value: date },
+  );
+}
+
+async function setSelect(projectId, itemId, field, optionName) {
+  if (!field?.options) return;
+  const opt = field.options.find((o) => o.name === optionName);
+  if (!opt) {
+    console.warn(`Missing option ${optionName} on ${field.name}`);
+    return;
+  }
+  await graphql(
+    `mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
+      updateProjectV2ItemFieldValue(input: {
+        projectId: $projectId
+        itemId: $itemId
+        fieldId: $fieldId
+        value: { singleSelectOptionId: $optionId }
+      }) { projectV2Item { id } }
+    }`,
+    { projectId, itemId, fieldId: field.id, optionId: opt.id },
+  );
+}
+
+async function addDraftItem(projectId, title, body) {
+  const data = await graphql(
+    `mutation($projectId: ID!, $title: String!, $body: String!) {
+      addProjectV2DraftIssue(input: {
+        projectId: $projectId
+        title: $title
+        body: $body
+      }) {
+        projectItem { id }
+      }
+    }`,
+    { projectId, title, body },
+  );
+  return data.addProjectV2DraftIssue.projectItem.id;
+}
+
+async function updateDraftTitle(itemId, title, body) {
+  // Draft issues: update via updateProjectV2DraftIssue
+  await graphql(
+    `mutation($itemId: ID!, $title: String!, $body: String!) {
+      updateProjectV2DraftIssue(input: {
+        itemId: $itemId
+        title: $title
+        body: $body
+      }) { draftIssue { id } }
+    }`,
+    { itemId, title, body: body ?? "" },
+  );
+}
+
+async function applyItemFields(projectId, itemId, fields, item) {
+  const body = [
+    item.description || "",
+    item.url ? `\n\n${item.url}` : "",
+  ].join("").trim();
+
+  try {
+    await updateDraftTitle(itemId, item.title, body);
+  } catch {
+    // item may be linked issue — title update optional
+  }
+
+  if (fields.ID) await setText(projectId, itemId, fields.ID.id, item.id);
+  if (fields.URL) await setText(projectId, itemId, fields.URL.id, item.url || "");
+  if (fields["Github repo"]) {
+    await setText(
+      projectId,
+      itemId,
+      fields["Github repo"].id,
+      item.github || "",
+    );
+  }
+  if (fields.Description) {
+    await setText(projectId, itemId, fields.Description.id, item.description || "");
+  }
+  if (fields["Latest release"]) {
+    await setText(
+      projectId,
+      itemId,
+      fields["Latest release"].id,
+      item.latestRelease || "",
+    );
+  }
+  if (fields.Released && item.released) {
+    await setDate(projectId, itemId, fields.Released.id, item.released);
+  }
+  if (fields.Github) await setSelect(projectId, itemId, fields.Github, yesNo(item.githubYes));
+  if (fields.NPM) await setSelect(projectId, itemId, fields.NPM, yesNo(item.npmYes));
+  if (fields.Cargo) await setSelect(projectId, itemId, fields.Cargo, yesNo(item.cargoYes));
+  if (fields.Live) await setSelect(projectId, itemId, fields.Live, yesNo(item.live));
+  if (fields.Status) await setSelect(projectId, itemId, fields.Status, item.status || "shipped");
+  if (fields.Family) await setSelect(projectId, itemId, fields.Family, item.family || "other");
+  if (fields.Kind) await setSelect(projectId, itemId, fields.Kind, item.kind || "company");
+}
+
+async function syncToProject(enriched) {
+  if (!process.env.PROJECT_TOKEN && !projectToken) {
+    throw new Error("Set PROJECT_TOKEN (classic PAT: project + public_repo)");
+  }
+
+  console.log(`Project: ${projectOwner}/projects/${projectNumber}`);
+  let project = await loadProject();
+  console.log(`Loaded ${project.title} (${project.url})`);
+
+  const fields = await ensureSchema(project.id, project.fields.nodes);
+  const existingItems = await loadAllItems(project.id);
+  const byId = new Map();
+  for (const node of existingItems) {
+    const id = itemIdFromNode(node);
+    if (id) byId.set(id, node.id);
+  }
+  console.log(`Existing catalog items in Project: ${byId.size}`);
+
+  let created = 0;
+  let updated = 0;
+  for (const item of enriched) {
+    const body = [item.description || "", item.url ? `\n\n${item.url}` : ""]
+      .join("")
+      .trim();
+    let itemId = byId.get(item.id);
+    if (!itemId) {
+      itemId = await addDraftItem(project.id, item.title, body);
+      created++;
+      console.log(`+ ${item.id}`);
+    } else {
+      updated++;
+      console.log(`~ ${item.id}`);
+    }
+    await applyItemFields(project.id, itemId, fields, item);
+  }
+
+  console.log(`Done. created=${created} updated=${updated} total=${enriched.length}`);
+  console.log(project.url);
+}
+
 async function main() {
   const { includePrereleases, items } = loadCatalog();
-  console.log(`Catalog: ${items.length} items (prereleases=${includePrereleases})`);
+  console.log(`Catalog: ${items.length} items`);
 
   const enriched = await mapPool(items, 6, (item) =>
     enrich(item, includePrereleases),
   );
 
-  writeViews(enriched);
-
-  const withRel = enriched.filter((i) => i.latestRelease).length;
-  const live = enriched.filter((i) => i.live).length;
-  console.log(
-    `Wrote TRACKER.md + docs/* — live=${live}/${enriched.length} releases=${withRel}`,
-  );
+  await syncToProject(enriched);
 }
 
 main().catch((err) => {

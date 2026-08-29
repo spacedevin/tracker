@@ -12,7 +12,7 @@ on:
       - ".github/workflows/sync.yml"
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   sync:
@@ -28,21 +28,10 @@ jobs:
       - name: Install
         run: npm ci
 
-      - name: Sync catalog
+      - name: Sync catalog → Project
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROJECT_TOKEN: ${{ secrets.PROJECT_TOKEN }}
+          PROJECT_OWNER: ${{ vars.PROJECT_OWNER }}
+          PROJECT_NUMBER: ${{ vars.PROJECT_NUMBER }}
         run: npm run sync
-
-      - name: Commit tables
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add TRACKER.md docs/
-          if git diff --staged --quiet; then
-            echo "No catalog table changes"
-            exit 0
-          fi
-          git commit -m "chore: sync public catalog tables"
-          # Avoid races when schedule + push both sync
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push
