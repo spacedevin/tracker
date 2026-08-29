@@ -27,6 +27,13 @@ npm install
 npm run sync
 ```
 
+## Grouped view
+
+The sync populates a `Family` single-select on every item, but GitHub's
+API cannot configure a view's group-by — that is a one-time manual step:
+open the [Project](https://github.com/users/spacedevin/projects/3) → view
+menu (▾ on the view tab) → **Group by** → `Family`.
+
 ## Add a product
 
 Append an item in `config/catalog.yml`, push — the Project table updates on the next sync.

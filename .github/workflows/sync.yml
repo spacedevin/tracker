@@ -14,6 +14,12 @@ on:
 permissions:
   contents: read
 
+# Two overlapping syncs race on createProjectV2Field ("Name has already
+# been taken") — run one at a time.
+concurrency:
+  group: sync-catalog
+  cancel-in-progress: false
+
 jobs:
   sync:
     runs-on: ubuntu-latest
