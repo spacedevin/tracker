@@ -97,6 +97,7 @@ function releaseEvents(repo, projectId, meta) {
   for (const r of [...byDay.values()].sort((a, b) => a.publishedAt.localeCompare(b.publishedAt))) {
     let major = false;
     if (r.ver && prev) major = r.ver[0] > prev[0] || (r.ver[0] === 0 && prev[0] === 0 && r.ver[1] > prev[1]);
+    if (!r.ver) major = false;
     events.push({
       projectId, repo, type: first ? "first-release" : "release", tag: r.tagName, name: r.name && r.name !== r.tagName ? r.name : null,
       date: r.day, prerelease: Boolean(r.isPrerelease), major: major || first, count: r.count, tags: r.count > 1 ? r.all : undefined,
@@ -175,7 +176,10 @@ async function main() {
     const rel = events.filter((e) => e.projectId === p.id && (e.type === "release" || e.type === "first-release"));
     p.releases = rel.length;
     p.majors = rel.filter((e) => e.major).length;
-    p.latestRelease = rel.length ? { tag: rel[rel.length - 1].tag, date: rel[rel.length - 1].date } : null;
+    const primary = items.find((i) => i.id === p.id)?.github;
+    const relPrimary = rel.filter((e) => !primary || e.repo === primary);
+    const last = (relPrimary.length ? relPrimary : rel).slice(-1)[0];
+    p.latestRelease = last ? { tag: last.tag, date: last.date, repo: last.repo } : null;
     if (rel.length && rel[rel.length - 1].date > (p.lastActivity || "")) p.lastActivity = rel[rel.length - 1].date;
     if (p.end === null && p.status === "archived") p.end = p.lastActivity;
   }

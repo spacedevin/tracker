@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-02T22:19:42Z",
+ "generatedAt": "2026-09-02T22:21:55Z",
  "families": [
   "career",
   "dune",
@@ -41,7 +41,8 @@
    "majors": 1,
    "latestRelease": {
     "tag": "v1.10.0",
-    "date": "2026-09-02"
+    "date": "2026-09-02",
+    "repo": "spacedevin/deck"
    }
   },
   {
@@ -106,7 +107,8 @@
    "majors": 1,
    "latestRelease": {
     "tag": "v1.5.15",
-    "date": "2026-09-02"
+    "date": "2026-09-02",
+    "repo": "duneyou/dune"
    }
   },
   {
@@ -225,8 +227,9 @@
    "releases": 63,
    "majors": 11,
    "latestRelease": {
-    "tag": "v0.4.0",
-    "date": "2026-06-13"
+    "tag": "v3.10.11",
+    "date": "2026-09-02",
+    "repo": "tishlang/tish"
    }
   },
   {
@@ -263,7 +266,8 @@
    "majors": 2,
    "latestRelease": {
     "tag": "v0.3.4",
-    "date": "2026-08-29"
+    "date": "2026-08-29",
+    "repo": "schlopai/chuggie"
    }
   },
   {
@@ -297,7 +301,8 @@
    "majors": 1,
    "latestRelease": {
     "tag": "v1.3.3",
-    "date": "2026-08-10"
+    "date": "2026-08-10",
+    "repo": "tishlang/sem"
    }
   },
   {
@@ -334,7 +339,8 @@
    "majors": 3,
    "latestRelease": {
     "tag": "v4.0.3",
-    "date": "2026-08-12"
+    "date": "2026-08-12",
+    "repo": "tishlang/lattish"
    }
   },
   {
@@ -369,7 +375,41 @@
    "majors": 1,
    "latestRelease": {
     "tag": "v1.1.5",
-    "date": "2026-07-05"
+    "date": "2026-07-05",
+    "repo": "hyperyai/hypery-sdk"
+   }
+  },
+  {
+   "id": "tipsy",
+   "title": "tipsy",
+   "family": "personal",
+   "kind": "personal",
+   "status": "shipped",
+   "description": "Tipsy PHP framework (2015) with a 2026 v2 revival",
+   "url": "https://github.com/tipsyphp/tipsy",
+   "repos": [
+    "tipsyphp/tipsy"
+   ],
+   "packages": {
+    "npm": [],
+    "cargo": []
+   },
+   "items": [
+    "tipsy"
+   ],
+   "start": "2014-07-23",
+   "end": null,
+   "lastActivity": "2026-08-07",
+   "stars": 61,
+   "languages": [
+    "PHP"
+   ],
+   "releases": 20,
+   "majors": 6,
+   "latestRelease": {
+    "tag": "v2.0.0",
+    "date": "2026-08-07",
+    "repo": "tipsyphp/tipsy"
    }
   },
   {
@@ -522,7 +562,8 @@
    "majors": 1,
    "latestRelease": {
     "tag": "v1.0.1",
-    "date": "2026-05-06"
+    "date": "2026-05-06",
+    "repo": "schlopai/tish-dark-matter"
    }
   },
   {
@@ -585,7 +626,41 @@
    "majors": 4,
    "latestRelease": {
     "tag": "v0.11.6",
-    "date": "2025-11-07"
+    "date": "2025-11-07",
+    "repo": "spacedevin/react-mui-multi-range-picker"
+   }
+  },
+  {
+   "id": "osfilemanager",
+   "title": "osFileManager",
+   "family": "personal",
+   "kind": "personal",
+   "status": "shipped",
+   "description": "PHP file manager (2010), archived",
+   "url": "https://github.com/spacedevin/osFileManager",
+   "repos": [
+    "spacedevin/osFileManager"
+   ],
+   "packages": {
+    "npm": [],
+    "cargo": []
+   },
+   "items": [
+    "osfilemanager"
+   ],
+   "start": "2010-09-24",
+   "end": "2025-11-07",
+   "lastActivity": "2025-11-07",
+   "stars": 16,
+   "languages": [
+    "PHP"
+   ],
+   "releases": 2,
+   "majors": 1,
+   "latestRelease": {
+    "tag": "v1.1.0",
+    "date": "2016-05-17",
+    "repo": "spacedevin/osFileManager"
    }
   },
   {
@@ -2298,6 +2373,19 @@
    ]
   },
   {
+   "projectId": "osfilemanager",
+   "repo": "spacedevin/osFileManager",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2010-09-24",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "spacedevin/osFileManager created",
+   "url": "https://github.com/spacedevin/osFileManager"
+  },
+  {
    "projectId": "legacy-portfolio",
    "repo": null,
    "type": "project",
@@ -3444,6 +3532,19 @@
    ]
   },
   {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2014-07-23",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "tipsyphp/tipsy created",
+   "url": "https://github.com/tipsyphp/tipsy"
+  },
+  {
    "projectId": "legacy-blog",
    "repo": null,
    "type": "post",
@@ -3553,6 +3654,32 @@
    ]
   },
   {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "first-release",
+   "tag": "v0.7.2",
+   "name": null,
+   "date": "2015-09-18",
+   "prerelease": false,
+   "major": true,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.7.2"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.7.3",
+   "name": null,
+   "date": "2015-09-24",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "added middleware features",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.7.3"
+  },
+  {
    "projectId": "legacy-portfolio",
    "repo": null,
    "type": "project",
@@ -3573,6 +3700,45 @@
    ]
   },
   {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.8.0",
+   "name": null,
+   "date": "2015-10-03",
+   "prerelease": false,
+   "major": true,
+   "count": 1,
+   "summary": "- added support for static calls",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.8.0"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.9.0",
+   "name": null,
+   "date": "2015-10-07",
+   "prerelease": false,
+   "major": true,
+   "count": 1,
+   "summary": "- added more static call support",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.9.0"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.10.0",
+   "name": null,
+   "date": "2015-10-30",
+   "prerelease": false,
+   "major": true,
+   "count": 1,
+   "summary": "- added ability to call `Object::o` or `$object->o` using separate built in static/object functions",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.10.0"
+  },
+  {
    "projectId": "legacy-portfolio",
    "repo": null,
    "type": "project",
@@ -3591,6 +3757,32 @@
     "e338",
     "asolitarymann"
    ]
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.10.1",
+   "name": null,
+   "date": "2015-11-14",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "Fixed an issue with invalid service types",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.10.1"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.10.2",
+   "name": null,
+   "date": "2015-11-25",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "- Added script filename routing support",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.10.2"
   },
   {
    "projectId": "legacy-blog",
@@ -3630,6 +3822,32 @@
     "php",
     "postgresql"
    ]
+  },
+  {
+   "projectId": "osfilemanager",
+   "repo": "spacedevin/osFileManager",
+   "type": "first-release",
+   "tag": "v2.2.0",
+   "name": null,
+   "date": "2015-11-29",
+   "prerelease": false,
+   "major": true,
+   "count": 1,
+   "summary": "Archive release",
+   "url": "https://github.com/spacedevin/osFileManager/releases/tag/v2.2.0"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.10.3",
+   "name": null,
+   "date": "2015-11-29",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "- Added url parsing for DB config",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.10.3"
   },
   {
    "projectId": "legacy-portfolio",
@@ -3691,6 +3909,45 @@
    ]
   },
   {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.11.0",
+   "name": null,
+   "date": "2015-12-08",
+   "prerelease": false,
+   "major": true,
+   "count": 1,
+   "summary": "- added anonymous class support for controllers and services",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.11.0"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.11.1",
+   "name": null,
+   "date": "2015-12-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "- allow access to raw post content on request",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.11.1"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.11.2",
+   "name": null,
+   "date": "2015-12-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "Minor changes to allow new owner tipsyphp",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.11.2"
+  },
+  {
    "projectId": "legacy-blog",
    "repo": null,
    "type": "post",
@@ -3710,6 +3967,45 @@
    ]
   },
   {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.11.3",
+   "name": null,
+   "date": "2015-12-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "Added shorthand methods for routing: `$app->get(...)`",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.11.3"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.11.4",
+   "name": null,
+   "date": "2016-01-21",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "Added regex routes",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.11.4"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.11.5",
+   "name": null,
+   "date": "2016-01-27",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "fixed issue with json functions double encoding it",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.11.5"
+  },
+  {
    "projectId": "work-agency-enterprise-aka-ae-studio",
    "repo": null,
    "type": "work",
@@ -3721,6 +4017,58 @@
    "count": 1,
    "summary": "Director of Technology Innovation & Co-founder at Agency Enterprise aka ae.studio (February 2016 till right this second)",
    "url": "/me/"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.11.6",
+   "name": null,
+   "date": "2016-02-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "- fixed issue with serializing objects",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.11.6"
+  },
+  {
+   "projectId": "osfilemanager",
+   "repo": "spacedevin/osFileManager",
+   "type": "release",
+   "tag": "v1.1.0",
+   "name": null,
+   "date": "2016-05-17",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "Archive release",
+   "url": "https://github.com/spacedevin/osFileManager/releases/tag/v1.1.0"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.11.7",
+   "name": null,
+   "date": "2016-05-23",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "fixes issue with request path not being stored",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.11.7"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.11.8",
+   "name": null,
+   "date": "2016-05-24",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "fix an issue with multipart/form-data posts being parsed incorretly",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.11.8"
   },
   {
    "projectId": "legacy-blog",
@@ -3935,6 +4283,37 @@
    ]
   },
   {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.11.11",
+   "name": null,
+   "date": "2018-01-23",
+   "prerelease": false,
+   "major": false,
+   "count": 3,
+   "tags": [
+    "v0.11.9",
+    "v0.11.10",
+    "v0.11.11"
+   ],
+   "summary": "fix static array",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.11.11"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v0.11.12",
+   "name": null,
+   "date": "2018-02-14",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "fix issue with mysql bools on some versions",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.11.12"
+  },
+  {
    "projectId": "react-mui-multi-range-picker",
    "repo": "spacedevin/react-mui-multi-range-picker",
    "type": "created",
@@ -4033,6 +4412,19 @@
    "count": 1,
    "summary": "**Packages Released:**",
    "url": "https://github.com/spacedevin/react-mui-multi-range-picker/releases/tag/v0.11.1"
+  },
+  {
+   "projectId": "osfilemanager",
+   "repo": "spacedevin/osFileManager",
+   "type": "archived",
+   "tag": null,
+   "name": null,
+   "date": "2025-11-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "spacedevin/osFileManager archived",
+   "url": "https://github.com/spacedevin/osFileManager"
   },
   {
    "projectId": "react-mui-multi-range-picker",
@@ -5369,6 +5761,19 @@
    "count": 1,
    "summary": "Changes",
    "url": "https://github.com/spacedevin/deck/releases/tag/v1.3.0"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy",
+   "type": "release",
+   "tag": "v2.0.0",
+   "name": null,
+   "date": "2026-08-07",
+   "prerelease": false,
+   "major": true,
+   "count": 1,
+   "summary": "Changes",
+   "url": "https://github.com/tipsyphp/tipsy/releases/tag/v2.0.0"
   },
   {
    "projectId": "tish",

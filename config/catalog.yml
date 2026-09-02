@@ -790,6 +790,30 @@ items:
     project: tish-polars
     kind: personal
 
+  - id: tipsy
+    title: tipsy
+    url: https://github.com/tipsyphp/tipsy
+    github: tipsyphp/tipsy
+    npm: false
+    cargo: false
+    description: Tipsy PHP framework (2015) with a 2026 v2 revival
+    status: shipped
+    family: personal
+    project: tipsy
+    kind: personal
+
+  - id: osfilemanager
+    title: osFileManager
+    url: https://github.com/spacedevin/osFileManager
+    github: spacedevin/osFileManager
+    npm: false
+    cargo: false
+    description: PHP file manager (2010), archived
+    status: shipped
+    family: personal
+    project: osfilemanager
+    kind: personal
+
   # --- other public sites ---
   - id: birdland
     title: birdlandgov.com
