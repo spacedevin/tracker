@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-02T22:21:55Z",
+ "generatedAt": "2026-09-02T22:45:06Z",
  "families": [
   "career",
   "dune",
@@ -3709,7 +3709,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "- added support for static calls",
+   "summary": "added support for static calls",
    "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.8.0"
   },
   {
@@ -3722,7 +3722,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "- added more static call support",
+   "summary": "added more static call support",
    "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.9.0"
   },
   {
@@ -3735,7 +3735,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "- added ability to call `Object::o` or `$object->o` using separate built in static/object functions",
+   "summary": "added ability to call `Object::o` or `$object->o` using separate built in static/object functions",
    "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.10.0"
   },
   {
@@ -3781,7 +3781,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "- Added script filename routing support",
+   "summary": "Added script filename routing support",
    "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.10.2"
   },
   {
@@ -3846,7 +3846,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "- Added url parsing for DB config",
+   "summary": "Added url parsing for DB config",
    "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.10.3"
   },
   {
@@ -3918,7 +3918,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "- added anonymous class support for controllers and services",
+   "summary": "added anonymous class support for controllers and services",
    "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.11.0"
   },
   {
@@ -3931,7 +3931,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "- allow access to raw post content on request",
+   "summary": "allow access to raw post content on request",
    "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.11.1"
   },
   {
@@ -4028,7 +4028,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "- fixed issue with serializing objects",
+   "summary": "fixed issue with serializing objects",
    "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.11.6"
   },
   {
@@ -4341,7 +4341,7 @@
     "@spacedevin/react-mui-multi-range-picker@0.1.1",
     "v0.6.0"
    ],
-   "summary": "**Packages Released:**",
+   "summary": "Packages Released:",
    "url": "https://github.com/spacedevin/react-mui-multi-range-picker/releases/tag/v0.6.0"
   },
   {
@@ -4362,7 +4362,7 @@
     "v0.9.3",
     "v0.9.4"
    ],
-   "summary": "**Packages Released:**",
+   "summary": "Packages Released:",
    "url": "https://github.com/spacedevin/react-mui-multi-range-picker/releases/tag/v0.9.4"
   },
   {
@@ -4384,7 +4384,7 @@
     "v0.10.5",
     "v0.10.8"
    ],
-   "summary": "**Packages Released:**",
+   "summary": "Packages Released:",
    "url": "https://github.com/spacedevin/react-mui-multi-range-picker/releases/tag/v0.10.8"
   },
   {
@@ -4397,7 +4397,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "**Packages Released:**",
+   "summary": "Packages Released:",
    "url": "https://github.com/spacedevin/react-mui-multi-range-picker/releases/tag/v0.11.0"
   },
   {
@@ -4410,7 +4410,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "**Packages Released:**",
+   "summary": "Packages Released:",
    "url": "https://github.com/spacedevin/react-mui-multi-range-picker/releases/tag/v0.11.1"
   },
   {
@@ -4443,7 +4443,7 @@
     "v0.11.5",
     "v0.11.6"
    ],
-   "summary": "**Packages Released:**",
+   "summary": "Packages Released:",
    "url": "https://github.com/spacedevin/react-mui-multi-range-picker/releases/tag/v0.11.6"
   },
   {
@@ -4469,7 +4469,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "1.0.0 (2026-03-16)",
+   "summary": "Features",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.0.0"
   },
   {
@@ -4482,7 +4482,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Pre-release. Attach any extra artifacts, then use **Set as latest release** to publish. That will trigger the npm release workflow.",
+   "summary": "Pre-release. Attach any extra artifacts, then use Set as latest release to publish. That will trigger the npm release workflow.",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.0.3"
   },
   {
@@ -4534,7 +4534,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Pre-release. Attach any extra artifacts, then use **Set as latest release** to publish. That will trigger the npm release workflow.",
+   "summary": "Pre-release. Attach any extra artifacts, then use Set as latest release to publish. That will trigger the npm release workflow.",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.0.6"
   },
   {
@@ -4560,7 +4560,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Pre-release. Attach any extra artifacts, then use **Set as latest release** to publish. That will trigger the npm release workflow.",
+   "summary": "Pre-release. Attach any extra artifacts, then use Set as latest release to publish. That will trigger the npm release workflow.",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.0.7"
   },
   {
@@ -4591,7 +4591,7 @@
     "v1.0.1",
     "v1.0.2"
    ],
-   "summary": "Changes",
+   "summary": "perf: release fixes (9cc5992)",
    "url": "https://github.com/tishlang/lattish/releases/tag/v1.0.2"
   },
   {
@@ -4608,7 +4608,7 @@
     "v1.0.10",
     "v1.0.11"
    ],
-   "summary": "Changes",
+   "summary": "perf: release fixes (9792358)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.0.11"
   },
   {
@@ -4625,7 +4625,7 @@
     "v1.0.4",
     "v1.0.5"
    ],
-   "summary": "Changes",
+   "summary": "perf: publish to scoped (7b03461)",
    "url": "https://github.com/tishlang/lattish/releases/tag/v1.0.5"
   },
   {
@@ -4649,7 +4649,7 @@
     "v1.0.19",
     "v1.0.20"
    ],
-   "summary": "Changes",
+   "summary": "fix: circular deps (c109d77)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.0.20"
   },
   {
@@ -4675,7 +4675,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix: js workflows (c1fe94e)",
    "url": "https://github.com/tishlang/lattish/releases/tag/v1.0.6"
   },
   {
@@ -4692,7 +4692,7 @@
     "v",
     "v0.1.0"
    ],
-   "summary": "Changes",
+   "summary": "feat: vscode release (ffc9021)",
    "url": "https://github.com/tishlang/tish-vscode/releases/tag/v"
   },
   {
@@ -4711,7 +4711,7 @@
     "v1.0.26",
     "v1.0.27"
    ],
-   "summary": "Changes",
+   "summary": "fix: array param return (6caed4b)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.0.27"
   },
   {
@@ -4729,7 +4729,7 @@
     "v1.1.0",
     "v1.1.1"
    ],
-   "summary": "Changes",
+   "summary": "perf: added license (a7ad90d)",
    "url": "https://github.com/tishlang/lattish/releases/tag/v1.1.1"
   },
   {
@@ -4742,7 +4742,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix: vscode release (644e7ca)",
    "url": "https://github.com/tishlang/tish-vscode/releases/tag/v0.1.1"
   },
   {
@@ -4759,7 +4759,7 @@
     "v1.0.28",
     "v1.0.29"
    ],
-   "summary": "Changes",
+   "summary": "fix: remove embeded jsx vdom in favor of external inclusion of lattish (5533b7c)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.0.29"
   },
   {
@@ -4780,7 +4780,7 @@
     "v0.1.7",
     "v0.1.8"
    ],
-   "summary": "Changes",
+   "summary": "perf: syngergize vscode and vsx (ffacd46)",
    "url": "https://github.com/tishlang/tish-vscode/releases/tag/v0.1.8"
   },
   {
@@ -4793,7 +4793,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix: update for multi ui backend rendering (5b8630e)",
    "url": "https://github.com/tishlang/lattish/releases/tag/v1.1.2"
   },
   {
@@ -4806,7 +4806,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix: add getrandom (fc408f8)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.0.33"
   },
   {
@@ -4838,7 +4838,7 @@
     "v1.1.2",
     "v1.1.3"
    ],
-   "summary": "Changes",
+   "summary": "fix: crate deploy sorting (c32a710)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.1.3"
   },
   {
@@ -4858,7 +4858,7 @@
     "v1.3.3",
     "v1.3.4"
    ],
-   "summary": "Changes",
+   "summary": "fix: project path assignment (9eabf92)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.3.4"
   },
   {
@@ -4871,7 +4871,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix: formatting for repl (c9492cf)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.3.7"
   },
   {
@@ -4888,7 +4888,7 @@
     "v1.3.8",
     "v1.4.2"
    ],
-   "summary": "Changes",
+   "summary": "fix: fix coverage upload (bc36004)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.4.2"
   },
   {
@@ -4901,7 +4901,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat: let scoping, terminal colors (73e0ea7)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.5.0"
   },
   {
@@ -4918,7 +4918,7 @@
     "v1.6.0",
     "v1.7.0"
    ],
-   "summary": "Changes",
+   "summary": "feat: crate bindgen (230738e)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.7.0"
   },
   {
@@ -4944,7 +4944,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix: update tish cli, add svg (#1) (d134499)",
    "url": "https://github.com/tishlang/lattish/releases/tag/v1.1.3"
   },
   {
@@ -4975,7 +4975,7 @@
     "v1.9.0",
     "v1.9.1"
    ],
-   "summary": "Changes",
+   "summary": "fix: add missing package (ec8ce7c)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.9.1"
   },
   {
@@ -4988,7 +4988,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix: parser emit blocks (#47) (9cf0596)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.9.2"
   },
   {
@@ -5018,7 +5018,7 @@
     "v1.0.0",
     "v1.0.1"
    ],
-   "summary": "Changes",
+   "summary": "fix: fix publish location (fbb8213)",
    "url": "https://github.com/schlopai/tish-dark-matter/releases/tag/v1.0.1"
   },
   {
@@ -5031,7 +5031,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat: add symbol feature (#51) (fe5752d)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.10.0"
   },
   {
@@ -5113,7 +5113,7 @@
     "v1.11.0",
     "v1.12.0"
    ],
-   "summary": "Changes",
+   "summary": "feat: update package release process (a7acb00)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.12.0"
   },
   {
@@ -5126,7 +5126,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "bug: npm package name (#3) (2a894fb)",
    "url": "https://github.com/tishlang/lattish/releases/tag/v1.2.0"
   },
   {
@@ -5152,7 +5152,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat: publish (8dcb4bb)",
    "url": "https://github.com/tishlang/tish-browser-server/releases/tag/v1.0.0"
   },
   {
@@ -5165,7 +5165,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat: publish (e573a6d)",
    "url": "https://github.com/tishlang/tish-tailwind/releases/tag/v1.0.0"
   },
   {
@@ -5182,7 +5182,7 @@
     "v1.0.0",
     "v1.1.0"
    ],
-   "summary": "Changes",
+   "summary": "feat: publish (dc7b1c5)",
    "url": "https://github.com/tishlang/tish-ide-panels/releases/tag/v1.1.0"
   },
   {
@@ -5199,7 +5199,7 @@
     "v1.13.0",
     "v1.13.1"
    ],
-   "summary": "Changes",
+   "summary": "fix: create-tish-app updates (#70) (2ce2e4f)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.13.1"
   },
   {
@@ -5212,7 +5212,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix: ci matrix packaging to unblock semver issues (#71) (eeecff4)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.13.2"
   },
   {
@@ -5225,7 +5225,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat: pluggable host config for non-DOM render targets (#5) (1780f82)",
    "url": "https://github.com/tishlang/lattish/releases/tag/v1.3.0"
   },
   {
@@ -5238,7 +5238,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat: build on @tishlang/tish ^2.0.0 (lattish 2.0) (#6) (d3ff981)",
    "url": "https://github.com/tishlang/lattish/releases/tag/v2.0.0"
   },
   {
@@ -5255,7 +5255,7 @@
     "v0.2.2",
     "v0.3.0"
    ],
-   "summary": "Changes",
+   "summary": "docs: drop stale tishLsp.releaseTag reference (server is pinned via @tishlang/tish-lsp devDep) (4ae8c36)",
    "url": "https://github.com/tishlang/tish-vscode/releases/tag/v0.3.0"
   },
   {
@@ -5276,7 +5276,7 @@
     "v2.1.0",
     "v2.2.0"
    ],
-   "summary": "Changes",
+   "summary": "feat: add readFileBytes for binary file reads (#120) (#121) (77c1b6d)",
    "url": "https://github.com/tishlang/tish/releases/tag/v2.2.0"
   },
   {
@@ -5289,7 +5289,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat: bundle tish-lsp 2.2.3 (rename, symbols, cross-file goto, formatter fixes) (#13) (51d36ad)",
    "url": "https://github.com/tishlang/tish-vscode/releases/tag/v0.4.0"
   },
   {
@@ -5308,7 +5308,7 @@
     "v2.2.5",
     "v2.2.7"
    ],
-   "summary": "Changes",
+   "summary": "fix(native): re-sign macOS binaries with a plain ad-hoc signature (#219) (#222) (198f9b1)",
    "url": "https://github.com/tishlang/tish/releases/tag/v2.2.7"
   },
   {
@@ -5321,7 +5321,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat(wasm): --target wasm-gpu — build the WebGPU runtime + start(chunk, host) loader (#277) (#279) (a5857a0)",
    "url": "https://github.com/tishlang/tish/releases/tag/v2.8.0"
   },
   {
@@ -5360,7 +5360,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat(js): --format esm — one ES module per .tish file (#282) (#285) (a75b0e3)",
    "url": "https://github.com/tishlang/tish/releases/tag/v2.9.0"
   },
   {
@@ -5377,7 +5377,7 @@
     "v3.1.0",
     "v4.0.0"
    ],
-   "summary": "Changes",
+   "summary": "fix: compile hmr-runtime in test without requiring npm run build (#11) (2b34114)",
    "url": "https://github.com/tishlang/lattish/releases/tag/v4.0.0"
   },
   {
@@ -5394,7 +5394,7 @@
     "v2.10.1",
     "v2.12.0"
    ],
-   "summary": "Changes",
+   "summary": "feat(js): auto-import JSX runtime (h/Fragment) for per-module ESM (#291) (#292) (29faa63)",
    "url": "https://github.com/tishlang/tish/releases/tag/v2.12.0"
   },
   {
@@ -5472,7 +5472,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix(ci): publish @hyperyai/sdk from source, mirroring tishlang's source packages (e420a78)",
    "url": "https://github.com/hyperyai/hypery-sdk/releases/tag/v1.1.5"
   },
   {
@@ -5485,7 +5485,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix(native): catchable TypeError for null property/index reads (#425) (#426) (03c8b71)",
    "url": "https://github.com/tishlang/tish/releases/tag/v2.16.13"
   },
   {
@@ -5502,7 +5502,7 @@
     "v2.35.0",
     "v2.36.0"
    ],
-   "summary": "Changes",
+   "summary": "feat(process): execCapture/execFileCapture — capture subprocess output (#475) (#476) (c39a11e)",
    "url": "https://github.com/tishlang/tish/releases/tag/v2.36.0"
   },
   {
@@ -5519,7 +5519,7 @@
     "v4.0.1",
     "v4.0.2"
    ],
-   "summary": "Changes",
+   "summary": "fix: ci(npm-release): pin npm upgrade to 11.x, not latest (#16) (73564a7)",
    "url": "https://github.com/tishlang/lattish/releases/tag/v4.0.2"
   },
   {
@@ -5536,7 +5536,7 @@
     "v2.36.1",
     "v2.36.2"
    ],
-   "summary": "Changes",
+   "summary": "fix: ci(npm-release): pin npm upgrade to 11.x, not latest (#480) (a569406)",
    "url": "https://github.com/tishlang/tish/releases/tag/v2.36.2"
   },
   {
@@ -5549,7 +5549,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat(http): support multipart/form-data uploads in native fetch (#482) (#483) (fab6068)",
    "url": "https://github.com/tishlang/tish/releases/tag/v2.37.0"
   },
   {
@@ -5567,7 +5567,7 @@
     "v2.38.0",
     "v2.39.0"
    ],
-   "summary": "Changes",
+   "summary": "feat(http): HTTP→WebSocket upgrade on serve() — single-port WS (#495) (#496) (6298106)",
    "url": "https://github.com/tishlang/tish/releases/tag/v2.39.0"
   },
   {
@@ -5593,7 +5593,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "v1.0.0",
+   "summary": "Prerelease cut by CI from `main`.",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.0.0"
   },
   {
@@ -5606,7 +5606,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix: GBA fonts and array mutators (#560) (2805bb5)",
    "url": "https://github.com/tishlang/tish/releases/tag/v2.43.8"
   },
   {
@@ -5619,7 +5619,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat!: perf(codegen): typed lowering — struct by-ref boxing, native struct writes, typed externs (#556, #558) (#566) (55653a4)",
    "url": "https://github.com/tishlang/tish/releases/tag/v3.0.0"
   },
   {
@@ -5636,7 +5636,7 @@
     "v1.0.1",
     "v1.0.2"
    ],
-   "summary": "v1.0.2",
+   "summary": "Prerelease cut by CI from `main`.",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.0.2"
   },
   {
@@ -5653,7 +5653,7 @@
     "v1.0.0",
     "v1.1.0"
    ],
-   "summary": "v1.1.0",
+   "summary": "Prerelease cut by CI from `main`.",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.1.0"
   },
   {
@@ -5666,7 +5666,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat: Implement pipe-based streaming for child process management (#555) (cb48cf4)",
    "url": "https://github.com/tishlang/tish/releases/tag/v3.1.0"
   },
   {
@@ -5679,7 +5679,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "v1.0.3",
+   "summary": "Prerelease cut by CI from `main`.",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.0.3"
   },
   {
@@ -5696,7 +5696,7 @@
     "v1.1.1",
     "v1.1.4"
    ],
-   "summary": "v1.1.4",
+   "summary": "Prerelease cut by CI from `main`.",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.1.4"
   },
   {
@@ -5729,7 +5729,7 @@
     "v1.2.4",
     "v1.2.6"
    ],
-   "summary": "Changes",
+   "summary": "fix(ci): explain the missing yank scope instead of a bare 403 (#9) (abc0c02)",
    "url": "https://github.com/spacedevin/deck/releases/tag/v1.2.6"
   },
   {
@@ -5746,7 +5746,7 @@
     "v3.2.1",
     "v3.2.2"
    ],
-   "summary": "Changes",
+   "summary": "fix(ci): look release assets up via the API, not the frozen event payload (#593) (351bdb7)",
    "url": "https://github.com/tishlang/tish/releases/tag/v3.2.2"
   },
   {
@@ -5759,7 +5759,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat: expose the conformance corpus from the crate (#13) (c2084bd)",
    "url": "https://github.com/spacedevin/deck/releases/tag/v1.3.0"
   },
   {
@@ -5772,7 +5772,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat!: Tipsy 2.0 PHP 8.3 modernization (b82d53f)",
    "url": "https://github.com/tipsyphp/tipsy/releases/tag/v2.0.0"
   },
   {
@@ -5785,7 +5785,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix(codegen): #594 capability, and six defects an adversarial review found in it (d9abb8b)",
    "url": "https://github.com/tishlang/tish/releases/tag/v3.3.0"
   },
   {
@@ -5798,7 +5798,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix(native): #549 — self/Self/super/crate cannot be raw identifiers, so rename them (#634) (9cd5bde)",
    "url": "https://github.com/tishlang/tish/releases/tag/v3.3.3"
   },
   {
@@ -5831,7 +5831,7 @@
     "v1.3.2",
     "v1.3.3"
    ],
-   "summary": "[1.3.3](https://github.com/tishlang/sem/compare/v1.3.2...v1.3.3) (2026-08-10)",
+   "summary": "Bug Fixes",
    "url": "https://github.com/tishlang/sem/releases/tag/v1.3.3"
   },
   {
@@ -5844,7 +5844,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "feat(build): #618 — package.json `packageOverrides` swaps a module at build time (#651) (1ebf546)",
    "url": "https://github.com/tishlang/tish/releases/tag/v3.6.0"
   },
   {
@@ -5857,7 +5857,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix: test: run the .deck language suites natively on tish test (#15) (becde52)",
    "url": "https://github.com/spacedevin/deck/releases/tag/v1.4.1"
   },
   {
@@ -5870,7 +5870,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix: test: run the jsx-runtime suite natively on tish test (#17) (edd30bd)",
    "url": "https://github.com/tishlang/lattish/releases/tag/v4.0.3"
   },
   {
@@ -5887,7 +5887,7 @@
     "v3.7.0",
     "v3.7.1"
    ],
-   "summary": "Changes",
+   "summary": "fix: test crate (#657) (a0a8e05)",
    "url": "https://github.com/tishlang/tish/releases/tag/v3.7.1"
   },
   {
@@ -5900,7 +5900,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix(gba): #655 — give the stack-overflow guard a real floor on GBA (#660) (#680) (3c67dbf)",
    "url": "https://github.com/tishlang/tish/releases/tag/v3.8.6"
   },
   {
@@ -5926,7 +5926,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "v1.2.0",
+   "summary": "Prerelease cut by CI from `main`.",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.2.0"
   },
   {
@@ -5943,7 +5943,7 @@
     "v3.9.1",
     "v3.9.2"
    ],
-   "summary": "Changes",
+   "summary": "fix(native): resolve tishlang crates from the registry for released compilers (#689) (b6d6084)",
    "url": "https://github.com/tishlang/tish/releases/tag/v3.9.2"
   },
   {
@@ -5962,7 +5962,7 @@
     "v0.2.0",
     "v0.2.1"
    ],
-   "summary": "[0.2.1](https://github.com/schlopai/chuggie/compare/v0.2.0...v0.2.1) (2026-08-26)",
+   "summary": "Bug Fixes",
    "url": "https://github.com/schlopai/chuggie/releases/tag/v0.2.1"
   },
   {
@@ -6011,7 +6011,7 @@
     "v3.10.2",
     "v3.10.3"
    ],
-   "summary": "Changes",
+   "summary": "fix: publish excluded crates from their own directory (#695) (14f4468)",
    "url": "https://github.com/tishlang/tish/releases/tag/v3.10.3"
   },
   {
@@ -6028,7 +6028,7 @@
     "v0.2.2",
     "v0.2.3"
    ],
-   "summary": "[0.2.3](https://github.com/schlopai/chuggie/compare/v0.2.2...v0.2.3) (2026-08-27)",
+   "summary": "Bug Fixes",
    "url": "https://github.com/schlopai/chuggie/releases/tag/v0.2.3"
   },
   {
@@ -6045,7 +6045,7 @@
     "v1.5.1",
     "v1.5.3"
    ],
-   "summary": "[1.5.3](https://github.com/spacedevin/deck/compare/v1.5.2...v1.5.3) (2026-08-27)",
+   "summary": "Bug Fixes",
    "url": "https://github.com/spacedevin/deck/releases/tag/v1.5.3"
   },
   {
@@ -6076,7 +6076,7 @@
     "v1.2.4",
     "v1.2.5"
    ],
-   "summary": "v1.2.5",
+   "summary": "Prerelease cut by CI from `main`.",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.2.5"
   },
   {
@@ -6106,7 +6106,7 @@
     "v0.3.1",
     "v0.3.2"
    ],
-   "summary": "[0.3.2](https://github.com/schlopai/chuggie/compare/v0.3.1...v0.3.2) (2026-08-28)",
+   "summary": "Bug Fixes",
    "url": "https://github.com/schlopai/chuggie/releases/tag/v0.3.2"
   },
   {
@@ -6138,7 +6138,7 @@
     "v1.3.1",
     "v1.3.2"
    ],
-   "summary": "v1.3.2",
+   "summary": "Prerelease cut by CI from `main`.",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.3.2"
   },
   {
@@ -6155,7 +6155,7 @@
     "v0.3.3",
     "v0.3.4"
    ],
-   "summary": "[0.3.4](https://github.com/schlopai/chuggie/compare/v0.3.3...v0.3.4) (2026-08-29)",
+   "summary": "Bug Fixes",
    "url": "https://github.com/schlopai/chuggie/releases/tag/v0.3.4"
   },
   {
@@ -6185,7 +6185,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "v1.2.1",
+   "summary": "Prerelease cut by CI from `main`.",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.2.1"
   },
   {
@@ -6202,7 +6202,7 @@
     "v1.4.0",
     "v1.4.1"
    ],
-   "summary": "v1.4.1",
+   "summary": "Prerelease cut by CI from `main`.",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.4.1"
   },
   {
@@ -6228,7 +6228,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Changes",
+   "summary": "fix(core): dictionary-mode objects for hashed-map construction — plug the unbounded shape-registry leak (#697) (c44cdb8)",
    "url": "https://github.com/tishlang/tish/releases/tag/v3.10.4"
   },
   {
@@ -6247,7 +6247,7 @@
     "v1.8.0",
     "v1.9.1"
    ],
-   "summary": "[1.9.1](https://github.com/spacedevin/deck/compare/v1.9.0...v1.9.1) (2026-09-01)",
+   "summary": "Bug Fixes",
    "url": "https://github.com/spacedevin/deck/releases/tag/v1.9.1"
   },
   {
@@ -6260,7 +6260,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "[1.10.0](https://github.com/spacedevin/deck/compare/v1.9.1...v1.10.0) (2026-09-02)",
+   "summary": "Features",
    "url": "https://github.com/spacedevin/deck/releases/tag/v1.10.0"
   },
   {
@@ -6286,7 +6286,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "v1.4.2",
+   "summary": "Prerelease cut by CI from `main`.",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.4.2"
   },
   {
@@ -6303,7 +6303,7 @@
     "v3.10.9",
     "v3.10.11"
    ],
-   "summary": "Changes",
+   "summary": "fix(runtime): subscription-based Promise.race/any — no thread per pending input (#732) (4dd6036)",
    "url": "https://github.com/tishlang/tish/releases/tag/v3.10.11"
   }
  ]
