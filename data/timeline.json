@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-02T22:45:06Z",
+ "generatedAt": "2026-09-02T22:45:29Z",
  "families": [
   "career",
   "dune",
@@ -4469,7 +4469,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "Features",
+   "summary": "fix binaries (a54cc47)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.0.0"
   },
   {
@@ -5593,7 +5593,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "Prerelease cut by CI from `main`.",
+   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.0.0"
   },
   {
@@ -5636,7 +5636,7 @@
     "v1.0.1",
     "v1.0.2"
    ],
-   "summary": "Prerelease cut by CI from `main`.",
+   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.0.2"
   },
   {
@@ -5653,7 +5653,7 @@
     "v1.0.0",
     "v1.1.0"
    ],
-   "summary": "Prerelease cut by CI from `main`.",
+   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.1.0"
   },
   {
@@ -5679,7 +5679,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Prerelease cut by CI from `main`.",
+   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.0.3"
   },
   {
@@ -5696,7 +5696,7 @@
     "v1.1.1",
     "v1.1.4"
    ],
-   "summary": "Prerelease cut by CI from `main`.",
+   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.1.4"
   },
   {
@@ -5831,7 +5831,7 @@
     "v1.3.2",
     "v1.3.3"
    ],
-   "summary": "Bug Fixes",
+   "summary": "skip npm publish when the GitHub release is still a draft (023520d)",
    "url": "https://github.com/tishlang/sem/releases/tag/v1.3.3"
   },
   {
@@ -5926,7 +5926,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Prerelease cut by CI from `main`.",
+   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.2.0"
   },
   {
@@ -5962,7 +5962,7 @@
     "v0.2.0",
     "v0.2.1"
    ],
-   "summary": "Bug Fixes",
+   "summary": "publish all four crates, and fail fast without a token (#12) (ee55fca)",
    "url": "https://github.com/schlopai/chuggie/releases/tag/v0.2.1"
   },
   {
@@ -6028,7 +6028,7 @@
     "v0.2.2",
     "v0.2.3"
    ],
-   "summary": "Bug Fixes",
+   "summary": "tishlang_runtime_gba is a registry dependency, not a path (#14) (6362d57)",
    "url": "https://github.com/schlopai/chuggie/releases/tag/v0.2.3"
   },
   {
@@ -6045,7 +6045,7 @@
     "v1.5.1",
     "v1.5.3"
    ],
-   "summary": "Bug Fixes",
+   "summary": "ci: release with sem instead of legacy semantic-release (#19) (187923e)",
    "url": "https://github.com/spacedevin/deck/releases/tag/v1.5.3"
   },
   {
@@ -6076,7 +6076,7 @@
     "v1.2.4",
     "v1.2.5"
    ],
-   "summary": "Prerelease cut by CI from `main`.",
+   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.2.5"
   },
   {
@@ -6106,7 +6106,7 @@
     "v0.3.1",
     "v0.3.2"
    ],
-   "summary": "Bug Fixes",
+   "summary": "ci: one toolchain image, verify every example, publish the ROMs (#22) (2615447)",
    "url": "https://github.com/schlopai/chuggie/releases/tag/v0.3.2"
   },
   {
@@ -6138,7 +6138,7 @@
     "v1.3.1",
     "v1.3.2"
    ],
-   "summary": "Prerelease cut by CI from `main`.",
+   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.3.2"
   },
   {
@@ -6155,7 +6155,7 @@
     "v0.3.3",
     "v0.3.4"
    ],
-   "summary": "Bug Fixes",
+   "summary": "ci: all releases go through sem; no manual runs (#24) (8e38798)",
    "url": "https://github.com/schlopai/chuggie/releases/tag/v0.3.4"
   },
   {
@@ -6185,7 +6185,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Prerelease cut by CI from `main`.",
+   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.2.1"
   },
   {
@@ -6202,7 +6202,7 @@
     "v1.4.0",
     "v1.4.1"
    ],
-   "summary": "Prerelease cut by CI from `main`.",
+   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.4.1"
   },
   {
@@ -6247,7 +6247,7 @@
     "v1.8.0",
     "v1.9.1"
    ],
-   "summary": "Bug Fixes",
+   "summary": "Light the code as it plays, and cover every voice (#29) (f18ba60)",
    "url": "https://github.com/spacedevin/deck/releases/tag/v1.9.1"
   },
   {
@@ -6260,7 +6260,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Features",
+   "summary": "player: light the code as it plays, with an example for every voice (#31) (b03c9fe)",
    "url": "https://github.com/spacedevin/deck/releases/tag/v1.10.0"
   },
   {
@@ -6286,7 +6286,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Prerelease cut by CI from `main`.",
+   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.4.2"
   },
   {

@@ -48,7 +48,7 @@ const firstLine = (s) => {
   const lines = (s || "").replace(/\r\n/g, "\n").split("\n").map((l) => l.trim()).filter(Boolean);
   const clean = (l) => l.replace(/^#+\s*/, "").replace(/\[([^\]]*)\]\([^)]*\)/g, "$1").replace(/\*\*/g, "").replace(/\s*\(\d{4}-\d{2}-\d{2}\)\s*$/, "").replace(/^[-*]\s+/, "").trim();
   // skip lines that are just the version/tag or a bare date
-  const pick = lines.map(clean).find((l) => l && !/^v?\d+\.\d+\.\d+$/.test(l) && !/^(changes|changelog|release notes?)$/i.test(l)) || "";
+  const pick = lines.map(clean).find((l) => l && !/^v?\d+\.\d+\.\d+$/.test(l) && !/^(changes|changelog|release notes?|bug fixes|features|breaking changes|miscellaneous chores|prerelease cut.*)$/i.test(l)) || "";
   return pick.slice(0, 160);
 };
 
