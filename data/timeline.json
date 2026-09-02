@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-02T22:45:29Z",
+ "generatedAt": "2026-09-02T22:46:37Z",
  "families": [
   "career",
   "dune",
@@ -5593,7 +5593,7 @@
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
+   "summary": "npm: `@tishlang/tish-macos`, `@tishlang/tish-ios`",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.0.0"
   },
   {
@@ -5636,7 +5636,7 @@
     "v1.0.1",
     "v1.0.2"
    ],
-   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
+   "summary": "npm: `@tishlang/tish-macos`, `@tishlang/tish-ios`",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.0.2"
   },
   {
@@ -5653,7 +5653,7 @@
     "v1.0.0",
     "v1.1.0"
    ],
-   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
+   "summary": "npm: `@tishlang/tish-desktop`, `tish-desktop-api`, `tish-app-api`, `tish-desktop-shared`, `tish-desktop-ui-theme`",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.1.0"
   },
   {
@@ -5679,7 +5679,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
+   "summary": "npm: `@tishlang/tish-macos`, `@tishlang/tish-ios`",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.0.3"
   },
   {
@@ -5696,7 +5696,7 @@
     "v1.1.1",
     "v1.1.4"
    ],
-   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
+   "summary": "npm: `@tishlang/tish-desktop`, `tish-desktop-api`, `tish-app-api`, `tish-desktop-shared`, `tish-desktop-ui-theme`",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.1.4"
   },
   {
@@ -5926,7 +5926,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
+   "summary": "npm: `@tishlang/tish-macos`, `@tishlang/tish-ios`",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.2.0"
   },
   {
@@ -6076,7 +6076,7 @@
     "v1.2.4",
     "v1.2.5"
    ],
-   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
+   "summary": "npm: `@tishlang/tish-desktop`, `tish-desktop-api`, `tish-app-api`, `tish-desktop-shared`, `tish-desktop-ui-theme`",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.2.5"
   },
   {
@@ -6138,7 +6138,7 @@
     "v1.3.1",
     "v1.3.2"
    ],
-   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
+   "summary": "npm: `@tishlang/tish-desktop`, `tish-desktop-api`, `tish-app-api`, `tish-desktop-shared`, `tish-desktop-ui-theme`",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.3.2"
   },
   {
@@ -6185,7 +6185,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
+   "summary": "npm: `@tishlang/tish-macos`, `@tishlang/tish-ios`",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.2.1"
   },
   {
@@ -6202,7 +6202,7 @@
     "v1.4.0",
     "v1.4.1"
    ],
-   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
+   "summary": "npm: `@tishlang/tish-desktop`, `tish-desktop-api`, `tish-app-api`, `tish-desktop-shared`, `tish-desktop-ui-theme`",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.4.1"
   },
   {
@@ -6286,7 +6286,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Promote to a full release (Releases → Edit → uncheck pre-release) to publish:",
+   "summary": "npm: `@tishlang/tish-desktop`, `tish-desktop-api`, `tish-app-api`, `tish-desktop-shared`, `tish-desktop-ui-theme`",
    "url": "https://github.com/tishlang/tish-desktop/releases/tag/v1.4.2"
   },
   {
