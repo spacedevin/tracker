@@ -133,7 +133,7 @@ function legacyEvents() {
       const d = fm(readFileSync(join(worksDir, f), "utf8"));
       const id = "work-" + f.replace(/^\d+-|\.md$/g, "");
       let start = day(String(d.start || d.date || "")) || null;
-      if (start && start < "2001-01-01") start = "2001-01-01";   // "My House" claims 1999; the timeline starts at 2001
+      if (start && start < "1997-01-01") start = "1997-01-01";   // the timeline starts with the 1997 Tripod sites
       const end = d.end ? day(String(d.end)) : null;
       legacyProjects.push({ id, title: d.company || d.title, family: "career", kind: "work", status: end ? "archived" : "active", description: d.title, url: null, repos: [], packages: {}, start, end, lastActivity: end || day(new Date().toISOString()), fixedSpan: true });
       if (start) events.push({ projectId: id, repo: null, type: "work", tag: null, name: d.title, date: day(start), prerelease: false, major: true, count: 1, summary: `${d.title} at ${d.company}${d.dates ? " (" + d.dates + ")" : ""}`, url: "/me/" });
