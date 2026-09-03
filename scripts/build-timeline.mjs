@@ -132,8 +132,10 @@ function legacyEvents() {
     for (const f of readdirSync(worksDir).filter((f) => f.endsWith(".md")).sort()) {
       const d = fm(readFileSync(join(worksDir, f), "utf8"));
       const id = "work-" + f.replace(/^\d+-|\.md$/g, "");
-      const start = d.date || null;
-      legacyProjects.push({ id, title: d.company || d.title, family: "career", kind: "work", status: "archived", description: d.title, url: null, repos: [], packages: {}, start, end: null, lastActivity: start });
+      let start = day(String(d.start || d.date || "")) || null;
+      if (start && start < "2001-01-01") start = "2001-01-01";   // "My House" claims 1999; the timeline starts at 2001
+      const end = d.end ? day(String(d.end)) : null;
+      legacyProjects.push({ id, title: d.company || d.title, family: "career", kind: "work", status: end ? "archived" : "active", description: d.title, url: null, repos: [], packages: {}, start, end, lastActivity: end || day(new Date().toISOString()), fixedSpan: true });
       if (start) events.push({ projectId: id, repo: null, type: "work", tag: null, name: d.title, date: day(start), prerelease: false, major: true, count: 1, summary: `${d.title} at ${d.company}${d.dates ? " (" + d.dates + ")" : ""}`, url: "/me/" });
     }
   }
@@ -194,7 +196,8 @@ async function main() {
   const legacy = legacyEvents();
   for (const lp of legacy.legacyProjects) {
     const ev = legacy.events.filter((e) => e.projectId === lp.id).map((e) => e.date).sort();
-    if (ev.length) { lp.start = lp.start || ev[0]; lp.lastActivity = ev[ev.length - 1]; if (lp.status === "archived") lp.end = ev[ev.length - 1]; }
+    if (ev.length && !lp.fixedSpan) { lp.start = lp.start || ev[0]; lp.lastActivity = ev[ev.length - 1]; if (lp.status === "archived") lp.end = ev[ev.length - 1]; }
+    delete lp.fixedSpan;
     lp.releases = 0; lp.majors = 0; lp.latestRelease = null; lp.stars = 0; lp.languages = []; lp.items = [];
     projects.set(lp.id, lp);
   }
