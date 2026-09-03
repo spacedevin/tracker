@@ -609,8 +609,8 @@ items:
 
   - id: chuggie-ci
     title: chuggie-ci
-    url: https://github.com/schlopai/chuggie-ci
-    github: schlopai/chuggie-ci
+    url: https://github.com/schlopai/chuggie-toolchain
+    github: schlopai/chuggie-toolchain
     npm: false
     cargo: false
     description: GBA toolchain image for chuggie CI
@@ -796,6 +796,7 @@ items:
     github: tipsyphp/tipsy
     npm: false
     cargo: false
+    packagist: tipsyphp/tipsy
     description: Tipsy PHP framework (2015) with a 2026 v2 revival
     status: shipped
     family: personal

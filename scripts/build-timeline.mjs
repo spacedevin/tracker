@@ -16,7 +16,7 @@ const flag = (n, d) => { const i = args.indexOf(n); return i >= 0 ? args[i + 1] 
 const OUT = join(ROOT, flag("--out", "data/timeline.json"));
 const LEGACY = flag("--legacy", existsSync(join(ROOT, "../space-la/content")) ? join(ROOT, "../space-la/content") : null);
 // Extra project files (JSON array of {id,title,family,kind,status,description,url,repos,start,end,lastActivity,events:[{type,date,repo,tag,major,count,summary,url}]})
-const EXTRA = (flag("--extra", null) || (existsSync(join(ROOT, "../space-la/content/data/ae-projects.json")) ? join(ROOT, "../space-la/content/data/ae-projects.json") : "")).split(",").filter(Boolean);
+const EXTRA = (flag("--extra", null) || ["ae-projects.json", "extra-projects.json"].map((f) => join(ROOT, "../space-la/content/data", f)).filter((f) => existsSync(f)).join(",")).split(",").filter(Boolean);
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
 const UA = "spacedevin-tracker/1.0 (+https://github.com/spacedevin/tracker)";
 const PRERELEASE_TAG = /-(alpha|beta|rc|next|canary|dev|pre|nightly)\.?\d*$/i;
@@ -202,6 +202,19 @@ async function main() {
   for (const file of EXTRA) {
     for (const p of JSON.parse(readFileSync(file, "utf8"))) {
       const { events: evs = [], ...proj } = p;
+      if (proj.attachTo) {
+        // Events only: they belong to an existing project (catalog, legacy, or another extra file).
+        const host = projects.get(proj.attachTo);
+        for (const e of evs) events.push({ projectId: proj.attachTo, repo: e.repo ?? null, type: e.type, tag: e.tag ?? null, name: e.name ?? null, date: e.date, prerelease: false, major: Boolean(e.major), count: e.count ?? 1, summary: e.summary ?? null, url: e.url ?? null });
+        if (host) {
+          const ds = evs.map((e) => e.date).filter(Boolean).sort();
+          if (ds.length && (!host.start || ds[0] < host.start)) host.start = ds[0];
+          if (ds.length && (!host.lastActivity || ds.at(-1) > host.lastActivity)) host.lastActivity = ds.at(-1);
+          for (const r of proj.repos || []) if (!host.repos.includes(r)) host.repos.push(r);
+          for (const k of ["npm", "cargo"]) for (const n of proj.packages?.[k] || []) if (!host.packages[k].includes(n)) host.packages[k].push(n);
+        } else process.stderr.write(`extra: attachTo ${proj.attachTo} not found (events kept)\n`);
+        continue;
+      }
       const rel = evs.filter((e) => e.type === "release");
       projects.set(proj.id, { packages: { npm: [], cargo: [] }, stars: 0, languages: [], items: [], releases: proj.releases ?? rel.length, majors: rel.filter((e) => e.major).length, latestRelease: rel.length ? { tag: rel.at(-1).tag, date: rel.at(-1).date, repo: rel.at(-1).repo } : null, ...proj });
       for (const e of evs) events.push({ projectId: proj.id, repo: e.repo ?? null, type: e.type, tag: e.tag ?? null, name: e.name ?? null, date: e.date, prerelease: false, major: Boolean(e.major), count: e.count ?? 1, summary: e.summary ?? null, url: e.url ?? null });
