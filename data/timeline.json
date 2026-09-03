@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-03T18:22:06Z",
+ "generatedAt": "2026-09-03T18:28:51Z",
  "families": [
   "ae-studio",
   "career",
@@ -56,10 +56,30 @@
    "releases": 7,
    "majors": 1,
    "latestRelease": {
-    "tag": "v1.7.2",
+    "tag": "v1.7.3",
     "date": "2026-09-03",
     "repo": "duneyou/dune"
    }
+  },
+  {
+   "id": "work-aeg-presents",
+   "title": "AEG Presents",
+   "family": "career",
+   "kind": "work",
+   "status": "active",
+   "description": "Principal Software Architect",
+   "url": null,
+   "repos": [],
+   "packages": {},
+   "start": "2023-11-01",
+   "end": null,
+   "lastActivity": "2026-09-03",
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "stars": 0,
+   "languages": [],
+   "items": []
   },
   {
    "id": "work-agency-enterprise-aka-ae-studio",
@@ -67,7 +87,7 @@
    "family": "career",
    "kind": "work",
    "status": "active",
-   "description": "Director of Technology Innovation & Co-founder",
+   "description": "Founder & CTO, Lead Architect, Director of Technology Innovation, Chief Swag Officer",
    "url": null,
    "repos": [],
    "packages": {},
@@ -4926,7 +4946,7 @@
    "family": "ae-studio",
    "kind": "company",
    "status": "archived",
-   "description": "OTT streaming platform, codenamed Otter: Next.js UI, backend with twenty releases in ten months, and a 7,810-commit second-generation codebase. Hugely successful.",
+   "description": "OTT streaming platform, codenamed Otter: Next.js UI, backend with twenty releases in ten months, and a 7,810-commit second-generation codebase.",
    "url": null,
    "repos": [],
    "privateRepos": 3,
@@ -20771,7 +20791,7 @@
    "url": null,
    "repos": [],
    "packages": {},
-   "start": "2005-03-01",
+   "start": "2005-10-01",
    "end": "2006-05-01",
    "lastActivity": "2006-05-01",
    "releases": 0,
@@ -26350,19 +26370,6 @@
    "url": "/me/"
   },
   {
-   "projectId": "work-simple-star",
-   "repo": null,
-   "type": "work",
-   "tag": null,
-   "name": "Web Engineer",
-   "date": "2005-03-01",
-   "prerelease": false,
-   "major": true,
-   "count": 1,
-   "summary": "Web Engineer at Simple Star (March 2005 till May 2006)",
-   "url": "/me/"
-  },
-  {
    "projectId": "drive-design-mysms",
    "repo": null,
    "type": "created",
@@ -26969,6 +26976,19 @@
    "count": 1,
    "summary": "groovegate last touched",
    "url": null
+  },
+  {
+   "projectId": "work-simple-star",
+   "repo": null,
+   "type": "work",
+   "tag": null,
+   "name": "Web Engineer",
+   "date": "2005-10-01",
+   "prerelease": false,
+   "major": true,
+   "count": 1,
+   "summary": "Web Engineer at Simple Star (October 2005 till May 2006)",
+   "url": "/me/"
   },
   {
    "projectId": "drive-design-arz",
@@ -38128,12 +38148,12 @@
    "repo": null,
    "type": "work",
    "tag": null,
-   "name": "Director of Technology Innovation & Co-founder",
+   "name": "Founder & CTO, Lead Architect, Director of Technology Innovation, Chief Swag Officer",
    "date": "2016-02-02",
    "prerelease": false,
    "major": true,
    "count": 1,
-   "summary": "Director of Technology Innovation & Co-founder at Agency Enterprise aka ae.studio (February 2016 till right this second)",
+   "summary": "Founder & CTO, Lead Architect, Director of Technology Innovation, Chief Swag Officer at Agency Enterprise aka ae.studio (February 2016 till right this second)",
    "url": "/me/"
   },
   {
@@ -45327,6 +45347,19 @@
    "url": null
   },
   {
+   "projectId": "work-aeg-presents",
+   "repo": null,
+   "type": "work",
+   "tag": null,
+   "name": "Principal Software Architect",
+   "date": "2023-11-01",
+   "prerelease": false,
+   "major": true,
+   "count": 1,
+   "summary": "Principal Software Architect at AEG Presents (November 2023 till right this second)",
+   "url": "/me/"
+  },
+  {
    "projectId": "nanana",
    "repo": "knoeone/nanana-app",
    "type": "tag",
@@ -51966,19 +51999,6 @@
   },
   {
    "projectId": "dune",
-   "repo": "duneyou/dune",
-   "type": "release",
-   "tag": "v1.7.2",
-   "name": null,
-   "date": "2026-09-03",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "Dune IDE v1.7.2",
-   "url": "https://github.com/duneyou/dune/releases/tag/v1.7.2"
-  },
-  {
-   "projectId": "dune",
    "repo": "duneyou/dune-ide",
    "type": "release",
    "tag": "v1.7.2",
@@ -51989,6 +52009,24 @@
    "count": 2,
    "summary": null,
    "url": null
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune",
+   "type": "release",
+   "tag": "v1.7.3",
+   "name": null,
+   "date": "2026-09-03",
+   "prerelease": false,
+   "major": false,
+   "count": 3,
+   "tags": [
+    "v1.7.2",
+    "v1.7.3",
+    "v1.7.3"
+   ],
+   "summary": "Dune IDE v1.7.3",
+   "url": "https://github.com/duneyou/dune/releases/tag/v1.7.3"
   }
  ]
 }
