@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-03T19:08:59Z",
+ "generatedAt": "2026-09-03T19:10:20Z",
  "families": [
   "ae-studio",
   "career",
@@ -7,7 +7,9 @@
   "crunchbutton",
   "design",
   "dune",
+  "freelance",
   "hypery",
+  "luma",
   "other",
   "personal",
   "pif",
@@ -722,9 +724,9 @@
    "id": "beerplease",
    "title": "Beer Please",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "active",
-   "description": "http://beerplease.co",
+   "description": "Devin's 'buy me a beer' payment app (beerplease.co) built on his Tipsy PHP framework with Stripe, deployable to Heroku in one click; an earlier version predates the Stripe integration.",
    "url": "http://beerplease.co",
    "repos": [
     "knoeone/beerplease",
@@ -735,6 +737,14 @@
    "end": null,
    "lastActivity": "2026-08-07",
    "attachTo": null,
+   "tags": [
+    "php",
+    "tipsy",
+    "stripe",
+    "heroku",
+    "payments"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 85,
    "source": "github"
   },
@@ -789,11 +799,11 @@
     "repo": "spacedevin/composer-dependency-auto-update"
    },
    "id": "composer-dependency-auto-update",
-   "title": "composer-dependency-auto-update",
+   "title": "Composer Dependency Auto Update",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "active",
-   "description": "Automagically update composer.lock file of dependent packages",
+   "description": "A Tipsy PHP webhook service that automatically bumps specified Composer dependencies whenever their upstream master branches change; Heroku-deployable, 32 commits, 2015.",
    "url": null,
    "repos": [
     "spacedevin/composer-dependency-auto-update"
@@ -803,6 +813,14 @@
    "end": null,
    "lastActivity": "2026-08-07",
    "attachTo": null,
+   "tags": [
+    "php",
+    "composer",
+    "github",
+    "webhook",
+    "tipsy"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 33,
    "source": "github"
   },
@@ -821,11 +839,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "devin-la",
-   "title": "devin-la",
+   "title": "devin.la",
    "family": "personal",
    "kind": "personal",
    "status": "active",
-   "description": "",
+   "description": "Devin's personal site: a 2015 version on his Tipsy PHP framework with OAuth login (devin-la-beta, 60 commits) and a 2020 rewrite in Next.js (12 commits).",
    "url": "devin-la.arzynik.now.sh",
    "repos": [
     "spacedevin/devin-la-beta",
@@ -836,6 +854,14 @@
    "end": null,
    "lastActivity": "2026-08-07",
    "attachTo": null,
+   "tags": [
+    "personal",
+    "site",
+    "tipsy",
+    "nextjs",
+    "react"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 73,
    "source": "github"
   },
@@ -892,9 +918,9 @@
    "id": "pulpoloco",
    "title": "Pulpo Loco",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "active",
-   "description": "A URL shortener ",
+   "description": "A self-hosted URL shortener in PHP on the Tipsy framework with MySQL/PostgreSQL and a one-click Heroku deploy (pulpolo.co); 31 commits, 2015.",
    "url": "http://pulpolo.co",
    "repos": [
     "spacedevin/pulpoloco"
@@ -904,6 +930,14 @@
    "end": null,
    "lastActivity": "2026-08-07",
    "attachTo": null,
+   "tags": [
+    "php",
+    "tipsy",
+    "url-shortener",
+    "heroku",
+    "open-source"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 45,
    "source": "github"
   },
@@ -2202,11 +2236,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "gazpacho-base",
-   "title": "gazpacho-base",
+   "title": "Gazpacho Base",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "",
+   "description": "Benchmark study of Rust GUI approaches on macOS (native AppKit via objc2, SwiftUI, winit, egui, iced, glow, wgpu) comparing memory and GPU use; groundwork for a minimal native Rust desktop shell. 10 commits, June 2025.",
    "url": null,
    "repos": [
     "spacedevin/gazpacho-base"
@@ -2216,6 +2250,14 @@
    "end": "2025-06-29",
    "lastActivity": "2025-06-29",
    "attachTo": null,
+   "tags": [
+    "rust",
+    "macos",
+    "gui",
+    "benchmark",
+    "appkit"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 7,
    "source": "github"
   },
@@ -2651,6 +2693,126 @@
   {
    "packages": {
     "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-wavy",
+   "title": "Wavy",
+   "family": "personal",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "Bolt.new-generated web audio instruments prototype (src/audio, instruments components, stores) from December 2024, two commits.",
+   "url": null,
+   "repos": [
+    "spacedevin/wavy"
+   ],
+   "privateRepos": 1,
+   "start": "2024-12-28",
+   "end": "2024-12-28",
+   "lastActivity": "2024-12-28",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/wavy"
+   ],
+   "tags": [
+    "web-audio",
+    "bolt",
+    "typescript",
+    "synth"
+   ],
+   "descriptionConfidence": 0.45,
+   "commits": 2,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-motherchristmas",
+   "title": "Mother Christmas",
+   "family": "personal",
+   "kind": "personal",
+   "status": "archived",
+   "description": "Collection of AI-generated music (aitubo.ai) organized into albums and tracks with reference files; a personal creative project, two commits, December 2024.",
+   "url": null,
+   "repos": [
+    "spacedevin/motherchristmas"
+   ],
+   "privateRepos": 1,
+   "start": "2024-12-20",
+   "end": "2024-12-21",
+   "lastActivity": "2024-12-21",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/motherchristmas/motherchristmas"
+   ],
+   "tags": [
+    "ai-music",
+    "creative",
+    "audio"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 2,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-react-native-health",
+   "title": "react-native-health",
+   "family": "ae-studio",
+   "kind": "library",
+   "status": "archived",
+   "description": "AE Studio's open-source React Native package for Apple HealthKit (originally rn-apple-healthkit), maintained under the agencyenterprise org with a Swift rewrite planned in 2023; a 2025 checkout, Devin's involvement is maintenance-level.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/react-native-health"
+   ],
+   "privateRepos": 1,
+   "start": "2016-06-26",
+   "end": "2024-10-15",
+   "lastActivity": "2024-10-15",
+   "attachTo": null,
+   "drivePaths": [
+    "2025/react-native-health"
+   ],
+   "tags": [
+    "react-native",
+    "healthkit",
+    "ios",
+    "open-source",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.6,
+   "commits": 890,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
     "cargo": []
    },
    "stars": 0,
@@ -2722,6 +2884,87 @@
     "packagist": []
    },
    "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-clickwheel-js",
+   "title": "ClickWheelJS",
+   "family": "ae-studio",
+   "kind": "library",
+   "status": "archived",
+   "description": "Published npm React component (clickwheel-js) that recreates the iPod click wheel with center, menu, play/pause and next/previous callbacks; an Agency Enterprise Same Day Skunkworks release with a demo site at clickwheeljs.com.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/clickwheel-js"
+   ],
+   "privateRepos": 1,
+   "start": "2022-03-03",
+   "end": "2024-04-08",
+   "lastActivity": "2024-04-08",
+   "attachTo": null,
+   "drivePaths": [
+    "2025/clickwheel-js"
+   ],
+   "tags": [
+    "react",
+    "npm",
+    "ipod",
+    "ui-component",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.75,
+   "commits": 6,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-ascii-social",
+   "title": "ASCII Social",
+   "family": "personal",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "Next.js 14 experiment that streams posts from an API into a terminal-style scrolling screen; two commits, January 2024.",
+   "url": null,
+   "repos": [
+    "spacedevin/ascii-social"
+   ],
+   "privateRepos": 1,
+   "start": "2024-01-21",
+   "end": "2024-01-21",
+   "lastActivity": "2024-01-21",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/social/ascii-social"
+   ],
+   "tags": [
+    "nextjs",
+    "ascii",
+    "social",
+    "prototype"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 2,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
    "languages": [
     "Dart",
     "TypeScript"
@@ -2731,11 +2974,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "nanana",
-   "title": "nanana",
+   "title": "Nanana",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "archived",
-   "description": "",
+   "description": "nanana.ai, an AI recipe product under Knoeone: a Next.js 14 web app and API (OpenAI, Replicate, MongoDB, S3, Apple sign-in and receipt verification) plus a Flutter mobile app; ~480 commits from late 2023.",
    "url": "https://nanana.ai",
    "repos": [
     "knoeone/nanana-web",
@@ -2746,6 +2989,15 @@
    "end": "2024-01-18",
    "lastActivity": "2024-01-18",
    "attachTo": null,
+   "tags": [
+    "nextjs",
+    "flutter",
+    "openai",
+    "recipes",
+    "mongodb",
+    "knoeone"
+   ],
+   "descriptionConfidence": 0.75,
    "commits": 489,
    "source": "github"
   },
@@ -2956,30 +3208,40 @@
     "packagist": []
    },
    "stars": 0,
-   "languages": [
-    "JavaScript"
-   ],
+   "languages": [],
    "items": [],
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
-   "id": "knoeone-ai",
-   "title": "knoeone-ai",
-   "family": "personal",
-   "kind": "personal",
+   "id": "drive-agencyenterprise-anotter",
+   "title": "Anotter (Instill Video)",
+   "family": "ae-studio",
+   "kind": "company",
    "status": "archived",
-   "description": "",
-   "url": "https://knoeone-ai.vercel.app",
+   "description": "Main codebase of Instill Video, the creator video platform at Agency Enterprise: a Nullstack app with MongoDB, Stripe Connect payouts, SendGrid, AWS thumbnails and a worker API, deployed on Vercel; 7810 commits from 2021 onward.",
+   "url": null,
    "repos": [
-    "knoeone/knoeone-ai"
+    "agencyenterprise/anotter"
    ],
    "privateRepos": 1,
-   "start": "2023-10-19",
-   "end": "2023-11-19",
-   "lastActivity": "2023-11-19",
+   "start": "2021-09-01",
+   "end": "2023-11-14",
+   "lastActivity": "2023-11-14",
    "attachTo": null,
-   "commits": 5,
-   "source": "github"
+   "drivePaths": [
+    "macbook2000/ae/anotter"
+   ],
+   "tags": [
+    "nullstack",
+    "mongodb",
+    "stripe",
+    "video",
+    "ae-studio",
+    "instill"
+   ],
+   "descriptionConfidence": 0.8,
+   "commits": 7810,
+   "source": "drive"
   },
   {
    "packages": {
@@ -2997,11 +3259,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "knoeone",
-   "title": "knoeone",
+   "title": "Knoeone",
    "family": "personal",
-   "kind": "personal",
+   "kind": "company",
    "status": "archived",
-   "description": "",
+   "description": "Devin's 2023 personal apps company: a storefront forked from Next.js Commerce (knoeone) and a separate landing site (knoeone-landing); 52 commits.",
    "url": "https://knoeone.vercel.app",
    "repos": [
     "knoeone/knoeone",
@@ -3012,6 +3274,13 @@
    "end": "2023-10-20",
    "lastActivity": "2023-10-20",
    "attachTo": null,
+   "tags": [
+    "nextjs",
+    "commerce",
+    "landing",
+    "knoeone"
+   ],
+   "descriptionConfidence": 0.6,
    "commits": 53,
    "source": "github"
   },
@@ -3062,11 +3331,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "devin-la-retro",
-   "title": "devin-la-retro",
+   "title": "devin.la retro (space-2023)",
    "family": "personal",
    "kind": "personal",
    "status": "archived",
-   "description": "",
+   "description": "2023 personal site/resume generator: Next.js 13 + Tailwind with MongoDB and the OpenAI API, rendering markdown to PDF (jspdf, md-to-pdf); 21 commits.",
    "url": "https://devin-la-retro.vercel.app",
    "repos": [
     "spacedevin/devin-la-retro"
@@ -3076,6 +3345,14 @@
    "end": "2023-10-17",
    "lastActivity": "2023-10-17",
    "attachTo": null,
+   "tags": [
+    "nextjs",
+    "openai",
+    "resume",
+    "pdf",
+    "personal-site"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 20,
    "source": "github"
   },
@@ -3123,6 +3400,173 @@
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
+   "id": "drive-weather-mistress",
+   "title": "Weather Mistress",
+   "family": "personal",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "Single-commit .NET MAUI Blazor Hybrid project (Android, iOS, MacCatalyst, Windows, Tizen targets) named blazing, presumably a weather app try-out from September 2023.",
+   "url": null,
+   "repos": [
+    "spacedevin/weather-mistress"
+   ],
+   "privateRepos": 1,
+   "start": "2023-09-27",
+   "end": "2023-09-27",
+   "lastActivity": "2023-09-27",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/blazing"
+   ],
+   "tags": [
+    "dotnet",
+    "maui",
+    "blazor",
+    "csharp"
+   ],
+   "descriptionConfidence": 0.4,
+   "commits": 1,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-elioarmato-sunnyswap",
+   "title": "SunnySwap",
+   "family": "personal",
+   "kind": "client",
+   "status": "archived",
+   "description": "Ethereum token-swap dApp (ElioArmato/SunnySwap) built with RainbowKit, wagmi and Next.js; Devin has a 165-commit local checkout from June 2023, likely as a contributor.",
+   "url": null,
+   "repos": [
+    "elioarmato/sunnyswap"
+   ],
+   "privateRepos": 1,
+   "start": "2023-06-20",
+   "end": "2023-09-11",
+   "lastActivity": "2023-09-11",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/sunny/SunnySwap",
+    "macbook2000/sunny/SunnySwap-srcapp"
+   ],
+   "tags": [
+    "ethereum",
+    "rainbowkit",
+    "wagmi",
+    "nextjs",
+    "web3"
+   ],
+   "descriptionConfidence": 0.45,
+   "commits": 331,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-spacex-shopify",
+   "title": "SpaceX Shopify",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "Agency Enterprise work on the SpaceX online store: a Ruby on Rails app with a Shopify script editor (2019) and a Shopify Liquid theme (2022, 75 commits).",
+   "url": null,
+   "repos": [
+    "agencyenterprise/spacex-shopify",
+    "agencyenterprise/spacex-shopify-theme"
+   ],
+   "privateRepos": 2,
+   "start": "2019-10-16",
+   "end": "2023-09-07",
+   "lastActivity": "2023-09-07",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/ae/spacex-shopify",
+    "macbook2000/ae/spacex-shopify-theme"
+   ],
+   "tags": [
+    "shopify",
+    "rails",
+    "ruby",
+    "liquid",
+    "ecommerce",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 101,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-wear3",
+   "title": "Wear3",
+   "family": "personal",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "Next.js 13 web3 experiment combining RainbowKit/wagmi wallet login, Alchemy NFT data and in-browser background removal (imgly); two commits, September 2023.",
+   "url": null,
+   "repos": [
+    "spacedevin/wear3"
+   ],
+   "privateRepos": 1,
+   "start": "2023-09-05",
+   "end": "2023-09-05",
+   "lastActivity": "2023-09-05",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/wear3/wear3"
+   ],
+   "tags": [
+    "web3",
+    "nft",
+    "nextjs",
+    "alchemy",
+    "background-removal"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 2,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
    "id": "drive-sunny",
    "title": "SSN13",
    "family": "personal",
@@ -3156,6 +3600,47 @@
     "packagist": []
    },
    "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-badbot",
+   "title": "Badbot API",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "Set of Python AWS Lambda packages (dispatcher, maestro, photo-gen v1/v2) with MongoDB for an Agency Enterprise AI photo-generation bot; 22 commits, October 2022.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/badbot-api"
+   ],
+   "privateRepos": 1,
+   "start": "2022-10-10",
+   "end": "2023-07-14",
+   "lastActivity": "2023-07-14",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/ae/badbot-api"
+   ],
+   "tags": [
+    "python",
+    "aws-lambda",
+    "mongodb",
+    "ai",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 22,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
    "languages": [
     "CSS",
     "PHP"
@@ -3171,9 +3656,9 @@
    "id": "cana",
    "title": "Cana",
    "family": "personal",
-   "kind": "personal",
+   "kind": "framework",
    "status": "archived",
-   "description": "The cana website",
+   "description": "Devin's MVC PHP framework ('completely awesome & naturally amazing') for rapid object-oriented development, borrowing Zend fundamentals with Ruby/jQuery-style chained object access, multi-object operations, caching and JSON output. Grew out of Caffeine and powered Big Brother, Give.mobi-era sites and later Crunchbutton.",
    "url": "http://spacedevin.github.io/cana-web/",
    "repos": [
     "spacedevin/cana-web",
@@ -3185,8 +3670,99 @@
    "end": "2023-04-23",
    "lastActivity": "2023-04-23",
    "attachTo": null,
+   "tags": [
+    "php",
+    "framework",
+    "mvc",
+    "orm",
+    "cana"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 77,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-instill-losangelena",
+   "title": "LosAngelena Landing",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "Webflow-exported landing page for LosAngelena ('Goodbye Workouts. Hello Playful Practice') hosted as an Instill Video creator site; 13 commits, February 2023.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/instill-losangelena-landing"
+   ],
+   "privateRepos": 1,
+   "start": "2023-02-09",
+   "end": "2023-04-10",
+   "lastActivity": "2023-04-10",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/ae/instill-losangelena-landing"
+   ],
+   "tags": [
+    "webflow",
+    "landing",
+    "static",
+    "instill",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.6,
+   "commits": 13,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-sds-ghostlystock",
+   "title": "GhostlyStock",
+   "family": "ae-studio",
+   "kind": "site",
+   "status": "archived",
+   "description": "Same Day Skunkworks (Agency Enterprise) micro-product: a Next.js + Tailwind site offering 'prompt suggestions from beyond' for AI image generation; 16 commits, June 2022.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/sds-ghostlystock"
+   ],
+   "privateRepos": 1,
+   "start": "2022-06-29",
+   "end": "2023-03-25",
+   "lastActivity": "2023-03-25",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/ae/sds-ghostlystock",
+    "macbook2000/ghostlystock/sds-ghostlystock"
+   ],
+   "tags": [
+    "nextjs",
+    "tailwind",
+    "ai",
+    "prompts",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.65,
+   "commits": 158,
+   "source": "drive"
   },
   {
    "packages": {
@@ -3226,6 +3802,88 @@
   {
    "packages": {
     "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-headphonesrule",
+   "title": "Headphones Rule / Postit Rule",
+   "family": "ae-studio",
+   "kind": "site",
+   "status": "archived",
+   "description": "Next.js one-pager explaining the office 'post-it on your headphones' rule as a follow-up to headphonesrule.com, with a GSAP marquee; 12 commits, May 2022.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/headphonesrule"
+   ],
+   "privateRepos": 1,
+   "start": "2022-05-20",
+   "end": "2022-10-22",
+   "lastActivity": "2022-10-22",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/headphonesrule/headphonesrule"
+   ],
+   "tags": [
+    "nextjs",
+    "gsap",
+    "landing",
+    "office-culture",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 12,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-meat",
+   "title": "The Only Humane Meat",
+   "family": "ae-studio",
+   "kind": "site",
+   "status": "archived",
+   "description": "Satirical static site (theonlyhumanemeat.com) about 'consensual' lab-grown meat, with illustrated product images; Agency Enterprise hackathon gag, six commits.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/meat"
+   ],
+   "privateRepos": 1,
+   "start": "2022-10-20",
+   "end": "2022-10-21",
+   "lastActivity": "2022-10-21",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/ae/meat",
+    "macbook2000/meat"
+   ],
+   "tags": [
+    "static",
+    "html",
+    "satire",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 12,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
     "cargo": []
    },
    "stars": 0,
@@ -3260,6 +3918,45 @@
     "packagist": []
    },
    "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-lastcall",
+   "title": "Lastcall",
+   "family": "personal",
+   "kind": "design",
+   "status": "archived",
+   "description": "Domain placeholder for lastcall: CNAME and a logo SVG only, three commits.",
+   "url": null,
+   "repos": [
+    "spacedevin/lastcall"
+   ],
+   "privateRepos": 1,
+   "start": "2022-06-24",
+   "end": "2022-06-24",
+   "lastActivity": "2022-06-24",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/lastcall"
+   ],
+   "tags": [
+    "branding",
+    "logo",
+    "github-pages"
+   ],
+   "descriptionConfidence": 0.45,
+   "commits": 3,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
    "languages": [
     "ShaderLab"
    ],
@@ -3268,11 +3965,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "kreatura",
-   "title": "kreatura",
+   "title": "Kreatura",
    "family": "personal",
-   "kind": "personal",
+   "kind": "game",
    "status": "archived",
-   "description": "",
+   "description": "Unity 2D pixel-art creature game prototype with a WebGL build; the readme is a list of itch.io sprite packs, tilesets and pop-art references. Six commits, June 2022.",
    "url": null,
    "repos": [
     "spacedevin/kreatura"
@@ -3282,8 +3979,55 @@
    "end": "2022-06-24",
    "lastActivity": "2022-06-24",
    "attachTo": null,
+   "tags": [
+    "unity",
+    "pixel-art",
+    "2d",
+    "webgl",
+    "prototype"
+   ],
+   "descriptionConfidence": 0.55,
    "commits": 6,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-mootropic",
+   "title": "Mootropic",
+   "family": "personal",
+   "kind": "design",
+   "status": "archived",
+   "description": "Domain placeholder for mootropic: CNAME and a logo SVG only, four commits.",
+   "url": null,
+   "repos": [
+    "spacedevin/mootropic"
+   ],
+   "privateRepos": 1,
+   "start": "2022-06-23",
+   "end": "2022-06-23",
+   "lastActivity": "2022-06-23",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/mootropic"
+   ],
+   "tags": [
+    "branding",
+    "logo",
+    "github-pages"
+   ],
+   "descriptionConfidence": 0.45,
+   "commits": 4,
+   "source": "drive"
   },
   {
    "packages": {
@@ -3300,11 +4044,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "spacewater",
-   "title": "spacewater",
+   "title": "Spacewater",
    "family": "personal",
-   "kind": "personal",
+   "kind": "design",
    "status": "archived",
-   "description": "",
+   "description": "Domain landing for spacewater: only a CNAME, logo SVG and sticker artwork on GitHub Pages; five commits, June 2022.",
    "url": null,
    "repos": [
     "spacedevin/spacewater"
@@ -3314,8 +4058,266 @@
    "end": "2022-06-13",
    "lastActivity": "2022-06-13",
    "attachTo": null,
+   "tags": [
+    "branding",
+    "logo",
+    "github-pages"
+   ],
+   "descriptionConfidence": 0.5,
    "commits": 5,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-caloreat",
+   "title": "Caloreat",
+   "family": "ae-studio",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "Calorie/food tracking prototype at Agency Enterprise: an Expo 45 dev-client app reading Apple Health via react-native-health, plus a caloreat-web companion; a handful of commits from May 2022.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/caloreat-app",
+    "agencyenterprise/caloreat-web"
+   ],
+   "privateRepos": 2,
+   "start": "2022-05-20",
+   "end": "2022-05-21",
+   "lastActivity": "2022-05-21",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/ae/caloreat-app",
+    "macbook2000/ae/caloreat-web",
+    "macbook2000/caloreat/caloreat",
+    "macbook2000/caloreat/caloreat-web"
+   ],
+   "tags": [
+    "expo",
+    "react-native",
+    "healthkit",
+    "nutrition",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 12,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-getsomeagency",
+   "title": "Get Some Agency",
+   "family": "ae-studio",
+   "kind": "site",
+   "status": "archived",
+   "description": "One-page Next.js joke site with mouse-parallax rainbow text linking to ae.studio's human-agency page; from the May 2022 Agency Enterprise hackathon.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/getsomeagency"
+   ],
+   "privateRepos": 1,
+   "start": "2022-05-20",
+   "end": "2022-05-21",
+   "lastActivity": "2022-05-21",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/ae/getsomeagency",
+    "macbook2000/agency/getsomeagency"
+   ],
+   "tags": [
+    "nextjs",
+    "landing",
+    "joke",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 12,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-hackathonwaste",
+   "title": "Hackathon Waste",
+   "family": "ae-studio",
+   "kind": "site",
+   "status": "archived",
+   "description": "Next.js landing page whose whole content is a looping video and the title 'i wasted 12 dollars on this domain just so i could have a landing page'; May 2022 AE hackathon gag.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/hackathonwaste"
+   ],
+   "privateRepos": 1,
+   "start": "2022-05-20",
+   "end": "2022-05-21",
+   "lastActivity": "2022-05-21",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/ae/hackathonwaste",
+    "macbook2000/waste/hackathonwaste"
+   ],
+   "tags": [
+    "nextjs",
+    "landing",
+    "joke",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 8,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-beclear",
+   "title": "BeClear",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "Next.js 12 + Tailwind + MongoDB backend at Agency Enterprise for a video/audio product using Mux uploads, AWS Transcribe and Google Speech transcription, SendGrid and Twilio; 119 commits from late 2021.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/beclear-backend"
+   ],
+   "privateRepos": 1,
+   "start": "2021-09-22",
+   "end": "2022-03-03",
+   "lastActivity": "2022-03-03",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/beclear/beclear-backend",
+    "macbook2000/beclear-backend"
+   ],
+   "tags": [
+    "nextjs",
+    "mux",
+    "transcription",
+    "mongodb",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.6,
+   "commits": 430,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-grats",
+   "title": "Gratz",
+   "family": "ae-studio",
+   "kind": "company",
+   "status": "archived",
+   "description": "Peer-appreciation app (originally Agencyudos) built at Agency Enterprise with Nullstack, MongoDB, S3, Mailgun, Printful and Slack integrations; organizations invite members who send thanks to each other. 184 commits from 2021.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/grats"
+   ],
+   "privateRepos": 1,
+   "start": "2021-07-01",
+   "end": "2021-12-06",
+   "lastActivity": "2021-12-06",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/grats/grats"
+   ],
+   "tags": [
+    "nullstack",
+    "mongodb",
+    "slack",
+    "printful",
+    "ae-studio",
+    "gratz"
+   ],
+   "descriptionConfidence": 0.75,
+   "commits": 184,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-tacoboutbot-pdg-hackathon-2021",
+   "title": "Tacoboutbot (Moodbot)",
+   "family": "ae-studio",
+   "kind": "tool",
+   "status": "archived",
+   "description": "Slack bot from the Agency Enterprise PDG hackathon 2021 that polls team mood: Slack Bolt + Express + MongoDB with a cron worker and Procfile for Heroku; 14 commits.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/tacoboutbot-pdg-hackathon-2021"
+   ],
+   "privateRepos": 1,
+   "start": "2021-11-13",
+   "end": "2021-11-14",
+   "lastActivity": "2021-11-14",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/moodbot/moodbot"
+   ],
+   "tags": [
+    "slack",
+    "bolt",
+    "mongodb",
+    "hackathon",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.65,
+   "commits": 14,
+   "source": "drive"
   },
   {
    "packages": {
@@ -3355,6 +4357,48 @@
     "packagist": []
    },
    "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-tactile",
+   "title": "Tactile",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "Expo 42 read-it-later style app at Agency Enterprise that extracts article content with Mozilla Readability, Mercury parser and oEmbed and renders it as markdown; six commits, October 2021.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/tactile-app"
+   ],
+   "privateRepos": 1,
+   "start": "2021-10-01",
+   "end": "2021-10-04",
+   "lastActivity": "2021-10-04",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/tactile/tactile-app",
+    "macbook2000/ae/tactile-app"
+   ],
+   "tags": [
+    "expo",
+    "react-native",
+    "readability",
+    "reader",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 12,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
    "languages": [
     "CSS",
     "HTML",
@@ -3376,7 +4420,7 @@
    "family": "crunchbutton",
    "kind": "company",
    "status": "archived",
-   "description": "🍔 Crunchbutton + Cockpit website",
+   "description": "Main codebase of Crunchbutton, the food-delivery startup where Devin was CTO (2012-2016): PHP 5.6 monolith on his Cana framework with Travis CI, Coveralls, Heroku/Docker deploys, cockpit driver app, landing pages, Cordova iOS apps and the Cluckbutton game; many working copies merged.",
    "url": "http://crunchbutton.com",
    "repos": [
     "crunchbutton/crunchbutton",
@@ -3400,6 +4444,15 @@
    "end": "2021-08-26",
    "lastActivity": "2021-08-26",
    "attachTo": null,
+   "tags": [
+    "php",
+    "cana",
+    "heroku",
+    "cordova",
+    "food-delivery",
+    "crunchbutton"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 5137,
    "source": "github"
   },
@@ -3435,6 +4488,47 @@
    "end": "2021-08-06",
    "lastActivity": "2021-08-06",
    "commits": 85
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-rg-nft-platform",
+   "title": "Raregoods NFT Platform",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "NFT marketplace for Raregoods built at Agency Enterprise in 2021 on a Next.js boilerplate with Storybook, Jest and component generators; 263 commits.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/rg-nft-platform"
+   ],
+   "privateRepos": 1,
+   "start": "2021-06-25",
+   "end": "2021-07-13",
+   "lastActivity": "2021-07-13",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/rare/rg-nft-platform"
+   ],
+   "tags": [
+    "nextjs",
+    "nft",
+    "storybook",
+    "typescript",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.65,
+   "commits": 263,
+   "source": "drive"
   },
   {
    "packages": {
@@ -3511,11 +4605,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "spacebar",
-   "title": "spacebar",
+   "title": "SPACE BAR",
    "family": "personal",
-   "kind": "personal",
+   "kind": "site",
    "status": "archived",
-   "description": "",
+   "description": "Static site for spacebar.la with a three.js particle text effect (custom GLSL shaders, Enriqueta font JSON); 12 commits, June 2021.",
    "url": null,
    "repos": [
     "spacedevin/spacebar"
@@ -3525,8 +4619,57 @@
    "end": "2021-06-12",
    "lastActivity": "2021-06-12",
    "attachTo": null,
+   "tags": [
+    "threejs",
+    "webgl",
+    "glsl",
+    "static"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 12,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-bound",
+   "title": "Bound",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "Delivery logistics platform built at Agency Enterprise in 2021: Next.js 10 + Tailwind backend with MongoDB migrations, Routific route optimization, Twilio, Mailgun and Google Maps; 203 commits.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/bound-backend"
+   ],
+   "privateRepos": 1,
+   "start": "2021-05-11",
+   "end": "2021-06-03",
+   "lastActivity": "2021-06-03",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/bound/bound-backend"
+   ],
+   "tags": [
+    "nextjs",
+    "mongodb",
+    "routific",
+    "twilio",
+    "logistics",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.65,
+   "commits": 203,
+   "source": "drive"
   },
   {
    "packages": {
@@ -3543,11 +4686,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "space-la",
-   "title": "space-la",
+   "title": "space.la (2021)",
    "family": "personal",
    "kind": "personal",
    "status": "archived",
-   "description": "",
+   "description": "2021 version of Devin's personal site space.la, a Next.js app (package name devin2020) with 66 commits.",
    "url": "space-la-arzynik.vercel.app",
    "repos": [
     "spacedevin/space-la"
@@ -3557,6 +4700,12 @@
    "end": "2021-06-02",
    "lastActivity": "2021-06-02",
    "attachTo": null,
+   "tags": [
+    "nextjs",
+    "portfolio",
+    "personal-site"
+   ],
+   "descriptionConfidence": 0.75,
    "commits": 66,
    "source": "github"
   },
@@ -3581,9 +4730,9 @@
    "id": "squirrelly",
    "title": "Squirrelly",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "archived",
-   "description": "Image and text sharing from your clipboard or mobile device",
+   "description": "An image and text sharing tool: paste straight from the clipboard and get an anonymous URL. PHP on Devin's Tipsy framework with MySQL/Postgres or local storage and a Heroku deploy button; 112 commits from 2014 (squirrelly.io).",
    "url": "http://squirrelly.io",
    "repos": [
     "spacedevin/squirrelly"
@@ -3593,6 +4742,14 @@
    "end": "2021-06-02",
    "lastActivity": "2021-06-02",
    "attachTo": null,
+   "tags": [
+    "php",
+    "tipsy",
+    "sharing",
+    "heroku",
+    "open-source"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 122,
    "source": "github"
   },
@@ -3633,6 +4790,45 @@
     "packagist": []
    },
    "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-devin-la-redirect",
+   "title": "devin.la redirect",
+   "family": "personal",
+   "kind": "tool",
+   "status": "archived",
+   "description": "Tiny Next.js catch-all app that redirects devin.la paths to the new domain; two commits, May 2021.",
+   "url": null,
+   "repos": [
+    "spacedevin/devin-la-redirect"
+   ],
+   "privateRepos": 1,
+   "start": "2021-05-15",
+   "end": "2021-05-15",
+   "lastActivity": "2021-05-15",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/devin/devin-la-redirect"
+   ],
+   "tags": [
+    "nextjs",
+    "redirect",
+    "personal"
+   ],
+   "descriptionConfidence": 0.6,
+   "commits": 2,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
    "languages": [
     "HTML"
    ],
@@ -3641,11 +4837,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "darkmodefirst-com",
-   "title": "darkmodefirst-com",
+   "title": "Dark Mode First",
    "family": "personal",
-   "kind": "personal",
+   "kind": "site",
    "status": "archived",
-   "description": "",
+   "description": "Single-page joke manifesto site at darkmodefirst.com declaring dark mode a design principle; static HTML with OpenGraph tags, April 2021.",
    "url": null,
    "repos": [
     "spacedevin/darkmodefirst.com"
@@ -3655,6 +4851,13 @@
    "end": "2021-05-10",
    "lastActivity": "2021-05-10",
    "attachTo": null,
+   "tags": [
+    "static",
+    "html",
+    "joke",
+    "design"
+   ],
+   "descriptionConfidence": 0.8,
    "commits": 9,
    "source": "github"
   },
@@ -3665,30 +4868,81 @@
     "packagist": []
    },
    "stars": 0,
-   "languages": [
-    "CSS"
-   ],
+   "languages": [],
    "items": [],
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
-   "id": "space-la-placeholder",
-   "title": "space-la-placeholder",
-   "family": "personal",
-   "kind": "personal",
+   "id": "drive-agencyenterprise-billbox",
+   "title": "Billbox (PeachyPay)",
+   "family": "ae-studio",
+   "kind": "client",
    "status": "archived",
-   "description": "",
-   "url": "space-la-placeholder-arzynik.vercel.app",
+   "description": "Bill-pay fintech app built at Agency Enterprise from January 2021: Next.js with MongoDB, deployed to Vercel (peachypay.vercel.app) and Aptible; 1277 commits.",
+   "url": null,
    "repos": [
-    "spacedevin/space-la-placeholder"
+    "agencyenterprise/billbox"
    ],
    "privateRepos": 1,
-   "start": "2021-04-12",
-   "end": "2021-04-28",
-   "lastActivity": "2021-04-28",
+   "start": "2021-01-24",
+   "end": "2021-05-10",
+   "lastActivity": "2021-05-10",
    "attachTo": null,
-   "commits": 4,
-   "source": "github"
+   "drivePaths": [
+    "macbook2019/billbox/billbox"
+   ],
+   "tags": [
+    "nextjs",
+    "mongodb",
+    "fintech",
+    "vercel",
+    "aptible",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.65,
+   "commits": 1277,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-point",
+   "title": "Point",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "React Native mobile client for the Point app at Agency Enterprise, TypeScript with GraphQL, screens/services/state layers and CocoaPods setup; 516 local commits from 2020.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/point-client"
+   ],
+   "privateRepos": 1,
+   "start": "2020-08-17",
+   "end": "2021-05-04",
+   "lastActivity": "2021-05-04",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/point/point-client"
+   ],
+   "tags": [
+    "react-native",
+    "typescript",
+    "graphql",
+    "mobile",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.65,
+   "commits": 516,
+   "source": "drive"
   },
   {
    "packages": {
@@ -3705,11 +4959,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "colaby-fauna",
-   "title": "colaby-fauna",
+   "title": "Colaby",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "",
+   "description": "Kanban-style collaboration board prototype (completed / current / backlog / icebox columns) built in Next.js, intended to use FaunaDB; eight commits from April 2021.",
    "url": null,
    "repos": [
     "spacedevin/colaby-fauna"
@@ -3719,6 +4973,13 @@
    "end": "2021-04-05",
    "lastActivity": "2021-04-05",
    "attachTo": null,
+   "tags": [
+    "nextjs",
+    "fauna",
+    "kanban",
+    "prototype"
+   ],
+   "descriptionConfidence": 0.5,
    "commits": 8,
    "source": "github"
   },
@@ -3853,11 +5114,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "chibotle-chibotle",
-   "title": "chibotle",
+   "title": "Chibotle",
    "family": "chibotle",
-   "kind": "company",
+   "kind": "client",
    "status": "archived",
-   "description": "Chipotle zoom chatbot",
+   "description": "Zoom Marketplace chatbot for Chipotle built at Agency Enterprise in 2020 (guac): Express + Handlebars + MongoDB with the Zoom bot service SDK, plus a Next.js variant; 94 commits.",
    "url": "https://chibotle.vercel.app",
    "repos": [
     "chibotle/chibotle"
@@ -3867,8 +5128,99 @@
    "end": "2020-09-11",
    "lastActivity": "2020-09-11",
    "attachTo": null,
+   "tags": [
+    "zoom",
+    "chatbot",
+    "express",
+    "mongodb",
+    "nextjs",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 94,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-woosh-agency-kiko",
+   "title": "Kiko",
+   "family": "personal",
+   "kind": "client",
+   "status": "archived",
+   "description": "React Native mobile app for Kiko (woosh-agency repo) with Detox e2e tests, TestFlight release flow and a screens/logic/services/store architecture; 571 local commits from 2020.",
+   "url": null,
+   "repos": [
+    "woosh-agency/kiko-mobile"
+   ],
+   "privateRepos": 1,
+   "start": "2020-05-11",
+   "end": "2020-08-28",
+   "lastActivity": "2020-08-28",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/kiko/kiko-mobile"
+   ],
+   "tags": [
+    "react-native",
+    "detox",
+    "testflight",
+    "mobile",
+    "woosh"
+   ],
+   "descriptionConfidence": 0.6,
+   "commits": 571,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-weather",
+   "title": "Weather (AE)",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "Expo + Next.js universal weather app built at Agency Enterprise in 2020 (93 commits), later wrapped with Capacitor; sits beside a second expo-next scaffold on the drive.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/weather-next"
+   ],
+   "privateRepos": 1,
+   "start": "2020-03-21",
+   "end": "2020-07-11",
+   "lastActivity": "2020-07-11",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/weather/weather-capictor"
+   ],
+   "tags": [
+    "expo",
+    "nextjs",
+    "capacitor",
+    "weather",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 93,
+   "source": "drive"
   },
   {
    "packages": {
@@ -3912,11 +5264,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "tissue-nexpo",
-   "title": "tissue-nexpo",
+   "title": "Tissue Paper",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "",
+   "description": "Expo + Next.js (expo/next-adapter) universal app experiment that authenticates with GitHub via Octokit and stores data in MongoDB; four commits from March 2020.",
    "url": null,
    "repos": [
     "knoeone/tissue-nexpo"
@@ -3926,8 +5278,57 @@
    "end": "2020-03-22",
    "lastActivity": "2020-03-22",
    "attachTo": null,
+   "tags": [
+    "expo",
+    "nextjs",
+    "github-api",
+    "mongodb",
+    "universal"
+   ],
+   "descriptionConfidence": 0.5,
    "commits": 5,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-abstract",
+   "title": "Abstract",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "Next.js 9 app deployed with Now (Vercel) using serverless MySQL, S3 streaming, JSZip exports and Recharts, built at Agency Enterprise in March 2020. Purpose not documented; 36 commits.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/abstract-next"
+   ],
+   "privateRepos": 1,
+   "start": "2020-03-01",
+   "end": "2020-03-13",
+   "lastActivity": "2020-03-13",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/ae/abstract-next"
+   ],
+   "tags": [
+    "nextjs",
+    "serverless",
+    "mysql",
+    "aws-s3",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.4,
+   "commits": 36,
+   "source": "drive"
   },
   {
    "packages": {
@@ -3944,11 +5345,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "give",
-   "title": "give",
+   "title": "Give (Next)",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "",
+   "description": "Next.js 9 + MongoDB app started March 2020 from Devin's Now/Homestead starter, apparently a revisit of the Give donation idea; 37 commits, no README beyond setup steps.",
    "url": null,
    "repos": [
     "knoeone/give-next"
@@ -3958,6 +5359,13 @@
    "end": "2020-03-13",
    "lastActivity": "2020-03-13",
    "attachTo": null,
+   "tags": [
+    "nextjs",
+    "mongodb",
+    "vercel",
+    "give"
+   ],
+   "descriptionConfidence": 0.4,
    "commits": 37,
    "source": "github"
   },
@@ -3978,9 +5386,9 @@
    "id": "give-mobi",
    "title": "Give.mobi",
    "family": "personal",
-   "kind": "personal",
+   "kind": "company",
    "status": "archived",
-   "description": "charitycall, mobiledonor, give.mobi",
+   "description": "Mobile charity donation platform (CharityCall / Give.mobi, 2008-2012) by Devin: PHP 5.6 app with Mailgun, cron jobs, native app assets, subdomains and Heroku Procfile, plus a getting-started guide.",
    "url": "http://give.mobi",
    "repos": [
     "knoeone/give-mobi"
@@ -3990,8 +5398,58 @@
    "end": "2020-03-07",
    "lastActivity": "2020-03-07",
    "attachTo": null,
+   "tags": [
+    "php",
+    "mobile",
+    "donations",
+    "charity",
+    "heroku"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 479,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-quokka",
+   "title": "Quokka",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "Expo SDK 36 mobile app (slug cbt-app) built at Agency Enterprise in late 2019, using Apollo GraphQL, Facebook login and Galio UI; 152 local commits suggest a real client build, likely a CBT/mental-health app.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/quokka-app"
+   ],
+   "privateRepos": 1,
+   "start": "2019-10-13",
+   "end": "2020-02-18",
+   "lastActivity": "2020-02-18",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/quokka-app"
+   ],
+   "tags": [
+    "expo",
+    "react-native",
+    "graphql",
+    "apollo",
+    "ae-studio",
+    "mobile"
+   ],
+   "descriptionConfidence": 0.55,
+   "commits": 152,
+   "source": "drive"
   },
   {
    "packages": {
@@ -4075,6 +5533,47 @@
     "packagist": []
    },
    "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-lotus",
+   "title": "Lotus (Protocol Labs)",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "Agency Enterprise's fork of Lotus, the Go implementation of the Filecoin Distributed Storage Network, from the 2019 Protocol Labs / Filecoin engagement where Devin contributed to the testnet-era codebase (chain, miner, paych, retrieval modules).",
+   "url": null,
+   "repos": [
+    "agencyenterprise/lotus"
+   ],
+   "privateRepos": 1,
+   "start": "2019-06-25",
+   "end": "2019-12-09",
+   "lastActivity": "2019-12-09",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/protocol-labs/filecoin-project-lotus"
+   ],
+   "tags": [
+    "filecoin",
+    "go",
+    "blockchain",
+    "protocol-labs",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.65,
+   "commits": 2179,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
    "languages": [
     "C#"
    ],
@@ -4083,11 +5582,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "topdowncity",
-   "title": "topdowncity",
+   "title": "Top Down City",
    "family": "personal",
-   "kind": "personal",
+   "kind": "game",
    "status": "archived",
-   "description": "",
+   "description": "Unity multiplayer top-down city game prototype (379 commits, Oct 2019) using Photon Unity Networking and NavMesh, with a small Node toolchain for linting and icon formatting; kept in the functionalprototype folder alongside its API and web landing.",
    "url": null,
    "repos": [
     "spacedevin/topdowncity"
@@ -4097,8 +5596,432 @@
    "end": "2019-12-04",
    "lastActivity": "2019-12-04",
    "attachTo": null,
+   "tags": [
+    "unity",
+    "csharp",
+    "photon",
+    "multiplayer",
+    "top-down"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 379,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-softshop",
+   "title": "SoftShop",
+   "family": "freelance",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "Small e-commerce prototype from October 2019: an Expo SDK 35 storefront (softshop) with a Fastify + MongoDB + Stripe API (softshop-api). One commit each.",
+   "url": null,
+   "repos": [
+    "devin-la/softshop-api",
+    "devin-la/softshop"
+   ],
+   "privateRepos": 2,
+   "start": "2019-10-02",
+   "end": "2019-10-02",
+   "lastActivity": "2019-10-02",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/shopz/server",
+    "macbook2019/shopz/shopexpo"
+   ],
+   "tags": [
+    "expo",
+    "react-native",
+    "fastify",
+    "stripe",
+    "mongodb",
+    "ecommerce"
+   ],
+   "descriptionConfidence": 0.55,
+   "commits": 2,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-react-video-chat",
+   "title": "React Video Chat",
+   "family": "freelance",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "Expo/React Native video chat experiment (August 2019) using react-native-webrtc and socket.io for signaling, targeting iOS, Android and web.",
+   "url": null,
+   "repos": [
+    "devin-la/react-video-chat"
+   ],
+   "privateRepos": 1,
+   "start": "2019-08-29",
+   "end": "2019-08-29",
+   "lastActivity": "2019-08-29",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/react-native-store/react-video-chat"
+   ],
+   "tags": [
+    "react-native",
+    "expo",
+    "webrtc",
+    "socket.io",
+    "video"
+   ],
+   "descriptionConfidence": 0.6,
+   "commits": 3,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-samsung-next-portal-samsung",
+   "title": "Samsung NEXT portal",
+   "family": "personal",
+   "kind": "client",
+   "status": "archived",
+   "description": "AE Studio client work for Samsung NEXT: a member portal with a TypeScript Node API (Knex/Postgres, Elasticsearch, PIN-coded registration for startups, advisors and investors) and a React site with LinkedIn login and Mixpanel, run via docker-compose.",
+   "url": null,
+   "repos": [
+    "samsung-next-portal/samsung-next-api",
+    "samsung-next-portal/samsung-next-site"
+   ],
+   "privateRepos": 2,
+   "start": "2018-06-29",
+   "end": "2019-07-02",
+   "lastActivity": "2019-07-02",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/samsung-next/samsung-next-api",
+    "macbook2019/samsung-next/samsung-next-site"
+   ],
+   "tags": [
+    "typescript",
+    "node",
+    "react",
+    "postgres",
+    "elasticsearch",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 1118,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-zombie",
+   "title": "Zombie",
+   "family": "freelance",
+   "kind": "game",
+   "status": "archived",
+   "description": "Unity zombie/robot survival prototype (robonew) with NavMesh AI and a build folder, pushed to devin-la/zombie in May 2019.",
+   "url": null,
+   "repos": [
+    "devin-la/zombie"
+   ],
+   "privateRepos": 1,
+   "start": "2019-05-01",
+   "end": "2019-05-02",
+   "lastActivity": "2019-05-02",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/unityjunk/robonew"
+   ],
+   "tags": [
+    "unity",
+    "csharp",
+    "prototype",
+    "zombies"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 2,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-platformer",
+   "title": "Platformer Prototype",
+   "family": "freelance",
+   "kind": "game",
+   "status": "archived",
+   "description": "Unity 2D platformer prototype from April 2019 (devin-la/platformer), a single-commit learning project alongside the other unityjunk experiments.",
+   "url": null,
+   "repos": [
+    "devin-la/platformer"
+   ],
+   "privateRepos": 1,
+   "start": "2019-04-15",
+   "end": "2019-04-15",
+   "lastActivity": "2019-04-15",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/unityjunk/platformer"
+   ],
+   "tags": [
+    "unity",
+    "csharp",
+    "platformer",
+    "prototype"
+   ],
+   "descriptionConfidence": 0.45,
+   "commits": 1,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-tds",
+   "title": "TDS",
+   "family": "freelance",
+   "kind": "game",
+   "status": "archived",
+   "description": "Unity top-down shooter prototype (robo2) with NavMesh components, one of several 2019 Unity experiments Devin kept in a unityjunk folder and pushed to devin-la/tds.",
+   "url": null,
+   "repos": [
+    "devin-la/tds"
+   ],
+   "privateRepos": 1,
+   "start": "2019-04-14",
+   "end": "2019-04-14",
+   "lastActivity": "2019-04-14",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/unityjunk/robo2"
+   ],
+   "tags": [
+    "unity",
+    "csharp",
+    "prototype",
+    "top-down-shooter"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 2,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-illroots-stream",
+   "title": "Illroots Stream",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "React Native (Expo SDK 32) audio-streaming app for Illroots, built at Agency Enterprise in early 2019 using react-native-audio-streaming and music-control for lock-screen playback. Only two local commits survive on the drive.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/illroots-stream"
+   ],
+   "privateRepos": 1,
+   "start": "2019-02-16",
+   "end": "2019-02-16",
+   "lastActivity": "2019-02-16",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/illroots/illroots-stream-react"
+   ],
+   "tags": [
+    "react-native",
+    "expo",
+    "audio",
+    "ae-studio",
+    "mobile"
+   ],
+   "descriptionConfidence": 0.6,
+   "commits": 2,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-puppy",
+   "title": "Puppy API",
+   "family": "freelance",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "A Node/Express/MongoDB API with Facebook login, JWT and the eNom domain-registrar API, the backend of a puppy-themed domain project of Devin's (2018).",
+   "url": null,
+   "repos": [
+    "devin-la/puppy-api"
+   ],
+   "privateRepos": 1,
+   "start": "2018-11-30",
+   "end": "2018-11-30",
+   "lastActivity": "2018-11-30",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/puppy/puppy-api"
+   ],
+   "tags": [
+    "node",
+    "express",
+    "mongodb",
+    "enom",
+    "domains"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 1,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-shirt",
+   "title": "Shirt App",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "AE Studio client project rebuilding Shirt App, a custom t-shirt maker, as a cross-platform Ionic mobile app with fastlane/CircleCI, plus shirt-app-web, an Angular CLI admin and Node/Postgres/Redis API integrated with Shopify and render workers.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/shirt-app-mobile",
+    "agencyenterprise/shirt-app-web"
+   ],
+   "privateRepos": 2,
+   "start": "2018-01-22",
+   "end": "2018-11-02",
+   "lastActivity": "2018-11-02",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/shirtapp/shirt-app-mobile",
+    "macbook2019/shirtapp/shirt-app-mobile copy",
+    "macbook2019/shirtapp/shirt-app-web"
+   ],
+   "tags": [
+    "ionic",
+    "angular",
+    "node",
+    "postgres",
+    "shopify",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 4479,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-git-swipe",
+   "title": "Git Swipe",
+   "family": "ae-studio",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "An AE Studio hackathon project in React Native for Web (Expo 27), a swipe-style interface for GitHub.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/git-swipe"
+   ],
+   "privateRepos": 1,
+   "start": "2018-10-19",
+   "end": "2018-10-19",
+   "lastActivity": "2018-10-19",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/hackathon/git-swipe"
+   ],
+   "tags": [
+    "react-native",
+    "expo",
+    "hackathon",
+    "github"
+   ],
+   "descriptionConfidence": 0.55,
+   "commits": 1,
+   "source": "drive"
   },
   {
    "packages": {
@@ -4138,30 +6061,82 @@
     "packagist": []
    },
    "stars": 0,
-   "languages": [
-    "JavaScript"
-   ],
+   "languages": [],
    "items": [],
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
-   "id": "shirt-app-expo",
-   "title": "shirt-app-expo",
-   "family": "personal",
-   "kind": "personal",
+   "id": "drive-agencyenterprise-homey-points",
+   "title": "HomeyPoints",
+   "family": "ae-studio",
+   "kind": "app",
    "status": "archived",
-   "description": "",
+   "description": "An AE Studio full-stack TypeScript React/Node app generated with Krei (AE's boilerplate) using LinkedIn OAuth via Passport and docker-compose.",
    "url": null,
    "repos": [
-    "knoeone/shirt-app-expo"
+    "agencyenterprise/homey-points"
    ],
    "privateRepos": 1,
-   "start": "2018-04-28",
-   "end": "2018-09-22",
-   "lastActivity": "2018-09-22",
+   "start": "2018-09-19",
+   "end": "2018-10-11",
+   "lastActivity": "2018-10-11",
    "attachTo": null,
-   "commits": 30,
-   "source": "github"
+   "drivePaths": [
+    "macbook2019/homeypoints/homey-points"
+   ],
+   "tags": [
+    "typescript",
+    "react",
+    "node",
+    "docker",
+    "krei",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.6,
+   "commits": 48,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-much-better-chat",
+   "title": "Much Better Chat",
+   "family": "ae-studio",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "An AE Studio chat app scaffolded with Krei (React/Node TypeScript client and API in docker-compose); little beyond the boilerplate is documented.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/much-better-chat"
+   ],
+   "privateRepos": 1,
+   "start": "2018-10-02",
+   "end": "2018-10-09",
+   "lastActivity": "2018-10-09",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/much-better-chat/much-better-chat"
+   ],
+   "tags": [
+    "typescript",
+    "react",
+    "node",
+    "chat",
+    "krei",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 35,
+   "source": "drive"
   },
   {
    "packages": {
@@ -4178,11 +6153,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "creature-summoner",
-   "title": "creature-summoner",
+   "title": "Creature Summoner",
    "family": "personal",
-   "kind": "personal",
+   "kind": "game",
    "status": "archived",
-   "description": "",
+   "description": "A React Native for Web (Expo 27) game prototype named Creature Summoner; only the scaffold and src survive.",
    "url": null,
    "repos": [
     "spacedevin/creature-summoner"
@@ -4192,8 +6167,247 @@
    "end": "2018-08-16",
    "lastActivity": "2018-08-16",
    "attachTo": null,
+   "tags": [
+    "react-native",
+    "expo",
+    "web",
+    "game",
+    "prototype"
+   ],
+   "descriptionConfidence": 0.45,
    "commits": 12,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-crypto-stats",
+   "title": "Cryptu",
+   "family": "freelance",
+   "kind": "app",
+   "status": "archived",
+   "description": "Cryptu, a React Native (Expo SDK 25) cryptocurrency price and portfolio stats app with bundle id co.cryptu, paired with the cryptu-server in the crypto tools set.",
+   "url": null,
+   "repos": [
+    "devin-la/crypto-stats"
+   ],
+   "privateRepos": 1,
+   "start": "2018-01-19",
+   "end": "2018-07-24",
+   "lastActivity": "2018-07-24",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/coinlist/coinlist-react-native"
+   ],
+   "tags": [
+    "react-native",
+    "expo",
+    "crypto",
+    "stats"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 40,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-coup",
+   "title": "Coup",
+   "family": "freelance",
+   "kind": "game",
+   "status": "archived",
+   "description": "A React Native for Web (Expo 27) prototype named coup, presumably a digital version of the Coup card game; name only.",
+   "url": null,
+   "repos": [
+    "devin-la/coup"
+   ],
+   "privateRepos": 1,
+   "start": "2018-07-22",
+   "end": "2018-07-22",
+   "lastActivity": "2018-07-22",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/react-native-store/coup"
+   ],
+   "tags": [
+    "react-native",
+    "expo",
+    "web",
+    "game",
+    "prototype"
+   ],
+   "descriptionConfidence": 0.4,
+   "commits": 1,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-onebuttonwenzel",
+   "title": "One Button Wenzel",
+   "family": "ae-studio",
+   "kind": "app",
+   "status": "archived",
+   "description": "An AE Studio Expo/React Native app (with web build and Node server) that orders the Wenzel sandwich with a single tap; a hackathon-style project.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/onebuttonwenzel-app"
+   ],
+   "privateRepos": 1,
+   "start": "2018-07-11",
+   "end": "2018-07-16",
+   "lastActivity": "2018-07-16",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/onebuttonwenzel/onebuttonwenzel-app",
+    "macbook2000/ae/onebuttonwenzel-app"
+   ],
+   "tags": [
+    "react-native",
+    "expo",
+    "node",
+    "hackathon",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 64,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-crunchbutton",
+   "title": "Crunchbutton Services",
+   "family": "crunchbutton",
+   "kind": "company",
+   "status": "archived",
+   "description": "Satellite services and side projects around Crunchbutton where Devin was CTO (2012-2016): Node/Express Twilio fallback and load balancers, gift cards, jobs, log and status pages, the Cluckbutton game, Cordova plugins, cockpit microsite, Docker cron/db images, plus spin-offs like One Button Wenzel, Weedbutton, Taco Loco and Pantepic.",
+   "url": null,
+   "repos": [
+    "crunchbutton/fallback",
+    "crunchbutton/nodebalancer",
+    "crunchbutton/cluckbutton",
+    "crunchbutton/dispatch.la",
+    "crunchbutton/api-example",
+    "crunchbutton/down",
+    "crunchbutton/event",
+    "crunchbutton/twilio-fallback",
+    "crunchbutton/crunchbutton-giftcard-generator",
+    "crunchbutton/jobs",
+    "crunchbutton/log",
+    "crunchbutton/secure",
+    "crunchbutton/devinanddaniel.com",
+    "crunchbutton/image",
+    "crunchbutton/nody",
+    "crunchbutton/nody-docker",
+    "crunchbutton/onebuttonwenzel",
+    "crunchbutton/onebuttonwenzel.com",
+    "crunchbutton/onebuttonwenzel2",
+    "crunchbutton/pantepic",
+    "crunchbutton/tacoloco",
+    "crunchbutton/weedbutton",
+    "crunchbutton/landing",
+    "crunchbutton/cron",
+    "crunchbutton/db-dev",
+    "crunchbutton/cluckbutton-unity",
+    "crunchbutton/cluckbutton-webgl",
+    "crunchbutton/cockpit-app",
+    "crunchbutton/cordova-plugin-balanced"
+   ],
+   "privateRepos": 29,
+   "start": "2012-02-13",
+   "end": "2018-07-16",
+   "lastActivity": "2018-07-16",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/cb-fallback",
+    "_Sites/cb-nodebalancer",
+    "_Sites/cluckbutton",
+    "_Sites/cockpit-microsite",
+    "_Sites/crunchbutton-api-example",
+    "_Sites/crunchbutton-down",
+    "_Sites/crunchbutton-event",
+    "_Sites/crunchbutton-fallback",
+    "_Sites/crunchbutton-giftcards",
+    "_Sites/crunchbutton-jobs",
+    "_Sites/crunchbutton-log",
+    "_Sites/crunchbutton-nodebalancer",
+    "_Sites/crunchbutton-secure",
+    "_Sites/devinanddaniel",
+    "_Sites/i.crunchbutton.com",
+    "_Sites/nody",
+    "_Sites/nody-docker",
+    "_Sites/obw",
+    "_Sites/onebuttonwenzel.com",
+    "_Sites/onebuttonwenzel2",
+    "_Sites/pantepic",
+    "_Sites/tacoloco-crunchbutton",
+    "_Sites/weedbutton",
+    "macbook2019/crunchbutton/landing",
+    "macbook2000/crunchbutton/crunchbutton-api-example",
+    "macbook2000/crunchbutton/crunchbutton-down",
+    "macbook2000/crunchbutton/crunchbutton-event",
+    "macbook2000/crunchbutton/crunchbutton-fallback",
+    "macbook2000/crunchbutton/crunchbutton-giftcards",
+    "macbook2000/crunchbutton/crunchbutton-jobs",
+    "macbook2000/crunchbutton/crunchbutton-log",
+    "macbook2000/crunchbutton/crunchbutton-nodebalancer",
+    "macbook2000/crunchbutton/crunchbutton-secure",
+    "_Development/docker/crunchbutton-cron",
+    "_Development/docker/db-dev",
+    "_Development/ios/cluckbutton-tap",
+    "_Development/ios/cluckbutton-webgl",
+    "_Development/ios/cockpit3",
+    "_Development/ios/cordova-plugin-balanced"
+   ],
+   "tags": [
+    "nodejs",
+    "php",
+    "twilio",
+    "docker",
+    "cordova",
+    "crunchbutton"
+   ],
+   "descriptionConfidence": 0.8,
+   "commits": 893,
+   "source": "drive"
   },
   {
    "packages": {
@@ -4210,11 +6424,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "eth-wallet",
-   "title": "eth-wallet",
+   "title": "ETH Wallet",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "",
+   "description": "A React Native (Expo 27) Ethereum wallet prototype using ethers.js.",
    "url": null,
    "repos": [
     "spacedevin/eth-wallet"
@@ -4224,8 +6438,57 @@
    "end": "2018-07-11",
    "lastActivity": "2018-07-11",
    "attachTo": null,
+   "tags": [
+    "react-native",
+    "expo",
+    "ethereum",
+    "ethers",
+    "wallet"
+   ],
+   "descriptionConfidence": 0.65,
    "commits": 10,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-go-map-ar",
+   "title": "Go (map AR)",
+   "family": "freelance",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "An Expo 28 React Native experiment combining map views, camera capture and expo-three for an AR map game with a wallet.json, in the vein of Pokémon Go.",
+   "url": null,
+   "repos": [
+    "devin-la/go-map-ar"
+   ],
+   "privateRepos": 1,
+   "start": "2018-06-29",
+   "end": "2018-07-01",
+   "lastActivity": "2018-07-01",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/react-native-store/go"
+   ],
+   "tags": [
+    "react-native",
+    "expo",
+    "three.js",
+    "ar",
+    "maps"
+   ],
+   "descriptionConfidence": 0.55,
+   "commits": 3,
+   "source": "drive"
   },
   {
    "packages": {
@@ -4242,11 +6505,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "poke",
-   "title": "poke",
+   "title": "Poke",
    "family": "personal",
-   "kind": "personal",
+   "kind": "game",
    "status": "archived",
-   "description": "",
+   "description": "A React Native for Web (Expo 27) game prototype named Poke with colony artwork, one of Devin's react-native-games experiments.",
    "url": null,
    "repos": [
     "spacedevin/poke"
@@ -4256,8 +6519,56 @@
    "end": "2018-06-13",
    "lastActivity": "2018-06-13",
    "attachTo": null,
+   "tags": [
+    "react-native",
+    "expo",
+    "web",
+    "game",
+    "prototype"
+   ],
+   "descriptionConfidence": 0.5,
    "commits": 12,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-cruise",
+   "title": "Cruise",
+   "family": "freelance",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "A Create React Native App (Expo 27) project with a webpack web build; name only, purpose not documented.",
+   "url": null,
+   "repos": [
+    "devin-la/cruise"
+   ],
+   "privateRepos": 1,
+   "start": "2018-05-22",
+   "end": "2018-05-26",
+   "lastActivity": "2018-05-26",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/cruise"
+   ],
+   "tags": [
+    "react-native",
+    "expo",
+    "web",
+    "prototype"
+   ],
+   "descriptionConfidence": 0.4,
+   "commits": 2,
+   "source": "drive"
   },
   {
    "packages": {
@@ -4397,9 +6708,9 @@
    "id": "cheryl",
    "title": "Cheryl",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "archived",
-   "description": "PHP web based file manager",
+   "description": "Cheryl is Devin's web-based file manager built on PHP (Tipsy framework) and AngularJS, with an Ace editor, local or database-backed storage and a one-click Heroku deploy (Nginx + Postgres); 97 commits across the 3.0 and 4.0 beta versions, 2013 onward.",
    "url": "http://cheryl.io",
    "repos": [
     "spacedevin/cheryl"
@@ -4409,6 +6720,14 @@
    "end": "2018-01-03",
    "lastActivity": "2018-01-03",
    "attachTo": null,
+   "tags": [
+    "php",
+    "angularjs",
+    "tipsy",
+    "file-manager",
+    "open-source"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 95,
    "source": "github"
   },
@@ -4466,11 +6785,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "diet",
-   "title": "diet",
+   "title": "Diet Victory",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "archived",
-   "description": "diet app",
+   "description": "A Create React Native App (Expo) diet tracking app named Diet Victory, paired with a Node server using the FatSecret food API and Facebook login.",
    "url": null,
    "repos": [
     "knoeone/diet"
@@ -4480,8 +6799,59 @@
    "end": "2017-11-28",
    "lastActivity": "2017-11-28",
    "attachTo": null,
+   "tags": [
+    "react-native",
+    "expo",
+    "diet",
+    "fatsecret"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 41,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-coscrape",
+   "title": "Coscrape",
+   "family": "ae-studio",
+   "kind": "tool",
+   "status": "archived",
+   "description": "An AE Studio lead-generation scraper for AngelList and Crunchbase: Node workers with PhantomJS/Horseman, Tor and rotating proxies, MongoDB, a company ranking score, email validation and CSV export, with a React frontend and docker-compose scaling.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/coscrape"
+   ],
+   "privateRepos": 1,
+   "start": "2017-09-21",
+   "end": "2017-11-28",
+   "lastActivity": "2017-11-28",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/coscrape",
+    "macbook2000/ae/coscrape"
+   ],
+   "tags": [
+    "node",
+    "scraping",
+    "phantomjs",
+    "mongodb",
+    "react",
+    "docker",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 252,
+   "source": "drive"
   },
   {
    "packages": {
@@ -4571,6 +6941,50 @@
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
+   "id": "drive-agencyenterprise-bitfax",
+   "title": "BitFax",
+   "family": "ae-studio",
+   "kind": "app",
+   "status": "archived",
+   "description": "BitFax, an AE Studio product that sends faxes through Twilio's fax API and accepts Bitcoin payments via Stripe and block_io; React frontend, Node/Express API and worker, MongoDB, PDF rendering with PhantomJS/ImageMagick on Heroku.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/bitfax"
+   ],
+   "privateRepos": 1,
+   "start": "2017-10-19",
+   "end": "2017-11-14",
+   "lastActivity": "2017-11-14",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/bitfax/bitfaxweb",
+    "macbook2000/ae/bitfax"
+   ],
+   "tags": [
+    "react",
+    "node",
+    "twilio",
+    "bitcoin",
+    "stripe",
+    "mongodb",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 110,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
    "id": "ionic-video-chat-support",
    "title": "ionic-video-chat-support",
    "family": "personal",
@@ -4609,11 +7023,11 @@
     "repo": "knoeone/juryoku"
    },
    "id": "juryoku",
-   "title": "juryoku",
+   "title": "Juryoku",
    "family": "personal",
-   "kind": "personal",
+   "kind": "game",
    "status": "archived",
-   "description": "",
+   "description": "Juryoku is Devin's space shooter game built in Unity (C#/UnityScript, iOS build) with 136 commits from 2014, plus a 2017 node/Express/MongoDB backend with JWT auth for accounts and scores.",
    "url": null,
    "repos": [
     "knoeone/juryoku",
@@ -4624,6 +7038,15 @@
    "end": "2017-11-12",
    "lastActivity": "2017-11-12",
    "attachTo": null,
+   "tags": [
+    "unity",
+    "csharp",
+    "game",
+    "ios",
+    "node",
+    "mongodb"
+   ],
+   "descriptionConfidence": 0.8,
    "commits": 164,
    "source": "github"
   },
@@ -4642,11 +7065,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "weather",
-   "title": "weather",
+   "title": "Weather (Electron menubar)",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "archived",
-   "description": "",
+   "description": "A React 16 Electron menubar weather app with FontAwesome Pro icons and local JSON storage.",
    "url": null,
    "repos": [
     "knoeone/weather-app"
@@ -4656,6 +7079,13 @@
    "end": "2017-11-09",
    "lastActivity": "2017-11-09",
    "attachTo": null,
+   "tags": [
+    "electron",
+    "react",
+    "menubar",
+    "weather"
+   ],
+   "descriptionConfidence": 0.75,
    "commits": 20,
    "source": "github"
   },
@@ -4680,11 +7110,11 @@
     "repo": "knoeone/ionic-video-chat-v2"
    },
    "id": "ionic-video-chat",
-   "title": "ionic-video-chat",
+   "title": "Ionic Video Chat",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "archived",
-   "description": "Server for ionic video chat",
+   "description": "Devin's commercial Ionic starter sold on the Ionic Market: a WhatsApp-style video and text chat app using WebRTC (cordova-plugin-iosrtc), socket.io signaling and a Node/MongoDB backend, shipped in Ionic 1, 2 and 3 versions plus a React Native server variant.",
    "url": "http://ionicvideochat.com",
    "repos": [
     "knoeone/ionic-video-chat",
@@ -4697,6 +7127,15 @@
    "end": "2017-11-03",
    "lastActivity": "2017-11-03",
    "attachTo": null,
+   "tags": [
+    "ionic",
+    "webrtc",
+    "socket.io",
+    "node",
+    "mongodb",
+    "product"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 179,
    "source": "github"
   },
@@ -4737,6 +7176,48 @@
     "packagist": []
    },
    "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-blankbox",
+   "title": "Blankbox",
+   "family": "freelance",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "A Node/Express experiment scraping coin pages with Horseman/PhantomJS and taking Bitcoin payments via block_io; a crypto side project of Devin's from 2017.",
+   "url": null,
+   "repos": [
+    "devin-la/blankbox"
+   ],
+   "privateRepos": 1,
+   "start": "2017-10-05",
+   "end": "2017-11-01",
+   "lastActivity": "2017-11-01",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/beatr/blankbox",
+    "macbook2019/blankbox/blankbox",
+    "macbook2019/blankbox/react-box"
+   ],
+   "tags": [
+    "node",
+    "bitcoin",
+    "scraping",
+    "block_io"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 4,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
    "languages": [
     "JavaScript"
    ],
@@ -4745,11 +7226,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "devin-2017",
-   "title": "devin-2017",
+   "title": "devin.la (2017)",
    "family": "personal",
    "kind": "personal",
    "status": "archived",
-   "description": "",
+   "description": "Devin's 2017 personal site and resume: a Node/Express app with Handlebars views, MongoDB, a Tumblr feed via his own node-tumblr fork, Mailgun, Stripe and a JSON resume, deployed on Heroku.",
    "url": null,
    "repos": [
     "spacedevin/devin-2017"
@@ -4759,8 +7240,61 @@
    "end": "2017-10-31",
    "lastActivity": "2017-10-31",
    "attachTo": null,
+   "tags": [
+    "node",
+    "express",
+    "handlebars",
+    "mongodb",
+    "portfolio"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 122,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-wireless",
+   "title": "Wireless app",
+   "family": "ae-studio",
+   "kind": "client",
+   "status": "archived",
+   "description": "An AE Studio React Native (Expo SDK 21) app with a Node/Express/MongoDB server (babel-node, JWT auth) for a wireless client; the readme only says to use yarn.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/wireless-app",
+    "agencyenterprise/wireless-server"
+   ],
+   "privateRepos": 2,
+   "start": "2017-10-27",
+   "end": "2017-10-30",
+   "lastActivity": "2017-10-30",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2019/wireless/dev",
+    "macbook2019/wireless/server",
+    "macbook2000/ae/wireless-app",
+    "macbook2000/ae/wireless-server"
+   ],
+   "tags": [
+    "react-native",
+    "expo",
+    "node",
+    "mongodb",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 16,
+   "source": "drive"
   },
   {
    "packages": {
@@ -4809,11 +7343,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "betapet",
-   "title": "betapet",
+   "title": "Betapet",
    "family": "personal",
-   "kind": "personal",
+   "kind": "game",
    "status": "archived",
-   "description": "",
+   "description": "A Unity C# virtual-pet game prototype by Devin (related to the pettactoe and deformpet pet experiments).",
    "url": null,
    "repos": [
     "spacedevin/betapet"
@@ -4823,8 +7357,55 @@
    "end": "2017-09-07",
    "lastActivity": "2017-09-07",
    "attachTo": null,
+   "tags": [
+    "unity",
+    "csharp",
+    "pet",
+    "prototype"
+   ],
+   "descriptionConfidence": 0.55,
    "commits": 7,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-vrad",
+   "title": "VRAD",
+   "family": "ae-studio",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "An AE Studio VR/game experiment with mouse and keyboard controls (WASD, jump/punch, toggle between robot and player); engine files are unsynced so only the controls readme remains.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/vrad"
+   ],
+   "privateRepos": 1,
+   "start": "2017-08-20",
+   "end": "2017-08-27",
+   "lastActivity": "2017-08-27",
+   "attachTo": null,
+   "drivePaths": [
+    "_Development/vr_nosync/something"
+   ],
+   "tags": [
+    "vr",
+    "unity",
+    "game",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 37,
+   "source": "drive"
   },
   {
    "packages": {
@@ -4881,11 +7462,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "moonshyne",
-   "title": "moonshyne",
+   "title": "Moonshyne",
    "family": "personal",
-   "kind": "personal",
+   "kind": "company",
    "status": "archived",
-   "description": "Ionic app",
+   "description": "Moonshyne, a startup app connecting bartenders with events, built by Devin around 2017: a Node/Express/MongoDB API with Stripe, socket.io and cron jobs, a separate socket server, an Ionic 2 native app and a marketing site.",
    "url": null,
    "repos": [
     "knoeone/moonshyne-native",
@@ -4896,6 +7477,15 @@
    "end": "2017-06-07",
    "lastActivity": "2017-06-07",
    "attachTo": null,
+   "tags": [
+    "node",
+    "express",
+    "mongodb",
+    "ionic",
+    "stripe",
+    "startup"
+   ],
+   "descriptionConfidence": 0.8,
    "commits": 177,
    "source": "github"
   },
@@ -4906,30 +7496,41 @@
     "packagist": []
    },
    "stars": 0,
-   "languages": [
-    "JavaScript"
-   ],
+   "languages": [],
    "items": [],
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
-   "id": "moonshyne-socket",
-   "title": "moonshyne-socket",
+   "id": "drive-spin-car-shopping-spin",
+   "title": "Spin Car Shopping",
    "family": "personal",
-   "kind": "personal",
+   "kind": "client",
    "status": "archived",
-   "description": "",
+   "description": "AE Studio client work for Spin, a car-shopping app: a native iOS app (spin-ios) talking to a search API run by a contractor plus a PHP web/API tree, taken over as the project transitioned to AE.",
    "url": null,
    "repos": [
-    "knoeone/moonshyne-socket"
+    "spin-car-shopping/spin-api",
+    "spin-car-shopping/spin-ios"
    ],
-   "privateRepos": 1,
-   "start": "2017-05-13",
-   "end": "2017-06-02",
-   "lastActivity": "2017-06-02",
+   "privateRepos": 2,
+   "start": "2016-11-16",
+   "end": "2017-05-30",
+   "lastActivity": "2017-05-30",
    "attachTo": null,
-   "commits": 8,
-   "source": "github"
+   "drivePaths": [
+    "_Sites/spin/src-web",
+    "_Development/ios/spin-ios"
+   ],
+   "tags": [
+    "ios",
+    "swift",
+    "php",
+    "api",
+    "ae-studio"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 126,
+   "source": "drive"
   },
   {
    "packages": {
@@ -4982,6 +7583,86 @@
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
+   "id": "drive-lumapictures-ftrack-deliv-matrix",
+   "title": "ftrack delivery matrix",
+   "family": "luma",
+   "kind": "tool",
+   "status": "archived",
+   "description": "A node REST service for Luma Pictures' ftrack delivery matrix, packaged as a Docker container with install/update/build shell scripts for the VM; 170 commits, LumaPictures/ftrack_deliv_matrix.",
+   "url": null,
+   "repos": [
+    "lumapictures/ftrack_deliv_matrix"
+   ],
+   "privateRepos": 1,
+   "start": "2016-02-13",
+   "end": "2017-05-24",
+   "lastActivity": "2017-05-24",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/luma/deliv"
+   ],
+   "tags": [
+    "node",
+    "docker",
+    "ftrack",
+    "luma",
+    "vfx"
+   ],
+   "descriptionConfidence": 0.8,
+   "commits": 170,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-dontcomeknocking",
+   "title": "Don't Come Knocking",
+   "family": "freelance",
+   "kind": "site",
+   "status": "archived",
+   "description": "A static under-construction page for Don't Come Knocking (2017), a full-screen image with a hand-rolled CSS reset.",
+   "url": null,
+   "repos": [
+    "devin-la/dontcomeknocking"
+   ],
+   "privateRepos": 1,
+   "start": "2017-05-10",
+   "end": "2017-05-10",
+   "lastActivity": "2017-05-10",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/dontcomeknocking"
+   ],
+   "tags": [
+    "static",
+    "html",
+    "landing"
+   ],
+   "descriptionConfidence": 0.6,
+   "commits": 2,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
    "id": "drive-development-dota2",
    "title": "Dota 2 Stat",
    "family": "personal",
@@ -5016,30 +7697,38 @@
     "packagist": []
    },
    "stars": 0,
-   "languages": [
-    "CSS"
-   ],
+   "languages": [],
    "items": [],
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
-   "id": "moonshyne-co",
-   "title": "moonshyne-co",
-   "family": "personal",
-   "kind": "personal",
+   "id": "drive-mousemingle",
+   "title": "Mouse Mingle Native",
+   "family": "freelance",
+   "kind": "client",
    "status": "archived",
-   "description": "Moonshyne website",
-   "url": "http://moonshyne.co",
+   "description": "An Ionic/Cordova wrapper that packages the mousemingle.com dating site for Disney fans as a native iOS/Android app.",
+   "url": null,
    "repos": [
-    "knoeone/moonshyne.co"
+    "devin-la/mousemingle-native"
    ],
    "privateRepos": 1,
-   "start": "2017-03-03",
-   "end": "2017-03-04",
-   "lastActivity": "2017-03-04",
+   "start": "2017-02-23",
+   "end": "2017-02-23",
+   "lastActivity": "2017-02-23",
    "attachTo": null,
-   "commits": 15,
-   "source": "github"
+   "drivePaths": [
+    "_Development/ios/mousemingle"
+   ],
+   "tags": [
+    "ionic",
+    "cordova",
+    "hybrid",
+    "mobile"
+   ],
+   "descriptionConfidence": 0.75,
+   "commits": 2,
+   "source": "drive"
   },
   {
    "packages": {
@@ -5306,11 +7995,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "hosts",
-   "title": "hosts",
+   "title": "Hosts / Todoitron",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "archived",
-   "description": "Host file manager",
+   "description": "Two small Electron desktop utilities scaffolded from the WoW Stat codebase (readme still says WoW Stat): a hosts-file editor and a todo app.",
    "url": null,
    "repos": [
     "knoeone/hosts"
@@ -5320,6 +8009,13 @@
    "end": "2017-01-04",
    "lastActivity": "2017-01-04",
    "attachTo": null,
+   "tags": [
+    "electron",
+    "node",
+    "desktop",
+    "utility"
+   ],
+   "descriptionConfidence": 0.55,
    "commits": 15,
    "source": "github"
   },
@@ -5377,11 +8073,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "nova",
-   "title": "nova",
+   "title": "Nova",
    "family": "personal",
-   "kind": "personal",
+   "kind": "client",
    "status": "archived",
-   "description": "",
+   "description": "An Ionic 1 / Cordova iOS app built by Devin as freelance work for MPC (the design folder holds an invoice and NDA), packaged with an Express server and Gulp/Sass build.",
    "url": null,
    "repos": [
     "knoeone/nova"
@@ -5391,6 +8087,14 @@
    "end": "2016-12-23",
    "lastActivity": "2016-12-23",
    "attachTo": null,
+   "tags": [
+    "ionic",
+    "cordova",
+    "ios",
+    "angular",
+    "freelance"
+   ],
+   "descriptionConfidence": 0.65,
    "commits": 92,
    "source": "github"
   },
@@ -5483,9 +8187,9 @@
    "id": "wowstat",
    "title": "WoW Stat",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "archived",
-   "description": "A World of Warcraft uptime monitor",
+   "description": "World of Warcraft server monitor by Devin that watches a realm and notifies or relaunches WoW when it comes back up; rebuilt several times, most recently as a signed Electron app for macOS and Windows (wowst.at), with earlier native macOS versions and a PHP web site.",
    "url": "http://wow-stat.net/",
    "repos": [
     "spacedevin/wowstat-legacy",
@@ -5497,6 +8201,14 @@
    "end": "2016-11-30",
    "lastActivity": "2016-11-30",
    "attachTo": null,
+   "tags": [
+    "electron",
+    "javascript",
+    "macos",
+    "windows",
+    "gaming"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 67,
    "source": "github"
   },
@@ -5537,6 +8249,48 @@
    ],
    "descriptionConfidence": 0.5,
    "commits": 0,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-give-mobi",
+   "title": "Give.mobi Node API",
+   "family": "freelance",
+   "kind": "app",
+   "status": "archived",
+   "description": "A minimal Node/Express API over Give.mobi's existing MySQL database using Sequelize, JWT auth and PayPal Express Checkout, written to run on Heroku as a later replacement for the original PHP backend.",
+   "url": null,
+   "repos": [
+    "devin-la/give-mobi-node"
+   ],
+   "privateRepos": 1,
+   "start": "2016-10-26",
+   "end": "2016-10-26",
+   "lastActivity": "2016-10-26",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/give-node"
+   ],
+   "tags": [
+    "node",
+    "express",
+    "mysql",
+    "sequelize",
+    "paypal",
+    "give-mobi"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 6,
    "source": "drive"
   },
   {
@@ -5630,6 +8384,48 @@
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
+   "id": "drive-youbeo-boostable",
+   "title": "Boostable",
+   "family": "ae-studio",
+   "kind": "app",
+   "status": "archived",
+   "description": "Multi-service Boostable project under the youbeo org: a Scala/sbt API, a Django server, a Bower/Gulp client, MySQL and nginx, all wired together with build/run shell scripts and a shared web-core submodule.",
+   "url": null,
+   "repos": [
+    "youbeo/boostable"
+   ],
+   "privateRepos": 1,
+   "start": "2016-06-08",
+   "end": "2016-09-14",
+   "lastActivity": "2016-09-14",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/boostable"
+   ],
+   "tags": [
+    "scala",
+    "django",
+    "mysql",
+    "nginx",
+    "docker",
+    "youbeo"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 93,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
    "id": "drive-development-bear-rpg",
    "title": "Bear RPG",
    "family": "personal",
@@ -5705,6 +8501,87 @@
     "packagist": []
    },
    "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-tracknfield-track-js",
+   "title": "Track (Node benchmark)",
+   "family": "personal",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "Performance benchmark of Node.js/Express with Postgres inserts, the JavaScript side of a Node-vs-Scala comparison Devin ran under the tracknfield org.",
+   "url": null,
+   "repos": [
+    "tracknfield/track-js"
+   ],
+   "privateRepos": 1,
+   "start": "2016-08-30",
+   "end": "2016-08-30",
+   "lastActivity": "2016-08-30",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/track-js"
+   ],
+   "tags": [
+    "node",
+    "postgres",
+    "benchmark",
+    "express"
+   ],
+   "descriptionConfidence": 0.75,
+   "commits": 1,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-moonbase",
+   "title": "WoW Stat (Electron)",
+   "family": "freelance",
+   "kind": "app",
+   "status": "archived",
+   "description": "WoW Stat, Devin's World of Warcraft realm monitor that notifies you when your server is back up and can relaunch the game, rebuilt on Electron with macOS and Windows builds via electron-builder.",
+   "url": null,
+   "repos": [
+    "devin-la/moonbase"
+   ],
+   "privateRepos": 1,
+   "start": "2016-08-23",
+   "end": "2016-08-23",
+   "lastActivity": "2016-08-23",
+   "attachTo": null,
+   "drivePaths": [
+    "_Development/osx/moonbase"
+   ],
+   "tags": [
+    "electron",
+    "node",
+    "desktop",
+    "wow",
+    "utility"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 3,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
    "languages": [
     "HTML"
    ],
@@ -5713,11 +8590,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "adventurefest",
-   "title": "adventurefest",
+   "title": "Adventure Fest 2016",
    "family": "personal",
-   "kind": "personal",
+   "kind": "site",
    "status": "archived",
-   "description": "",
+   "description": "A single-page static site for an Adventure Fest 2016 event, hand-coded HTML/CSS with Google Fonts and pushed to GitHub Pages.",
    "url": "http://adventurefe.st",
    "repos": [
     "spacedevin/adventurefest"
@@ -5727,6 +8604,13 @@
    "end": "2016-08-16",
    "lastActivity": "2016-08-16",
    "attachTo": null,
+   "tags": [
+    "static",
+    "html",
+    "event",
+    "landing"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 4,
    "source": "github"
   },
@@ -5809,6 +8693,87 @@
    "source": "drive"
   },
   {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-nomad",
+   "title": "DC Nomad",
+   "family": "freelance",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "A small Node/Express site with Mongoose and Stripe and a photo-backed landing page (Barcelona, Berlin, Tokyo, Kyoto), a 2016 digital-nomad travel idea of Devin's.",
+   "url": null,
+   "repos": [
+    "devin-la/nomad"
+   ],
+   "privateRepos": 1,
+   "start": "2016-08-05",
+   "end": "2016-08-05",
+   "lastActivity": "2016-08-05",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/dcnomad"
+   ],
+   "tags": [
+    "node",
+    "express",
+    "mongodb",
+    "stripe",
+    "travel"
+   ],
+   "descriptionConfidence": 0.6,
+   "commits": 1,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-wowstat-cache",
+   "title": "WoW Stat Cache",
+   "family": "personal",
+   "kind": "tool",
+   "status": "archived",
+   "description": "Small Node/Express service backed by Elasticsearch that caches World of Warcraft realm status for the WoW Stat desktop app.",
+   "url": null,
+   "repos": [
+    "arzynik/wowstat-cache"
+   ],
+   "privateRepos": 1,
+   "start": "2016-06-27",
+   "end": "2016-07-20",
+   "lastActivity": "2016-07-20",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/wowstat-cache"
+   ],
+   "tags": [
+    "node",
+    "express",
+    "elasticsearch",
+    "wow"
+   ],
+   "descriptionConfidence": 0.75,
+   "commits": 3,
+   "source": "drive"
+  },
+  {
    "id": "legacy-drink",
    "title": "Drinks",
    "family": "personal",
@@ -5859,6 +8824,89 @@
    "attachTo": null,
    "commits": 52,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-solitarymann",
+   "title": "A Solitary Mann",
+   "family": "freelance",
+   "kind": "client",
+   "status": "archived",
+   "description": "Promo site for 'A Solitary Mann', a film by Loic Zimmermann: AngularJS single page with gallery, news, soundtrack and about views, Instagram and Twitter feeds, on GitHub Pages; 52 commits, 2015.",
+   "url": null,
+   "repos": [
+    "devin-la/solitarymann"
+   ],
+   "privateRepos": 1,
+   "start": "2015-10-11",
+   "end": "2016-07-17",
+   "lastActivity": "2016-07-17",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/solitarymann"
+   ],
+   "tags": [
+    "site",
+    "angularjs",
+    "film",
+    "github-pages",
+    "client"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 52,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-pokeloc",
+   "title": "Pokeloc",
+   "family": "freelance",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "Node/Express service with Mongoose, Redis and the Twitter API that tracked Pokémon Go sighting locations from tweets, with a small public map page using codebird; deployed to Heroku (2016).",
+   "url": null,
+   "repos": [
+    "devin-la/pokeloc"
+   ],
+   "privateRepos": 1,
+   "start": "2016-07-14",
+   "end": "2016-07-14",
+   "lastActivity": "2016-07-14",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/pokeloc"
+   ],
+   "tags": [
+    "node",
+    "express",
+    "mongodb",
+    "redis",
+    "twitter",
+    "pokemon-go"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 2,
+   "source": "drive"
   },
   {
    "packages": {
@@ -5950,23 +8998,35 @@
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
-   "id": "colos",
-   "title": "colos",
+   "id": "drive-kidadmit-api",
+   "title": "Kidadmit",
    "family": "personal",
-   "kind": "personal",
+   "kind": "client",
    "status": "archived",
-   "description": "Simple and elegant Philips Hue lighting system control",
-   "url": "http://colos.io",
+   "description": "Kidadmit, a preschool admissions startup and Agency Enterprise client: Devin worked on its Django 1.7/Python API with Braintree payments (599 commits) and its AngularJS/gulp front end (762 commits), from 2015.",
+   "url": null,
    "repos": [
-    "spacedevin/colos-web"
+    "kidadmit/api"
    ],
-   "privateRepos": 0,
-   "start": "2013-12-12",
-   "end": "2016-05-17",
-   "lastActivity": "2016-05-17",
+   "privateRepos": 1,
+   "start": "2015-04-14",
+   "end": "2016-05-18",
+   "lastActivity": "2016-05-18",
    "attachTo": null,
-   "commits": 21,
-   "source": "github"
+   "drivePaths": [
+    "_Sites/kidadmit/api"
+   ],
+   "tags": [
+    "django",
+    "python",
+    "angularjs",
+    "braintree",
+    "ae-studio",
+    "client"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 599,
+   "source": "drive"
   },
   {
    "packages": {
@@ -6061,11 +9121,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "gamma-wray",
-   "title": "gamma-wray",
+   "title": "Gamma Wray",
    "family": "personal",
-   "kind": "personal",
+   "kind": "client",
    "status": "archived",
-   "description": "GAMMA WRAY - The painter's journey of William Wray",
+   "description": "Promo site for 'Gamma Wray', a documentary about painter William Wray by Loic Zimmermann: an AngularJS single-page site with teaser, trailer, film and story views, hosted on GitHub Pages; 20 commits, 2014.",
    "url": "http://www.gamma-wray.com/",
    "repos": [
     "spacedevin/gamma-wray"
@@ -6075,6 +9135,14 @@
    "end": "2016-05-17",
    "lastActivity": "2016-05-17",
    "attachTo": null,
+   "tags": [
+    "site",
+    "angularjs",
+    "film",
+    "github-pages",
+    "client"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 20,
    "source": "github"
   },
@@ -6095,9 +9163,9 @@
    "id": "gh-pages-spa",
    "title": "gh-pages-spa",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "github pages spa tests",
+   "description": "A demo showing how to serve an AngularJS single-page app from GitHub Pages using a 404.html fallback and symlinked routes; 6 commits, 2016.",
    "url": null,
    "repos": [
     "spacedevin/gh-pages-spa"
@@ -6107,6 +9175,13 @@
    "end": "2016-05-17",
    "lastActivity": "2016-05-17",
    "attachTo": null,
+   "tags": [
+    "angularjs",
+    "github-pages",
+    "spa",
+    "demo"
+   ],
+   "descriptionConfidence": 0.8,
    "commits": 6,
    "source": "github"
   },
@@ -6125,11 +9200,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "karma",
-   "title": "karma",
+   "title": "Karma",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "archived",
-   "description": "server and site",
+   "description": "Karma, a social app for giving karma to people nearby: an Ionic/Cordova app plus a node/Express server with Mongoose models for users, karma, conversations, locations and avatars; 159 commits from Feb 2016 with several Ionic 2 rewrites.",
    "url": null,
    "repos": [
     "knoeone/karma"
@@ -6139,8 +9214,56 @@
    "end": "2016-05-12",
    "lastActivity": "2016-05-12",
    "attachTo": null,
+   "tags": [
+    "ionic",
+    "cordova",
+    "node",
+    "mongodb",
+    "social"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 157,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-20x20",
+   "title": "20x20",
+   "family": "personal",
+   "kind": "client",
+   "status": "archived",
+   "description": "Hosted copy of the Webflow-exported portfolio site for 20X20 (Amir Rad and Faraz Abbasi) with a CNAME for GitHub Pages; 3 commits, 2016.",
+   "url": null,
+   "repos": [
+    "arzynik/20x20"
+   ],
+   "privateRepos": 1,
+   "start": "2016-04-23",
+   "end": "2016-04-23",
+   "lastActivity": "2016-04-23",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/20x20"
+   ],
+   "tags": [
+    "site",
+    "webflow",
+    "portfolio",
+    "client"
+   ],
+   "descriptionConfidence": 0.6,
+   "commits": 3,
+   "source": "drive"
   },
   {
    "packages": {
@@ -6258,9 +9381,9 @@
    "id": "dockerphish",
    "title": "dockerphish",
    "family": "personal",
-   "kind": "personal",
+   "kind": "hosting",
    "status": "archived",
-   "description": "Docker, php, nginx, github pull",
+   "description": "A Docker image (Dockerfile, nginx.conf, run.sh) bundling Nginx and PHP 7 with a GitHub deploy hook, used as a base for Devin's Tipsy apps; 32 commits, 2015.",
    "url": null,
    "repos": [
     "spacedevin/dockerphish"
@@ -6270,8 +9393,55 @@
    "end": "2015-12-21",
    "lastActivity": "2015-12-21",
    "attachTo": null,
+   "tags": [
+    "docker",
+    "nginx",
+    "php",
+    "devops"
+   ],
+   "descriptionConfidence": 0.75,
    "commits": 32,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-haunted-scraper",
+   "title": "Haunted scraper",
+   "family": "freelance",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "A PHP scraper (QueryPath + Tipsy) that collects haunted-location listings into haunted.csv; 3 commits, Dec 2015, with matching ghost loader artwork.",
+   "url": null,
+   "repos": [
+    "devin-la/haunted-scraper"
+   ],
+   "privateRepos": 1,
+   "start": "2015-12-16",
+   "end": "2015-12-16",
+   "lastActivity": "2015-12-16",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/haunted-scraper"
+   ],
+   "tags": [
+    "php",
+    "scraper",
+    "querypath",
+    "tipsy"
+   ],
+   "descriptionConfidence": 0.6,
+   "commits": 3,
+   "source": "drive"
   },
   {
    "packages": {
@@ -6292,11 +9462,11 @@
     "repo": "spacedevin/github-wiki-single-page"
    },
    "id": "github-wiki-single-page",
-   "title": "github-wiki-single-page",
+   "title": "GitHub Wiki Single Page",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "archived",
-   "description": "A multi-page GitHub wiki to Bootstrap single html file converter",
+   "description": "A Ruby tool (redcarpet + Bootstrap/Bootswatch + highlight.js) that renders a GitHub wiki as one themed single page, deployable to Heroku and used for the Tipsy docs; 27 commits, 2015.",
    "url": "https://github-wiki-single-page.herokuapp.com",
    "repos": [
     "spacedevin/github-wiki-single-page"
@@ -6306,8 +9476,56 @@
    "end": "2015-12-15",
    "lastActivity": "2015-12-15",
    "attachTo": null,
+   "tags": [
+    "ruby",
+    "github",
+    "wiki",
+    "docs",
+    "heroku"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 27,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-php-framework-benchmark",
+   "title": "PHP framework benchmark (fork)",
+   "family": "personal",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "Devin's fork of kenjis/php-framework-benchmark, adding Tipsy to the bootstrap-overhead comparison against other PHP frameworks; 2014.",
+   "url": null,
+   "repos": [
+    "arzynik/php-framework-benchmark"
+   ],
+   "privateRepos": 1,
+   "start": "2014-11-23",
+   "end": "2015-12-13",
+   "lastActivity": "2015-12-13",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/php-framework-benchmark-devin"
+   ],
+   "tags": [
+    "php",
+    "benchmark",
+    "tipsy",
+    "fork"
+   ],
+   "descriptionConfidence": 0.75,
+   "commits": 348,
+   "source": "drive"
   },
   {
    "packages": {
@@ -6395,6 +9613,47 @@
     "packagist": []
    },
    "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-buildstep",
+   "title": "buildstep (fork)",
+   "family": "personal",
+   "kind": "hosting",
+   "status": "archived",
+   "description": "Devin's fork of tutum/buildstep, a Docker base image that builds containers from app code using Heroku buildpacks; 19 local commits from 2014 while moving Crunchbutton toward Docker/Dokku hosting.",
+   "url": null,
+   "repos": [
+    "arzynik/buildstep"
+   ],
+   "privateRepos": 1,
+   "start": "2014-04-04",
+   "end": "2015-11-07",
+   "lastActivity": "2015-11-07",
+   "attachTo": null,
+   "drivePaths": [
+    "_Development/docker/buildstep"
+   ],
+   "tags": [
+    "docker",
+    "heroku",
+    "buildpack",
+    "fork",
+    "devops"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 19,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
    "languages": [
     "Shell"
    ],
@@ -6405,9 +9664,9 @@
    "id": "buildstep-php-mcrypt-fix",
    "title": "buildstep-php-mcrypt-fix",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "archived",
-   "description": "fixes mycrypt not working on php7 and buildbacks",
+   "description": "A small buildstep/buildpack shim (bin/ scripts) that adds the PHP mcrypt extension to Heroku-style PHP builds; 9 commits, 2015.",
    "url": null,
    "repos": [
     "spacedevin/buildstep-php-mcrypt-fix"
@@ -6417,6 +9676,13 @@
    "end": "2015-11-03",
    "lastActivity": "2015-11-03",
    "attachTo": null,
+   "tags": [
+    "heroku",
+    "buildpack",
+    "php",
+    "devops"
+   ],
+   "descriptionConfidence": 0.6,
    "commits": 9,
    "source": "github"
   },
@@ -6479,11 +9745,11 @@
     "repo": "spacedevin/github-to-slack"
    },
    "id": "github-to-slack",
-   "title": "github-to-slack",
+   "title": "GitHub to Slack",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "archived",
-   "description": "forward ticket closures and their closing messages only to slack",
+   "description": "A node webhook service that groups GitHub issue-close events and comments into one Slack message instead of Slack's noisy default integration; configured by environment variables and deployable to Heroku; 55 commits, 2015.",
    "url": null,
    "repos": [
     "spacedevin/github-to-slack"
@@ -6493,8 +9759,58 @@
    "end": "2015-10-16",
    "lastActivity": "2015-10-16",
    "attachTo": null,
+   "tags": [
+    "node",
+    "github",
+    "slack",
+    "webhook",
+    "open-source"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 56,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-agencyenterprise-nody",
+   "title": "Nody",
+   "family": "ae-studio",
+   "kind": "app",
+   "status": "archived",
+   "description": "Nody, a server provisioning and monitoring service built at Agency Enterprise: PHP 7 on the Tipsy framework using the Linode API, PubNub realtime messaging and a Dokku/Docker deployment (Procfile, DOKKU_SCALE, nginx.conf), with a companion Dockerised agent (nody-agent); 100 commits from Sep 2015.",
+   "url": null,
+   "repos": [
+    "agencyenterprise/nody"
+   ],
+   "privateRepos": 1,
+   "start": "2015-09-17",
+   "end": "2015-10-13",
+   "lastActivity": "2015-10-13",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/ae/nody"
+   ],
+   "tags": [
+    "php",
+    "tipsy",
+    "linode",
+    "pubnub",
+    "docker",
+    "devops"
+   ],
+   "descriptionConfidence": 0.65,
+   "commits": 100,
+   "source": "drive"
   },
   {
    "packages": {
@@ -6550,11 +9866,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "colos-io",
-   "title": "colos-io",
+   "title": "Colos",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "archived",
-   "description": "app",
+   "description": "Colos is Devin's iOS/iPad app for controlling Philips Hue lights with preset animated colour transitions, built with Cordova (config.xml, platforms, plugins, res, www); 54 commits from Dec 2013.",
    "url": null,
    "repos": [
     "knoeone/colos.io"
@@ -6564,6 +9880,14 @@
    "end": "2015-09-08",
    "lastActivity": "2015-09-08",
    "attachTo": null,
+   "tags": [
+    "ios",
+    "cordova",
+    "philips-hue",
+    "app",
+    "javascript"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 54,
    "source": "github"
   },
@@ -6584,9 +9908,9 @@
    "id": "heroku-buildpack-cmd",
    "title": "heroku-buildpack-cmd",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "archived",
-   "description": "just runs a simple build commnd when we are all done",
+   "description": "A tiny Heroku buildpack (bin/ scripts) that runs an arbitrary command during the build; 6 commits, 2015.",
    "url": null,
    "repos": [
     "spacedevin/heroku-buildpack-cmd"
@@ -6596,8 +9920,55 @@
    "end": "2015-08-21",
    "lastActivity": "2015-08-21",
    "attachTo": null,
+   "tags": [
+    "heroku",
+    "buildpack",
+    "devops"
+   ],
+   "descriptionConfidence": 0.65,
    "commits": 7,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-give",
+   "title": "Give (Lumen rebuild)",
+   "family": "freelance",
+   "kind": "app",
+   "status": "archived",
+   "description": "A 2015 rebuild of Give.mobi on Laravel Lumen 5.1 with Mailgun, alongside the original give-dot-mobi-beta code; 6 commits.",
+   "url": null,
+   "repos": [
+    "devin-la/give"
+   ],
+   "privateRepos": 1,
+   "start": "2015-07-14",
+   "end": "2015-07-14",
+   "lastActivity": "2015-07-14",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/give-laravel"
+   ],
+   "tags": [
+    "php",
+    "lumen",
+    "laravel",
+    "give.mobi",
+    "donations"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 6,
+   "source": "drive"
   },
   {
    "packages": {
@@ -6614,11 +9985,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "devin",
-   "title": "devin",
+   "title": "devin.la",
    "family": "personal",
    "kind": "personal",
    "status": "archived",
-   "description": "My personal sloppy code of a site.",
+   "description": "Devin's personal site (devin-la/devin repo) with a PHP include/www layout, alongside small Heroku HHVM+Postgres and Node test deployments used to try hosting options.",
    "url": "http://devin.la",
    "repos": [
     "spacedevin/devin"
@@ -6628,6 +9999,13 @@
    "end": "2013-12-30",
    "lastActivity": "2015-05-22",
    "attachTo": null,
+   "tags": [
+    "php",
+    "personal-site",
+    "heroku",
+    "hhvm"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 226,
    "source": "github"
   },
@@ -6724,11 +10102,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "regpuppy",
-   "title": "regpuppy",
+   "title": "RegPuppy",
    "family": "personal",
-   "kind": "personal",
+   "kind": "site",
    "status": "archived",
-   "description": "regpuppy.com",
+   "description": "Cana-engine PHP site with an OAuth directory and Google site verification; the regpuppy repo name suggests a domain-registration or signup service, but no docs survive.",
    "url": "http://regpuppy.com",
    "repos": [
     "knoeone/regpuppy"
@@ -6738,6 +10116,12 @@
    "end": "2014-03-26",
    "lastActivity": "2014-03-26",
    "attachTo": null,
+   "tags": [
+    "php",
+    "cana",
+    "oauth"
+   ],
+   "descriptionConfidence": 0.35,
    "commits": 45,
    "source": "github"
   },
@@ -6756,11 +10140,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "tmaui",
-   "title": "tmaui",
+   "title": "T-Maui",
    "family": "personal",
-   "kind": "personal",
+   "kind": "client",
    "status": "archived",
-   "description": "t-maui.com",
+   "description": "Website for the VFX studio T (Capital T / T-Maui) with client and include dirs, demo reels and an Iron Man 3 demo clip; Devin designed and built the site with poster and reel assets.",
    "url": null,
    "repos": [
     "knoeone/tmaui"
@@ -6770,6 +10154,13 @@
    "end": "2014-03-05",
    "lastActivity": "2014-03-05",
    "attachTo": null,
+   "tags": [
+    "php",
+    "web-design",
+    "vfx",
+    "client"
+   ],
+   "descriptionConfidence": 0.6,
    "commits": 20,
    "source": "github"
   },
@@ -6825,6 +10216,87 @@
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
+   "id": "drive-app-resgen",
+   "title": "app-resgen",
+   "family": "personal",
+   "kind": "tool",
+   "status": "archived",
+   "description": "A PHP/ImageMagick script that generates every iOS and Android icon and splash-screen size from one large PNG or SVG, for PhoneGap and native projects; 2013.",
+   "url": null,
+   "repos": [
+    "arzynik/app-resgen"
+   ],
+   "privateRepos": 1,
+   "start": "2013-11-14",
+   "end": "2013-11-14",
+   "lastActivity": "2013-11-14",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/app-resgen"
+   ],
+   "tags": [
+    "php",
+    "imagemagick",
+    "ios",
+    "android",
+    "icons"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 1,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-github-to-hipchat",
+   "title": "GitHub to HipChat",
+   "family": "personal",
+   "kind": "tool",
+   "status": "archived",
+   "description": "A small node/Express script that groups GitHub issue-close events and their comments into a single HipChat notification, with an install script for the GitHub service hooks; written for Crunchbutton (cb-gh-hc), 2013.",
+   "url": null,
+   "repos": [
+    "arzynik/github-to-hipchat"
+   ],
+   "privateRepos": 1,
+   "start": "2013-11-12",
+   "end": "2013-11-12",
+   "lastActivity": "2013-11-12",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/cb-gh-hc"
+   ],
+   "tags": [
+    "node",
+    "github",
+    "hipchat",
+    "webhook"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 1,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
    "id": "drive-design-nunnu",
    "title": "Nunnu Design",
    "family": "design",
@@ -6866,11 +10338,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "crystal-murray",
-   "title": "crystal-murray",
+   "title": "Crystal Murray",
    "family": "personal",
-   "kind": "personal",
+   "kind": "client",
    "status": "archived",
-   "description": "Crystal Murray's Personal Website",
+   "description": "Website for Crystal Murray with a www root, paired with extensive Photoshop/Illustrator design work (paint backgrounds, cartoon character, social share graphics and 2016 business cards). Personal client-style site Devin designed and built.",
    "url": "http://crystalmurray.com",
    "repos": [
     "spacedevin/crystal-murray"
@@ -6880,6 +10352,13 @@
    "end": "2013-08-09",
    "lastActivity": "2013-08-09",
    "attachTo": null,
+   "tags": [
+    "php",
+    "web-design",
+    "illustrator",
+    "client"
+   ],
+   "descriptionConfidence": 0.6,
    "commits": 20,
    "source": "github"
   },
@@ -6899,11 +10378,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "droplet",
-   "title": "droplet",
+   "title": "Droplet",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "archived",
-   "description": "http://droplet.la",
+   "description": "Devin's Droplet project in three parts: a PHP web backend (droplet-web) with DB triggers, a Cordova iOS app (droplet-app, built IPA) and a macOS component (droplet) with assets and deliverables. The product's purpose is not documented.",
    "url": null,
    "repos": [
     "knoeone/droplet",
@@ -6916,6 +10395,13 @@
    "end": "2013-04-02",
    "lastActivity": "2013-04-02",
    "attachTo": null,
+   "tags": [
+    "php",
+    "cordova",
+    "ios",
+    "macos"
+   ],
+   "descriptionConfidence": 0.5,
    "commits": 76,
    "source": "github"
   },
@@ -6965,6 +10451,129 @@
     "packagist": []
    },
    "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-lazycache-js",
+   "title": "lazycache.js",
+   "family": "personal",
+   "kind": "library",
+   "status": "archived",
+   "description": "JavaScript local image cache for PhoneGap/Cordova and Chrome's HTML5 file API, co-authored by Devin with Christophe Benoit (2012-2013); loads images from cache first and updates element src to avoid repeat HTTP requests.",
+   "url": null,
+   "repos": [
+    "arzynik/lazycache.js"
+   ],
+   "privateRepos": 1,
+   "start": "2012-04-25",
+   "end": "2013-04-01",
+   "lastActivity": "2013-04-01",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/lazycache.js"
+   ],
+   "tags": [
+    "javascript",
+    "cordova",
+    "phonegap",
+    "caching"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 30,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-lazyorm-js",
+   "title": "lazyorm.js",
+   "family": "personal",
+   "kind": "library",
+   "status": "archived",
+   "description": "A small jQuery library by Devin that lazily maps JavaScript objects to WebSQL/localStorage and a REST endpoint, loading from memory first and falling back to local then remote, with AngularJS usage notes; 2013.",
+   "url": null,
+   "repos": [
+    "arzynik/lazyorm.js"
+   ],
+   "privateRepos": 1,
+   "start": "2013-04-01",
+   "end": "2013-04-01",
+   "lastActivity": "2013-04-01",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/lazyorm.js"
+   ],
+   "tags": [
+    "javascript",
+    "orm",
+    "websql",
+    "rest",
+    "angularjs"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 4,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-cluckbutton",
+   "title": "Cluckbutton",
+   "family": "freelance",
+   "kind": "game",
+   "status": "archived",
+   "description": "Devin's mobile/web game (\"Help Calvin survive the giant worms\") with an ios folder, a node backend and a www build; 34 local commits from 2012. Later reworked as a WebGL build and a Unity platformer.",
+   "url": null,
+   "repos": [
+    "devin-la/cluckbutton"
+   ],
+   "privateRepos": 1,
+   "start": "2012-08-30",
+   "end": "2013-03-07",
+   "lastActivity": "2013-03-07",
+   "attachTo": null,
+   "drivePaths": [
+    "macbook2000/crunchbutton/cluckbutton",
+    "_Development/ios/cluckbutton"
+   ],
+   "tags": [
+    "game",
+    "ios",
+    "node",
+    "cordova",
+    "indie"
+   ],
+   "descriptionConfidence": 0.75,
+   "commits": 68,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
    "languages": [
     "PHP"
    ],
@@ -6973,11 +10582,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "timeout",
-   "title": "timeout",
+   "title": "Timeout",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "archived",
-   "description": "A PHP implementation of Javascript's setTimeout",
+   "description": "A PHP implementation of JavaScript's setTimeout: runs a closure asynchronously in a background process, using SuperClosure to serialize closures. Written by Devin for firing off mail and Twilio/Phaxio callbacks without blocking, 2012.",
    "url": "http://arzynik.github.com/Timeout ",
    "repos": [
     "spacedevin/Timeout"
@@ -6987,8 +10596,56 @@
    "end": "2013-02-23",
    "lastActivity": "2013-02-23",
    "attachTo": null,
+   "tags": [
+    "php",
+    "async",
+    "library",
+    "open-source"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 8,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-textsupport",
+   "title": "Textsupport",
+   "family": "freelance",
+   "kind": "tool",
+   "status": "archived",
+   "description": "A node/Express app with Twilio, Sequelize, Passport and socket.io that handles SMS-based customer support conversations in a live web view; 30 commits from Feb 2013, built during the Crunchbutton years.",
+   "url": null,
+   "repos": [
+    "devin-la/textsupport"
+   ],
+   "privateRepos": 1,
+   "start": "2013-02-14",
+   "end": "2013-02-17",
+   "lastActivity": "2013-02-17",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/textsupport"
+   ],
+   "tags": [
+    "node",
+    "express",
+    "twilio",
+    "sms",
+    "socket.io"
+   ],
+   "descriptionConfidence": 0.75,
+   "commits": 30,
+   "source": "drive"
   },
   {
    "packages": {
@@ -7031,6 +10688,126 @@
    "source": "drive"
   },
   {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-cana-sample",
+   "title": "Cana sample app",
+   "family": "personal",
+   "kind": "library",
+   "status": "archived",
+   "description": "Sample application (db, include, www) for Cana, Devin's PHP framework, from Nov 2012; 3 commits on arzynik/cana-sample.",
+   "url": null,
+   "repos": [
+    "arzynik/cana-sample"
+   ],
+   "privateRepos": 1,
+   "start": "2012-11-27",
+   "end": "2012-11-27",
+   "lastActivity": "2012-11-27",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/cana-sample"
+   ],
+   "tags": [
+    "php",
+    "cana",
+    "framework",
+    "example"
+   ],
+   "descriptionConfidence": 0.6,
+   "commits": 3,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-pie",
+   "title": "Pie",
+   "family": "freelance",
+   "kind": "app",
+   "status": "archived",
+   "description": "Devin's Pie project (devin-la/pie, 14 commits, Oct 2012): a node backend and a web front end using codebird.js for the Twitter API, with a matching Titanium mobile app. Details of the product are not documented.",
+   "url": null,
+   "repos": [
+    "devin-la/pie"
+   ],
+   "privateRepos": 1,
+   "start": "2012-10-19",
+   "end": "2012-10-31",
+   "lastActivity": "2012-10-31",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/pie"
+   ],
+   "tags": [
+    "node",
+    "twitter",
+    "mobile",
+    "titanium"
+   ],
+   "descriptionConfidence": 0.5,
+   "commits": 14,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-lumapictures-luma",
+   "title": "Luma Pictures Website",
+   "family": "luma",
+   "kind": "site",
+   "status": "archived",
+   "description": "lumapictures.com company site built and maintained by Devin in PHP with content, cron, uploads and a 2011 database dump; README notes storage/stills image dirs and a pymel tools folder. 2009-2012.",
+   "url": null,
+   "repos": [
+    "lumapictures/luma-web"
+   ],
+   "privateRepos": 1,
+   "start": "2011-04-28",
+   "end": "2012-09-12",
+   "lastActivity": "2012-09-12",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/lumaweb"
+   ],
+   "tags": [
+    "php",
+    "website",
+    "vfx",
+    "luma"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 257,
+   "source": "drive"
+  },
+  {
    "id": "work-give-mobi",
    "title": "Give.mobi",
    "family": "career",
@@ -7049,6 +10826,47 @@
    "stars": 0,
    "languages": [],
    "items": []
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-lumapictures-colaby-bb",
+   "title": "Colaby BB",
+   "family": "luma",
+   "kind": "tool",
+   "status": "archived",
+   "description": "Luma Pictures' fork of Colaby used as the next-generation Big Brother production tracker (cbb.luma-pictures.com), with build/CLI/node tooling, SQL migrations and a 2012 database dump. Devin's Luma tools work.",
+   "url": null,
+   "repos": [
+    "lumapictures/colaby-bb"
+   ],
+   "privateRepos": 1,
+   "start": "2011-04-14",
+   "end": "2012-08-24",
+   "lastActivity": "2012-08-24",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/cbb"
+   ],
+   "tags": [
+    "php",
+    "nodejs",
+    "vfx",
+    "luma",
+    "colaby"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 928,
+   "source": "drive"
   },
   {
    "id": "work-luma-pictures",
@@ -7159,6 +10977,45 @@
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
+   "id": "drive-crowdfund",
+   "title": "Crowdfund",
+   "family": "freelance",
+   "kind": "site",
+   "status": "archived",
+   "description": "Cana-engine PHP crowdfunding site (devin-la/crowdfund) with a July 2012 database dump; likely paired with the SmartCrowding design.",
+   "url": null,
+   "repos": [
+    "devin-la/crowdfund"
+   ],
+   "privateRepos": 1,
+   "start": "2012-06-13",
+   "end": "2012-07-09",
+   "lastActivity": "2012-07-09",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/crowdfund"
+   ],
+   "tags": [
+    "php",
+    "cana",
+    "crowdfunding"
+   ],
+   "descriptionConfidence": 0.45,
+   "commits": 32,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
    "id": "drive-design-smartcrowding",
    "title": "SmartCrowding Design",
    "family": "design",
@@ -7192,30 +11049,37 @@
     "packagist": []
    },
    "stars": 0,
-   "languages": [
-    "PHP"
-   ],
+   "languages": [],
    "items": [],
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
-   "id": "cana-paypal",
-   "title": "cana-paypal",
-   "family": "personal",
-   "kind": "personal",
+   "id": "drive-bundle",
+   "title": "Bundle",
+   "family": "freelance",
+   "kind": "site",
    "status": "archived",
-   "description": "PHP Paypal Checkout and Mobile Checkout Library",
-   "url": "http://devin.la",
+   "description": "Cana-engine PHP site (devin-la/bundle) with the 2009 bootstrap; purpose undocumented.",
+   "url": null,
    "repos": [
-    "spacedevin/cana-paypal"
+    "devin-la/bundle"
    ],
-   "privateRepos": 0,
-   "start": "2010-09-24",
-   "end": "2012-05-07",
-   "lastActivity": "2012-05-07",
+   "privateRepos": 1,
+   "start": "2012-05-09",
+   "end": "2012-05-09",
+   "lastActivity": "2012-05-09",
    "attachTo": null,
-   "commits": 7,
-   "source": "github"
+   "drivePaths": [
+    "_Sites/bundle"
+   ],
+   "tags": [
+    "php",
+    "cana",
+    "website"
+   ],
+   "descriptionConfidence": 0.3,
+   "commits": 1,
+   "source": "drive"
   },
   {
    "packages": {
@@ -7224,30 +11088,77 @@
     "packagist": []
    },
    "stars": 0,
-   "languages": [
-    "JavaScript"
-   ],
+   "languages": [],
    "items": [],
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
-   "id": "jquery-parallax",
-   "title": "jquery-parallax",
-   "family": "personal",
-   "kind": "personal",
+   "id": "drive-isuck-widget",
+   "title": "iSuck Widget",
+   "family": "freelance",
+   "kind": "tool",
    "status": "archived",
-   "description": "jParallax - Mouse move parallax library for jquery",
+   "description": "macOS Dashboard widget (iSuck.wdgt) by Devin; a Dashcode project of unclear purpose, possibly a Big Brother stats widget.",
    "url": null,
    "repos": [
-    "spacedevin/jquery-parallax"
+    "devin-la/isuck-widget"
    ],
-   "privateRepos": 0,
-   "start": "2012-05-02",
-   "end": "2012-05-02",
-   "lastActivity": "2012-05-02",
+   "privateRepos": 1,
+   "start": "2012-05-03",
+   "end": "2012-05-08",
+   "lastActivity": "2012-05-08",
    "attachTo": null,
-   "commits": 5,
-   "source": "github"
+   "drivePaths": [
+    "_Development/osx/isuck"
+   ],
+   "tags": [
+    "macos",
+    "dashboard",
+    "widget",
+    "dashcode"
+   ],
+   "descriptionConfidence": 0.4,
+   "commits": 3,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-piphany",
+   "title": "Piphany",
+   "family": "freelance",
+   "kind": "site",
+   "status": "archived",
+   "description": "Cana-engine PHP site (devin-la/piphany, folder 'indef') sharing the pfny bootstrap; content and purpose undocumented.",
+   "url": null,
+   "repos": [
+    "devin-la/piphany"
+   ],
+   "privateRepos": 1,
+   "start": "2012-02-06",
+   "end": "2012-05-01",
+   "lastActivity": "2012-05-01",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/indef"
+   ],
+   "tags": [
+    "php",
+    "cana",
+    "website"
+   ],
+   "descriptionConfidence": 0.3,
+   "commits": 20,
+   "source": "drive"
   },
   {
    "packages": {
@@ -7294,6 +11205,124 @@
     "packagist": []
    },
    "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-workspacemobile",
+   "title": "Workspace Mobile",
+   "family": "freelance",
+   "kind": "site",
+   "status": "archived",
+   "description": "Cana-engine PHP mobile site (include/wm.php); no docs identify the client or purpose.",
+   "url": null,
+   "repos": [
+    "devin-la/workspacemobile"
+   ],
+   "privateRepos": 1,
+   "start": "2012-04-27",
+   "end": "2012-04-27",
+   "lastActivity": "2012-04-27",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/workspacemobile"
+   ],
+   "tags": [
+    "php",
+    "cana",
+    "mobile"
+   ],
+   "descriptionConfidence": 0.3,
+   "commits": 1,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-jquery-storescrolloffset",
+   "title": "jQuery Store Scroll Offset",
+   "family": "personal",
+   "kind": "library",
+   "status": "archived",
+   "description": "Small jQuery plugin by Devin that persists an element's scroll position in cookies with optional snapping; MIT/GPLv2.",
+   "url": null,
+   "repos": [
+    "arzynik/jquery-storescrolloffset"
+   ],
+   "privateRepos": 1,
+   "start": "2012-04-21",
+   "end": "2012-04-21",
+   "lastActivity": "2012-04-21",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/jquery-storescrolloffset"
+   ],
+   "tags": [
+    "javascript",
+    "jquery",
+    "plugin"
+   ],
+   "descriptionConfidence": 0.9,
+   "commits": 1,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-obw-wenzelme",
+   "title": "Wenzel.me",
+   "family": "personal",
+   "kind": "site",
+   "status": "archived",
+   "description": "Web app in the obw (One Button Wenzel) GitHub org with a Heroku Procfile, Node and Python (pip) pieces; a Crunchbutton-era spin-off site.",
+   "url": null,
+   "repos": [
+    "obw/wenzelme"
+   ],
+   "privateRepos": 1,
+   "start": "2012-02-13",
+   "end": "2012-04-12",
+   "lastActivity": "2012-04-12",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/wenzelme"
+   ],
+   "tags": [
+    "heroku",
+    "nodejs",
+    "python",
+    "crunchbutton"
+   ],
+   "descriptionConfidence": 0.4,
+   "commits": 285,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
    "languages": [
     "PHP"
    ],
@@ -7302,11 +11331,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "cana-colorblender",
-   "title": "cana-colorblender",
+   "title": "Cana ColorBlender",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "archived",
-   "description": "Blends colors for cana",
+   "description": "Cana package with a color-blending library.",
    "url": "http://cana.la",
    "repos": [
     "spacedevin/cana-colorblender"
@@ -7316,6 +11345,12 @@
    "end": "2012-04-05",
    "lastActivity": "2012-04-05",
    "attachTo": null,
+   "tags": [
+    "php",
+    "cana",
+    "color"
+   ],
+   "descriptionConfidence": 0.6,
    "commits": 3,
    "source": "github"
   },
@@ -7334,11 +11369,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "cana-emoji",
-   "title": "cana-emoji",
+   "title": "Cana Emoji",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "archived",
-   "description": "Emoji library wrapped for cana",
+   "description": "Cana package providing emoji handling.",
    "url": "http://cana.la",
    "repos": [
     "spacedevin/cana-emoji"
@@ -7348,6 +11383,12 @@
    "end": "2012-04-05",
    "lastActivity": "2012-04-05",
    "attachTo": null,
+   "tags": [
+    "php",
+    "cana",
+    "emoji"
+   ],
+   "descriptionConfidence": 0.6,
    "commits": 3,
    "source": "github"
   },
@@ -7366,11 +11407,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "cana-facebook",
-   "title": "cana-facebook",
+   "title": "Cana Facebook",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "archived",
-   "description": "Facebook wrapped for cana",
+   "description": "Cana package wrapping the Facebook API.",
    "url": "http://cana.la",
    "repos": [
     "spacedevin/cana-facebook"
@@ -7380,6 +11421,12 @@
    "end": "2012-04-05",
    "lastActivity": "2012-04-05",
    "attachTo": null,
+   "tags": [
+    "php",
+    "cana",
+    "facebook"
+   ],
+   "descriptionConfidence": 0.6,
    "commits": 3,
    "source": "github"
   },
@@ -7398,11 +11445,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "cana-growl",
-   "title": "cana-growl",
+   "title": "Cana Growl",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "archived",
-   "description": "Growl wrapped for cana",
+   "description": "Cana package for sending Growl notifications.",
    "url": "http://cana.la",
    "repos": [
     "spacedevin/cana-growl"
@@ -7412,6 +11459,13 @@
    "end": "2012-04-05",
    "lastActivity": "2012-04-05",
    "attachTo": null,
+   "tags": [
+    "php",
+    "cana",
+    "growl",
+    "notifications"
+   ],
+   "descriptionConfidence": 0.6,
    "commits": 3,
    "source": "github"
   },
@@ -7430,11 +11484,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "cana-sitemap",
-   "title": "cana-sitemap",
+   "title": "Cana Sitemap",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "archived",
-   "description": "Google sitemap builder for cana",
+   "description": "Cana package for generating XML sitemaps.",
    "url": "http://cana.la",
    "repos": [
     "spacedevin/cana-sitemap"
@@ -7444,6 +11498,12 @@
    "end": "2012-04-05",
    "lastActivity": "2012-04-05",
    "attachTo": null,
+   "tags": [
+    "php",
+    "cana",
+    "sitemap"
+   ],
+   "descriptionConfidence": 0.6,
    "commits": 3,
    "source": "github"
   },
@@ -7503,11 +11563,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "phppowerbrowse",
-   "title": "phppowerbrowse",
+   "title": "PHP Power Browse",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "archived",
-   "description": "PHP onefile file browser",
+   "description": "Single-file PHP directory browser (v1.2) by Devin under the arzdev.com name, showing file stats and source with per-file/directory security and custom colors, with images embedded in the script. ArzDev-era freelance tool.",
    "url": "http://devin.la",
    "repos": [
     "spacedevin/PHPPowerBrowse"
@@ -7517,8 +11577,94 @@
    "end": "2012-04-03",
    "lastActivity": "2012-04-03",
    "attachTo": null,
+   "tags": [
+    "php",
+    "file-browser",
+    "arzdev"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 2,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-github-auto-release",
+   "title": "github-auto-release",
+   "family": "personal",
+   "kind": "tool",
+   "status": "archived",
+   "description": "Small PHP script by Devin that, via a GitHub service hook, builds a release archive automatically whenever a branch is pushed.",
+   "url": null,
+   "repos": [
+    "arzynik/github-auto-release"
+   ],
+   "privateRepos": 1,
+   "start": "2012-02-03",
+   "end": "2012-02-03",
+   "lastActivity": "2012-02-03",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/github-auto-release"
+   ],
+   "tags": [
+    "php",
+    "github",
+    "webhook",
+    "releases"
+   ],
+   "descriptionConfidence": 0.9,
+   "commits": 4,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-magy",
+   "title": "Magy",
+   "family": "freelance",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "Magazine publishing experiment (devin-la/Magy) that splits a PDF issue (Toujours premier issue) into pages with ImageMagick for web and iOS delivery; only a build script plus the Caffeine site copy and push certificates remain.",
+   "url": null,
+   "repos": [
+    "devin-la/magy"
+   ],
+   "privateRepos": 1,
+   "start": "2012-02-02",
+   "end": "2012-02-02",
+   "lastActivity": "2012-02-02",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/magy"
+   ],
+   "tags": [
+    "php",
+    "imagemagick",
+    "magazine",
+    "ios"
+   ],
+   "descriptionConfidence": 0.45,
+   "commits": 1,
+   "source": "drive"
   },
   {
    "packages": {
@@ -7692,7 +11838,7 @@
    "family": "personal",
    "kind": "personal",
    "status": "archived",
-   "description": "",
+   "description": "Devin's long-running personal art and design site, built on his Caffeine PHP engine (www/index.php boots Caffeine::app()) with an include/source/www layout and a history section. Design assets date it to 2004-2010.",
    "url": "http://e338.com",
    "repos": [
     "knoeone/e338"
@@ -7702,6 +11848,13 @@
    "end": "2011-09-03",
    "lastActivity": "2011-09-03",
    "attachTo": null,
+   "tags": [
+    "php",
+    "caffeine",
+    "personal-site",
+    "art"
+   ],
+   "descriptionConfidence": 0.55,
    "commits": 24,
    "source": "github"
   },
@@ -7759,11 +11912,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "sd-webcheck",
-   "title": "sd-webcheck",
+   "title": "WebCheck",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "archived",
-   "description": "WebCheck Plugin for Server Density",
+   "description": "Python plugin for the Server Density agent by Devin that fetches a URL and regex-checks the response (e.g. for </html> or 'Fatal Error') to alert on broken pages; sample config monitors Give.mobi and devin.la.",
    "url": "http://plugins.serverdensity.com/webcheck/",
    "repos": [
     "spacedevin/sd-webcheck"
@@ -7773,6 +11926,12 @@
    "end": "2011-08-11",
    "lastActivity": "2011-08-11",
    "attachTo": null,
+   "tags": [
+    "python",
+    "monitoring",
+    "server-density"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 5,
    "source": "github"
   },
@@ -7793,9 +11952,9 @@
    "id": "cpanel-import",
    "title": "cpanel-import",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "archived",
-   "description": "Import cpanel backups into a simple lamp setup",
+   "description": "PHP root script by Devin that imports cPanel account backups onto a plain server: creates users and groups, Apache vhosts, log dirs, MySQL databases and moves public_html. Written when migrating ArzHost accounts off cPanel.",
    "url": "http://devin.la/",
    "repos": [
     "spacedevin/cpanel-import"
@@ -7805,6 +11964,13 @@
    "end": "2011-08-04",
    "lastActivity": "2011-08-04",
    "attachTo": null,
+   "tags": [
+    "php",
+    "cpanel",
+    "sysadmin",
+    "migration"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 22,
    "source": "github"
   },
@@ -7897,23 +12063,73 @@
    "releases": 0,
    "majors": 0,
    "latestRelease": null,
-   "id": "give-mobi-content",
-   "title": "give-mobi-content",
-   "family": "personal",
-   "kind": "personal",
+   "id": "drive-lumapictures-lumanukegizmos",
+   "title": "LumaNukeGizmos",
+   "family": "luma",
+   "kind": "library",
    "status": "archived",
-   "description": "Logos for give.mobi",
-   "url": "http://give.mobi",
+   "description": "Luma Pictures' public set of Nuke gizmos (AlphaClean, BlurHue, CameraBlur, ExponBlur, AspectMask, Grain, SpotRemover and more) with Python menu/init scripts that auto-register gizmos. A Luma repo Devin kept a checkout of; his authorship of the gizmos is unclear.",
+   "url": null,
    "repos": [
-    "knoeone/give-mobi-content"
+    "lumapictures/lumanukegizmos"
    ],
    "privateRepos": 1,
-   "start": "2011-02-15",
-   "end": "2011-03-06",
-   "lastActivity": "2011-03-06",
+   "start": "2011-02-11",
+   "end": "2011-02-11",
+   "lastActivity": "2011-02-11",
    "attachTo": null,
-   "commits": 14,
-   "source": "github"
+   "drivePaths": [
+    "_Sites/LumaNukeGizmos"
+   ],
+   "tags": [
+    "nuke",
+    "python",
+    "vfx",
+    "luma"
+   ],
+   "descriptionConfidence": 0.4,
+   "commits": 2,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-paypalcheckout",
+   "title": "PaypalCheckout",
+   "family": "personal",
+   "kind": "library",
+   "status": "archived",
+   "description": "PHP library for PayPal's Mobile Checkout NVP API written by Devin in June 2009, usable standalone or with Caffeine Engine and Zend Framework; includes a Curl wrapper and example.",
+   "url": null,
+   "repos": [
+    "arzynik/paypalcheckout"
+   ],
+   "privateRepos": 1,
+   "start": "2010-09-23",
+   "end": "2011-02-01",
+   "lastActivity": "2011-02-01",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/paypalcheckout"
+   ],
+   "tags": [
+    "php",
+    "paypal",
+    "payments",
+    "zend"
+   ],
+   "descriptionConfidence": 0.9,
+   "commits": 3,
+   "source": "drive"
   },
   {
    "packages": {
@@ -8166,11 +12382,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "quickcontrol",
-   "title": "quickcontrol",
+   "title": "QuickControl",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "archived",
-   "description": "Javascript Quicktime movie player for mootools",
+   "description": "MooTools JavaScript library (January 2010) that replaces Flash for QuickTime video playback on web pages with custom styled controls; includes CSS and an example.",
    "url": "http://devin.la",
    "repos": [
     "spacedevin/QuickControl"
@@ -8180,6 +12396,13 @@
    "end": "2010-09-24",
    "lastActivity": "2010-09-24",
    "attachTo": null,
+   "tags": [
+    "javascript",
+    "mootools",
+    "quicktime",
+    "video"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 1,
    "source": "github"
   },
@@ -8198,11 +12421,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "csssprite",
-   "title": "csssprite",
+   "title": "CSSsprite",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "archived",
-   "description": "PHP CSS sprite generator",
+   "description": "PHP library by Devin (June 2009) that generates a sprite image and matching CSS classes from a set of images using ImageMagick, so a page loads all its icons in one request.",
    "url": "http://devin.la",
    "repos": [
     "spacedevin/CSSsprite"
@@ -8212,8 +12435,56 @@
    "end": "2010-09-23",
    "lastActivity": "2010-09-23",
    "attachTo": null,
+   "tags": [
+    "php",
+    "css",
+    "imagemagick",
+    "sprites"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 1,
    "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-caffeine",
+   "title": "Caffeine",
+   "family": "personal",
+   "kind": "framework",
+   "status": "archived",
+   "description": "Devin's PHP CMS/framework, described in its README as the 12th iteration of his framework work (Caffeine 3), with App, Config (XML), Db (MySQL), Model, Table, Changeset, Crypt, Curl, File, Thumb (ImageMagick) and browser-detection classes. Used as the base for e338, Out and other 2009-era sites, and the predecessor of Cana.",
+   "url": null,
+   "repos": [
+    "arzynik/caffeine"
+   ],
+   "privateRepos": 1,
+   "start": "2010-09-23",
+   "end": "2010-09-23",
+   "lastActivity": "2010-09-23",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/Caffeine"
+   ],
+   "tags": [
+    "php",
+    "framework",
+    "cms",
+    "mysql",
+    "caffeine"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 1,
+   "source": "drive"
   },
   {
    "packages": {
@@ -8290,6 +12561,48 @@
    ],
    "descriptionConfidence": 0.5,
    "commits": 0,
+   "source": "drive"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "drive-friendbot",
+   "title": "FriendBot",
+   "family": "freelance",
+   "kind": "app",
+   "status": "archived",
+   "description": "Windows desktop MySpace automation client written in C# (.NET, Visual Studio 2005 solution 'myspacebot') with an embedded browser, friend extraction, friend-request accepter, ads, licensing and auto-update modules, plus a bot CMS database dump. The product of Devin's FriendBot company, 2005-2009.",
+   "url": null,
+   "repos": [
+    "devin-la/friendbot"
+   ],
+   "privateRepos": 1,
+   "start": "2010-06-09",
+   "end": "2010-06-09",
+   "lastActivity": "2010-06-09",
+   "attachTo": null,
+   "drivePaths": [
+    "_Sites/friendbot/apps"
+   ],
+   "tags": [
+    "csharp",
+    "dotnet",
+    "windows",
+    "myspace",
+    "automation",
+    "friendbot"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 1,
    "source": "drive"
   },
   {
@@ -18434,7 +22747,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "friendbot local history starts (1 commits on the drive)",
+   "summary": "friendbot started (1 commits)",
    "url": null
   },
   {
@@ -18530,7 +22843,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Caffeine local history starts (1 commits on the drive)",
+   "summary": "Caffeine started (1 commits)",
    "url": null
   },
   {
@@ -18543,7 +22856,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "PaypalCheckout local history starts (3 commits on the drive)",
+   "summary": "PaypalCheckout started (3 commits)",
    "url": null
   },
   {
@@ -18590,19 +22903,6 @@
    "count": 1,
    "summary": "QuickControl local history starts (1 commits on the drive)",
    "url": null
-  },
-  {
-   "projectId": "cana-paypal",
-   "repo": "spacedevin/cana-paypal",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2010-09-24",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "cana-paypal started (creator, 7 commits)",
-   "url": "https://github.com/spacedevin/cana-paypal"
   },
   {
    "projectId": "osfilemanager",
@@ -18997,7 +23297,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "LumaNukeGizmos local history starts (2 commits on the drive)",
+   "summary": "LumaNukeGizmos started (2 commits)",
    "url": null
   },
   {
@@ -19011,19 +23311,6 @@
    "major": false,
    "count": 1,
    "summary": "lmm (7 files on the drive)",
-   "url": null
-  },
-  {
-   "projectId": "give-mobi-content",
-   "repo": "knoeone/give-mobi-content",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2011-02-15",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "give-mobi-content started (creator, 14 commits)",
    "url": null
   },
   {
@@ -19132,7 +23419,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "colaby-bb local history starts (928 commits on the drive)",
+   "summary": "colaby-bb started (928 commits)",
    "url": null
   },
   {
@@ -19145,7 +23432,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "luma-web local history starts (257 commits on the drive)",
+   "summary": "luma-web started (257 commits)",
    "url": null
   },
   {
@@ -19598,7 +23885,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Magy local history starts (1 commits on the drive)",
+   "summary": "Magy started (1 commits)",
    "url": null
   },
   {
@@ -19611,7 +23898,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "github-auto-release local history starts (4 commits on the drive)",
+   "summary": "github-auto-release started (4 commits)",
    "url": null
   },
   {
@@ -19624,7 +23911,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "piphany local history starts (20 commits on the drive)",
+   "summary": "piphany started (20 commits)",
    "url": null
   },
   {
@@ -19637,7 +23924,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "onebuttonwenzel2 local history starts (285 commits on the drive)",
+   "summary": "onebuttonwenzel2 started (285 commits)",
    "url": null
   },
   {
@@ -19650,7 +23937,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "wenzelme local history starts (285 commits on the drive)",
+   "summary": "wenzelme started (285 commits)",
    "url": null
   },
   {
@@ -20024,7 +24311,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "jquery-storescrolloffset local history starts (1 commits on the drive)",
+   "summary": "jquery-storescrolloffset started (1 commits)",
    "url": null
   },
   {
@@ -20089,7 +24376,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "lazycache.js local history starts (30 commits on the drive)",
+   "summary": "lazycache.js started (30 commits)",
    "url": null
   },
   {
@@ -20115,7 +24402,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "workspacemobile local history starts (1 commits on the drive)",
+   "summary": "workspacemobile started (1 commits)",
    "url": null
   },
   {
@@ -20177,19 +24464,6 @@
    "url": null
   },
   {
-   "projectId": "jquery-parallax",
-   "repo": "spacedevin/jquery-parallax",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2012-05-02",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "jquery-parallax started (creator, 5 commits)",
-   "url": "https://github.com/spacedevin/jquery-parallax"
-  },
-  {
    "projectId": "drive-isuck-widget",
    "repo": "devin-la/isuck-widget",
    "type": "created",
@@ -20199,7 +24473,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "isuck-widget local history starts (3 commits on the drive)",
+   "summary": "isuck-widget started (3 commits)",
    "url": null
   },
   {
@@ -20256,7 +24530,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "bundle local history starts (1 commits on the drive)",
+   "summary": "bundle started (1 commits)",
    "url": null
   },
   {
@@ -20282,7 +24556,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "crowdfund local history starts (32 commits on the drive)",
+   "summary": "crowdfund started (32 commits)",
    "url": null
   },
   {
@@ -20445,7 +24719,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "cluckbutton local history starts (34 commits on the drive)",
+   "summary": "cluckbutton started (34 commits)",
    "url": null
   },
   {
@@ -20458,7 +24732,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "cluckbutton local history starts (71 commits on the drive)",
+   "summary": "cluckbutton started (71 commits)",
    "url": null
   },
   {
@@ -20497,7 +24771,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "pie local history starts (14 commits on the drive)",
+   "summary": "pie started (14 commits)",
    "url": null
   },
   {
@@ -20523,7 +24797,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "cana-sample local history starts (3 commits on the drive)",
+   "summary": "cana-sample started (3 commits)",
    "url": null
   },
   {
@@ -20536,7 +24810,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "image local history starts (6 commits on the drive)",
+   "summary": "image started (6 commits)",
    "url": null
   },
   {
@@ -20627,7 +24901,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "textsupport local history starts (30 commits on the drive)",
+   "summary": "textsupport started (30 commits)",
    "url": null
   },
   {
@@ -20679,7 +24953,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "weedbutton local history starts (12 commits on the drive)",
+   "summary": "weedbutton started (12 commits)",
    "url": null
   },
   {
@@ -20705,7 +24979,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "lazyorm.js local history starts (4 commits on the drive)",
+   "summary": "lazyorm.js started (4 commits)",
    "url": null
   },
   {
@@ -20718,7 +24992,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "fallback local history starts (10 commits on the drive)",
+   "summary": "fallback started (10 commits)",
    "url": null
   },
   {
@@ -20731,7 +25005,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "twilio-fallback local history starts (10 commits on the drive)",
+   "summary": "twilio-fallback started (10 commits)",
    "url": null
   },
   {
@@ -21266,7 +25540,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "github-to-hipchat local history starts (1 commits on the drive)",
+   "summary": "github-to-hipchat started (1 commits)",
    "url": null
   },
   {
@@ -21279,7 +25553,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "app-resgen local history starts (1 commits on the drive)",
+   "summary": "app-resgen started (1 commits)",
    "url": null
   },
   {
@@ -21321,19 +25595,6 @@
    "count": 2,
    "summary": "cheryl local history starts (97 commits on the drive)",
    "url": null
-  },
-  {
-   "projectId": "colos",
-   "repo": "spacedevin/colos-web",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2013-12-12",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "colos-web started (creator, 21 commits)",
-   "url": "https://github.com/spacedevin/colos-web"
   },
   {
    "projectId": "colos-io",
@@ -21403,7 +25664,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "crunchbutton-giftcard-generator local history starts (9 commits on the drive)",
+   "summary": "crunchbutton-giftcard-generator started (9 commits)",
    "url": null
   },
   {
@@ -21416,7 +25677,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "buildstep local history starts (19 commits on the drive)",
+   "summary": "buildstep started (19 commits)",
    "url": null
   },
   {
@@ -21442,7 +25703,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "jobs local history starts (8 commits on the drive)",
+   "summary": "jobs started (8 commits)",
    "url": null
   },
   {
@@ -21468,7 +25729,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "cluckbutton-unity local history starts (25 commits on the drive)",
+   "summary": "cluckbutton-unity started (25 commits)",
    "url": null
   },
   {
@@ -21854,7 +26115,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "cockpit-app local history starts (85 commits on the drive)",
+   "summary": "cockpit-app started (85 commits)",
    "url": null
   },
   {
@@ -21936,7 +26197,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "php-framework-benchmark local history starts (348 commits on the drive)",
+   "summary": "php-framework-benchmark started (348 commits)",
    "url": null
   },
   {
@@ -22046,7 +26307,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "cordova-plugin-balanced local history starts (5 commits on the drive)",
+   "summary": "cordova-plugin-balanced started (5 commits)",
    "url": null
   },
   {
@@ -22085,7 +26346,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "tacoloco local history starts (3 commits on the drive)",
+   "summary": "tacoloco started (3 commits)",
    "url": null
   },
   {
@@ -22124,7 +26385,7 @@
    "prerelease": false,
    "major": false,
    "count": 3,
-   "summary": "nodebalancer local history starts (1 commits on the drive)",
+   "summary": "nodebalancer started (1 commits)",
    "url": null
   },
   {
@@ -22150,7 +26411,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "api local history starts (599 commits on the drive)",
+   "summary": "api started (599 commits)",
    "url": null
   },
   {
@@ -22176,7 +26437,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "event local history starts (24 commits on the drive)",
+   "summary": "event started (24 commits)",
    "url": null
   },
   {
@@ -22267,7 +26528,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "api-example local history starts (9 commits on the drive)",
+   "summary": "api-example started (9 commits)",
    "url": null
   },
   {
@@ -22306,7 +26567,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "give local history starts (6 commits on the drive)",
+   "summary": "give started (6 commits)",
    "url": null
   },
   {
@@ -22345,7 +26606,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "nody local history starts (100 commits on the drive)",
+   "summary": "nody started (100 commits)",
    "url": null
   },
   {
@@ -22358,7 +26619,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "nody local history starts (100 commits on the drive)",
+   "summary": "nody started (100 commits)",
    "url": null
   },
   {
@@ -22384,7 +26645,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "nody-docker local history starts (1 commits on the drive)",
+   "summary": "nody-docker started (1 commits)",
    "url": null
   },
   {
@@ -22547,7 +26808,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "solitarymann local history starts (52 commits on the drive)",
+   "summary": "solitarymann started (52 commits)",
    "url": null
   },
   {
@@ -22638,7 +26899,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "onebuttonwenzel local history starts (3 commits on the drive)",
+   "summary": "onebuttonwenzel started (3 commits)",
    "url": null
   },
   {
@@ -22762,7 +27023,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "log local history starts (6 commits on the drive)",
+   "summary": "log started (6 commits)",
    "url": null
   },
   {
@@ -22788,7 +27049,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "cluckbutton-webgl local history starts (4 commits on the drive)",
+   "summary": "cluckbutton-webgl started (4 commits)",
    "url": null
   },
   {
@@ -22879,7 +27140,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "db-dev local history starts (4 commits on the drive)",
+   "summary": "db-dev started (4 commits)",
    "url": null
   },
   {
@@ -23958,7 +28219,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "haunted-scraper local history starts (3 commits on the drive)",
+   "summary": "haunted-scraper started (3 commits)",
    "url": null
   },
   {
@@ -23971,7 +28232,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "cron local history starts (12 commits on the drive)",
+   "summary": "cron started (12 commits)",
    "url": null
   },
   {
@@ -24049,7 +28310,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "down local history starts (7 commits on the drive)",
+   "summary": "down started (7 commits)",
    "url": null
   },
   {
@@ -24075,7 +28336,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "devinanddaniel.com local history starts (28 commits on the drive)",
+   "summary": "devinanddaniel.com started (28 commits)",
    "url": null
   },
   {
@@ -24309,7 +28570,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "ftrack_deliv_matrix local history starts (170 commits on the drive)",
+   "summary": "ftrack_deliv_matrix started (170 commits)",
    "url": null
   },
   {
@@ -24335,7 +28596,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "dispatch.la local history starts (55 commits on the drive)",
+   "summary": "dispatch.la started (55 commits)",
    "url": null
   },
   {
@@ -24426,7 +28687,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "pantepic local history starts (6 commits on the drive)",
+   "summary": "pantepic started (6 commits)",
    "url": null
   },
   {
@@ -24452,7 +28713,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "20x20 local history starts (3 commits on the drive)",
+   "summary": "20x20 started (3 commits)",
    "url": null
   },
   {
@@ -24833,7 +29094,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "boostable local history starts (93 commits on the drive)",
+   "summary": "boostable started (93 commits)",
    "url": null
   },
   {
@@ -24885,7 +29146,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "react-native-health local history starts (890 commits on the drive)",
+   "summary": "react-native-health started (890 commits)",
    "url": null
   },
   {
@@ -24911,7 +29172,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "wowstat-cache local history starts (3 commits on the drive)",
+   "summary": "wowstat-cache started (3 commits)",
    "url": null
   },
   {
@@ -24950,7 +29211,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "pokeloc local history starts (2 commits on the drive)",
+   "summary": "pokeloc started (2 commits)",
    "url": null
   },
   {
@@ -25159,7 +29420,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "nomad local history starts (1 commits on the drive)",
+   "summary": "nomad started (1 commits)",
    "url": null
   },
   {
@@ -25263,7 +29524,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "moonbase local history starts (3 commits on the drive)",
+   "summary": "moonbase started (3 commits)",
    "url": null
   },
   {
@@ -25289,7 +29550,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "track-js local history starts (1 commits on the drive)",
+   "summary": "track-js started (1 commits)",
    "url": null
   },
   {
@@ -25445,7 +29706,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "give-mobi-node local history starts (6 commits on the drive)",
+   "summary": "give-mobi-node started (6 commits)",
    "url": null
   },
   {
@@ -25471,7 +29732,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "spin-ios local history starts (125 commits on the drive)",
+   "summary": "spin-ios started (125 commits)",
    "url": null
   },
   {
@@ -26132,7 +30393,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "secure local history starts (1 commits on the drive)",
+   "summary": "secure started (1 commits)",
    "url": null
   },
   {
@@ -26236,7 +30497,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "mousemingle-native local history starts (2 commits on the drive)",
+   "summary": "mousemingle-native started (2 commits)",
    "url": null
   },
   {
@@ -26250,19 +30511,6 @@
    "major": false,
    "count": 1,
    "summary": "ae.studio-v2-archive started (creator, 5 commits)",
-   "url": null
-  },
-  {
-   "projectId": "moonshyne-co",
-   "repo": "knoeone/moonshyne.co",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2017-03-03",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "moonshyne.co started (creator, 15 commits)",
    "url": null
   },
   {
@@ -26327,7 +30575,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "onebuttonwenzel.com local history starts (4 commits on the drive)",
+   "summary": "onebuttonwenzel.com started (4 commits)",
    "url": null
   },
   {
@@ -26340,7 +30588,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "spin-api local history starts (1 commits on the drive)",
+   "summary": "spin-api started (1 commits)",
    "url": null
   },
   {
@@ -26405,7 +30653,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "dontcomeknocking local history starts (2 commits on the drive)",
+   "summary": "dontcomeknocking started (2 commits)",
    "url": null
   },
   {
@@ -26426,19 +30674,6 @@
     "csharp",
     "game"
    ]
-  },
-  {
-   "projectId": "moonshyne-socket",
-   "repo": "knoeone/moonshyne-socket",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2017-05-13",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "moonshyne-socket started (creator, 8 commits)",
-   "url": null
   },
   {
    "projectId": "ae-internal-tools",
@@ -26580,7 +30815,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "vrad local history starts (37 commits on the drive)",
+   "summary": "vrad started (37 commits)",
    "url": null
   },
   {
@@ -26834,7 +31069,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "coscrape local history starts (126 commits on the drive)",
+   "summary": "coscrape started (126 commits)",
    "url": null
   },
   {
@@ -26847,7 +31082,7 @@
    "prerelease": false,
    "major": false,
    "count": 3,
-   "summary": "blankbox local history starts (1 commits on the drive)",
+   "summary": "blankbox started (1 commits)",
    "url": null
   },
   {
@@ -26912,7 +31147,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "bitfax local history starts (55 commits on the drive)",
+   "summary": "bitfax started (55 commits)",
    "url": null
   },
   {
@@ -26925,7 +31160,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "wireless-app local history starts (5 commits on the drive)",
+   "summary": "wireless-app started (5 commits)",
    "url": null
   },
   {
@@ -26938,7 +31173,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "wireless-server local history starts (3 commits on the drive)",
+   "summary": "wireless-server started (3 commits)",
    "url": null
   },
   {
@@ -26951,7 +31186,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "wireless-app local history starts (5 commits on the drive)",
+   "summary": "wireless-app started (5 commits)",
    "url": null
   },
   {
@@ -26964,7 +31199,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "wireless-server local history starts (3 commits on the drive)",
+   "summary": "wireless-server started (3 commits)",
    "url": null
   },
   {
@@ -27348,7 +31583,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "crypto-stats local history starts (40 commits on the drive)",
+   "summary": "crypto-stats started (40 commits)",
    "url": null
   },
   {
@@ -27361,7 +31596,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "shirt-app-mobile local history starts (2863 commits on the drive)",
+   "summary": "shirt-app-mobile started (2863 commits)",
    "url": null
   },
   {
@@ -27374,7 +31609,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "shirt-app-web local history starts (1175 commits on the drive)",
+   "summary": "shirt-app-web started (1175 commits)",
    "url": null
   },
   {
@@ -27526,19 +31761,6 @@
    "url": null
   },
   {
-   "projectId": "shirt-app-expo",
-   "repo": "knoeone/shirt-app-expo",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2018-04-28",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "shirt-app-expo started (creator, 30 commits)",
-   "url": null
-  },
-  {
    "projectId": "drive-cruise",
    "repo": "devin-la/cruise",
    "type": "created",
@@ -27548,7 +31770,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "cruise local history starts (2 commits on the drive)",
+   "summary": "cruise started (2 commits)",
    "url": null
   },
   {
@@ -27587,7 +31809,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "go-map-ar local history starts (3 commits on the drive)",
+   "summary": "go-map-ar started (3 commits)",
    "url": null
   },
   {
@@ -27600,7 +31822,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "samsung-next-api local history starts (366 commits on the drive)",
+   "summary": "samsung-next-api started (366 commits)",
    "url": null
   },
   {
@@ -27613,7 +31835,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "samsung-next-site local history starts (752 commits on the drive)",
+   "summary": "samsung-next-site started (752 commits)",
    "url": null
   },
   {
@@ -27652,7 +31874,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "onebuttonwenzel-app local history starts (32 commits on the drive)",
+   "summary": "onebuttonwenzel-app started (32 commits)",
    "url": null
   },
   {
@@ -27665,7 +31887,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "landing local history starts (3 commits on the drive)",
+   "summary": "landing started (3 commits)",
    "url": null
   },
   {
@@ -27678,7 +31900,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "coup local history starts (1 commits on the drive)",
+   "summary": "coup started (1 commits)",
    "url": null
   },
   {
@@ -27717,7 +31939,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "homey-points local history starts (48 commits on the drive)",
+   "summary": "homey-points started (48 commits)",
    "url": null
   },
   {
@@ -27730,7 +31952,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "much-better-chat local history starts (35 commits on the drive)",
+   "summary": "much-better-chat started (35 commits)",
    "url": null
   },
   {
@@ -27743,7 +31965,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "git-swipe local history starts (1 commits on the drive)",
+   "summary": "git-swipe started (1 commits)",
    "url": null
   },
   {
@@ -27756,7 +31978,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "puppy-api local history starts (1 commits on the drive)",
+   "summary": "puppy-api started (1 commits)",
    "url": null
   },
   {
@@ -27951,7 +32173,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "illroots-stream local history starts (2 commits on the drive)",
+   "summary": "illroots-stream started (2 commits)",
    "url": null
   },
   {
@@ -27964,7 +32186,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "tds local history starts (2 commits on the drive)",
+   "summary": "tds started (2 commits)",
    "url": null
   },
   {
@@ -27977,7 +32199,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "platformer local history starts (1 commits on the drive)",
+   "summary": "platformer started (1 commits)",
    "url": null
   },
   {
@@ -27990,7 +32212,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "zombie local history starts (2 commits on the drive)",
+   "summary": "zombie started (2 commits)",
    "url": null
   },
   {
@@ -28003,7 +32225,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "lotus local history starts (2179 commits on the drive)",
+   "summary": "lotus started (2179 commits)",
    "url": null
   },
   {
@@ -28055,7 +32277,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "react-video-chat local history starts (3 commits on the drive)",
+   "summary": "react-video-chat started (3 commits)",
    "url": null
   },
   {
@@ -28094,7 +32316,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "softshop-api local history starts (1 commits on the drive)",
+   "summary": "softshop-api started (1 commits)",
    "url": null
   },
   {
@@ -28107,7 +32329,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "softshop local history starts (1 commits on the drive)",
+   "summary": "softshop started (1 commits)",
    "url": null
   },
   {
@@ -28159,7 +32381,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "quokka-app local history starts (152 commits on the drive)",
+   "summary": "quokka-app started (152 commits)",
    "url": null
   },
   {
@@ -28172,7 +32394,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "spacex-shopify local history starts (26 commits on the drive)",
+   "summary": "spacex-shopify started (26 commits)",
    "url": null
   },
   {
@@ -28224,7 +32446,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "abstract-next local history starts (36 commits on the drive)",
+   "summary": "abstract-next started (36 commits)",
    "url": null
   },
   {
@@ -28289,7 +32511,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "weather-next local history starts (93 commits on the drive)",
+   "summary": "weather-next started (93 commits)",
    "url": null
   },
   {
@@ -28354,7 +32576,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "kiko-mobile local history starts (571 commits on the drive)",
+   "summary": "kiko-mobile started (571 commits)",
    "url": null
   },
   {
@@ -28393,7 +32615,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "point-client local history starts (516 commits on the drive)",
+   "summary": "point-client started (516 commits)",
    "url": null
   },
   {
@@ -28647,7 +32869,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "billbox local history starts (1277 commits on the drive)",
+   "summary": "billbox started (1277 commits)",
    "url": null
   },
   {
@@ -28773,19 +32995,6 @@
    "url": null
   },
   {
-   "projectId": "space-la-placeholder",
-   "repo": "spacedevin/space-la-placeholder",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2021-04-12",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "space-la-placeholder started (creator, 4 commits)",
-   "url": null
-  },
-  {
    "projectId": "otter",
    "repo": "agencyenterprise/otter-certs",
    "type": "created",
@@ -28808,7 +33017,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "bound-backend local history starts (203 commits on the drive)",
+   "summary": "bound-backend started (203 commits)",
    "url": null
   },
   {
@@ -28821,7 +33030,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "devin-la-redirect local history starts (2 commits on the drive)",
+   "summary": "devin-la-redirect started (2 commits)",
    "url": null
   },
   {
@@ -28886,7 +33095,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "rg-nft-platform local history starts (263 commits on the drive)",
+   "summary": "rg-nft-platform started (263 commits)",
    "url": null
   },
   {
@@ -28912,7 +33121,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "grats local history starts (184 commits on the drive)",
+   "summary": "grats started (184 commits)",
    "url": null
   },
   {
@@ -28925,7 +33134,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "anotter local history starts (7810 commits on the drive)",
+   "summary": "anotter started (7810 commits)",
    "url": null
   },
   {
@@ -29042,7 +33251,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "beclear-backend local history starts (119 commits on the drive)",
+   "summary": "beclear-backend started (119 commits)",
    "url": null
   },
   {
@@ -29055,7 +33264,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "tactile-app local history starts (6 commits on the drive)",
+   "summary": "tactile-app started (6 commits)",
    "url": null
   },
   {
@@ -29068,7 +33277,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "tacoboutbot-pdg-hackathon-2021 local history starts (14 commits on the drive)",
+   "summary": "tacoboutbot-pdg-hackathon-2021 started (14 commits)",
    "url": null
   },
   {
@@ -29107,7 +33316,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "clickwheel-js local history starts (6 commits on the drive)",
+   "summary": "clickwheel-js started (6 commits)",
    "url": null
   },
   {
@@ -29120,7 +33329,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "spacex-shopify-theme local history starts (75 commits on the drive)",
+   "summary": "spacex-shopify-theme started (75 commits)",
    "url": null
   },
   {
@@ -29146,7 +33355,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "caloreat-app local history starts (4 commits on the drive)",
+   "summary": "caloreat-app started (4 commits)",
    "url": null
   },
   {
@@ -29159,7 +33368,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "getsomeagency local history starts (6 commits on the drive)",
+   "summary": "getsomeagency started (6 commits)",
    "url": null
   },
   {
@@ -29172,7 +33381,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "hackathonwaste local history starts (4 commits on the drive)",
+   "summary": "hackathonwaste started (4 commits)",
    "url": null
   },
   {
@@ -29185,7 +33394,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "headphonesrule local history starts (12 commits on the drive)",
+   "summary": "headphonesrule started (12 commits)",
    "url": null
   },
   {
@@ -29198,7 +33407,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "caloreat-web local history starts (2 commits on the drive)",
+   "summary": "caloreat-web started (2 commits)",
    "url": null
   },
   {
@@ -29263,7 +33472,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "mootropic local history starts (4 commits on the drive)",
+   "summary": "mootropic started (4 commits)",
    "url": null
   },
   {
@@ -29276,7 +33485,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "lastcall local history starts (3 commits on the drive)",
+   "summary": "lastcall started (3 commits)",
    "url": null
   },
   {
@@ -29289,7 +33498,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "sds-ghostlystock local history starts (16 commits on the drive)",
+   "summary": "sds-ghostlystock started (16 commits)",
    "url": null
   },
   {
@@ -29302,7 +33511,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "badbot-api local history starts (22 commits on the drive)",
+   "summary": "badbot-api started (22 commits)",
    "url": null
   },
   {
@@ -29328,7 +33537,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "meat local history starts (6 commits on the drive)",
+   "summary": "meat started (6 commits)",
    "url": null
   },
   {
@@ -29367,7 +33576,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "instill-losangelena-landing local history starts (13 commits on the drive)",
+   "summary": "instill-losangelena-landing started (13 commits)",
    "url": null
   },
   {
@@ -29432,7 +33641,7 @@
    "prerelease": false,
    "major": false,
    "count": 2,
-   "summary": "SunnySwap local history starts (165 commits on the drive)",
+   "summary": "SunnySwap started (165 commits)",
    "url": null
   },
   {
@@ -29484,7 +33693,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "wear3 local history starts (2 commits on the drive)",
+   "summary": "wear3 started (2 commits)",
    "url": null
   },
   {
@@ -29497,7 +33706,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "weather-mistress local history starts (1 commits on the drive)",
+   "summary": "weather-mistress started (1 commits)",
    "url": null
   },
   {
@@ -29602,19 +33811,6 @@
    "major": false,
    "count": 1,
    "summary": "knoeone-landing started (creator, 10 commits)",
-   "url": null
-  },
-  {
-   "projectId": "knoeone-ai",
-   "repo": "knoeone/knoeone-ai",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2023-10-19",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "knoeone-ai started (creator, 5 commits)",
    "url": null
   },
   {
@@ -29887,7 +34083,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "ascii-social local history starts (2 commits on the drive)",
+   "summary": "ascii-social started (2 commits)",
    "url": null
   },
   {
@@ -29913,7 +34109,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "motherchristmas local history starts (2 commits on the drive)",
+   "summary": "motherchristmas started (2 commits)",
    "url": null
   },
   {
@@ -29926,7 +34122,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "wavy local history starts (2 commits on the drive)",
+   "summary": "wavy started (2 commits)",
    "url": null
   },
   {
