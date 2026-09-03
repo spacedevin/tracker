@@ -15,6 +15,8 @@ const args = process.argv.slice(2);
 const flag = (n, d) => { const i = args.indexOf(n); return i >= 0 ? args[i + 1] : d; };
 const OUT = join(ROOT, flag("--out", "data/timeline.json"));
 const LEGACY = flag("--legacy", existsSync(join(ROOT, "../space-la/content")) ? join(ROOT, "../space-la/content") : null);
+// Extra project files (JSON array of {id,title,family,kind,status,description,url,repos,start,end,lastActivity,events:[{type,date,repo,tag,major,count,summary,url}]})
+const EXTRA = (flag("--extra", null) || (existsSync(join(ROOT, "../space-la/content/data/ae-projects.json")) ? join(ROOT, "../space-la/content/data/ae-projects.json") : "")).split(",").filter(Boolean);
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
 const UA = "spacedevin-tracker/1.0 (+https://github.com/spacedevin/tracker)";
 const PRERELEASE_TAG = /-(alpha|beta|rc|next|canary|dev|pre|nightly)\.?\d*$/i;
@@ -197,6 +199,14 @@ async function main() {
     projects.set(lp.id, lp);
   }
   events.push(...legacy.events);
+  for (const file of EXTRA) {
+    for (const p of JSON.parse(readFileSync(file, "utf8"))) {
+      const { events: evs = [], ...proj } = p;
+      const rel = evs.filter((e) => e.type === "release");
+      projects.set(proj.id, { packages: { npm: [], cargo: [] }, stars: 0, languages: [], items: [], releases: proj.releases ?? rel.length, majors: rel.filter((e) => e.major).length, latestRelease: rel.length ? { tag: rel.at(-1).tag, date: rel.at(-1).date, repo: rel.at(-1).repo } : null, ...proj });
+      for (const e of evs) events.push({ projectId: proj.id, repo: e.repo ?? null, type: e.type, tag: e.tag ?? null, name: e.name ?? null, date: e.date, prerelease: false, major: Boolean(e.major), count: e.count ?? 1, summary: e.summary ?? null, url: e.url ?? null });
+    }
+  }
   events.sort((a, b) => a.date.localeCompare(b.date) || a.projectId.localeCompare(b.projectId) || (a.tag || "").localeCompare(b.tag || ""));
   const out = {
     generatedAt: new Date().toISOString().slice(0, 19) + "Z",
