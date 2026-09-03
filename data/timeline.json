@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-03T18:14:22Z",
+ "generatedAt": "2026-09-03T18:22:06Z",
  "families": [
   "ae-studio",
   "career",
@@ -3271,11 +3271,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "drive-agencyenterprise-anotter",
-   "title": "anotter",
+   "title": "Instill Video (anotter)",
    "family": "ae-studio",
    "kind": "company",
    "status": "archived",
-   "description": "",
+   "description": "Second-generation codebase for Instill Video, the OTT streaming platform.",
    "url": null,
    "repos": [
     "agencyenterprise/anotter"
@@ -4922,11 +4922,11 @@
     "repo": "agencyenterprise/otter-backend"
    },
    "id": "otter",
-   "title": "Otter",
+   "title": "Instill Video (Otter)",
    "family": "ae-studio",
    "kind": "company",
    "status": "archived",
-   "description": "Next.js backend and UI for a 2021 AE product.",
+   "description": "OTT streaming platform, codenamed Otter: Next.js UI, backend with twenty releases in ten months, and a 7,810-commit second-generation codebase. Hugely successful.",
    "url": null,
    "repos": [],
    "privateRepos": 3,
