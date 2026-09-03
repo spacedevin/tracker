@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-03T19:52:19Z",
+ "generatedAt": "2026-09-03T20:10:41Z",
  "families": [
   "ae-studio",
   "career",
@@ -294,11 +294,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "create-tish",
-   "title": "create-tish",
+   "title": "create-tish-app",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "active",
-   "description": "Scaffold a new Tish project",
+   "description": "Project scaffolder for Tish, published to npm as create-tish-app (npm create tish-app). 49 versions from 1.3.2 in April 2026 to 2.0.x in June 2026, tracking the Tish release line.",
    "url": "https://github.com/tishlang/tish#readme",
    "repos": [
     "git+https://github.com/tishlang/tish"
@@ -308,6 +308,13 @@
    "end": null,
    "lastActivity": "2026-09-02",
    "attachTo": null,
+   "tags": [
+    "npm",
+    "tish",
+    "scaffolding",
+    "cli"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 0,
    "source": "npm"
   },
@@ -395,11 +402,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "spacekinematics-spacekinematics-com",
-   "title": "spacekinematics-com",
+   "title": "spacekinematics.com",
    "family": "spacekinematics",
-   "kind": "company",
+   "kind": "site",
    "status": "active",
-   "description": "",
+   "description": "The Space Kinematics company website, a v0-generated Next.js 16 site with Tailwind 4 and a Three.js hero, deployed on Vercel; seven commits from June 2026.",
    "url": "https://v0-aerospace-website-xi.vercel.app",
    "repos": [
     "spacekinematics/spacekinematics.com"
@@ -409,6 +416,14 @@
    "end": null,
    "lastActivity": "2026-09-02",
    "attachTo": null,
+   "tags": [
+    "company-site",
+    "nextjs",
+    "threejs",
+    "v0",
+    "aerospace"
+   ],
+   "descriptionConfidence": 0.8,
    "commits": 7,
    "source": "github"
   },
@@ -473,11 +488,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "schlopai-card-gba",
-   "title": "card-gba",
+   "title": "Card GBA",
    "family": "schlop",
-   "kind": "company",
+   "kind": "game",
    "status": "active",
-   "description": "",
+   "description": "Four card-battle RPG cartridges for the Game Boy Advance written in Tish on the Chuggie engine as an external consumer: Triple Triad, Queen's Blood, Gwent and Netherblood, each with a walkable town, challengers and a campaign driven by match results, with Python asset generation. 128 commits, August 2026.",
    "url": null,
    "repos": [
     "schlopai/card-gba"
@@ -487,6 +502,14 @@
    "end": null,
    "lastActivity": "2026-08-31",
    "attachTo": null,
+   "tags": [
+    "gba",
+    "tish",
+    "chuggie",
+    "card-game",
+    "homebrew"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 128,
    "source": "github"
   },
@@ -541,11 +564,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "tracker",
-   "title": "tracker",
+   "title": "Tracker",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "active",
-   "description": "Public portfolio catalog — companies, projects, releases (no PAT)",
+   "description": "A GitHub Actions job (Node, no PAT) that syncs a YAML catalog of Devin's companies, projects and releases into a public GitHub Projects board, pulling latest release, push, npm and crates timestamps per product. Fourteen commits, August 2026.",
    "url": null,
    "repos": [
     "spacedevin/tracker"
@@ -555,6 +578,13 @@
    "end": null,
    "lastActivity": "2026-08-29",
    "attachTo": null,
+   "tags": [
+    "portfolio",
+    "github-actions",
+    "catalog",
+    "nodejs"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 14,
    "source": "github"
   },
@@ -573,11 +603,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "schlopai-drop-gba",
-   "title": "drop-gba",
+   "title": "Drop GBA",
    "family": "schlop",
-   "kind": "company",
+   "kind": "game",
    "status": "active",
-   "description": "",
+   "description": "Magical Drop for the Game Boy Advance, written in Tish on the tish-gba/Chuggie engine: two cartridges (a 7-column Magical Drop III build with datamined tables and a 6-column Pocket build) with Story, Self Challenge, Puzzle and VS modes, save data, pre-match dialogue and a 19-track soundtrack, plus Python table and music generators. Thirteen commits, August 2026.",
    "url": null,
    "repos": [
     "schlopai/drop-gba"
@@ -587,6 +617,14 @@
    "end": null,
    "lastActivity": "2026-08-24",
    "attachTo": null,
+   "tags": [
+    "gba",
+    "tish",
+    "chuggie",
+    "puzzle",
+    "homebrew"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 13,
    "source": "github"
   },
@@ -647,9 +685,9 @@
    "id": "sciiio-scii",
    "title": "scii",
    "family": "sciiio",
-   "kind": "company",
+   "kind": "app",
    "status": "active",
-   "description": "",
+   "description": "An ASCII-native social network, terminal first and web second: every image, avatar and feed frame renders as coloured ASCII. The whole stack is Tish (a native tish:http server with an image-to-ASCII engine, a Lattish web client and a Lattish-compatible terminal renderer) shipped via Homebrew, npm, Cargo and GitHub releases. 86 commits, June-August 2026.",
    "url": null,
    "repos": [
     "sciiio/scii"
@@ -659,6 +697,14 @@
    "end": null,
    "lastActivity": "2026-08-12",
    "attachTo": null,
+   "tags": [
+    "social",
+    "ascii",
+    "terminal",
+    "tish",
+    "lattish"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 86,
    "source": "github"
   },
@@ -782,7 +828,7 @@
    "family": "personal",
    "kind": "app",
    "status": "active",
-   "description": "Devin's 'buy me a beer' payment app (beerplease.co) built on his Tipsy PHP framework with Stripe, deployable to Heroku in one click; an earlier version predates the Stripe integration.",
+   "description": "A 'buy me a beer' payment app (beerplease.co) that takes beer payments through Stripe, built on Devin's Tipsy PHP framework with a one-click Heroku deploy. A private 2012 version predates the 2015 Stripe/Tipsy rewrite.",
    "url": "http://beerplease.co",
    "repos": [
     "knoeone/beerplease",
@@ -800,7 +846,7 @@
     "heroku",
     "payments"
    ],
-   "descriptionConfidence": 0.85,
+   "descriptionConfidence": 0.95,
    "commits": 85,
    "source": "github"
   },
@@ -819,11 +865,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "chipforge",
-   "title": "chipforge",
+   "title": "ChipForge",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "active",
-   "description": "",
+   "description": "A modular AI-driven chip design toolkit planned as a uv workspace of Python packages (forge-spec, hdl, verify, synth, pnr, data, agents, cli, dashboard) wrapping Yosys, OpenROAD, Verilator and cocotb so LLM agents or engineers can take a design from spec to layout; seven commits in one day of August 2026 with early ALU and counter gate-level sims. Apache-2.0.",
    "url": null,
    "repos": [
     "spacedevin/chipforge"
@@ -833,6 +879,14 @@
    "end": null,
    "lastActivity": "2026-08-07",
    "attachTo": null,
+   "tags": [
+    "eda",
+    "chip-design",
+    "python",
+    "ai-agents",
+    "verilog"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 7,
    "source": "github"
   },
@@ -859,7 +913,7 @@
    "family": "personal",
    "kind": "tool",
    "status": "active",
-   "description": "A Tipsy PHP webhook service that automatically bumps specified Composer dependencies whenever their upstream master branches change; Heroku-deployable, 32 commits, 2015.",
+   "description": "A Tipsy PHP webhook service that automatically bumps specified Composer dependencies and commits an updated composer.lock whenever their upstream master branches change; Heroku-deployable with a secret key. v1.0 released December 2015.",
    "url": null,
    "repos": [
     "spacedevin/composer-dependency-auto-update"
@@ -871,12 +925,13 @@
    "attachTo": null,
    "tags": [
     "php",
+    "tipsy",
     "composer",
-    "github",
-    "webhook",
-    "tipsy"
+    "webhooks",
+    "automation",
+    "heroku"
    ],
-   "descriptionConfidence": 0.85,
+   "descriptionConfidence": 0.95,
    "commits": 33,
    "source": "github"
   },
@@ -899,7 +954,7 @@
    "family": "personal",
    "kind": "personal",
    "status": "active",
-   "description": "Devin's personal site: a 2015 version on his Tipsy PHP framework with OAuth login (devin-la-beta, 60 commits) and a 2020 rewrite in Next.js (12 commits).",
+   "description": "Two later versions of Devin's personal site: a 2015 build on his Tipsy PHP framework with OAuth login (devin-la-beta, 61 commits) and a December 2020 rewrite in Next.js with highlight.js and Luxon deployed on Vercel (devin-la, 12 commits).",
    "url": "devin-la.arzynik.now.sh",
    "repos": [
     "spacedevin/devin-la-beta",
@@ -911,13 +966,13 @@
    "lastActivity": "2026-08-07",
    "attachTo": null,
    "tags": [
-    "personal",
-    "site",
+    "php",
     "tipsy",
     "nextjs",
-    "react"
+    "personal-site",
+    "devin.la"
    ],
-   "descriptionConfidence": 0.9,
+   "descriptionConfidence": 0.85,
    "commits": 73,
    "source": "github"
   },
@@ -936,11 +991,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "hackathon",
-   "title": "hackathon",
+   "title": "PHP Hackathon Starter",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "active",
-   "description": "A boilerplate for PHP web applications",
+   "description": "A boilerplate for PHP + AngularJS web applications inspired by the Node.js Hackathon Starter, built on Tipsy and tipsy-mvc with OAuth, SCSS, Redis and Mailgun wired up and a Heroku deploy button; marked work in progress, 31 commits from December 2015.",
    "url": "https://php-hackathon-starter.herokuapp.com/",
    "repos": [
     "spacedevin/hackathon-starter"
@@ -950,6 +1005,14 @@
    "end": null,
    "lastActivity": "2026-08-07",
    "attachTo": null,
+   "tags": [
+    "php",
+    "tipsy",
+    "angularjs",
+    "boilerplate",
+    "heroku"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 31,
    "source": "github"
   },
@@ -976,7 +1039,7 @@
    "family": "personal",
    "kind": "app",
    "status": "active",
-   "description": "A self-hosted URL shortener in PHP on the Tipsy framework with MySQL/PostgreSQL and a one-click Heroku deploy (pulpolo.co); 31 commits, 2015.",
+   "description": "A self-hosted URL shortener (pulpolo.co) written in PHP on Devin's Tipsy framework with MySQL or PostgreSQL storage, Nginx/Apache configs and a one-click Heroku deploy; v2.0 released late 2015.",
    "url": "http://pulpolo.co",
    "repos": [
     "spacedevin/pulpoloco"
@@ -991,9 +1054,9 @@
     "tipsy",
     "url-shortener",
     "heroku",
-    "open-source"
+    "postgres"
    ],
-   "descriptionConfidence": 0.9,
+   "descriptionConfidence": 0.95,
    "commits": 45,
    "source": "github"
   },
@@ -1012,11 +1075,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "spacedevin-github-io",
-   "title": "spacedevin-github-io",
+   "title": "spacedevin.github.io",
    "family": "personal",
    "kind": "personal",
    "status": "active",
-   "description": "My index page — pinned projects, generated in Tish at build time",
+   "description": "Devin's GitHub index page: a static list of pinned projects generated at build time by a Tish script (tish run with fs and fetch) that parses the profile README and reads descriptions and languages from each repo, shipping as one HTML file with no client JavaScript. Six commits, August 2026.",
    "url": "https://spacedevin.github.io/",
    "repos": [
     "spacedevin/spacedevin.github.io"
@@ -1026,6 +1089,13 @@
    "end": null,
    "lastActivity": "2026-08-07",
    "attachTo": null,
+   "tags": [
+    "personal-site",
+    "tish",
+    "static-site",
+    "github"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 6,
    "source": "github"
   },
@@ -1181,11 +1251,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "schlopai-pelago",
-   "title": "pelago",
+   "title": "Pelago",
    "family": "schlop",
-   "kind": "company",
+   "kind": "game",
    "status": "active",
-   "description": "",
+   "description": "A Mario Party-style 3D party game built with React Three Fiber and a Colyseus authoritative game server: 1-4 players locally or online, Steam OpenID and guest auth, friends, parties and matchmaking, and three modes (party game, tabletop RPG, 100-player battle royale) on one shared engine, with MongoDB, an admin app and load-test bots. 188 commits, May-July 2026.",
    "url": null,
    "repos": [
     "schlopai/pelago"
@@ -1195,6 +1265,14 @@
    "end": null,
    "lastActivity": "2026-07-24",
    "attachTo": null,
+   "tags": [
+    "game",
+    "react-three-fiber",
+    "colyseus",
+    "multiplayer",
+    "typescript"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 188,
    "source": "github"
   },
@@ -1213,11 +1291,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "v0-nexus",
-   "title": "v0-nexus",
+   "title": "Nihmbus",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "active",
-   "description": "",
+   "description": "Nihmbus (repo v0-nexus), a Next.js platform started in v0 for researching subjects, drafting and publishing content, running missions and workflows and managing tickets, with Drizzle/Postgres, multi-tenancy, a search index, a collab server and a first-party MCP server that exposes every platform action to external AI agents. 177 commits, May-July 2026.",
    "url": "https://v0-nexus-knoeone.vercel.app",
    "repos": [
     "knoeone/v0-nexus"
@@ -1227,6 +1305,15 @@
    "end": null,
    "lastActivity": "2026-07-24",
    "attachTo": null,
+   "tags": [
+    "nextjs",
+    "mcp",
+    "ai-agents",
+    "drizzle",
+    "saas",
+    "v0"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 177,
    "source": "github"
   },
@@ -1245,11 +1332,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "vizpops",
-   "title": "vizpops",
+   "title": "Vizpops",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "active",
-   "description": "",
+   "description": "A browser-based 2D vector graphics editor started in v0 on Next.js 16: polygon clipping and earcut triangulation, SDF text, a colour picker, immer state and IndexedDB persistence, with shadcn/Base UI chrome. 88 commits, June-July 2026; the README is v0 boilerplate so the exact product scope is inferred from dependencies.",
    "url": "https://v0-vizpops.vercel.app",
    "repos": [
     "knoeone/vizpops"
@@ -1259,6 +1346,14 @@
    "end": null,
    "lastActivity": "2026-07-20",
    "attachTo": null,
+   "tags": [
+    "graphics",
+    "vector",
+    "nextjs",
+    "v0",
+    "editor"
+   ],
+   "descriptionConfidence": 0.5,
    "commits": 88,
    "source": "github"
   },
@@ -1616,9 +1711,9 @@
    "id": "tumeric",
    "title": "Tumeric",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "active",
-   "description": "JavaScript to Rust Transpiler",
+   "description": "A JavaScript-to-Rust transpiler in Rust organised as a cargo workspace (core, runtime, CLI, examples, test262 integration) that aimed to compile ECMAScript-compliant JS to native code; over 1,100 commits from May 2025 before it was abandoned in favour of Tish because of JavaScript scoping complexity. tumeric-web was a Builder.io-generated Vite/Express marketing site for it.",
    "url": "https://tishlang.com",
    "repos": [
     "spacedevin/tumeric",
@@ -1629,6 +1724,14 @@
    "end": null,
    "lastActivity": "2026-06-05",
    "attachTo": null,
+   "tags": [
+    "compiler",
+    "rust",
+    "javascript",
+    "transpiler",
+    "test262"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 1136,
    "source": "github"
   },
@@ -1677,11 +1780,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "spacekinematics-solar-system-webgpu",
-   "title": "solar-system-webgpu",
+   "title": "Solar System WebGPU",
    "family": "spacekinematics",
-   "kind": "company",
+   "kind": "app",
    "status": "active",
-   "description": "",
+   "description": "A WebGPU object tracker and solar-system visualiser for Space Kinematics: a Vite/TypeScript workspace with an SGP4 satellite-propagation package, planet terrain fetching, a WebGPU boundary lint and a public-build mode. 28 commits, late May 2026, Apache-2.0.",
    "url": null,
    "repos": [
     "spacekinematics/solar-system-webgpu"
@@ -1691,6 +1794,14 @@
    "end": null,
    "lastActivity": "2026-06-02",
    "attachTo": null,
+   "tags": [
+    "webgpu",
+    "aerospace",
+    "sgp4",
+    "typescript",
+    "visualization"
+   ],
+   "descriptionConfidence": 0.75,
    "commits": 28,
    "source": "github"
   },
@@ -1709,11 +1820,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "schlopai-getahead",
-   "title": "getahead",
+   "title": "Get Ahead",
    "family": "schlop",
-   "kind": "company",
+   "kind": "game",
    "status": "active",
-   "description": "",
+   "description": "A SNES-styled game built with Phaser 4 and TypeScript on Vite under Schlop, with jimp-based asset tooling and vitest tests; 100 commits in one week of May 2026. No README, so the game's premise is not documented.",
    "url": null,
    "repos": [
     "schlopai/getahead"
@@ -1723,6 +1834,14 @@
    "end": null,
    "lastActivity": "2026-05-28",
    "attachTo": null,
+   "tags": [
+    "game",
+    "phaser",
+    "typescript",
+    "retro",
+    "schlop"
+   ],
+   "descriptionConfidence": 0.55,
    "commits": 100,
    "source": "github"
   },
@@ -1741,11 +1860,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "schlopai-canvasandpine",
-   "title": "canvasandpine",
+   "title": "Canvas and Pine",
    "family": "schlop",
-   "kind": "company",
+   "kind": "game",
    "status": "active",
-   "description": "",
+   "description": "A GDevelop 5 game project under Schlop with a Bun/Node tooling layer that compiles the project, bakes assets, exports HTML5 builds and deploy bundles, and captures a \"kitchen\" game state; 63 commits, May 2026. Gameplay is not documented in the repo.",
    "url": null,
    "repos": [
     "schlopai/canvasandpine"
@@ -1755,6 +1874,14 @@
    "end": null,
    "lastActivity": "2026-05-27",
    "attachTo": null,
+   "tags": [
+    "game",
+    "gdevelop",
+    "html5",
+    "schlop",
+    "bun"
+   ],
+   "descriptionConfidence": 0.5,
    "commits": 63,
    "source": "github"
   },
@@ -2071,11 +2198,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "schlopai-schlop-ai",
-   "title": "schlop-ai",
+   "title": "schlop.ai",
    "family": "schlop",
-   "kind": "company",
+   "kind": "site",
    "status": "active",
-   "description": "",
+   "description": "The Schlop monorepo and website: schlop-web renders a hidden HTML micro-DOM onto a 2D canvas with a WebGL CRT pass, alongside schlop-ui (canvas/WebGL engine), schlop-mini (microgames, libraries, archetypes) and schlop-mcp (AI MCP tools), all compiled with Tish. 48 commits, April-May 2026.",
    "url": "https://schlop-ai.vercel.app",
    "repos": [
     "schlopai/schlop.ai"
@@ -2085,6 +2212,15 @@
    "end": null,
    "lastActivity": "2026-05-06",
    "attachTo": null,
+   "tags": [
+    "schlop",
+    "tish",
+    "canvas",
+    "webgl",
+    "games",
+    "mcp"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 48,
    "source": "github"
   },
@@ -2235,9 +2371,9 @@
    "id": "tish-appkit",
    "title": "tish-appkit",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "active",
-   "description": "",
+   "description": "A native macOS AppKit host for Tish JSX (tish:macos) built on objc2, so Tish UI trees render as real AppKit windows and controls, with hello and kitchen-sink examples. 24 commits, April 2026.",
    "url": null,
    "repos": [
     "spacedevin/tish-appkit"
@@ -2247,6 +2383,14 @@
    "end": null,
    "lastActivity": "2026-04-14",
    "attachTo": null,
+   "tags": [
+    "tish",
+    "appkit",
+    "macos",
+    "objc2",
+    "native-ui"
+   ],
+   "descriptionConfidence": 0.8,
    "commits": 24,
    "source": "github"
   },
@@ -2267,9 +2411,9 @@
    "id": "tish-shadertoy",
    "title": "tish-shadertoy",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "active",
-   "description": "",
+   "description": "A minimal Shadertoy-style GLSL viewer driven from Tish: a Rust binary embedding the tish evaluator that loads a local fragment shader and runs it in a native OpenGL 3.3 window (winit, glutin, glow) with Milkdrop-style hotkeys. Thirteen commits in one day, April 2026.",
    "url": null,
    "repos": [
     "spacedevin/tish-shadertoy"
@@ -2279,6 +2423,14 @@
    "end": null,
    "lastActivity": "2026-04-09",
    "attachTo": null,
+   "tags": [
+    "tish",
+    "glsl",
+    "opengl",
+    "shaders",
+    "rust"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 13,
    "source": "github"
   },
@@ -2297,11 +2449,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "zectre-platform",
-   "title": "zectre-platform",
+   "title": "Zectre",
    "family": "personal",
-   "kind": "personal",
+   "kind": "hosting",
    "status": "active",
-   "description": "",
+   "description": "Zectre, a Nomad-inspired deployment and orchestration platform for running Tish native binaries, written in Rust with axum and tokio: API, scheduler, agent, proxy, registry, build and catalog crates. Paired with a Vercel-style zectre CLI (login, link, deploy, environments) and a Next.js web console; about 100 commits across the three repos in March-April 2026.",
    "url": "https://zectre-platform.vercel.app",
    "repos": [
     "knoeone/zectre-platform"
@@ -2311,41 +2463,16 @@
    "end": null,
    "lastActivity": "2026-04-08",
    "attachTo": null,
+   "tags": [
+    "rust",
+    "orchestration",
+    "hosting",
+    "tish",
+    "axum",
+    "cli"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 76,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "Rust",
-    "TypeScript"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "zectre",
-   "title": "zectre",
-   "family": "personal",
-   "kind": "personal",
-   "status": "active",
-   "description": "",
-   "url": "https://zectre-web.vercel.app",
-   "repos": [
-    "knoeone/zectre-cli",
-    "knoeone/zectre-web"
-   ],
-   "privateRepos": 2,
-   "start": "2026-03-01",
-   "end": null,
-   "lastActivity": "2026-04-07",
-   "attachTo": null,
-   "commits": 24,
    "source": "github"
   },
   {
@@ -2405,11 +2532,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "imwinning-ai",
-   "title": "imwinning-ai",
+   "title": "imwinning.ai",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "active",
-   "description": "",
+   "description": "A private Next.js app generated with v0 (Radix/shadcn UI, react-hook-form, a MongoDB index script) for imwinning.ai; twelve commits over two days in March 2026 with only the v0 boilerplate README, so its purpose is not documented.",
    "url": null,
    "repos": [
     "knoeone/imwinning.ai"
@@ -2419,6 +2546,13 @@
    "end": null,
    "lastActivity": "2026-03-31",
    "attachTo": null,
+   "tags": [
+    "nextjs",
+    "v0",
+    "shadcn",
+    "prototype"
+   ],
+   "descriptionConfidence": 0.4,
    "commits": 12,
    "source": "github"
   },
@@ -2466,11 +2600,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "tulas",
-   "title": "tulas",
+   "title": "TULAS",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "active",
-   "description": "Local AI models on Apple Chips",
+   "description": "Tish and Uzu with LLaMA on Apple Silicon: an experimental Rust crate exposing the Uzu inference engine to Tish so local Llama models can be downloaded and run from Tish scripts on Apple chips. Twelve commits, March 2026, PIF licensed.",
    "url": null,
    "repos": [
     "spacedevin/tulas"
@@ -2480,6 +2614,14 @@
    "end": null,
    "lastActivity": "2026-03-30",
    "attachTo": null,
+   "tags": [
+    "tish",
+    "llm",
+    "apple-silicon",
+    "rust",
+    "local-ai"
+   ],
+   "descriptionConfidence": 0.8,
    "commits": 12,
    "source": "github"
   },
@@ -2500,9 +2642,9 @@
    "id": "tish-floem",
    "title": "tish-floem",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "active",
-   "description": "Tish + floem crate and examples",
+   "description": "An experimental Rust host that renders Tish native JSX through the Floem UI toolkit, with hello-world and kitchen-sink examples compiled via the tish compiler's Rust backend. Seven commits, March 2026.",
    "url": null,
    "repos": [
     "spacedevin/tish-floem"
@@ -2512,39 +2654,15 @@
    "end": null,
    "lastActivity": "2026-03-29",
    "attachTo": null,
+   "tags": [
+    "tish",
+    "floem",
+    "rust",
+    "native-ui",
+    "experiment"
+   ],
+   "descriptionConfidence": 0.8,
    "commits": 7,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "JavaScript"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "lattish-docs-draft",
-   "title": "lattish-docs-draft",
-   "family": "personal",
-   "kind": "personal",
-   "status": "active",
-   "description": "",
-   "url": "https://v0-serverless-platform-pages.vercel.app",
-   "repos": [
-    "knoeone/lattish-docs-draft"
-   ],
-   "privateRepos": 1,
-   "start": "2026-03-11",
-   "end": null,
-   "lastActivity": "2026-03-22",
-   "attachTo": null,
-   "commits": 6,
    "source": "github"
   },
   {
@@ -2771,11 +2889,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "space",
-   "title": "space",
+   "title": "Space Core",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "active",
-   "description": "",
+   "description": "A private Unity (C#) project under Knoeone with the standard Assets/Scripts/Scenes layout, TextMesh Pro and the new Input System; 17 commits over two days in February 2026 with no README, so the game's content is unknown.",
    "url": null,
    "repos": [
     "knoeone/space-core"
@@ -2785,6 +2903,13 @@
    "end": null,
    "lastActivity": "2026-02-12",
    "attachTo": null,
+   "tags": [
+    "unity",
+    "csharp",
+    "game",
+    "prototype"
+   ],
+   "descriptionConfidence": 0.4,
    "commits": 17,
    "source": "github"
   },
@@ -2803,11 +2928,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "bullet-hell-dungeon",
-   "title": "bullet-hell-dungeon",
+   "title": "Bullet Hell Dungeon",
    "family": "personal",
-   "kind": "personal",
+   "kind": "game",
    "status": "active",
-   "description": "",
+   "description": "An 8-bit roguelite action game mixing Zelda-style overworld exploration with bullet-hell dungeon runs: five classes, inventory and levelling, chunked tile maps and touch controls, written in TypeScript on HTML5 Canvas with a custom ECS and Howler audio, bundled with Vite. 57 commits over winter 2025-26.",
    "url": null,
    "repos": [
     "spacedevin/bullet-hell-dungeon"
@@ -2817,6 +2942,14 @@
    "end": null,
    "lastActivity": "2026-01-25",
    "attachTo": null,
+   "tags": [
+    "game",
+    "typescript",
+    "canvas",
+    "roguelite",
+    "bullet-hell"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 57,
    "source": "github"
   },
@@ -2970,11 +3103,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "react-mui-pro-multi-range-picker",
-   "title": "react-mui-pro-multi-range-picker",
+   "title": "React MUI Pro Multi-Range Picker",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "active",
-   "description": "Multi-range date picker Pro component for Material-UI with drag-to-select and chip management",
+   "description": "Multi-range date picker for MUI X Pro with drag-to-select and chip management, published to npm as @spacedevin/react-mui-pro-multi-range-picker. 32 versions between late October and early November 2025, 0.7.0 to 0.11.6. React and TypeScript.",
    "url": "https://github.com/spacedevin/react-mui-pro-multi-range-picker#readme",
    "repos": [
     "git+https://github.com/spacedevin/react-mui-pro-multi-range-picker"
@@ -2984,6 +3117,14 @@
    "end": null,
    "lastActivity": "2025-11-07",
    "attachTo": null,
+   "tags": [
+    "npm",
+    "react",
+    "mui",
+    "typescript",
+    "date-picker"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 0,
    "source": "npm"
   },
@@ -3100,11 +3241,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "fableandfortune",
-   "title": "fableandfortune",
+   "title": "Fable & Fortune",
    "family": "personal",
-   "kind": "personal",
+   "kind": "game",
    "status": "active",
-   "description": "",
+   "description": "A digital party-RPG board game in the browser: Three.js rendering, Cannon.js dice physics and Tone.js procedural audio, with a Unity-like GameObject/Component architecture, board generation, dice and HUD systems, bundled with Vite (an earlier Babylon.js version is kept alongside). 92 commits, July to September 2025.",
    "url": null,
    "repos": [
     "spacedevin/fableandfortune"
@@ -3114,37 +3255,15 @@
    "end": null,
    "lastActivity": "2025-09-23",
    "attachTo": null,
-   "commits": 92,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "farmersmarket",
-   "title": "farmersmarket",
-   "family": "personal",
-   "kind": "personal",
-   "status": "active",
-   "description": "ideas",
-   "url": null,
-   "repos": [
-    "spacedevin/farmersmarket"
+   "tags": [
+    "game",
+    "threejs",
+    "board-game",
+    "webgl",
+    "javascript"
    ],
-   "privateRepos": 1,
-   "start": "2025-05-19",
-   "end": null,
-   "lastActivity": "2025-09-23",
-   "attachTo": null,
-   "commits": 8,
+   "descriptionConfidence": 0.85,
+   "commits": 92,
    "source": "github"
   },
   {
@@ -3162,11 +3281,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "productivity",
-   "title": "productivity",
+   "title": "Productivity",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "active",
-   "description": "",
+   "description": "A modular admin panel and personal productivity dashboard built with Next.js 15, TypeScript, Tailwind and shadcn/ui, with task tracking (status, priority, due dates, tags), a Tiptap markdown editor, table management and dnd-kit drag and drop. Seven commits, mid 2025.",
    "url": null,
    "repos": [
     "spacedevin/productivity"
@@ -3176,6 +3295,14 @@
    "end": null,
    "lastActivity": "2025-09-23",
    "attachTo": null,
+   "tags": [
+    "productivity",
+    "nextjs",
+    "shadcn",
+    "tasks",
+    "dashboard"
+   ],
+   "descriptionConfidence": 0.75,
    "commits": 7,
    "source": "github"
   },
@@ -3194,11 +3321,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "gouda",
-   "title": "gouda",
+   "title": "Gouda",
    "family": "personal",
-   "kind": "personal",
+   "kind": "framework",
    "status": "active",
-   "description": "React + egui + AppKit",
+   "description": "A React-like UI framework that runs TSX in Bun and renders it natively through Rust/egui over Bun's FFI: a cargo workspace with core, components, an egui renderer and a Tailwind-style class layer, supporting basic elements, inputs, windows and inline CSS. 31 commits, September 2025; the most complete of the egui experiments.",
    "url": null,
    "repos": [
     "spacedevin/gouda"
@@ -3208,6 +3335,15 @@
    "end": null,
    "lastActivity": "2025-09-12",
    "attachTo": null,
+   "tags": [
+    "rust",
+    "egui",
+    "bun",
+    "tsx",
+    "desktop-ui",
+    "react-like"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 31,
    "source": "github"
   },
@@ -3226,11 +3362,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "urmuted",
-   "title": "urmuted",
+   "title": "Mutation",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "archived",
-   "description": "",
+   "description": "Mutation (repo urmuted), a global-hotkey and system-tray controller for Microsoft Teams meetings, built as an Nx monorepo of Node packages for hotkeys, systray and the Teams local API. 25 commits, August 2025.",
    "url": null,
    "repos": [
     "spacedevin/urmuted"
@@ -3240,6 +3376,14 @@
    "end": "2025-08-31",
    "lastActivity": "2025-08-31",
    "attachTo": null,
+   "tags": [
+    "teams",
+    "hotkeys",
+    "systray",
+    "nodejs",
+    "desktop"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 25,
    "source": "github"
   },
@@ -3296,11 +3440,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "aaaiii",
-   "title": "aaaiii",
+   "title": "aiflow",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "",
+   "description": "A private Hardhat 3 Solidity project (viem, node:test) with deploy, verify and full-flow scripts targeting Base Sepolia; the README is the stock Hardhat sample so the contracts' purpose is not documented. Fifteen commits, August 2025.",
    "url": null,
    "repos": [
     "spacedevin/aaaiii"
@@ -3310,6 +3454,14 @@
    "end": "2025-08-26",
    "lastActivity": "2025-08-26",
    "attachTo": null,
+   "tags": [
+    "solidity",
+    "hardhat",
+    "ethereum",
+    "base",
+    "smart-contracts"
+   ],
+   "descriptionConfidence": 0.5,
    "commits": 15,
    "source": "github"
   },
@@ -3328,11 +3480,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "builder-swoosh-studio",
-   "title": "builder-swoosh-studio",
+   "title": "Swoosh Studio",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "Created with Builder.io",
+   "description": "A Builder.io Fusion Starter (React 18, Vite, Express, Radix) prototype built around TradingView's lightweight-charts, with docs on chart drawing tools, a simulation refactor, theming and volume-bar colours; eight commits in August 2025. What the finished product was intended to be is not documented.",
    "url": null,
    "repos": [
     "spacedevin/builder-swoosh-studio"
@@ -3342,6 +3494,14 @@
    "end": "2025-08-20",
    "lastActivity": "2025-08-20",
    "attachTo": null,
+   "tags": [
+    "charts",
+    "react",
+    "builder-io",
+    "prototype",
+    "trading"
+   ],
+   "descriptionConfidence": 0.45,
    "commits": 8,
    "source": "github"
   },
@@ -3591,7 +3751,7 @@
    "family": "personal",
    "kind": "experiment",
    "status": "archived",
-   "description": "Benchmark study of Rust GUI approaches on macOS (native AppKit via objc2, SwiftUI, winit, egui, iced, glow, wgpu) comparing memory and GPU use; groundwork for a minimal native Rust desktop shell. 10 commits, June 2025.",
+   "description": "A benchmark study of Rust GUI approaches on macOS (native AppKit via objc2, SwiftUI, winit, egui, iced, glow, wgpu) comparing memory and GPU use, concluding objc2 AppKit at ~19MB was the best base for a minimal native Rust desktop shell. Seven commits, June 2025.",
    "url": null,
    "repos": [
     "spacedevin/gazpacho-base"
@@ -3604,11 +3764,11 @@
    "tags": [
     "rust",
     "macos",
-    "gui",
-    "benchmark",
-    "appkit"
+    "appkit",
+    "egui",
+    "benchmark"
    ],
-   "descriptionConfidence": 0.7,
+   "descriptionConfidence": 0.85,
    "commits": 7,
    "source": "github"
   },
@@ -3627,11 +3787,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "kumato",
-   "title": "kumato",
+   "title": "Kumato",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "",
+   "description": "A multiplatform desktop app experiment with a Rust core exposed through UniFFI to a native SwiftUI macOS shell (sidebar plus content panel), built as groundwork for cross-platform bindings. Fifteen commits, June 2025.",
    "url": null,
    "repos": [
     "spacedevin/kumato"
@@ -3641,39 +3801,15 @@
    "end": "2025-06-27",
    "lastActivity": "2025-06-27",
    "attachTo": null,
+   "tags": [
+    "rust",
+    "uniffi",
+    "swiftui",
+    "macos",
+    "desktop"
+   ],
+   "descriptionConfidence": 0.8,
    "commits": 15,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "TypeScript"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "saffron",
-   "title": "saffron",
-   "family": "personal",
-   "kind": "personal",
-   "status": "archived",
-   "description": "",
-   "url": null,
-   "repos": [
-    "spacedevin/saffron"
-   ],
-   "privateRepos": 1,
-   "start": "2025-05-28",
-   "end": "2025-05-28",
-   "lastActivity": "2025-05-28",
-   "attachTo": null,
-   "commits": 30,
    "source": "github"
   },
   {
@@ -3691,11 +3827,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "gazpacho",
-   "title": "gazpacho",
+   "title": "Anise",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "",
+   "description": "Anise, a JavaScript/TypeScript-to-Rust compiler written in Rust: version 2 parses with oxc and emits Rust directly through a visitor, replacing an earlier three-stage JAST-to-RAST pipeline. 118 commits in four days of May 2025, immediately preceding Tumeric and ultimately Tish.",
    "url": null,
    "repos": [
     "spacedevin/gazpacho"
@@ -3705,6 +3841,14 @@
    "end": "2025-05-19",
    "lastActivity": "2025-05-19",
    "attachTo": null,
+   "tags": [
+    "compiler",
+    "rust",
+    "javascript",
+    "typescript",
+    "oxc"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 118,
    "source": "github"
   },
@@ -3723,11 +3867,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "cloud-runtime-bench",
-   "title": "cloud-runtime-bench",
+   "title": "Cloud Runtime Bench",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "archived",
-   "description": "",
+   "description": "A TypeScript benchmarking harness that deploys the same JavaScript backend to Docker/Node, Oracle Cloud Functions, Vercel Functions and WasmEdge and measures latency, throughput and cold starts across CPU, memory, IO and API scenarios, with Pulumi and docker-compose infrastructure. Six commits, May 2025.",
    "url": null,
    "repos": [
     "spacedevin/cloud-runtime-bench"
@@ -3737,6 +3881,14 @@
    "end": "2025-05-16",
    "lastActivity": "2025-05-16",
    "attachTo": null,
+   "tags": [
+    "benchmark",
+    "serverless",
+    "typescript",
+    "wasm",
+    "vercel"
+   ],
+   "descriptionConfidence": 0.8,
    "commits": 6,
    "source": "github"
   },
@@ -3757,9 +3909,9 @@
    "id": "egui-vdom",
    "title": "egui-vdom",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "",
+   "description": "A follow-up experiment implementing a virtual DOM for egui with a Bun/TypeScript front end and a Rust eframe renderer, so JSX-style trees could be rendered natively. Seven commits, May 2025.",
    "url": null,
    "repos": [
     "spacedevin/egui-vdom"
@@ -3769,6 +3921,14 @@
    "end": "2025-05-10",
    "lastActivity": "2025-05-10",
    "attachTo": null,
+   "tags": [
+    "rust",
+    "egui",
+    "virtual-dom",
+    "bun",
+    "desktop-ui"
+   ],
+   "descriptionConfidence": 0.75,
    "commits": 7,
    "source": "github"
   },
@@ -3787,11 +3947,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "js-engine",
-   "title": "js-engine",
+   "title": "BFGS",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "",
+   "description": "\"Blazingly Fast Guava Script\", a tongue-in-cheek lightweight JavaScript/TypeScript runtime wrapper around the Boa engine in Rust with a clap CLI and tokio for promises; nine commits in one day in May 2025 while exploring JS-to-Rust tooling.",
    "url": null,
    "repos": [
     "spacedevin/js-engine"
@@ -3801,6 +3961,13 @@
    "end": "2025-05-08",
    "lastActivity": "2025-05-08",
    "attachTo": null,
+   "tags": [
+    "rust",
+    "javascript",
+    "runtime",
+    "boa"
+   ],
+   "descriptionConfidence": 0.75,
    "commits": 9,
    "source": "github"
   },
@@ -3821,9 +3988,9 @@
    "id": "egui-reactive-js",
    "title": "egui-reactive-js",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "",
+   "description": "An experiment binding the Rust egui immediate-mode GUI to JavaScript via Neon so native desktop UIs can be driven from Bun/TypeScript without IPC, along the lines of GTK bindings. Seven commits in May 2025; a precursor to egui-vdom and Gouda.",
    "url": null,
    "repos": [
     "spacedevin/egui-reactive-js"
@@ -3833,6 +4000,14 @@
    "end": "2025-05-01",
    "lastActivity": "2025-05-01",
    "attachTo": null,
+   "tags": [
+    "rust",
+    "egui",
+    "bun",
+    "neon",
+    "desktop-ui"
+   ],
+   "descriptionConfidence": 0.8,
    "commits": 7,
    "source": "github"
   },
@@ -3901,11 +4076,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "super-repo",
-   "title": "super-repo",
+   "title": "Dependency Scanner",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "archived",
-   "description": "",
+   "description": "A Rust CLI that recursively walks JavaScript lockfiles (yarn.lock, with package-lock and pnpm planned) and uses the GitHub and npm APIs to extract license information for every dependency without downloading packages; multi-threaded, hash-deduplicated, built with clap and reqwest. Released under the PIF license, April 2025.",
    "url": null,
    "repos": [
     "spacedevin/super-repo"
@@ -3915,6 +4090,14 @@
    "end": "2025-04-10",
    "lastActivity": "2025-04-10",
    "attachTo": null,
+   "tags": [
+    "rust",
+    "cli",
+    "dependencies",
+    "licenses",
+    "npm"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 33,
    "source": "github"
   },
@@ -4056,66 +4239,6 @@
    "descriptionConfidence": 0.65,
    "commits": 0,
    "source": "drive"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "github",
-   "title": "github",
-   "family": "personal",
-   "kind": "personal",
-   "status": "archived",
-   "description": "",
-   "url": null,
-   "repos": [
-    "knoeone/.github"
-   ],
-   "privateRepos": 1,
-   "start": "2023-11-19",
-   "end": "2025-03-28",
-   "lastActivity": "2025-03-28",
-   "attachTo": null,
-   "commits": 7,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "github-workflow",
-   "title": "github-workflow",
-   "family": "personal",
-   "kind": "personal",
-   "status": "archived",
-   "description": "",
-   "url": null,
-   "repos": [
-    "knoeone/github-workflow-test"
-   ],
-   "privateRepos": 1,
-   "start": "2025-03-28",
-   "end": "2025-03-28",
-   "lastActivity": "2025-03-28",
-   "attachTo": null,
-   "commits": 5,
-   "source": "github"
   },
   {
    "packages": {
@@ -4453,11 +4576,11 @@
     "repo": "spacedevin/totes"
    },
    "id": "totes",
-   "title": "totes",
+   "title": "Totes",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "archived",
-   "description": "",
+   "description": "A desktop markdown notes app built with Tauri 2 and the Milkdown/ProseMirror editor, first as a vanilla TypeScript + Vite shell (released as app v0.1.0) and then re-scaffolded on Next.js with Radix UI. About 38 commits over a week in early 2025.",
    "url": "https://totes-lyart.vercel.app",
    "repos": [
     "spacedevin/totes",
@@ -4468,6 +4591,14 @@
    "end": "2025-02-03",
    "lastActivity": "2025-02-03",
    "attachTo": null,
+   "tags": [
+    "notes",
+    "markdown",
+    "tauri",
+    "desktop",
+    "milkdown"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 38,
    "source": "github"
   },
@@ -4490,11 +4621,11 @@
     "repo": "piffoundation/payitforward"
    },
    "id": "piffoundation-payitforward",
-   "title": "payitforward",
+   "title": "Pay It Forward License",
    "family": "pif",
    "kind": "company",
    "status": "archived",
-   "description": "The Pay it Forward License",
+   "description": "The Pay It Forward (PIF) License, an open-source license Devin authored in January 2025 that asks users to contribute back knowledge or value rather than fees, and its site payitforwardlicense.com built with Astro 5 and MDX. Published as v1.0 and used as the license on most of his later Tish-era repos.",
    "url": "https://payitforwardlicense.com",
    "repos": [
     "piffoundation/payitforward"
@@ -4504,6 +4635,13 @@
    "end": "2025-01-22",
    "lastActivity": "2025-01-22",
    "attachTo": null,
+   "tags": [
+    "open-source",
+    "license",
+    "astro",
+    "pif"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 80,
    "source": "github"
   },
@@ -4671,7 +4809,7 @@
    "family": "personal",
    "kind": "framework",
    "status": "archived",
-   "description": "Devin's MVC PHP framework ('completely awesome & naturally amazing') for rapid object-oriented development, borrowing Zend fundamentals with Ruby/jQuery-style chained object access, multi-object operations, caching and JSON output. Grew out of Caffeine and powered Big Brother, Give.mobi-era sites and later Crunchbutton.",
+   "description": "Devin's MVC PHP framework ('completely awesome & naturally amazing') for rapid object-oriented development: Zend-style fundamentals with Ruby/jQuery-like chained object access, multi-object operations, memory caching and JSON output, published on Packagist as arzynik/cana with a GitHub Pages site (cana-web). Grew out of Caffeine and powered Give.mobi-era sites and Crunchbutton.",
    "url": "http://spacedevin.github.io/cana-web/",
    "repos": [
     "spacedevin/cana-web",
@@ -4685,12 +4823,12 @@
    "attachTo": null,
    "tags": [
     "php",
-    "framework",
     "mvc",
-    "orm",
-    "cana"
+    "framework",
+    "composer",
+    "packagist"
    ],
-   "descriptionConfidence": 0.9,
+   "descriptionConfidence": 0.95,
    "commits": 77,
    "source": "github"
   },
@@ -4986,7 +5124,7 @@
    "family": "personal",
    "kind": "app",
    "status": "archived",
-   "description": "nanana.ai, an AI recipe product under Knoeone: a Next.js 14 web app and API (OpenAI, Replicate, MongoDB, S3, Apple sign-in and receipt verification) plus a Flutter mobile app; ~480 commits from late 2023.",
+   "description": "nanana.ai, an AI recipe product under Knoeone: a Next.js 14 web app and API (OpenAI, Replicate, MongoDB, S3, Apple sign-in and App Store receipt verification) plus a Flutter/Dart mobile app. Roughly 490 commits between October 2023 and January 2024.",
    "url": "https://nanana.ai",
    "repos": [
     "knoeone/nanana-web",
@@ -4998,14 +5136,14 @@
    "lastActivity": "2024-09-04",
    "attachTo": null,
    "tags": [
+    "ai",
+    "recipes",
     "nextjs",
     "flutter",
-    "openai",
-    "recipes",
-    "mongodb",
-    "knoeone"
+    "mobile",
+    "mongodb"
    ],
-   "descriptionConfidence": 0.75,
+   "descriptionConfidence": 0.85,
    "commits": 489,
    "source": "github"
   },
@@ -5026,9 +5164,9 @@
    "id": "rsmerge",
    "title": "rsmerge",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "",
+   "description": "A four-commit test of the Vercel Rust runtime (vercel_runtime + tokio) for merging API routes into one binary; the README is a placeholder.",
    "url": "https://rsmerge.vercel.app",
    "repos": [
     "spacedevin/rsmerge"
@@ -5038,6 +5176,12 @@
    "end": "2024-08-25",
    "lastActivity": "2024-08-25",
    "attachTo": null,
+   "tags": [
+    "rust",
+    "vercel",
+    "test"
+   ],
+   "descriptionConfidence": 0.85,
    "commits": 4,
    "source": "github"
   },
@@ -5468,7 +5612,7 @@
    "family": "personal",
    "kind": "experiment",
    "status": "archived",
-   "description": "Kanban-style collaboration board prototype (completed / current / backlog / icebox columns) built in Next.js, intended to use FaunaDB; eight commits from April 2021.",
+   "description": "A kanban-style collaboration board prototype (completed / current / backlog / icebox columns) built in Next.js with Auth0 login and FaunaDB storage; 8 commits, April 2021, private.",
    "url": null,
    "repos": [
     "spacedevin/colaby-fauna"
@@ -5480,11 +5624,12 @@
    "attachTo": null,
    "tags": [
     "nextjs",
-    "fauna",
+    "faunadb",
+    "auth0",
     "kanban",
     "prototype"
    ],
-   "descriptionConfidence": 0.5,
+   "descriptionConfidence": 0.8,
    "commits": 8,
    "source": "github"
   },
@@ -5507,11 +5652,11 @@
     "repo": "knoeone/soundsetr"
    },
    "id": "soundsetr",
-   "title": "soundsetr",
+   "title": "Soundsetr",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "archived",
-   "description": "Change those old Outlook notification sounds",
+   "description": "A macOS desktop app for swapping Microsoft Outlook notification sounds: browse and download sound sets from a built-in shop, then install them into Outlook's SoundSet directory. Built in Flutter/Dart with macos_ui, ffmpeg_kit and audioplayers; published as v0.0.1-0.0.2 in December 2023 with a companion sound-set catalog, a GitHub-auth edge function for sharing sets, and a landing page at soundsetr.com.",
    "url": "https://soundsetr.com",
    "repos": [
     "knoeone/soundsetr"
@@ -5521,6 +5666,14 @@
    "end": "2023-12-03",
    "lastActivity": "2024-01-01",
    "attachTo": null,
+   "tags": [
+    "macos",
+    "flutter",
+    "outlook",
+    "audio",
+    "desktop"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 77,
    "source": "github"
   },
@@ -5539,11 +5692,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "will",
-   "title": "will",
+   "title": "Will",
    "family": "personal",
-   "kind": "personal",
+   "kind": "game",
    "status": "archived",
-   "description": "",
+   "description": "A private Flutter game prototype from the 2023 holidays, started from the stock Flutter template; the README is a design brainstorm for a steampunk action-adventure (\"steampunk willie\") with melee and steam weapons, music puzzles, robot enemies and dungeons with mini-bosses. Seventeen commits, no evidence of a finished build.",
    "url": null,
    "repos": [
     "spacedevin/will"
@@ -5553,73 +5706,14 @@
    "end": "2024-01-01",
    "lastActivity": "2024-01-01",
    "attachTo": null,
+   "tags": [
+    "game",
+    "flutter",
+    "prototype",
+    "steampunk"
+   ],
+   "descriptionConfidence": 0.5,
    "commits": 17,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "HTML"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "soundsetr-com",
-   "title": "soundsetr-com",
-   "family": "personal",
-   "kind": "personal",
-   "status": "archived",
-   "description": "Soundsetr landing page",
-   "url": "https://soundsetr.com",
-   "repos": [
-    "knoeone/soundsetr.com"
-   ],
-   "privateRepos": 0,
-   "start": "2023-12-03",
-   "end": "2023-12-03",
-   "lastActivity": "2023-12-03",
-   "attachTo": null,
-   "commits": 4,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [],
-   "items": [],
-   "releases": 2,
-   "majors": 0,
-   "latestRelease": {
-    "tag": "v6",
-    "date": "2023-12-03",
-    "repo": "knoeone/soundsetr-soundsets"
-   },
-   "id": "soundsetr-soundsets",
-   "title": "soundsetr-soundsets",
-   "family": "personal",
-   "kind": "personal",
-   "status": "archived",
-   "description": "A collection of Outlook Sound Sets for Soundsetr",
-   "url": null,
-   "repos": [
-    "knoeone/soundsetr-soundsets"
-   ],
-   "privateRepos": 0,
-   "start": "2023-11-26",
-   "end": "2023-12-03",
-   "lastActivity": "2023-12-03",
-   "attachTo": null,
-   "commits": 23,
    "source": "github"
   },
   {
@@ -5639,11 +5733,11 @@
     "repo": "knoeone/pr-test"
    },
    "id": "pr",
-   "title": "pr",
+   "title": "pr-test",
    "family": "personal",
-   "kind": "personal",
+   "kind": "experiment",
    "status": "archived",
-   "description": "",
+   "description": "A throwaway private repo used to test GitHub release and pull-request automation for the Soundsetr sound-set catalog (137 generated commits over two days, then archived).",
    "url": null,
    "repos": [
     "knoeone/pr-test"
@@ -5653,39 +5747,13 @@
    "end": "2023-12-01",
    "lastActivity": "2023-12-01",
    "attachTo": null,
+   "tags": [
+    "test",
+    "github-actions",
+    "soundsetr"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 137,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "TypeScript"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "soundsetr-auth-edge",
-   "title": "soundsetr-auth-edge",
-   "family": "personal",
-   "kind": "personal",
-   "status": "archived",
-   "description": "",
-   "url": "https://soundsetr-auth-edge.vercel.app",
-   "repos": [
-    "knoeone/soundsetr-auth-edge"
-   ],
-   "privateRepos": 0,
-   "start": "2023-11-27",
-   "end": "2023-11-27",
-   "lastActivity": "2023-11-27",
-   "attachTo": null,
-   "commits": 4,
    "source": "github"
   },
   {
@@ -5793,7 +5861,7 @@
    "family": "personal",
    "kind": "company",
    "status": "archived",
-   "description": "Devin's 2023 personal apps company: a storefront forked from Next.js Commerce (knoeone) and a separate landing site (knoeone-landing); 52 commits.",
+   "description": "Repos for Knoeone, Devin's personal product label: a 2023 storefront cloned from Vercel's Next.js Commerce turborepo (knoeone, 43 commits) and a separate static landing site (knoeone-landing, 10 commits); both private.",
    "url": "https://knoeone.vercel.app",
    "repos": [
     "knoeone/knoeone",
@@ -5807,10 +5875,11 @@
    "tags": [
     "nextjs",
     "commerce",
-    "landing",
-    "knoeone"
+    "turborepo",
+    "vercel",
+    "landing-page"
    ],
-   "descriptionConfidence": 0.6,
+   "descriptionConfidence": 0.8,
    "commits": 53,
    "source": "github"
   },
@@ -5829,11 +5898,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "expo-ai-images-router",
-   "title": "expo-ai-images-router",
+   "title": "Sixpix",
    "family": "personal",
-   "kind": "personal",
+   "kind": "app",
    "status": "archived",
-   "description": "",
+   "description": "Sixpix (sixpix.ai), an AI image generation mobile app built with Expo Router / React Native for iOS and Android under the Knoeone label, backed by the next-ai-images Next.js service that calls Replicate and OpenAI. About three weeks of work in October 2023.",
    "url": null,
    "repos": [
     "knoeone/expo-ai-images-router"
@@ -5843,6 +5912,14 @@
    "end": "2023-10-19",
    "lastActivity": "2023-10-19",
    "attachTo": null,
+   "tags": [
+    "ai",
+    "image-generation",
+    "expo",
+    "react-native",
+    "mobile"
+   ],
+   "descriptionConfidence": 0.8,
    "commits": 21,
    "source": "github"
   },
@@ -5861,11 +5938,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "devin-la-retro",
-   "title": "devin.la retro (space-2023)",
+   "title": "devin.la (2023)",
    "family": "personal",
    "kind": "personal",
    "status": "archived",
-   "description": "2023 personal site/resume generator: Next.js 13 + Tailwind with MongoDB and the OpenAI API, rendering markdown to PDF (jspdf, md-to-pdf); 21 commits.",
+   "description": "A 2023 rebuild of Devin's personal site and resume, a small Next.js 13 + React 18 app styled with Tailwind and deployed to Vercel. Later superseded by space.la.",
    "url": "https://devin-la-retro.vercel.app",
    "repos": [
     "spacedevin/devin-la-retro"
@@ -5876,46 +5953,13 @@
    "lastActivity": "2023-10-17",
    "attachTo": null,
    "tags": [
+    "personal-site",
     "nextjs",
-    "openai",
-    "resume",
-    "pdf",
-    "personal-site"
+    "tailwind",
+    "resume"
    ],
-   "descriptionConfidence": 0.7,
+   "descriptionConfidence": 0.8,
    "commits": 20,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "JavaScript"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "next-ai-images",
-   "title": "next-ai-images",
-   "family": "personal",
-   "kind": "personal",
-   "status": "archived",
-   "description": "",
-   "url": null,
-   "repos": [
-    "knoeone/next-ai-images"
-   ],
-   "privateRepos": 1,
-   "start": "2023-10-06",
-   "end": "2023-10-12",
-   "lastActivity": "2023-10-12",
-   "attachTo": null,
-   "commits": 5,
    "source": "github"
   },
   {
@@ -6557,7 +6601,7 @@
    "family": "personal",
    "kind": "app",
    "status": "archived",
-   "description": "Devin's commercial Ionic starter sold on the Ionic Market: a WhatsApp-style video and text chat app using WebRTC (cordova-plugin-iosrtc), socket.io signaling and a Node/MongoDB backend, shipped in Ionic 1, 2 and 3 versions plus a React Native server variant.",
+   "description": "Devin's commercial Ionic starter sold on the Ionic Market: a WhatsApp/Viber-style video and group text chat app using WebRTC (cordova-plugin-iosrtc) with a socket.io signaling server and a Node/MongoDB backend for users and chat history, shipped as Ionic 1 and Ionic 2/3 versions with a marketing site at ionicvideochat.com; 179 commits across four repos, 2017.",
    "url": "http://ionicvideochat.com",
    "repos": [
     "knoeone/ionic-video-chat",
@@ -6573,12 +6617,12 @@
    "tags": [
     "ionic",
     "webrtc",
+    "cordova",
     "socket.io",
-    "node",
-    "mongodb",
-    "product"
+    "nodejs",
+    "mongodb"
    ],
-   "descriptionConfidence": 0.9,
+   "descriptionConfidence": 0.95,
    "commits": 179,
    "source": "github"
   },
@@ -6700,7 +6744,7 @@
    "family": "personal",
    "kind": "game",
    "status": "archived",
-   "description": "Unity 2D pixel-art creature game prototype with a WebGL build; the readme is a list of itch.io sprite packs, tilesets and pop-art references. Six commits, June 2022.",
+   "description": "A Unity 2D pixel-art creature game prototype with a WebGL build; the README is a list of itch.io sprite packs, tilesets and pixel-perfect and color-scale references. 6 commits, June 2022, private.",
    "url": null,
    "repos": [
     "spacedevin/kreatura"
@@ -6717,7 +6761,7 @@
     "webgl",
     "prototype"
    ],
-   "descriptionConfidence": 0.55,
+   "descriptionConfidence": 0.75,
    "commits": 6,
    "source": "github"
   },
@@ -6775,11 +6819,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "spacewater",
-   "title": "Spacewater",
+   "title": "Space Water",
    "family": "personal",
    "kind": "design",
    "status": "archived",
-   "description": "Domain landing for spacewater: only a CNAME, logo SVG and sticker artwork on GitHub Pages; five commits, June 2022.",
+   "description": "A brand landing page for Space Water, a 'spiked hard seltzer made with potato vodka' concept: a pink-to-red gradient page with halftone corners and the Space Water logo SVG and sticker artwork, served from GitHub Pages with a CNAME; 5 commits, June 2022, private.",
    "url": null,
    "repos": [
     "spacedevin/spacewater"
@@ -6791,10 +6835,12 @@
    "attachTo": null,
    "tags": [
     "branding",
-    "logo",
-    "github-pages"
+    "landing-page",
+    "html",
+    "github-pages",
+    "hard-seltzer"
    ],
-   "descriptionConfidence": 0.5,
+   "descriptionConfidence": 0.8,
    "commits": 5,
    "source": "github"
   },
@@ -7006,7 +7052,7 @@
    "family": "personal",
    "kind": "company",
    "status": "archived",
-   "description": "Moonshyne, a startup app connecting bartenders with events, built by Devin around 2017: a Node/Express/MongoDB API with Stripe, socket.io and cron jobs, a separate socket server, an Ionic 2 native app and a marketing site.",
+   "description": "Moonshyne (moonshyne.co), a 2017 startup app connecting bartenders with events: a Node/Express/MongoDB API with Stripe, socket.io, AWS and cron jobs, and an Ionic 2 native app by Devin; 177 commits across two private repos, March-June 2017.",
    "url": null,
    "repos": [
     "knoeone/moonshyne-native",
@@ -7018,12 +7064,12 @@
    "lastActivity": "2022-04-01",
    "attachTo": null,
    "tags": [
-    "node",
-    "express",
-    "mongodb",
     "ionic",
+    "nodejs",
+    "mongodb",
     "stripe",
-    "startup"
+    "startup",
+    "bartenders"
    ],
    "descriptionConfidence": 0.8,
    "commits": 177,
@@ -7048,7 +7094,7 @@
    "family": "personal",
    "kind": "site",
    "status": "archived",
-   "description": "Static site for spacebar.la with a three.js particle text effect (custom GLSL shaders, Enriqueta font JSON); 12 commits, June 2021.",
+   "description": "A static site for spacebar.la with a three.js particle text effect driven by custom GLSL shaders and an Enriqueta font JSON; 12 commits, June 2021, private.",
    "url": null,
    "repos": [
     "spacedevin/spacebar"
@@ -7060,11 +7106,12 @@
    "attachTo": null,
    "tags": [
     "threejs",
-    "webgl",
     "glsl",
-    "static"
+    "webgl",
+    "static-site",
+    "landing-page"
    ],
-   "descriptionConfidence": 0.7,
+   "descriptionConfidence": 0.8,
    "commits": 12,
    "source": "github"
   },
@@ -7612,7 +7659,7 @@
    "family": "crunchbutton",
    "kind": "company",
    "status": "archived",
-   "description": "Main codebase of Crunchbutton, the food-delivery startup where Devin was CTO (2012-2016): PHP 5.6 monolith on his Cana framework with Travis CI, Coveralls, Heroku/Docker deploys, cockpit driver app, landing pages, Cordova iOS apps and the Cluckbutton game; many working copies merged.",
+   "description": "The full codebase of Crunchbutton, the food-delivery startup where Devin was CTO (2012-2016): a PHP monolith on his Cana framework with Stripe, Twilio and Redis, Travis CI and Heroku/Docker deploys, plus the Cockpit driver app, Cordova iOS/Android apps for customers and drivers, a Node socket.io event and log server, a thumbnail server, a MariaDB Galera cluster setup, landing pages, a down page and the Cluckbutton game and its Flappy Bird clone. Over 5,000 commits across 15 repos.",
    "url": "http://crunchbutton.com",
    "repos": [
     "crunchbutton/crunchbutton",
@@ -7639,12 +7686,12 @@
    "tags": [
     "php",
     "cana",
-    "heroku",
     "cordova",
     "food-delivery",
-    "crunchbutton"
+    "stripe",
+    "twilio"
    ],
-   "descriptionConfidence": 0.9,
+   "descriptionConfidence": 0.95,
    "commits": 5137,
    "source": "github"
   },
@@ -7741,7 +7788,7 @@
    "family": "personal",
    "kind": "site",
    "status": "archived",
-   "description": "Single-page joke manifesto site at darkmodefirst.com declaring dark mode a design principle; static HTML with OpenGraph tags, April 2021.",
+   "description": "A single-page joke manifesto site at darkmodefirst.com declaring dark mode a design principle; static HTML with OpenGraph share image and favicon, 9 commits, April-May 2021.",
    "url": null,
    "repos": [
     "spacedevin/darkmodefirst.com"
@@ -7752,45 +7799,13 @@
    "lastActivity": "2021-06-18",
    "attachTo": null,
    "tags": [
-    "static",
     "html",
-    "joke",
-    "design"
+    "static-site",
+    "dark-mode",
+    "manifesto"
    ],
-   "descriptionConfidence": 0.8,
+   "descriptionConfidence": 0.9,
    "commits": 9,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "HTML"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "ks",
-   "title": "ks",
-   "family": "personal",
-   "kind": "personal",
-   "status": "archived",
-   "description": "",
-   "url": null,
-   "repos": [
-    "spacedevin/ks-test"
-   ],
-   "privateRepos": 1,
-   "start": "2021-06-18",
-   "end": "2021-06-18",
-   "lastActivity": "2021-06-18",
-   "attachTo": null,
-   "commits": 5,
    "source": "github"
   },
   {
@@ -7854,7 +7869,7 @@
    "family": "personal",
    "kind": "personal",
    "status": "archived",
-   "description": "2021 version of Devin's personal site space.la, a Next.js app (package name devin2020) with 66 commits.",
+   "description": "The 2021 version of Devin's personal site space.la: a Next.js app (package name devin2020) with glslify/glsl-noise shader effects and highlight.js, deployed on Vercel; 66 commits, April-June 2021, private.",
    "url": "space-la-arzynik.vercel.app",
    "repos": [
     "spacedevin/space-la"
@@ -7866,10 +7881,12 @@
    "attachTo": null,
    "tags": [
     "nextjs",
-    "portfolio",
-    "personal-site"
+    "glsl",
+    "vercel",
+    "personal-site",
+    "space.la"
    ],
-   "descriptionConfidence": 0.75,
+   "descriptionConfidence": 0.85,
    "commits": 66,
    "source": "github"
   },
@@ -7896,7 +7913,7 @@
    "family": "personal",
    "kind": "app",
    "status": "archived",
-   "description": "An image and text sharing tool: paste straight from the clipboard and get an anonymous URL. PHP on Devin's Tipsy framework with MySQL/Postgres or local storage and a Heroku deploy button; 112 commits from 2014 (squirrelly.io).",
+   "description": "An image and text sharing tool (squirrelly.io): paste straight from your clipboard or mobile device and get an anonymous URL. PHP on Devin's Tipsy framework with MySQL/Postgres or local storage and a Heroku deploy button; 122 commits, 2014-2021.",
    "url": "http://squirrelly.io",
    "repos": [
     "spacedevin/squirrelly"
@@ -7909,42 +7926,13 @@
    "tags": [
     "php",
     "tipsy",
+    "clipboard",
     "sharing",
     "heroku",
-    "open-source"
+    "postgres"
    ],
-   "descriptionConfidence": 0.9,
+   "descriptionConfidence": 0.95,
    "commits": 122,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "arzynik",
-   "title": "arzynik",
-   "family": "personal",
-   "kind": "personal",
-   "status": "archived",
-   "description": "Config files for my GitHub profile.",
-   "url": "https://github.com/arzynik",
-   "repos": [
-    "arzynik/arzynik"
-   ],
-   "privateRepos": 0,
-   "start": "2021-05-24",
-   "end": "2021-05-24",
-   "lastActivity": "2021-05-24",
-   "attachTo": null,
-   "commits": 1,
    "source": "github"
   },
   {
@@ -8070,38 +8058,6 @@
    "source": "drive"
   },
   {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "HTML"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "otter-ui-archive-vercel-support",
-   "title": "otter-ui-archive-vercel-support",
-   "family": "personal",
-   "kind": "personal",
-   "status": "archived",
-   "description": "",
-   "url": null,
-   "repos": [
-    "spacedevin/otter-ui-archive-vercel-support"
-   ],
-   "privateRepos": 1,
-   "start": "2021-04-05",
-   "end": "2021-04-05",
-   "lastActivity": "2021-04-05",
-   "attachTo": null,
-   "commits": 5,
-   "source": "github"
-  },
-  {
    "id": "legacy-portfolio",
    "title": "Portfolio",
    "family": "personal",
@@ -8136,11 +8092,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "comtrya",
-   "title": "comtrya",
+   "title": "Comtrya",
    "family": "personal",
-   "kind": "personal",
+   "kind": "site",
    "status": "archived",
-   "description": "",
+   "description": "A one-page placeholder landing site for the comtrya.app domain: a black page with an animated GIF and the tagline 'everything is better', served from GitHub Pages; 5 commits, Jan-Feb 2021.",
    "url": null,
    "repos": [
     "spacedevin/comtrya.app"
@@ -8150,6 +8106,13 @@
    "end": "2021-02-08",
    "lastActivity": "2021-02-08",
    "attachTo": null,
+   "tags": [
+    "html",
+    "landing-page",
+    "github-pages",
+    "domain"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 5,
    "source": "github"
   },
@@ -8224,7 +8187,7 @@
    "family": "chibotle",
    "kind": "client",
    "status": "archived",
-   "description": "Zoom Marketplace chatbot for Chipotle built at Agency Enterprise in 2020 (guac): Express + Handlebars + MongoDB with the Zoom bot service SDK, plus a Next.js variant; 94 commits.",
+   "description": "A Zoom Marketplace chatbot for Chipotle built at Agency Enterprise in September 2020: Express + Handlebars + MongoDB with the Zoom bot service SDK, plus a Next.js variant with FontAwesome, deployed on Vercel; 94 commits, private.",
    "url": "https://chibotle.vercel.app",
    "repos": [
     "chibotle/chibotle"
@@ -8237,12 +8200,12 @@
    "tags": [
     "zoom",
     "chatbot",
-    "express",
+    "nodejs",
     "mongodb",
     "nextjs",
     "ae-studio"
    ],
-   "descriptionConfidence": 0.7,
+   "descriptionConfidence": 0.85,
    "commits": 94,
    "source": "github"
   },
@@ -8414,7 +8377,7 @@
    "family": "personal",
    "kind": "experiment",
    "status": "archived",
-   "description": "Expo + Next.js (expo/next-adapter) universal app experiment that authenticates with GitHub via Octokit and stores data in MongoDB; four commits from March 2020.",
+   "description": "An Expo + Next.js universal app experiment (expo/next-adapter) that authenticates with GitHub via Octokit and stores data in MongoDB; 5 commits, March 2020, private.",
    "url": null,
    "repos": [
     "knoeone/tissue-nexpo"
@@ -8427,11 +8390,11 @@
    "tags": [
     "expo",
     "nextjs",
-    "github-api",
-    "mongodb",
-    "universal"
+    "react-native",
+    "octokit",
+    "mongodb"
    ],
-   "descriptionConfidence": 0.5,
+   "descriptionConfidence": 0.75,
    "commits": 5,
    "source": "github"
   },
@@ -8495,7 +8458,7 @@
    "family": "personal",
    "kind": "experiment",
    "status": "archived",
-   "description": "Next.js 9 + MongoDB app started March 2020 from Devin's Now/Homestead starter, apparently a revisit of the Give donation idea; 37 commits, no README beyond setup steps.",
+   "description": "A Next.js 9 + MongoDB app started in March 2020 from Devin's Now/Homestead starter with FontAwesome Pro, apparently revisiting the Give donation idea; 37 commits with no README beyond setup steps, private.",
    "url": null,
    "repos": [
     "knoeone/give-next"
@@ -8509,9 +8472,10 @@
     "nextjs",
     "mongodb",
     "vercel",
-    "give"
+    "donations",
+    "prototype"
    ],
-   "descriptionConfidence": 0.4,
+   "descriptionConfidence": 0.6,
    "commits": 37,
    "source": "github"
   },
@@ -8534,7 +8498,7 @@
    "family": "personal",
    "kind": "company",
    "status": "archived",
-   "description": "Mobile charity donation platform (CharityCall / Give.mobi, 2008-2012) by Devin: PHP 5.6 app with Mailgun, cron jobs, native app assets, subdomains and Heroku Procfile, plus a getting-started guide.",
+   "description": "The codebase for Devin's mobile charity donation platform (CharityCall / MobileDonor / Give.mobi, 2008-2012): a PHP 5.6 application with MySQL/T-SQL schemas, Mailgun mail, cron jobs, subdomain sites, native app assets and a Heroku Procfile, with a getting-started guide. 479 commits, kept private.",
    "url": "http://give.mobi",
    "repos": [
     "knoeone/give-mobi"
@@ -8546,9 +8510,10 @@
    "attachTo": null,
    "tags": [
     "php",
-    "mobile",
-    "donations",
     "charity",
+    "donations",
+    "mobile",
+    "mailgun",
     "heroku"
    ],
    "descriptionConfidence": 0.85,
@@ -8837,7 +8802,7 @@
    "family": "personal",
    "kind": "game",
    "status": "archived",
-   "description": "Unity multiplayer top-down city game prototype (379 commits, Oct 2019) using Photon Unity Networking and NavMesh, with a small Node toolchain for linting and icon formatting; kept in the functionalprototype folder alongside its API and web landing.",
+   "description": "A Unity multiplayer top-down city game prototype using Photon Unity Networking and NavMesh, with a small Node toolchain for C# linting (uncrustify) and icon formatting; 379 commits, Oct-Dec 2019, private.",
    "url": null,
    "repos": [
     "spacedevin/topdowncity"
@@ -8852,9 +8817,9 @@
     "csharp",
     "photon",
     "multiplayer",
-    "top-down"
+    "prototype"
    ],
-   "descriptionConfidence": 0.7,
+   "descriptionConfidence": 0.85,
    "commits": 379,
    "source": "github"
   },
@@ -9535,7 +9500,7 @@
    "family": "personal",
    "kind": "game",
    "status": "archived",
-   "description": "A React Native for Web (Expo 27) game prototype named Creature Summoner; only the scaffold and src survive.",
+   "description": "A React Native for Web (Expo 27) game prototype named Creature Summoner; only the scaffold and src survive from 12 commits in August 2018, private.",
    "url": null,
    "repos": [
     "spacedevin/creature-summoner"
@@ -9548,11 +9513,11 @@
    "tags": [
     "react-native",
     "expo",
-    "web",
+    "react-native-web",
     "game",
     "prototype"
    ],
-   "descriptionConfidence": 0.45,
+   "descriptionConfidence": 0.7,
    "commits": 12,
    "source": "github"
   },
@@ -9575,7 +9540,7 @@
    "family": "personal",
    "kind": "personal",
    "status": "archived",
-   "description": "Devin's personal site (devin-la/devin repo) with a PHP include/www layout, alongside small Heroku HHVM+Postgres and Node test deployments used to try hosting options.",
+   "description": "The 2010-2013 version of Devin's personal site, a PHP include/www codebase he describes as his 'personal sloppy code of a site', with 226 commits. Later devin.la rewrites live in separate repos.",
    "url": "http://devin.la",
    "repos": [
     "spacedevin/devin"
@@ -9588,10 +9553,10 @@
    "tags": [
     "php",
     "personal-site",
-    "heroku",
-    "hhvm"
+    "devin.la",
+    "portfolio"
    ],
-   "descriptionConfidence": 0.7,
+   "descriptionConfidence": 0.85,
    "commits": 226,
    "source": "github"
   },
@@ -9887,7 +9852,7 @@
    "family": "personal",
    "kind": "experiment",
    "status": "archived",
-   "description": "A React Native (Expo 27) Ethereum wallet prototype using ethers.js.",
+   "description": "A React Native (Expo 27) Ethereum wallet prototype using ethers.js; 10 commits, July 2018, private.",
    "url": null,
    "repos": [
     "spacedevin/eth-wallet"
@@ -9904,7 +9869,7 @@
     "ethers",
     "wallet"
    ],
-   "descriptionConfidence": 0.65,
+   "descriptionConfidence": 0.8,
    "commits": 10,
    "source": "github"
   },
@@ -9968,7 +9933,7 @@
    "family": "personal",
    "kind": "game",
    "status": "archived",
-   "description": "A React Native for Web (Expo 27) game prototype named Poke with colony artwork, one of Devin's react-native-games experiments.",
+   "description": "A React Native for Web (Expo 27) game prototype named Poke with colony artwork, one of Devin's react-native-games experiments; 12 commits, June 2018, private.",
    "url": null,
    "repos": [
     "spacedevin/poke"
@@ -9981,11 +9946,11 @@
    "tags": [
     "react-native",
     "expo",
-    "web",
+    "react-native-web",
     "game",
     "prototype"
    ],
-   "descriptionConfidence": 0.5,
+   "descriptionConfidence": 0.75,
    "commits": 12,
    "source": "github"
   },
@@ -10048,7 +10013,7 @@
    "family": "personal",
    "kind": "personal",
    "status": "archived",
-   "description": "Devin's long-running personal art and design site, built on his Caffeine PHP engine (www/index.php boots Caffeine::app()) with an include/source/www layout and a history section. Design assets date it to 2004-2010.",
+   "description": "Devin's personal art and design site at e338.com, a PHP app booted through his Caffeine engine with an include/source/www layout and a history section. Private repo; 24 commits in 2010-2011 covering design work that dates back to 2004.",
    "url": "http://e338.com",
    "repos": [
     "knoeone/e338"
@@ -10061,10 +10026,11 @@
    "tags": [
     "php",
     "caffeine",
-    "personal-site",
-    "art"
+    "art",
+    "portfolio",
+    "personal-site"
    ],
-   "descriptionConfidence": 0.55,
+   "descriptionConfidence": 0.75,
    "commits": 24,
    "source": "github"
   },
@@ -10258,7 +10224,7 @@
    "family": "personal",
    "kind": "app",
    "status": "archived",
-   "description": "Cheryl is Devin's web-based file manager built on PHP (Tipsy framework) and AngularJS, with an Ace editor, local or database-backed storage and a one-click Heroku deploy (Nginx + Postgres); 97 commits across the 3.0 and 4.0 beta versions, 2013 onward.",
+   "description": "A web-based file manager (cheryl.io) built on PHP with Devin's Tipsy framework and AngularJS, with an Ace code editor, local or database-backed storage, and a one-click Heroku deploy using Nginx and Postgres; released through v3.0 and a v4.0 beta, 2013-2018.",
    "url": "http://cheryl.io",
    "repos": [
     "spacedevin/cheryl"
@@ -10270,12 +10236,12 @@
    "attachTo": null,
    "tags": [
     "php",
-    "angularjs",
     "tipsy",
+    "angularjs",
     "file-manager",
-    "open-source"
+    "heroku"
    ],
-   "descriptionConfidence": 0.9,
+   "descriptionConfidence": 0.95,
    "commits": 95,
    "source": "github"
   },
@@ -10337,7 +10303,7 @@
    "family": "personal",
    "kind": "app",
    "status": "archived",
-   "description": "A Create React Native App (Expo) diet tracking app named Diet Victory, paired with a Node server using the FatSecret food API and Facebook login.",
+   "description": "A diet tracking app built with Create React Native App (Expo) named Diet Victory, paired with a Node server that uses the FatSecret food API and Facebook login; 41 commits, November 2017, private.",
    "url": null,
    "repos": [
     "knoeone/diet"
@@ -10350,10 +10316,11 @@
    "tags": [
     "react-native",
     "expo",
+    "nodejs",
     "diet",
     "fatsecret"
    ],
-   "descriptionConfidence": 0.7,
+   "descriptionConfidence": 0.8,
    "commits": 41,
    "source": "github"
   },
@@ -10528,36 +10495,6 @@
     "packagist": []
    },
    "stars": 0,
-   "languages": [],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "ionic-video-chat-support",
-   "title": "ionic-video-chat-support",
-   "family": "personal",
-   "kind": "personal",
-   "status": "archived",
-   "description": "Ionic 3 Video and Group Text Chat",
-   "url": "http://market.ionic.io/starters/whatsapp-viber-video-text-chat-full-app",
-   "repos": [
-    "knoeone/ionic-video-chat-support"
-   ],
-   "privateRepos": 0,
-   "start": "2017-02-02",
-   "end": "2017-11-13",
-   "lastActivity": "2017-11-13",
-   "attachTo": null,
-   "commits": 9,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
    "languages": [
     "C#",
     "JavaScript"
@@ -10575,7 +10512,7 @@
    "family": "personal",
    "kind": "game",
    "status": "archived",
-   "description": "Juryoku is Devin's space shooter game built in Unity (C#/UnityScript, iOS build) with 136 commits from 2014, plus a 2017 node/Express/MongoDB backend with JWT auth for accounts and scores.",
+   "description": "A space shooter game built in Unity (C# and UnityScript, with an iOS build) from 2014, plus a 2017 Node/Express/MongoDB backend with bcrypt and JWT auth for accounts and scores; 164 commits in two private repos.",
    "url": null,
    "repos": [
     "knoeone/juryoku",
@@ -10589,12 +10526,12 @@
    "tags": [
     "unity",
     "csharp",
-    "game",
     "ios",
-    "node",
-    "mongodb"
+    "nodejs",
+    "mongodb",
+    "shooter"
    ],
-   "descriptionConfidence": 0.8,
+   "descriptionConfidence": 0.85,
    "commits": 164,
    "source": "github"
   },
@@ -10613,11 +10550,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "weather",
-   "title": "Weather (Electron menubar)",
+   "title": "Weather",
    "family": "personal",
    "kind": "app",
    "status": "archived",
-   "description": "A React 16 Electron menubar weather app with FontAwesome Pro icons and local JSON storage.",
+   "description": "An Electron menubar weather app built with React 16 and FontAwesome Pro icons, storing settings in local JSON; 20 commits, November 2017, private.",
    "url": null,
    "repos": [
     "knoeone/weather-app"
@@ -10630,10 +10567,11 @@
    "tags": [
     "electron",
     "react",
+    "weather",
     "menubar",
-    "weather"
+    "desktop"
    ],
-   "descriptionConfidence": 0.75,
+   "descriptionConfidence": 0.85,
    "commits": 20,
    "source": "github"
   },
@@ -10701,9 +10639,9 @@
    "id": "apibtc",
    "title": "apibtc",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "archived",
-   "description": "[![npm package](https://nodei.co/npm/apibtc.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/apibtc/)",
+   "description": "Small Node wrapper for a Bitcoin API, published to npm as apibtc in November 2017 during the AE Studio period. Two versions, ending at 1.0.1; the package description is only an npm badge.",
    "url": null,
    "repos": [],
    "privateRepos": 0,
@@ -10711,6 +10649,13 @@
    "end": "2017-11-02",
    "lastActivity": "2017-11-02",
    "attachTo": null,
+   "tags": [
+    "npm",
+    "javascript",
+    "bitcoin",
+    "api-client"
+   ],
+   "descriptionConfidence": 0.55,
    "commits": 0,
    "source": "npm"
   },
@@ -10775,7 +10720,7 @@
    "family": "personal",
    "kind": "personal",
    "status": "archived",
-   "description": "Devin's 2017 personal site and resume: a Node/Express app with Handlebars views, MongoDB, a Tumblr feed via his own node-tumblr fork, Mailgun, Stripe and a JSON resume, deployed on Heroku.",
+   "description": "Devin's 2017 personal site and resume: a Node/Express app with Handlebars views, MongoDB, a Tumblr feed via his own node-tumblr fork, Mailgun, Stripe, AWS SDK and a JSON resume loaded at Heroku post-build; 122 commits, private.",
    "url": null,
    "repos": [
     "spacedevin/devin-2017"
@@ -10786,13 +10731,14 @@
    "lastActivity": "2017-10-31",
    "attachTo": null,
    "tags": [
-    "node",
+    "nodejs",
     "express",
-    "handlebars",
     "mongodb",
-    "portfolio"
+    "handlebars",
+    "personal-site",
+    "heroku"
    ],
-   "descriptionConfidence": 0.9,
+   "descriptionConfidence": 0.85,
    "commits": 122,
    "source": "github"
   },
@@ -10856,11 +10802,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "woodpecker",
-   "title": "woodpecker",
+   "title": "Woodpecker API",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "archived",
-   "description": "Woodpecker API",
+   "description": "Node client for the Woodpecker cold-email API, published to npm as woodpecker-api in October 2017 while at AE Studio (agencyenterprise). Three versions, starting at 1.1.0.",
    "url": "https://github.com/agencyenterprise/woodpecker#readme",
    "repos": [
     "git+https://github.com/agencyenterprise/woodpecker"
@@ -10870,6 +10816,14 @@
    "end": "2017-10-18",
    "lastActivity": "2017-10-18",
    "attachTo": null,
+   "tags": [
+    "npm",
+    "javascript",
+    "api-client",
+    "ae-studio",
+    "email"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 0,
    "source": "npm"
   },
@@ -10892,7 +10846,7 @@
    "family": "personal",
    "kind": "game",
    "status": "archived",
-   "description": "A Unity C# virtual-pet game prototype by Devin (related to the pettactoe and deformpet pet experiments).",
+   "description": "A Unity C# virtual-pet game prototype, one of Devin's 2017 pet-game experiments alongside pettactoe and deformpet; 7 commits, private.",
    "url": null,
    "repos": [
     "spacedevin/betapet"
@@ -10905,10 +10859,10 @@
    "tags": [
     "unity",
     "csharp",
-    "pet",
+    "virtual-pet",
     "prototype"
    ],
-   "descriptionConfidence": 0.55,
+   "descriptionConfidence": 0.7,
    "commits": 7,
    "source": "github"
   },
@@ -11387,11 +11341,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "yummy",
-   "title": "yummy",
+   "title": "Yummy",
    "family": "personal",
-   "kind": "personal",
+   "kind": "design",
    "status": "archived",
-   "description": "my personal brackets theme",
+   "description": "Devin's personal color theme for the Brackets code editor, a small CSS theme; 6 commits, 2016.",
    "url": null,
    "repos": [
     "spacedevin/yummy"
@@ -11401,6 +11355,13 @@
    "end": "2017-01-18",
    "lastActivity": "2017-01-18",
    "attachTo": null,
+   "tags": [
+    "brackets",
+    "theme",
+    "css",
+    "editor"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 6,
    "source": "github"
   },
@@ -11501,7 +11462,7 @@
    "family": "personal",
    "kind": "app",
    "status": "archived",
-   "description": "Two small Electron desktop utilities scaffolded from the WoW Stat codebase (readme still says WoW Stat): a hosts-file editor and a todo app.",
+   "description": "Two small Electron desktop utilities scaffolded from the WoW Stat codebase (the package.json and README still carry WoW Stat's name): a hosts-file manager and a todo app. 15 commits, Dec 2016 - Jan 2017, private.",
    "url": null,
    "repos": [
     "knoeone/hosts"
@@ -11513,11 +11474,12 @@
    "attachTo": null,
    "tags": [
     "electron",
-    "node",
+    "hosts-file",
+    "todo",
     "desktop",
     "utility"
    ],
-   "descriptionConfidence": 0.55,
+   "descriptionConfidence": 0.75,
    "commits": 15,
    "source": "github"
   },
@@ -11579,7 +11541,7 @@
    "family": "personal",
    "kind": "client",
    "status": "archived",
-   "description": "An Ionic 1 / Cordova iOS app built by Devin as freelance work for MPC (the design folder holds an invoice and NDA), packaged with an Express server and Gulp/Sass build.",
+   "description": "An Ionic 1 / Cordova iOS app built by Devin as freelance work for MPC in December 2016 (the repo's design folder holds the invoice and NDA), packaged with an Express server and a Gulp/Sass build; 92 commits, private.",
    "url": null,
    "repos": [
     "knoeone/nova"
@@ -11593,10 +11555,10 @@
     "ionic",
     "cordova",
     "ios",
-    "angular",
+    "express",
     "freelance"
    ],
-   "descriptionConfidence": 0.65,
+   "descriptionConfidence": 0.75,
    "commits": 92,
    "source": "github"
   },
@@ -11691,7 +11653,7 @@
    "family": "personal",
    "kind": "app",
    "status": "archived",
-   "description": "World of Warcraft server monitor by Devin that watches a realm and notifies or relaunches WoW when it comes back up; rebuilt several times, most recently as a signed Electron app for macOS and Windows (wowst.at), with earlier native macOS versions and a PHP web site.",
+   "description": "A World of Warcraft realm status monitor that watches a server and notifies you, or relaunches WoW, when it comes back up. Devin rebuilt it several times: an original C# Windows version (wow-stat.net), a PHP web site, and the final signed Electron app for macOS and Windows at wowst.at (v3.0, 2016).",
    "url": "http://wow-stat.net/",
    "repos": [
     "spacedevin/wowstat-legacy",
@@ -11705,12 +11667,13 @@
    "attachTo": null,
    "tags": [
     "electron",
-    "javascript",
-    "macos",
-    "windows",
-    "gaming"
+    "world-of-warcraft",
+    "monitor",
+    "desktop",
+    "csharp",
+    "javascript"
    ],
-   "descriptionConfidence": 0.9,
+   "descriptionConfidence": 0.95,
    "commits": 67,
    "source": "github"
   },
@@ -12227,7 +12190,7 @@
    "family": "personal",
    "kind": "site",
    "status": "archived",
-   "description": "A single-page static site for an Adventure Fest 2016 event, hand-coded HTML/CSS with Google Fonts and pushed to GitHub Pages.",
+   "description": "A single-page static site for an Adventure Fest 2016 event at adventurefe.st, hand-coded HTML/CSS with Google Fonts and full-screen photo backgrounds of Barcelona, Berlin, Tokyo and Kyoto, published on GitHub Pages; 4 commits.",
    "url": "http://adventurefe.st",
    "repos": [
     "spacedevin/adventurefest"
@@ -12238,12 +12201,13 @@
    "lastActivity": "2016-08-16",
    "attachTo": null,
    "tags": [
-    "static",
     "html",
+    "static-site",
+    "github-pages",
     "event",
-    "landing"
+    "travel"
    ],
-   "descriptionConfidence": 0.7,
+   "descriptionConfidence": 0.8,
    "commits": 4,
    "source": "github"
   },
@@ -12305,7 +12269,7 @@
    "family": "personal",
    "kind": "app",
    "status": "archived",
-   "description": "Colos is Devin's iOS/iPad app for controlling Philips Hue lights with preset animated colour transitions, built with Cordova (config.xml, platforms, plugins, res, www); 54 commits from Dec 2013.",
+   "description": "An iOS/iPad app for controlling Philips Hue lights with preset animated colour transitions, built with Cordova (config.xml, platforms, plugins, www) in a private repo; 54 commits from December 2013.",
    "url": null,
    "repos": [
     "knoeone/colos.io"
@@ -12316,13 +12280,13 @@
    "lastActivity": "2016-08-11",
    "attachTo": null,
    "tags": [
-    "ios",
     "cordova",
+    "ios",
     "philips-hue",
-    "app",
-    "javascript"
+    "lighting",
+    "objective-c"
    ],
-   "descriptionConfidence": 0.85,
+   "descriptionConfidence": 0.75,
    "commits": 54,
    "source": "github"
   },
@@ -12481,11 +12445,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "asolitarymann",
-   "title": "asolitarymann",
+   "title": "A Solitary Mann",
    "family": "personal",
-   "kind": "personal",
+   "kind": "client",
    "status": "archived",
-   "description": "A Solitary Mann - a film by Loic Zimmermann",
+   "description": "Website for A Solitary Mann, a film by Loic Zimmermann (asolitarymann.com): a static AngularJS site with synopsis, trailer, gallery, soundtrack and news pages using angular-carousel, Instafeed and codebird for social feeds, hosted on GitHub Pages; 52 commits, 2015-2016.",
    "url": "http://asolitarymann.com",
    "repos": [
     "spacedevin/asolitarymann"
@@ -12495,6 +12459,14 @@
    "end": "2016-07-17",
    "lastActivity": "2016-07-17",
    "attachTo": null,
+   "tags": [
+    "angularjs",
+    "static-site",
+    "github-pages",
+    "film",
+    "website"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 52,
    "source": "github"
   },
@@ -12798,7 +12770,7 @@
    "family": "personal",
    "kind": "client",
    "status": "archived",
-   "description": "Promo site for 'Gamma Wray', a documentary about painter William Wray by Loic Zimmermann: an AngularJS single-page site with teaser, trailer, film and story views, hosted on GitHub Pages; 20 commits, 2014.",
+   "description": "Promo site for Gamma Wray, Loic Zimmermann's documentary about painter William Wray: a static AngularJS single-page site with teaser, trailer, film and story views, hosted on GitHub Pages at gamma-wray.com; 20 commits, 2014-2016.",
    "url": "http://www.gamma-wray.com/",
    "repos": [
     "spacedevin/gamma-wray"
@@ -12809,13 +12781,13 @@
    "lastActivity": "2016-05-17",
    "attachTo": null,
    "tags": [
-    "site",
     "angularjs",
-    "film",
+    "static-site",
     "github-pages",
-    "client"
+    "film",
+    "website"
    ],
-   "descriptionConfidence": 0.85,
+   "descriptionConfidence": 0.9,
    "commits": 20,
    "source": "github"
   },
@@ -12838,7 +12810,7 @@
    "family": "personal",
    "kind": "experiment",
    "status": "archived",
-   "description": "A demo showing how to serve an AngularJS single-page app from GitHub Pages using a 404.html fallback and symlinked routes; 6 commits, 2016.",
+   "description": "A one-day demo showing how to serve an AngularJS single-page app from GitHub Pages using a 404.html fallback and symlinked routes; 6 commits, May 2016.",
    "url": null,
    "repos": [
     "spacedevin/gh-pages-spa"
@@ -12852,9 +12824,9 @@
     "angularjs",
     "github-pages",
     "spa",
-    "demo"
+    "routing"
    ],
-   "descriptionConfidence": 0.8,
+   "descriptionConfidence": 0.9,
    "commits": 6,
    "source": "github"
   },
@@ -12877,7 +12849,7 @@
    "family": "personal",
    "kind": "app",
    "status": "archived",
-   "description": "Karma, a social app for giving karma to people nearby: an Ionic/Cordova app plus a node/Express server with Mongoose models for users, karma, conversations, locations and avatars; 159 commits from Feb 2016 with several Ionic 2 rewrites.",
+   "description": "A social app for giving karma to people nearby ('conversations, not data'): an Ionic/Cordova mobile app with a Node/Express server using Mongoose models for users, karma, conversations, locations and avatars, socket.io and JWT auth. 157 commits from Feb-May 2016 including several Ionic 2 rewrites; private.",
    "url": null,
    "repos": [
     "knoeone/karma"
@@ -12890,11 +12862,12 @@
    "tags": [
     "ionic",
     "cordova",
-    "node",
+    "nodejs",
     "mongodb",
+    "socket.io",
     "social"
    ],
-   "descriptionConfidence": 0.7,
+   "descriptionConfidence": 0.85,
    "commits": 157,
    "source": "github"
   },
@@ -13043,7 +13016,7 @@
    "family": "personal",
    "kind": "app",
    "status": "archived",
-   "description": "Devin's Droplet project in three parts: a PHP web backend (droplet-web) with DB triggers, a Cordova iOS app (droplet-app, built IPA) and a macOS component (droplet) with assets and deliverables. The product's purpose is not documented.",
+   "description": "A four-repo private product from 2012-2013 at droplet.la: a JavaScript desktop/macOS component (droplet), a PHP web backend and API (droplet-web, droplet-api) and a Cordova iOS app (droplet-app). No README survives, so the product's purpose is not documented.",
    "url": null,
    "repos": [
     "knoeone/droplet",
@@ -13060,9 +13033,10 @@
     "php",
     "cordova",
     "ios",
-    "macos"
+    "javascript",
+    "api"
    ],
-   "descriptionConfidence": 0.5,
+   "descriptionConfidence": 0.4,
    "commits": 76,
    "source": "github"
   },
@@ -13243,7 +13217,7 @@
    "family": "personal",
    "kind": "hosting",
    "status": "archived",
-   "description": "A Docker image (Dockerfile, nginx.conf, run.sh) bundling Nginx and PHP 7 with a GitHub deploy hook, used as a base for Devin's Tipsy apps; 32 commits, 2015.",
+   "description": "A Docker image (Dockerfile, nginx.conf, run.sh) bundling Nginx and PHP 7 with a GitHub pull/deploy hook, used as a base image for Devin's Tipsy-based PHP apps; 32 commits, late 2015.",
    "url": null,
    "repos": [
     "spacedevin/dockerphish"
@@ -13256,10 +13230,11 @@
    "tags": [
     "docker",
     "nginx",
-    "php",
+    "php7",
+    "deployment",
     "devops"
    ],
-   "descriptionConfidence": 0.75,
+   "descriptionConfidence": 0.9,
    "commits": 32,
    "source": "github"
   },
@@ -13326,7 +13301,7 @@
    "family": "personal",
    "kind": "tool",
    "status": "archived",
-   "description": "A Ruby tool (redcarpet + Bootstrap/Bootswatch + highlight.js) that renders a GitHub wiki as one themed single page, deployable to Heroku and used for the Tipsy docs; 27 commits, 2015.",
+   "description": "A Ruby tool that renders a multi-page GitHub wiki into one themed HTML page using redcarpet, Bootstrap/Bootswatch themes and highlight.js, deployable to Heroku; built in December 2015 to publish the Tipsy docs.",
    "url": "https://github-wiki-single-page.herokuapp.com",
    "repos": [
     "spacedevin/github-wiki-single-page"
@@ -13340,10 +13315,10 @@
     "ruby",
     "github",
     "wiki",
-    "docs",
-    "heroku"
+    "bootstrap",
+    "documentation"
    ],
-   "descriptionConfidence": 0.85,
+   "descriptionConfidence": 0.95,
    "commits": 27,
    "source": "github"
   },
@@ -13526,7 +13501,7 @@
    "family": "personal",
    "kind": "tool",
    "status": "archived",
-   "description": "A small buildstep/buildpack shim (bin/ scripts) that adds the PHP mcrypt extension to Heroku-style PHP builds; 9 commits, 2015.",
+   "description": "A small buildstep/buildpack shim (bin/ scripts) that fixes the PHP mcrypt extension not working on PHP 7 in Heroku-style PHP builds; 9 commits, November 2015.",
    "url": null,
    "repos": [
     "spacedevin/buildstep-php-mcrypt-fix"
@@ -13539,10 +13514,11 @@
    "tags": [
     "heroku",
     "buildpack",
-    "php",
-    "devops"
+    "php7",
+    "mcrypt",
+    "shell"
    ],
-   "descriptionConfidence": 0.6,
+   "descriptionConfidence": 0.9,
    "commits": 9,
    "source": "github"
   },
@@ -13609,7 +13585,7 @@
    "family": "personal",
    "kind": "tool",
    "status": "archived",
-   "description": "A node webhook service that groups GitHub issue-close events and comments into one Slack message instead of Slack's noisy default integration; configured by environment variables and deployable to Heroku; 55 commits, 2015.",
+   "description": "A Node webhook service that groups GitHub issue-close events with their closing comments into a single Slack notification, replacing Slack's noisy default GitHub integration; configured via environment variables and deployable to Heroku. 56 commits, 2015.",
    "url": null,
    "repos": [
     "spacedevin/github-to-slack"
@@ -13620,13 +13596,13 @@
    "lastActivity": "2015-10-16",
    "attachTo": null,
    "tags": [
-    "node",
+    "nodejs",
     "github",
     "slack",
-    "webhook",
-    "open-source"
+    "webhooks",
+    "heroku"
    ],
-   "descriptionConfidence": 0.9,
+   "descriptionConfidence": 0.95,
    "commits": 56,
    "source": "github"
   },
@@ -13730,7 +13706,7 @@
    "family": "personal",
    "kind": "tool",
    "status": "archived",
-   "description": "A tiny Heroku buildpack (bin/ scripts) that runs an arbitrary command during the build; 6 commits, 2015.",
+   "description": "A tiny Heroku buildpack (bin/ shell scripts) that runs whatever command is in a project's .buildrun file at the end of the build, used to run custom build steps such as writing the git version; 7 commits, 2015.",
    "url": null,
    "repos": [
     "spacedevin/heroku-buildpack-cmd"
@@ -13743,9 +13719,10 @@
    "tags": [
     "heroku",
     "buildpack",
+    "shell",
     "devops"
    ],
-   "descriptionConfidence": 0.65,
+   "descriptionConfidence": 0.95,
    "commits": 7,
    "source": "github"
   },
@@ -13968,7 +13945,7 @@
    "family": "personal",
    "kind": "site",
    "status": "archived",
-   "description": "Cana-engine PHP site with an OAuth directory and Google site verification; the regpuppy repo name suggests a domain-registration or signup service, but no docs survive.",
+   "description": "A private PHP site for regpuppy.com built on Devin's Cana framework with an OAuth directory and Google site verification; 45 commits from 2011 to 2014. No documentation survives, so its purpose (the name suggests a registration or signup service) is unconfirmed.",
    "url": "http://regpuppy.com",
    "repos": [
     "knoeone/regpuppy"
@@ -13981,9 +13958,10 @@
    "tags": [
     "php",
     "cana",
-    "oauth"
+    "oauth",
+    "website"
    ],
-   "descriptionConfidence": 0.35,
+   "descriptionConfidence": 0.4,
    "commits": 45,
    "source": "github"
   },
@@ -14006,7 +13984,7 @@
    "family": "personal",
    "kind": "client",
    "status": "archived",
-   "description": "Website for the VFX studio T (Capital T / T-Maui) with client and include dirs, demo reels and an Iron Man 3 demo clip; Devin designed and built the site with poster and reel assets.",
+   "description": "Website for the VFX studio T (t-maui.com), a private PHP site with client and include directories, demo reels and an Iron Man 3 demo clip; Devin designed and built the site including poster and reel assets, 2012-2014.",
    "url": null,
    "repos": [
     "knoeone/tmaui"
@@ -14018,11 +13996,12 @@
    "attachTo": null,
    "tags": [
     "php",
-    "web-design",
     "vfx",
-    "client"
+    "website",
+    "client-work",
+    "demo-reel"
    ],
-   "descriptionConfidence": 0.6,
+   "descriptionConfidence": 0.75,
    "commits": 20,
    "source": "github"
   },
@@ -14308,7 +14287,7 @@
    "family": "personal",
    "kind": "client",
    "status": "archived",
-   "description": "Website for Crystal Murray with a www root, paired with extensive Photoshop/Illustrator design work (paint backgrounds, cartoon character, social share graphics and 2016 business cards). Personal client-style site Devin designed and built.",
+   "description": "Personal website for Crystal Murray (crystalmurray.com), a small PHP site with a www root that Devin designed and built, alongside Photoshop and Illustrator design work for the site's artwork and business cards.",
    "url": "http://crystalmurray.com",
    "repos": [
     "spacedevin/crystal-murray"
@@ -14320,11 +14299,11 @@
    "attachTo": null,
    "tags": [
     "php",
-    "web-design",
-    "illustrator",
-    "client"
+    "website",
+    "design",
+    "client-work"
    ],
-   "descriptionConfidence": 0.6,
+   "descriptionConfidence": 0.8,
    "commits": 20,
    "source": "github"
   },
@@ -14774,7 +14753,7 @@
    "family": "personal",
    "kind": "library",
    "status": "archived",
-   "description": "A PHP implementation of JavaScript's setTimeout: runs a closure asynchronously in a background process, using SuperClosure to serialize closures. Written by Devin for firing off mail and Twilio/Phaxio callbacks without blocking, 2012.",
+   "description": "A PHP implementation of JavaScript's setTimeout for asynchronous PHP: runs a closure in a background process (serialized with SuperClosure) so the rest of the script continues, written in 2012 for firing off mail and Twilio/Phaxio API callbacks without blocking.",
    "url": "http://arzynik.github.com/Timeout ",
    "repos": [
     "spacedevin/Timeout"
@@ -14787,10 +14766,10 @@
    "tags": [
     "php",
     "async",
-    "library",
-    "open-source"
+    "closures",
+    "background-jobs"
    ],
-   "descriptionConfidence": 0.9,
+   "descriptionConfidence": 0.95,
    "commits": 8,
    "source": "github"
   },
@@ -15471,197 +15450,6 @@
     "packagist": []
    },
    "stars": 0,
-   "languages": [
-    "PHP"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "cana-colorblender",
-   "title": "Cana ColorBlender",
-   "family": "personal",
-   "kind": "library",
-   "status": "archived",
-   "description": "Cana package with a color-blending library.",
-   "url": "http://cana.la",
-   "repos": [
-    "spacedevin/cana-colorblender"
-   ],
-   "privateRepos": 0,
-   "start": "2012-04-02",
-   "end": "2012-04-05",
-   "lastActivity": "2012-04-05",
-   "attachTo": null,
-   "tags": [
-    "php",
-    "cana",
-    "color"
-   ],
-   "descriptionConfidence": 0.6,
-   "commits": 3,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "PHP"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "cana-emoji",
-   "title": "Cana Emoji",
-   "family": "personal",
-   "kind": "library",
-   "status": "archived",
-   "description": "Cana package providing emoji handling.",
-   "url": "http://cana.la",
-   "repos": [
-    "spacedevin/cana-emoji"
-   ],
-   "privateRepos": 0,
-   "start": "2012-04-02",
-   "end": "2012-04-05",
-   "lastActivity": "2012-04-05",
-   "attachTo": null,
-   "tags": [
-    "php",
-    "cana",
-    "emoji"
-   ],
-   "descriptionConfidence": 0.6,
-   "commits": 3,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "PHP"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "cana-facebook",
-   "title": "Cana Facebook",
-   "family": "personal",
-   "kind": "library",
-   "status": "archived",
-   "description": "Cana package wrapping the Facebook API.",
-   "url": "http://cana.la",
-   "repos": [
-    "spacedevin/cana-facebook"
-   ],
-   "privateRepos": 0,
-   "start": "2012-04-02",
-   "end": "2012-04-05",
-   "lastActivity": "2012-04-05",
-   "attachTo": null,
-   "tags": [
-    "php",
-    "cana",
-    "facebook"
-   ],
-   "descriptionConfidence": 0.6,
-   "commits": 3,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "PHP"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "cana-growl",
-   "title": "Cana Growl",
-   "family": "personal",
-   "kind": "library",
-   "status": "archived",
-   "description": "Cana package for sending Growl notifications.",
-   "url": "http://cana.la",
-   "repos": [
-    "spacedevin/cana-growl"
-   ],
-   "privateRepos": 0,
-   "start": "2012-04-03",
-   "end": "2012-04-05",
-   "lastActivity": "2012-04-05",
-   "attachTo": null,
-   "tags": [
-    "php",
-    "cana",
-    "growl",
-    "notifications"
-   ],
-   "descriptionConfidence": 0.6,
-   "commits": 3,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "PHP"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "cana-sitemap",
-   "title": "Cana Sitemap",
-   "family": "personal",
-   "kind": "library",
-   "status": "archived",
-   "description": "Cana package for generating XML sitemaps.",
-   "url": "http://cana.la",
-   "repos": [
-    "spacedevin/cana-sitemap"
-   ],
-   "privateRepos": 0,
-   "start": "2012-04-02",
-   "end": "2012-04-05",
-   "lastActivity": "2012-04-05",
-   "attachTo": null,
-   "tags": [
-    "php",
-    "cana",
-    "sitemap"
-   ],
-   "descriptionConfidence": 0.6,
-   "commits": 3,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
    "languages": [],
    "items": [],
    "releases": 0,
@@ -15715,7 +15503,7 @@
    "family": "personal",
    "kind": "tool",
    "status": "archived",
-   "description": "Single-file PHP directory browser (v1.2) by Devin under the arzdev.com name, showing file stats and source with per-file/directory security and custom colors, with images embedded in the script. ArzDev-era freelance tool.",
+   "description": "A single-file PHP directory browser (v1.2) released under the arzdev.com name: shows file stats and source for allowed file types, with per-file and per-directory access rules and configurable colors, and all images embedded in the one script.",
    "url": "http://devin.la",
    "repos": [
     "spacedevin/PHPPowerBrowse"
@@ -15728,9 +15516,11 @@
    "tags": [
     "php",
     "file-browser",
-    "arzdev"
+    "arzdev",
+    "single-file",
+    "freeware"
    ],
-   "descriptionConfidence": 0.85,
+   "descriptionConfidence": 0.95,
    "commits": 2,
    "source": "github"
   },
@@ -16053,9 +15843,9 @@
    "id": "urlrunner",
    "title": "urlrunner",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "archived",
-   "description": "Launch a local file from a browser (super insecure)",
+   "description": "A small Objective-C macOS utility that registers a urlrunner:// URL scheme so links in a browser can open local files or reveal them in Finder (shift-click to open). Built by Devin for Luma Pictures' internal tooling in 2011.",
    "url": "devin.la",
    "repos": [
     "spacedevin/urlrunner"
@@ -16065,6 +15855,14 @@
    "end": "2011-10-28",
    "lastActivity": "2011-10-28",
    "attachTo": null,
+   "tags": [
+    "objective-c",
+    "macos",
+    "url-scheme",
+    "luma-pictures",
+    "utility"
+   ],
+   "descriptionConfidence": 0.95,
    "commits": 15,
    "source": "github"
   },
@@ -16165,7 +15963,7 @@
    "family": "personal",
    "kind": "tool",
    "status": "archived",
-   "description": "Python plugin for the Server Density agent by Devin that fetches a URL and regex-checks the response (e.g. for </html> or 'Fatal Error') to alert on broken pages; sample config monitors Give.mobi and devin.la.",
+   "description": "A Python plugin for the Server Density monitoring agent that fetches a URL and scans the response for a string (such as a closing html tag) to detect fatal errors and broken pages; the sample config monitors Give.mobi and devin.la.",
    "url": "http://plugins.serverdensity.com/webcheck/",
    "repos": [
     "spacedevin/sd-webcheck"
@@ -16178,9 +15976,11 @@
    "tags": [
     "python",
     "monitoring",
-    "server-density"
+    "server-density",
+    "uptime",
+    "plugin"
    ],
-   "descriptionConfidence": 0.9,
+   "descriptionConfidence": 0.95,
    "commits": 5,
    "source": "github"
   },
@@ -16199,11 +15999,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "cpanel-import",
-   "title": "cpanel-import",
+   "title": "cPanel Import",
    "family": "personal",
    "kind": "tool",
    "status": "archived",
-   "description": "PHP root script by Devin that imports cPanel account backups onto a plain server: creates users and groups, Apache vhosts, log dirs, MySQL databases and moves public_html. Written when migrating ArzHost accounts off cPanel.",
+   "description": "A root-level PHP script that imports cPanel account backups onto a plain LAMP server without cPanel: creates users and groups, Apache vhost files, log directories and MySQL databases and users, and moves the home directory. Written in August 2011 while migrating hosting accounts off cPanel.",
    "url": "http://devin.la/",
    "repos": [
     "spacedevin/cpanel-import"
@@ -16216,10 +16016,11 @@
    "tags": [
     "php",
     "cpanel",
-    "sysadmin",
-    "migration"
+    "hosting",
+    "migration",
+    "lamp"
    ],
-   "descriptionConfidence": 0.85,
+   "descriptionConfidence": 0.95,
    "commits": 22,
    "source": "github"
   },
@@ -17007,7 +16808,7 @@
    "family": "personal",
    "kind": "library",
    "status": "archived",
-   "description": "MooTools JavaScript library (January 2010) that replaces Flash for QuickTime video playback on web pages with custom styled controls; includes CSS and an example.",
+   "description": "A MooTools JavaScript library (January 2010) that replaces Flash for QuickTime video playback on web pages, with custom styled controls built on MooTools Class, Options, Events and Slider, plus CSS and an example page.",
    "url": "http://devin.la",
    "repos": [
     "spacedevin/QuickControl"
@@ -17021,9 +16822,10 @@
     "javascript",
     "mootools",
     "quicktime",
-    "video"
+    "video",
+    "player"
    ],
-   "descriptionConfidence": 0.9,
+   "descriptionConfidence": 0.95,
    "commits": 1,
    "source": "github"
   },
@@ -17046,7 +16848,7 @@
    "family": "personal",
    "kind": "library",
    "status": "archived",
-   "description": "PHP library by Devin (June 2009) that generates a sprite image and matching CSS classes from a set of images using ImageMagick, so a page loads all its icons in one request.",
+   "description": "A small PHP library (written June 2009) that takes a set of images and generates one sprite image plus matching CSS classes using ImageMagick, so a page loads all its icons in a single request.",
    "url": "http://devin.la",
    "repos": [
     "spacedevin/CSSsprite"
@@ -17060,9 +16862,10 @@
     "php",
     "css",
     "imagemagick",
-    "sprites"
+    "sprites",
+    "performance"
    ],
-   "descriptionConfidence": 0.9,
+   "descriptionConfidence": 0.95,
    "commits": 1,
    "source": "github"
   },
@@ -30560,58 +30363,6 @@
    "url": null
   },
   {
-   "projectId": "cana-colorblender",
-   "repo": "spacedevin/cana-colorblender",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2012-04-03",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "cana-colorblender started (creator, 3 commits)",
-   "url": "https://github.com/spacedevin/cana-colorblender"
-  },
-  {
-   "projectId": "cana-emoji",
-   "repo": "spacedevin/cana-emoji",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2012-04-03",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "cana-emoji started (creator, 3 commits)",
-   "url": "https://github.com/spacedevin/cana-emoji"
-  },
-  {
-   "projectId": "cana-facebook",
-   "repo": "spacedevin/cana-facebook",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2012-04-03",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "cana-facebook started (creator, 3 commits)",
-   "url": "https://github.com/spacedevin/cana-facebook"
-  },
-  {
-   "projectId": "cana-growl",
-   "repo": "spacedevin/cana-growl",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2012-04-03",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "cana-growl started (creator, 3 commits)",
-   "url": "https://github.com/spacedevin/cana-growl"
-  },
-  {
    "projectId": "cana-growl",
    "repo": "arzynik/cana-growl",
    "type": "created",
@@ -30623,19 +30374,6 @@
    "count": 1,
    "summary": "cana-growl local history starts (3 commits on the drive)",
    "url": null
-  },
-  {
-   "projectId": "cana-sitemap",
-   "repo": "spacedevin/cana-sitemap",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2012-04-03",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "cana-sitemap started (creator, 3 commits)",
-   "url": "https://github.com/spacedevin/cana-sitemap"
   },
   {
    "projectId": "phppowerbrowse",
@@ -37337,19 +37075,6 @@
    "url": null
   },
   {
-   "projectId": "ionic-video-chat-support",
-   "repo": "knoeone/ionic-video-chat-support",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2017-02-02",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "ionic-video-chat-support started (creator, 9 commits)",
-   "url": "https://github.com/knoeone/ionic-video-chat-support"
-  },
-  {
    "projectId": "ae-client-work",
    "repo": "agencyenterprise/publisher-desk",
    "type": "created",
@@ -40351,19 +40076,6 @@
    ]
   },
   {
-   "projectId": "otter-ui-archive-vercel-support",
-   "repo": "spacedevin/otter-ui-archive-vercel-support",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2021-04-05",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "otter-ui-archive-vercel-support started (creator, 5 commits)",
-   "url": null
-  },
-  {
    "projectId": "space-la",
    "repo": "spacedevin/space-la",
    "type": "created",
@@ -40429,19 +40141,6 @@
    "url": null
   },
   {
-   "projectId": "arzynik",
-   "repo": "arzynik/arzynik",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2021-05-24",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "arzynik started (creator, 1 commits)",
-   "url": "https://github.com/arzynik/arzynik"
-  },
-  {
    "projectId": "spacebar",
    "repo": "spacedevin/spacebar",
    "type": "created",
@@ -40479,19 +40178,6 @@
    "count": 1,
    "summary": "darkmodefirst.com first captured by the Wayback Machine as \"🕶️ Dark Mode First - A design philosophy for the ages\"",
    "url": "https://web.archive.org/web/20210618/http://darkmodefirst.com/"
-  },
-  {
-   "projectId": "ks",
-   "repo": "spacedevin/ks-test",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2021-06-18",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "ks-test started (creator, 5 commits)",
-   "url": null
   },
   {
    "projectId": "drive-agencyenterprise-rg-nft-platform",
@@ -41391,19 +41077,6 @@
    "url": null
   },
   {
-   "projectId": "next-ai-images",
-   "repo": "knoeone/next-ai-images",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2023-10-06",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "next-ai-images started (creator, 5 commits)",
-   "url": null
-  },
-  {
    "projectId": "expo-ai-images-router",
    "repo": "knoeone/expo-ai-images-router",
    "type": "created",
@@ -41521,19 +41194,6 @@
    "url": null
   },
   {
-   "projectId": "github",
-   "repo": "knoeone/.github",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2023-11-19",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": ".github started (creator, 7 commits)",
-   "url": null
-  },
-  {
    "projectId": "soundsetr",
    "repo": "knoeone/soundsetr",
    "type": "created",
@@ -41545,32 +41205,6 @@
    "count": 1,
    "summary": "soundsetr started (creator, 77 commits)",
    "url": "https://github.com/knoeone/soundsetr"
-  },
-  {
-   "projectId": "soundsetr-soundsets",
-   "repo": "knoeone/soundsetr-soundsets",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2023-11-26",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "soundsetr-soundsets started (creator, 23 commits)",
-   "url": "https://github.com/knoeone/soundsetr-soundsets"
-  },
-  {
-   "projectId": "soundsetr-auth-edge",
-   "repo": "knoeone/soundsetr-auth-edge",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2023-11-27",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "soundsetr-auth-edge started (creator, 4 commits)",
-   "url": "https://github.com/knoeone/soundsetr-auth-edge"
   },
   {
    "projectId": "web-awan99-blogspot-com",
@@ -41651,32 +41285,6 @@
    "url": null
   },
   {
-   "projectId": "soundsetr-soundsets",
-   "repo": "knoeone/soundsetr-soundsets",
-   "type": "tag",
-   "tag": null,
-   "name": null,
-   "date": "2023-12-01",
-   "prerelease": false,
-   "major": false,
-   "count": 3,
-   "summary": null,
-   "url": "https://github.com/knoeone/soundsetr-soundsets/releases/tag/undefined"
-  },
-  {
-   "projectId": "soundsetr-soundsets",
-   "repo": "knoeone/soundsetr-soundsets",
-   "type": "release",
-   "tag": "v2",
-   "name": "soundsets.json",
-   "date": "2023-12-01",
-   "prerelease": false,
-   "major": false,
-   "count": 3,
-   "summary": null,
-   "url": "https://github.com/knoeone/soundsetr-soundsets/releases/tag/soundsets.json"
-  },
-  {
    "projectId": "soundsetr",
    "repo": "knoeone/soundsetr",
    "type": "tag",
@@ -41701,45 +41309,6 @@
    "count": 1,
    "summary": null,
    "url": "https://github.com/knoeone/soundsetr/releases/tag/v0.0.1"
-  },
-  {
-   "projectId": "soundsetr-com",
-   "repo": "knoeone/soundsetr.com",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2023-12-03",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "soundsetr.com started (creator, 4 commits)",
-   "url": "https://github.com/knoeone/soundsetr.com"
-  },
-  {
-   "projectId": "soundsetr-soundsets",
-   "repo": "knoeone/soundsetr-soundsets",
-   "type": "tag",
-   "tag": null,
-   "name": null,
-   "date": "2023-12-03",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": null,
-   "url": "https://github.com/knoeone/soundsetr-soundsets/releases/tag/undefined"
-  },
-  {
-   "projectId": "soundsetr-soundsets",
-   "repo": "knoeone/soundsetr-soundsets",
-   "type": "release",
-   "tag": "v6",
-   "name": "v6",
-   "date": "2023-12-03",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": null,
-   "url": "https://github.com/knoeone/soundsetr-soundsets/releases/tag/v6"
   },
   {
    "projectId": "soundsetr",
@@ -42015,19 +41584,6 @@
    "url": null
   },
   {
-   "projectId": "github-workflow",
-   "repo": "knoeone/github-workflow-test",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2025-03-28",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "github-workflow-test started (creator, 5 commits)",
-   "url": null
-  },
-  {
    "projectId": "super-repo",
    "repo": "spacedevin/super-repo",
    "type": "created",
@@ -42119,19 +41675,6 @@
    "url": null
   },
   {
-   "projectId": "farmersmarket",
-   "repo": "spacedevin/farmersmarket",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2025-05-19",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "farmersmarket started (creator, 8 commits)",
-   "url": null
-  },
-  {
    "projectId": "tumeric",
    "repo": "spacedevin/tumeric",
    "type": "created",
@@ -42143,19 +41686,6 @@
    "count": 1,
    "summary": "tumeric started (creator, 1136 commits)",
    "url": "https://github.com/spacedevin/tumeric"
-  },
-  {
-   "projectId": "saffron",
-   "repo": "spacedevin/saffron",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2025-05-28",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "saffron started (creator, 30 commits)",
-   "url": null
   },
   {
    "projectId": "gazpacho-base",
@@ -42616,19 +42146,6 @@
    "url": null
   },
   {
-   "projectId": "zectre",
-   "repo": "knoeone/zectre-cli",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2026-03-01",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "zectre-cli started (creator, 15 commits)",
-   "url": null
-  },
-  {
    "projectId": "zectre-platform",
    "repo": "knoeone/zectre-platform",
    "type": "created",
@@ -42679,19 +42196,6 @@
    "count": 1,
    "summary": "tulas started (creator, 12 commits)",
    "url": "https://github.com/spacedevin/tulas"
-  },
-  {
-   "projectId": "lattish-docs-draft",
-   "repo": "knoeone/lattish-docs-draft",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2026-03-11",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "lattish-docs-draft started (6 commits)",
-   "url": null
   },
   {
    "projectId": "tish",
@@ -42915,19 +42419,6 @@
    "url": "https://github.com/tishlang/lattish/releases/tag/v1.0.5"
   },
   {
-   "projectId": "lattish-docs-draft",
-   "repo": "knoeone/lattish-docs-draft",
-   "type": "archived",
-   "tag": null,
-   "name": null,
-   "date": "2026-03-22",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "lattish-docs-draft archived",
-   "url": null
-  },
-  {
    "projectId": "tish",
    "repo": "tishlang/tish",
    "type": "publish",
@@ -43133,19 +42624,6 @@
    "count": 1,
    "summary": "tish-floem started (creator, 7 commits)",
    "url": "https://github.com/spacedevin/tish-floem"
-  },
-  {
-   "projectId": "zectre",
-   "repo": "knoeone/zectre-web",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2026-03-28",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "zectre-web started (creator, 9 commits)",
-   "url": null
   },
   {
    "projectId": "lattish",
