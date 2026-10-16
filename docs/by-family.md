@@ -23,12 +23,12 @@
 | ID | Title | URL | Github | NPM | Cargo | Live | Description | Status | Family | Latest release | Released |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | birdland | birdlandgov.com | [birdlandgov.com/](https://birdlandgov.com/) |  |  |  | ✅ | birdlandgov.com | shipped | other |  |  |
-| nihmbus | nihmbus.ai | [nihmbus.ai/](https://nihmbus.ai/) |  |  |  | ✅ | nihmbus.ai | shipped | other |  |  |
 
 ## personal
 
 | ID | Title | URL | Github | NPM | Cargo | Live | Description | Status | Family | Latest release | Released |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| nihmbus | Nihmbus | [nihmbus.ai/](https://nihmbus.ai/) |  |  |  | ✅ | Nihmbus, a research, publishing and workflow platform with a first-party MCP server | shipped | personal |  |  |
 | deckard | deckard.lol | [deckard.lol](https://deckard.lol) | [spacedevin/deckard](https://github.com/spacedevin/deckard) |  |  | ✅ | Real time 4 deck collaborative DJ and production platform | shipped | personal |  |  |
 | deck | deck | [github.com/spacedevin/deck](https://github.com/spacedevin/deck) | [spacedevin/deck](https://github.com/spacedevin/deck) | ✅ |  | ✅ | Deck patch language for tish and rust. Used by deckard and chuggie | shipped | personal | v1.5.3 | 2026-08-27 |
 | juke-sh | juke.sh | [juke.sh](https://juke.sh) | [spacedevin/juke.sh](https://github.com/spacedevin/juke.sh) |  |  | ✅ | Jukebox | shipped | personal |  |  |

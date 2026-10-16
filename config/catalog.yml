@@ -829,13 +829,13 @@ items:
     kind: company
 
   - id: nihmbus
-    title: nihmbus.ai
+    title: Nihmbus
     url: https://nihmbus.ai/
     github: null
     npm: false
     cargo: false
-    description: nihmbus.ai
+    description: Nihmbus, a research, publishing and workflow platform with a first-party MCP server
     status: shipped
-    family: other
+    family: personal
     project: nihmbus
-    kind: company
+    kind: app

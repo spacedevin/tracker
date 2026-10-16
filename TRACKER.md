@@ -72,4 +72,4 @@ Public portfolio catalog. Source: [`config/catalog.yml`](config/catalog.yml). Sy
 | react-mui-multi-range-picker | react-mui-multi-range-picker | [github.com/spacedevin/react-mui-multi-range-picker](https://github.com/spacedevin/react-mui-multi-range-picker) | [spacedevin/react-mui-multi-range-picker](https://github.com/spacedevin/react-mui-multi-range-picker) | ✅ |  | ✅ | Multi date range picker for MUI free and pro | shipped | personal | v0.11.6 | 2025-11-07 |
 | tish-polars | tish-polars | [github.com/spacedevin/tish-polars](https://github.com/spacedevin/tish-polars) | [spacedevin/tish-polars](https://github.com/spacedevin/tish-polars) |  |  | ✅ | Polars for tish | wip | personal |  |  |
 | birdland | birdlandgov.com | [birdlandgov.com/](https://birdlandgov.com/) |  |  |  | ✅ | birdlandgov.com | shipped | other |  |  |
-| nihmbus | nihmbus.ai | [nihmbus.ai/](https://nihmbus.ai/) |  |  |  | ✅ | nihmbus.ai | shipped | other |  |  |
+| nihmbus | Nihmbus | [nihmbus.ai/](https://nihmbus.ai/) |  |  |  | ✅ | Nihmbus, a research, publishing and workflow platform with a first-party MCP server | shipped | personal |  |  |
