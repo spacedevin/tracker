@@ -240,6 +240,18 @@ async function enrich(item, includePrereleases) {
     out.latestUpdates = bits.join(" · ").slice(0, 240);
   }
 
+  // Crate-/npm-only rows have no GitHub release — fall back to the registry's
+  // newest version and its publish date so Latest release / Released still fill.
+  if (!out.latestRelease) {
+    if (out.cargoYes && out.cargoVersion) {
+      out.latestRelease = `v${out.cargoVersion}`;
+      out.released = toDay(out.cargoUpdatedAt);
+    } else if (out.npmYes && out.npmVersion) {
+      out.latestRelease = `v${out.npmVersion}`;
+      out.released = toDay(out.npmUpdatedAt);
+    }
+  }
+
   out.lastUpdated = maxDay([
     out.released,
     out.pushedAt,
@@ -313,6 +325,7 @@ async function loadAllItems(projectId) {
             items(first: 100, after: $cursor) {
               nodes {
                 id
+                content { __typename ... on DraftIssue { id } }
                 fieldValues(first: 40) {
                   nodes {
                     __typename
@@ -563,27 +576,31 @@ async function addDraftItem(projectId, title, body) {
 async function updateDraftTitle(itemId, title, body) {
   // Draft issues: update via updateProjectV2DraftIssue
   await graphql(
-    `mutation($itemId: ID!, $title: String!, $body: String!) {
+    `mutation($draftIssueId: ID!, $title: String!, $body: String!) {
       updateProjectV2DraftIssue(input: {
-        itemId: $itemId
+        draftIssueId: $draftIssueId
         title: $title
         body: $body
       }) { draftIssue { id } }
     }`,
-    { itemId, title, body: body ?? "" },
+    { draftIssueId: itemId, title, body: body ?? "" },
   );
 }
 
-async function applyItemFields(projectId, itemId, fields, item) {
+async function applyItemFields(projectId, itemId, fields, item, contentId) {
   const body = [
     item.description || "",
     item.url ? `\n\n${item.url}` : "",
   ].join("").trim();
 
-  try {
-    await updateDraftTitle(itemId, item.title, body);
-  } catch {
-    // item may be linked issue — title update optional
+  // updateProjectV2DraftIssue takes the DRAFT ISSUE content id, not the
+  // project item id — with the wrong id it errors and titles never update.
+  if (contentId) {
+    try {
+      await updateDraftTitle(contentId, item.title, body);
+    } catch (e) {
+      console.log(`! title update failed for ${item.id}: ${e.message}`);
+    }
   }
 
   if (fields.ID) await setText(projectId, itemId, fields.ID.id, item.id);
@@ -655,7 +672,7 @@ async function syncToProject(enriched) {
   const byId = new Map();
   for (const node of existingItems) {
     const id = itemIdFromNode(node);
-    if (id) byId.set(id, node.id);
+    if (id) byId.set(id, { itemId: node.id, contentId: node.content?.id || null });
   }
   console.log(`Existing catalog items in Project: ${byId.size}`);
 
@@ -665,7 +682,8 @@ async function syncToProject(enriched) {
     const body = [item.description || "", item.url ? `\n\n${item.url}` : ""]
       .join("")
       .trim();
-    let itemId = byId.get(item.id);
+    const found = byId.get(item.id);
+    let itemId = found?.itemId;
     if (!itemId) {
       itemId = await addDraftItem(project.id, item.title, body);
       created++;
@@ -674,7 +692,7 @@ async function syncToProject(enriched) {
       updated++;
       console.log(`~ ${item.id}`);
     }
-    await applyItemFields(project.id, itemId, fields, item);
+    await applyItemFields(project.id, itemId, fields, item, found?.contentId);
   }
 
   console.log(`Done. created=${created} updated=${updated} total=${enriched.length}`);

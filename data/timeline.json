@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T18:14:50Z",
+ "generatedAt": "2026-10-16T18:25:52Z",
  "families": [
   "ae-studio",
   "career",
@@ -414,15 +414,14 @@
   },
   {
    "id": "chuggie",
-   "title": "chuggie.dev",
+   "title": "chuggie",
    "family": "schlop",
    "kind": "company",
    "status": "shipped",
    "description": "GBA game engine — write Game Boy Advance games in tish",
-   "url": "https://chuggie.dev",
+   "url": "https://github.com/schlopai/chuggie",
    "repos": [
-    "schlopai/chuggie",
-    "schlopai/chuggie-toolchain"
+    "schlopai/chuggie"
    ],
    "packages": {
     "npm": [
@@ -436,16 +435,14 @@
     ]
    },
    "items": [
-    "chuggie",
-    "chuggie-ci"
+    "chuggie"
    ],
    "start": "2026-08-25",
    "end": null,
    "lastActivity": "2026-09-29",
    "stars": 1,
    "languages": [
-    "Rust",
-    "Dockerfile"
+    "Rust"
    ],
    "releases": 4,
    "majors": 2,
@@ -643,6 +640,35 @@
    "descriptionConfidence": 0.85,
    "commits": 128,
    "source": "github"
+  },
+  {
+   "id": "chuggie-ci",
+   "title": "chuggie-ci",
+   "family": "schlop",
+   "kind": "company",
+   "status": "shipped",
+   "description": "GBA toolchain image that chuggie's CI runs on",
+   "url": "https://github.com/schlopai/chuggie-toolchain",
+   "repos": [
+    "schlopai/chuggie-toolchain"
+   ],
+   "packages": {
+    "npm": [],
+    "cargo": []
+   },
+   "items": [
+    "chuggie-ci"
+   ],
+   "start": "2026-08-28",
+   "end": null,
+   "lastActivity": "2026-08-29",
+   "stars": 0,
+   "languages": [
+    "Dockerfile"
+   ],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null
   },
   {
    "packages": {
@@ -1102,7 +1128,7 @@
    "family": "personal",
    "kind": "personal",
    "status": "shipped",
-   "description": "Jukebox",
+   "description": "Spotify-connected WebGL jukebox in the browser",
    "url": "https://juke.sh",
    "repos": [
     "spacedevin/juke.sh"
@@ -20319,7 +20345,7 @@
    "family": "other",
    "kind": "company",
    "status": "shipped",
-   "description": "birdlandgov.com",
+   "description": "Official site of the Sovereign Nation of Birdland — news, government services, wildlife, and visitor resources",
    "url": "https://birdlandgov.com/",
    "repos": [],
    "packages": {
@@ -20328,6 +20354,31 @@
    },
    "items": [
     "birdland"
+   ],
+   "start": null,
+   "end": null,
+   "lastActivity": null,
+   "stars": 0,
+   "languages": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null
+  },
+  {
+   "id": "chuggie.dev",
+   "title": "chuggie.dev",
+   "family": "schlop",
+   "kind": "company",
+   "status": "shipped",
+   "description": "Homepage and docs for the Chuggie GBA engine",
+   "url": "https://chuggie.dev",
+   "repos": [],
+   "packages": {
+    "npm": [],
+    "cargo": []
+   },
+   "items": [
+    "chuggie-dev"
    ],
    "start": null,
    "end": null,
@@ -43718,19 +43769,6 @@
   },
   {
    "projectId": "chuggie",
-   "repo": "schlopai/chuggie-toolchain",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2026-08-28",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "schlopai/chuggie-toolchain created",
-   "url": "https://github.com/schlopai/chuggie-toolchain"
-  },
-  {
-   "projectId": "chuggie",
    "repo": "schlopai/chuggie",
    "type": "publish",
    "tag": "0.3.2",
@@ -43771,6 +43809,19 @@
    ],
    "summary": "ci: one toolchain image, verify every example, publish the ROMs (#22) (2615447)",
    "url": "https://github.com/schlopai/chuggie/releases/tag/v0.3.2"
+  },
+  {
+   "projectId": "chuggie-ci",
+   "repo": "schlopai/chuggie-toolchain",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-28",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "schlopai/chuggie-toolchain created",
+   "url": "https://github.com/schlopai/chuggie-toolchain"
   },
   {
    "projectId": "dune",

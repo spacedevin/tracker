@@ -23,7 +23,7 @@ items:
     github: tishlang/tishlang.com
     npm: false
     cargo: false
-    description: Native typed typescript-like compileable and transpilable language to both js and rust
+    description: "Tish language homepage — docs, feature overview, and playground links for the native/WASM/JS targets"
     status: shipped
     family: tish
     project: tish
@@ -131,7 +131,7 @@ items:
     github: tishlang/learn
     npm: false
     cargo: false
-    description: Learn tish with tutorials
+    description: Interactive tutorials for learning to code in Tish
     status: shipped
     family: tish
     project: tish
@@ -596,8 +596,8 @@ items:
 
   # --- schlop ---
   - id: chuggie
-    title: chuggie.dev
-    url: https://chuggie.dev
+    title: chuggie
+    url: https://github.com/schlopai/chuggie
     github: schlopai/chuggie
     npm: "@schlopai/chuggie"
     cargo: false
@@ -607,16 +607,28 @@ items:
     project: chuggie
     kind: company
 
+  - id: chuggie-dev
+    title: chuggie.dev
+    url: https://chuggie.dev
+    github: null
+    npm: false
+    cargo: false
+    description: Homepage and docs for the Chuggie GBA engine
+    status: shipped
+    family: schlop
+    project: chuggie.dev
+    kind: company
+
   - id: chuggie-ci
     title: chuggie-ci
     url: https://github.com/schlopai/chuggie-toolchain
     github: schlopai/chuggie-toolchain
     npm: false
     cargo: false
-    description: GBA toolchain image for chuggie CI
+    description: GBA toolchain image that chuggie's CI runs on
     status: shipped
     family: schlop
-    project: chuggie
+    project: chuggie-ci
     kind: company
 
   - id: spider-gwen-webgpu
@@ -649,7 +661,7 @@ items:
     github: null
     npm: false
     cargo: false
-    description: schlop.ai — public site
+    description: "Schlop Studios site — retro-styled game studio: synthwave platformers, tactical shooters, and 8-bit roguelikes"
     status: shipped
     family: schlop
     project: schlop
@@ -760,7 +772,7 @@ items:
     github: spacedevin/juke.sh
     npm: false
     cargo: false
-    description: Jukebox
+    description: Spotify-connected WebGL jukebox in the browser
     status: shipped
     family: personal
     project: juke
@@ -822,7 +834,7 @@ items:
     github: null
     npm: false
     cargo: false
-    description: birdlandgov.com
+    description: "Official site of the Sovereign Nation of Birdland — news, government services, wildlife, and visitor resources"
     status: shipped
     family: other
     project: birdland
@@ -834,7 +846,7 @@ items:
     github: null
     npm: false
     cargo: false
-    description: Nihmbus, a research, publishing and workflow platform with a first-party MCP server
+    description: "AI-powered autonomous marketing platform — social media management, branding, and campaign automation"
     status: shipped
     family: personal
     project: nihmbus
