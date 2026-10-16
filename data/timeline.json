@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T18:25:52Z",
+ "generatedAt": "2026-10-16T20:22:01Z",
  "families": [
   "ae-studio",
   "career",
@@ -10,9 +10,11 @@
   "freelance",
   "hypery",
   "luma",
+  "moo",
   "other",
   "personal",
   "pif",
+  "popcraft",
   "schlop",
   "sciiio",
   "spacekinematics",
@@ -20,6 +22,46 @@
   "tracknfield"
  ],
  "projects": [
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [
+    "Rust"
+   ],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "bovanova",
+   "title": "BovaNova",
+   "family": "personal",
+   "kind": "experiment",
+   "status": "active",
+   "description": "A Solana-scale layer-1 blockchain designed for Mac server farms, written in Rust: proof of work runs on Apple Silicon's matrix units and Metal, with a proof-of-history hash chain, stake-weighted leaders and votes, and a Capacitor mobile wallet. 50 commits, September to October 2026.",
+   "url": "https://bovanova-one.vercel.app",
+   "repos": [
+    "knoeone/bovanova"
+   ],
+   "privateRepos": 1,
+   "start": "2026-09-22",
+   "end": null,
+   "lastActivity": "2026-10-16",
+   "attachTo": null,
+   "tags": [
+    "blockchain",
+    "rust",
+    "apple-silicon",
+    "metal",
+    "proof-of-work"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 50,
+   "source": "github"
+  },
   {
    "id": "deckard",
    "title": "deckard.lol",
@@ -48,6 +90,157 @@
    "releases": 0,
    "majors": 0,
    "latestRelease": null
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [
+    "JavaScript",
+    "TypeScript"
+   ],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "nihmbus",
+   "title": "Nihmbus",
+   "family": "personal",
+   "kind": "app",
+   "status": "active",
+   "description": "Nihmbus (nihmbus.ai), a Next.js platform started in v0 for researching subjects, drafting and publishing content, running missions and workflows and managing tickets, with Drizzle/Postgres, multi-tenancy, a search index, a collab server and a first-party MCP server that exposes every platform action to external AI agents. 177 commits, May-July 2026.",
+   "url": "https://nihmbus.ai",
+   "repos": [
+    "knoeone/nihmbus",
+    "knoeone/nihmbus-extension"
+   ],
+   "privateRepos": 2,
+   "start": "2026-05-21",
+   "end": null,
+   "lastActivity": "2026-10-16",
+   "attachTo": null,
+   "tags": [
+    "nextjs",
+    "mcp",
+    "ai-agents",
+    "drizzle",
+    "saas",
+    "v0"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 180,
+   "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [
+    "JavaScript",
+    "Ruby",
+    "Rust",
+    "TypeScript"
+   ],
+   "items": [],
+   "releases": 206,
+   "majors": 1,
+   "latestRelease": {
+    "tag": "v0.42.7",
+    "date": "2026-10-16",
+    "repo": "getpopcraft/popcraft-app"
+   },
+   "id": "popcraft",
+   "title": "PopCraft",
+   "family": "popcraft",
+   "kind": "app",
+   "status": "active",
+   "description": "My design tool that actually pops: one file holds vector UI, raster painting, pixel art, comic pages and whiteboards, all drawn on WebGPU in the browser or a Tauri desktop shell. Figma-class layout and components, a Procreate-class brush engine, an Aseprite-class pixel canvas, multiplayer, version history, a plugin marketplace with Illustrator, EPS and Publisher importers, and a Homebrew-installed CLI. Local-first, so it keeps working offline. About 2,400 commits and 230 releases, June to October 2026.",
+   "url": "https://popcraft.app",
+   "repos": [
+    "getpopcraft/eps-io",
+    "getpopcraft/examples",
+    "getpopcraft/homebrew-popcraft",
+    "getpopcraft/illustrator-io",
+    "getpopcraft/plugins",
+    "getpopcraft/popcraft",
+    "getpopcraft/popcraft-app",
+    "getpopcraft/popcraft-fastlane",
+    "getpopcraft/popprint",
+    "getpopcraft/publisher-import",
+    "knoeone/popcraft-desktop"
+   ],
+   "privateRepos": 7,
+   "start": "2026-06-05",
+   "end": null,
+   "lastActivity": "2026-10-16",
+   "attachTo": null,
+   "tags": [
+    "design",
+    "webgpu",
+    "vector",
+    "pixel-art",
+    "tauri",
+    "local-first"
+   ],
+   "descriptionConfidence": 0.95,
+   "commits": 2365,
+   "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [
+    "HTML",
+    "Ruby",
+    "TypeScript"
+   ],
+   "items": [],
+   "releases": 1,
+   "majors": 0,
+   "latestRelease": {
+    "tag": "v0.4.0",
+    "date": "2026-10-15",
+    "repo": "sciiio/scii-releases"
+   },
+   "id": "sciiio-scii",
+   "title": "scii",
+   "family": "sciiio",
+   "kind": "app",
+   "status": "active",
+   "description": "An ASCII-native social network, terminal first and web second: every image, avatar and feed frame renders as coloured ASCII. The whole stack is Tish (a native tish:http server with an image-to-ASCII engine, a Lattish web client and a Lattish-compatible terminal renderer) shipped via Homebrew, npm, Cargo and GitHub releases. 86 commits, June-August 2026.",
+   "url": "https://scii.io",
+   "repos": [
+    "sciiio/scii",
+    "sciiio/.github",
+    "sciiio/homebrew-scii",
+    "sciiio/scii-popcraft",
+    "sciiio/scii-releases"
+   ],
+   "privateRepos": 1,
+   "start": "2026-06-11",
+   "end": null,
+   "lastActivity": "2026-10-16",
+   "attachTo": null,
+   "tags": [
+    "social",
+    "ascii",
+    "terminal",
+    "tish",
+    "lattish"
+   ],
+   "descriptionConfidence": 0.9,
+   "commits": 91,
+   "source": "github"
   },
   {
    "id": "work-aeg-presents",
@@ -128,11 +321,12 @@
     "tishlang/tish-ide-panels",
     "tishlang/tish-tailwind",
     "tishlang/tish-vscode",
+    "tishlang/tish-docs",
+    "tishlang/orbit",
+    "tishlang/tish-ms",
     "tishlang/tish-syntax-highlight",
     "tishlang/tishdoc-parse",
-    "tishlang/tishdoc-render-html",
-    "tishlang/tish-pg",
-    "tishlang/.github"
+    "tishlang/tishdoc-render-html"
    ],
    "packages": {
     "npm": [
@@ -244,7 +438,7 @@
     "tishlang_lint",
     "tishlang_test"
    ],
-   "start": "2026-03-08",
+   "start": "2026-03-04",
    "end": null,
    "lastActivity": "2026-10-15",
    "stars": 8,
@@ -273,7 +467,8 @@
    "url": "https://hypery.ai/",
    "repos": [
     "hyperyai/hypery-sdk",
-    "hyperyai/hypery-examples"
+    "hyperyai/hypery-examples",
+    "hyperyai/hypery"
    ],
    "packages": {
     "npm": [
@@ -300,6 +495,99 @@
     "date": "2026-10-14",
     "repo": "hyperyai/hypery-sdk"
    }
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [
+    "Ruby",
+    "Rust",
+    "Shell",
+    "TypeScript"
+   ],
+   "items": [],
+   "releases": 14,
+   "majors": 0,
+   "latestRelease": {
+    "tag": "v0.12.1",
+    "date": "2026-10-11",
+    "repo": "moomoi/moo"
+   },
+   "id": "moo",
+   "title": "Moo",
+   "family": "moo",
+   "kind": "app",
+   "status": "active",
+   "description": "My keyboard launcher for macOS: one hotkey, then type anything. Apps, files, clipboard history, calculations, window layouts, system commands, Ask AI and plugins share one search field in a single native AppKit process, built with the Tish compiler and Lattish, with a plugin marketplace and a Homebrew tap. 128 commits and 22 releases in October 2026.",
+   "url": "https://moo.moi",
+   "repos": [
+    "moomoi/.github",
+    "moomoi/homebrew-moo",
+    "moomoi/moo",
+    "moomoi/plugins",
+    "knoeone/moo"
+   ],
+   "privateRepos": 1,
+   "start": "2026-10-03",
+   "end": null,
+   "lastActivity": "2026-10-11",
+   "attachTo": null,
+   "tags": [
+    "macos",
+    "launcher",
+    "appkit",
+    "tish",
+    "lattish",
+    "plugins"
+   ],
+   "descriptionConfidence": 0.95,
+   "commits": 128,
+   "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [
+    "HTML"
+   ],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "mootropic",
+   "title": "Mootropic Energy",
+   "family": "personal",
+   "kind": "site",
+   "status": "archived",
+   "description": "Single-page landing site for a fictional nootropic brain-fuel energy drink, built as a static HTML page with a custom SVG logo, animated background color and a CNAME for a custom domain. A one-day brand concept.",
+   "url": null,
+   "repos": [
+    "spacedevin/mootropic",
+    "knoeone/mootropic"
+   ],
+   "privateRepos": 1,
+   "start": "2022-06-23",
+   "end": "2022-06-24",
+   "lastActivity": "2026-10-10",
+   "attachTo": null,
+   "tags": [
+    "landing-page",
+    "html",
+    "branding",
+    "concept",
+    "beverage"
+   ],
+   "descriptionConfidence": 0.7,
+   "commits": 4,
+   "source": "github"
   },
   {
    "id": "tishdoc",
@@ -413,6 +701,88 @@
    }
   },
   {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [
+    "HTML",
+    "TypeScript"
+   ],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "knoeone",
+   "title": "Knoeone",
+   "family": "personal",
+   "kind": "company",
+   "status": "archived",
+   "description": "Repos for Knoeone, my personal product label: a 2023 storefront cloned from Vercel's Next.js Commerce turborepo (knoeone, 43 commits) and a separate static landing site (knoeone-landing, 10 commits); both private.",
+   "url": "https://knoeone.vercel.app",
+   "repos": [
+    "knoeone/knoeone",
+    "knoeone/knoeone-landing",
+    "knoeone/knoeone-ai",
+    "knoeone/knoeone-brand"
+   ],
+   "privateRepos": 2,
+   "start": "2023-02-24",
+   "end": "2023-10-20",
+   "lastActivity": "2026-10-05",
+   "attachTo": null,
+   "tags": [
+    "nextjs",
+    "commerce",
+    "turborepo",
+    "vercel",
+    "landing-page"
+   ],
+   "descriptionConfidence": 0.8,
+   "commits": 53,
+   "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [
+    "TypeScript"
+   ],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "saaspop",
+   "title": "saaspop",
+   "family": "personal",
+   "kind": "experiment",
+   "status": "active",
+   "description": "A Next.js app with a Drizzle database layer and Vitest, deployed to saaspop.vercel.app; 11 commits in one day in October 2026. The README is still the create-next-app default, so the product itself is not described.",
+   "url": "https://saaspop.vercel.app",
+   "repos": [
+    "spacedevin/saaspop"
+   ],
+   "privateRepos": 1,
+   "start": "2026-10-03",
+   "end": null,
+   "lastActivity": "2026-10-03",
+   "attachTo": null,
+   "tags": [
+    "nextjs",
+    "drizzle",
+    "vitest"
+   ],
+   "descriptionConfidence": 0.4,
+   "commits": 11,
+   "source": "github"
+  },
+  {
    "id": "chuggie",
    "title": "chuggie",
    "family": "schlop",
@@ -421,7 +791,8 @@
    "description": "GBA game engine — write Game Boy Advance games in tish",
    "url": "https://github.com/schlopai/chuggie",
    "repos": [
-    "schlopai/chuggie"
+    "schlopai/chuggie",
+    "schlopai/tish-gba"
    ],
    "packages": {
     "npm": [
@@ -437,7 +808,7 @@
    "items": [
     "chuggie"
    ],
-   "start": "2026-08-25",
+   "start": "2026-07-24",
    "end": null,
    "lastActivity": "2026-09-29",
    "stars": 1,
@@ -453,6 +824,121 @@
    }
   },
   {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [
+    "GDScript"
+   ],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "pickleball",
+   "title": "Pickleball Pro Tour",
+   "family": "personal",
+   "kind": "game",
+   "status": "active",
+   "description": "A pickleball game in the style of the big console sports franchises, built in Godot 4.3 with every model, sound and UI element generated in code, so there are no binary assets. Quick matches in singles or doubles with local co-op or versus, and a career mode that starts you at #250 on a five-event pro tour. September 2026.",
+   "url": null,
+   "repos": [
+    "spacedevin/pickleball"
+   ],
+   "privateRepos": 1,
+   "start": "2026-09-27",
+   "end": null,
+   "lastActivity": "2026-09-27",
+   "attachTo": null,
+   "tags": [
+    "godot",
+    "gdscript",
+    "sports"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 2,
+   "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [
+    "TypeScript"
+   ],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "chuchulu",
+   "title": "chuchulu",
+   "family": "personal",
+   "kind": "experiment",
+   "status": "active",
+   "description": "A single-commit Next.js and TypeScript project from September 2026 with a small CLI called prism. There is no README, so what it was meant to become is not evident.",
+   "url": null,
+   "repos": [
+    "knoeone/chuchulu"
+   ],
+   "privateRepos": 1,
+   "start": "2026-09-25",
+   "end": null,
+   "lastActivity": "2026-09-25",
+   "attachTo": null,
+   "tags": [
+    "nextjs",
+    "typescript"
+   ],
+   "descriptionConfidence": 0.3,
+   "commits": 1,
+   "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [
+    "TypeScript"
+   ],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "gamewiz",
+   "title": "GameWiz",
+   "family": "personal",
+   "kind": "game",
+   "status": "active",
+   "description": "A platform of small, customizable casual games (solitaire, blackjack, minesweeper, sudoku, poker, mahjong, slots, roulette and more) rendered with WebGPU in a React shell, with an in-game Hypery AI panel that restyles each game. Every game is built to ship standalone to the web, Steam and mobile through Tauri, Reddit and Facebook Instant Games. 64 commits over two days in September 2026.",
+   "url": null,
+   "repos": [
+    "knoeone/gamewiz"
+   ],
+   "privateRepos": 1,
+   "start": "2026-09-18",
+   "end": null,
+   "lastActivity": "2026-09-19",
+   "attachTo": null,
+   "tags": [
+    "webgpu",
+    "react",
+    "tauri",
+    "casual-games",
+    "ai"
+   ],
+   "descriptionConfidence": 0.85,
+   "commits": 64,
+   "source": "github"
+  },
+  {
    "id": "dune",
    "title": "dune",
    "family": "dune",
@@ -464,7 +950,11 @@
     "duneyou/dune",
     "duneyou/homebrew-dune",
     "duneyou/dune-extensions",
-    "duneyou/dune-assets"
+    "duneyou/dune-ide",
+    "duneyou/dune-ide-old",
+    "duneyou/dune-web",
+    "duneyou/dune-fastlane",
+    "duneyou/desert-vscode-theme"
    ],
    "packages": {
     "npm": [],
@@ -505,11 +995,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "create-tish",
-   "title": "create-tish",
+   "title": "create-tish-app",
    "family": "personal",
-   "kind": "personal",
+   "kind": "tool",
    "status": "active",
-   "description": "Scaffold a new Tish project",
+   "description": "Project scaffolder for Tish, published to npm as create-tish-app (npm create tish-app). 49 versions from 1.3.2 in April 2026 to 2.0.x in June 2026, tracking the Tish release line.",
    "url": "https://github.com/tishlang/tish#readme",
    "repos": [
     "tishlang/tish"
@@ -519,6 +1009,13 @@
    "end": null,
    "lastActivity": "2026-09-02",
    "attachTo": null,
+   "tags": [
+    "npm",
+    "tish",
+    "scaffolding",
+    "cli"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 0,
    "source": "npm"
   },
@@ -747,46 +1244,6 @@
    ],
    "descriptionConfidence": 0.85,
    "commits": 13,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "HTML"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "sciiio-scii",
-   "title": "scii",
-   "family": "sciiio",
-   "kind": "app",
-   "status": "active",
-   "description": "An ASCII-native social network, terminal first and web second: every image, avatar and feed frame renders as coloured ASCII. The whole stack is Tish (a native tish:http server with an image-to-ASCII engine, a Lattish web client and a Lattish-compatible terminal renderer) shipped via Homebrew, npm, Cargo and GitHub releases. 86 commits, June-August 2026.",
-   "url": null,
-   "repos": [
-    "sciiio/scii"
-   ],
-   "privateRepos": 1,
-   "start": "2026-06-11",
-   "end": null,
-   "lastActivity": "2026-08-12",
-   "attachTo": null,
-   "tags": [
-    "social",
-    "ascii",
-    "terminal",
-    "tish",
-    "lattish"
-   ],
-   "descriptionConfidence": 0.9,
-   "commits": 86,
    "source": "github"
   },
   {
@@ -1098,7 +1555,13 @@
     "tipsyphp/tipsy-mvc",
     "arzynik/tipsy-mvc",
     "tipsyphp/tipsy-doctrine",
-    "arzynik/tipsy-doctrine"
+    "arzynik/tipsy-doctrine",
+    "tipsyphp/tipsy.wiki",
+    "arzynik/tipsy.wiki",
+    "tipsyphp/tipsy-example-blog",
+    "tipsyphp/tipsy-hello-world",
+    "tipsyphp/tipsy-example-mvc",
+    "tipsyphp/tipsy-example-doctrine"
    ],
    "packages": {
     "npm": [],
@@ -1121,6 +1584,33 @@
     "date": "2026-08-07",
     "repo": "tipsyphp/tipsy"
    }
+  },
+  {
+   "id": "chuggie.dev",
+   "title": "chuggie.dev",
+   "family": "schlop",
+   "kind": "company",
+   "status": "shipped",
+   "description": "Homepage and docs for the Chuggie GBA engine",
+   "url": "https://chuggie.dev",
+   "repos": [
+    "schlopai/chuggie.dev"
+   ],
+   "packages": {
+    "npm": [],
+    "cargo": []
+   },
+   "items": [
+    "chuggie-dev"
+   ],
+   "start": "2026-08-04",
+   "end": null,
+   "lastActivity": "2026-08-04",
+   "stars": 0,
+   "languages": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null
   },
   {
    "id": "juke",
@@ -1150,47 +1640,6 @@
    "releases": 0,
    "majors": 0,
    "latestRelease": null
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "TypeScript"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "nihmbus",
-   "title": "Nihmbus",
-   "family": "personal",
-   "kind": "app",
-   "status": "active",
-   "description": "Nihmbus (nihmbus.ai), a Next.js platform started in v0 for researching subjects, drafting and publishing content, running missions and workflows and managing tickets, with Drizzle/Postgres, multi-tenancy, a search index, a collab server and a first-party MCP server that exposes every platform action to external AI agents. 177 commits, May-July 2026.",
-   "url": "https://nihmbus.ai",
-   "repos": [
-    "knoeone/nihmbus"
-   ],
-   "privateRepos": 1,
-   "start": "2026-05-21",
-   "end": null,
-   "lastActivity": "2026-07-24",
-   "attachTo": null,
-   "tags": [
-    "nextjs",
-    "mcp",
-    "ai-agents",
-    "drizzle",
-    "saas",
-    "v0"
-   ],
-   "descriptionConfidence": 0.7,
-   "commits": 177,
-   "source": "github"
   },
   {
    "packages": {
@@ -1825,7 +2274,9 @@
    "description": "Zectre, a Nomad-inspired deployment and orchestration platform for running Tish native binaries, written in Rust with axum and tokio: API, scheduler, agent, proxy, registry, build and catalog crates. Paired with a Vercel-style zectre CLI (login, link, deploy, environments) and a Next.js web console; about 100 commits across the three repos in March-April 2026.",
    "url": "https://zectre-platform.vercel.app",
    "repos": [
-    "knoeone/zectre-platform"
+    "knoeone/zectre-platform",
+    "knoeone/zectre-cli",
+    "knoeone/zectre-web"
    ],
    "privateRepos": 1,
    "start": "2026-03-01",
@@ -2237,7 +2688,8 @@
    "description": "PHP file manager (2010), archived",
    "url": "https://github.com/spacedevin/osFileManager",
    "repos": [
-    "spacedevin/osFileManager"
+    "spacedevin/osFileManager",
+    "devin-la/osfilemanager.com"
    ],
    "packages": {
     "npm": [],
@@ -2276,11 +2728,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "react-mui-pro-multi-range-picker",
-   "title": "react-mui-pro-multi-range-picker",
+   "title": "React MUI Pro Multi-Range Picker",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "active",
-   "description": "Multi-range date picker Pro component for Material-UI with drag-to-select and chip management",
+   "description": "Multi-range date picker for MUI X Pro with drag-to-select and chip management, published to npm as @spacedevin/react-mui-pro-multi-range-picker. 32 versions between late October and early November 2025, 0.7.0 to 0.11.6. React and TypeScript.",
    "url": "https://github.com/spacedevin/react-mui-pro-multi-range-picker#readme",
    "repos": [
     "spacedevin/react-mui-pro-multi-range-picker"
@@ -2290,6 +2742,14 @@
    "end": null,
    "lastActivity": "2025-11-07",
    "attachTo": null,
+   "tags": [
+    "npm",
+    "react",
+    "mui",
+    "typescript",
+    "date-picker"
+   ],
+   "descriptionConfidence": 0.9,
    "commits": 0,
    "source": "npm"
   },
@@ -3907,6 +4367,44 @@
    },
    "stars": 0,
    "languages": [
+    "TypeScript"
+   ],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "eeep",
+   "title": "EEEP!",
+   "family": "personal",
+   "kind": "library",
+   "status": "archived",
+   "description": "Extremely Exciting Excel Parsing: an unfinished TypeScript library modeled on the .NET EPPlus API for creating workbooks, adding worksheets, reading and writing cells and saving XLSX files. November 2024.",
+   "url": null,
+   "repos": [
+    "spacedevin/eeep"
+   ],
+   "privateRepos": 1,
+   "start": "2024-11-21",
+   "end": "2024-11-21",
+   "lastActivity": "2024-11-21",
+   "attachTo": null,
+   "tags": [
+    "typescript",
+    "excel",
+    "xlsx"
+   ],
+   "descriptionConfidence": 0.8,
+   "commits": 2,
+   "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [
     "CSS",
     "PHP"
    ],
@@ -3928,6 +4426,11 @@
    "repos": [
     "spacedevin/cana-web",
     "spacedevin/cana",
+    "spacedevin/cana-emoji",
+    "spacedevin/cana-facebook",
+    "spacedevin/cana-colorblender",
+    "spacedevin/cana-sitemap",
+    "spacedevin/cana-growl",
     "arzynik/cana"
    ],
    "privateRepos": 0,
@@ -3944,6 +4447,44 @@
    ],
    "descriptionConfidence": 0.95,
    "commits": 77,
+   "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
+   "languages": [
+    "TypeScript"
+   ],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "matrix",
+   "title": "matrix",
+   "family": "personal",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "A Vite web spreadsheet prototype (the package is named web-excel) from November 2024, a sibling of the EEEP Excel library; two commits and no README.",
+   "url": null,
+   "repos": [
+    "spacedevin/matrix"
+   ],
+   "privateRepos": 1,
+   "start": "2024-11-15",
+   "end": "2024-11-15",
+   "lastActivity": "2024-11-15",
+   "attachTo": null,
+   "tags": [
+    "vite",
+    "react",
+    "spreadsheet"
+   ],
+   "descriptionConfidence": 0.4,
+   "commits": 2,
    "source": "github"
   },
   {
@@ -4189,6 +4730,43 @@
     "packagist": []
    },
    "stars": 0,
+   "languages": [
+    "TypeScript"
+   ],
+   "items": [],
+   "releases": 0,
+   "majors": 0,
+   "latestRelease": null,
+   "id": "strata-turbo",
+   "title": "strata-turbo",
+   "family": "personal",
+   "kind": "experiment",
+   "status": "archived",
+   "description": "A Turborepo monorepo started from the official starter (two Next.js apps and a shared UI package), with its docs app deployed to Vercel. May 2024.",
+   "url": "https://strata-turbo-docs.vercel.app",
+   "repos": [
+    "spacedevin/strata-turbo"
+   ],
+   "privateRepos": 1,
+   "start": "2024-05-28",
+   "end": "2024-05-28",
+   "lastActivity": "2024-05-28",
+   "attachTo": null,
+   "tags": [
+    "turborepo",
+    "nextjs"
+   ],
+   "descriptionConfidence": 0.3,
+   "commits": 1,
+   "source": "github"
+  },
+  {
+   "packages": {
+    "npm": [],
+    "cargo": [],
+    "packagist": []
+   },
+   "stars": 0,
    "languages": [],
    "items": [],
    "releases": 0,
@@ -4328,7 +4906,10 @@
    "description": "A macOS desktop app for swapping Microsoft Outlook notification sounds: browse and download sound sets from a built-in shop, then install them into Outlook's SoundSet directory. Built in Flutter/Dart with macos_ui, ffmpeg_kit and audioplayers; published as v0.0.1-0.0.2 in December 2023 with a companion sound-set catalog, a GitHub-auth edge function for sharing sets, and a landing page at soundsetr.com.",
    "url": "https://soundsetr.com",
    "repos": [
-    "knoeone/soundsetr"
+    "knoeone/soundsetr",
+    "knoeone/soundsetr-soundsets",
+    "knoeone/soundsetr-auth-edge",
+    "knoeone/soundsetr.com"
    ],
    "privateRepos": 0,
    "start": "2023-11-26",
@@ -4515,48 +5096,6 @@
    },
    "stars": 0,
    "languages": [
-    "HTML",
-    "TypeScript"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "knoeone",
-   "title": "Knoeone",
-   "family": "personal",
-   "kind": "company",
-   "status": "archived",
-   "description": "Repos for Knoeone, my personal product label: a 2023 storefront cloned from Vercel's Next.js Commerce turborepo (knoeone, 43 commits) and a separate static landing site (knoeone-landing, 10 commits); both private.",
-   "url": "https://knoeone.vercel.app",
-   "repos": [
-    "knoeone/knoeone",
-    "knoeone/knoeone-landing"
-   ],
-   "privateRepos": 2,
-   "start": "2023-02-24",
-   "end": "2023-10-20",
-   "lastActivity": "2023-10-20",
-   "attachTo": null,
-   "tags": [
-    "nextjs",
-    "commerce",
-    "turborepo",
-    "vercel",
-    "landing-page"
-   ],
-   "descriptionConfidence": 0.8,
-   "commits": 53,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
     "JavaScript"
    ],
    "items": [],
@@ -4571,10 +5110,11 @@
    "description": "Sixpix (sixpix.ai), an AI image generation mobile app built with Expo Router / React Native for iOS and Android under the Knoeone label, backed by the next-ai-images Next.js service that calls Replicate and OpenAI. About three weeks of work in October 2023.",
    "url": null,
    "repos": [
-    "knoeone/expo-ai-images-router"
+    "knoeone/expo-ai-images-router",
+    "knoeone/next-ai-images"
    ],
    "privateRepos": 1,
-   "start": "2023-10-09",
+   "start": "2023-10-06",
    "end": "2023-10-19",
    "lastActivity": "2023-10-19",
    "attachTo": null,
@@ -4611,7 +5151,8 @@
    "description": "A 2023 rebuild of my personal site and resume, a small Next.js 13 + React 18 app styled with Tailwind and deployed to Vercel. Later superseded by space.la.",
    "url": "https://devin-la-retro.vercel.app",
    "repos": [
-    "spacedevin/devin-la-retro"
+    "spacedevin/devin-la-retro",
+    "spacedevin/nuxt-ai-resume"
    ],
    "privateRepos": 0,
    "start": "2023-09-01",
@@ -5222,7 +5763,9 @@
    "status": "archived",
    "description": "OTT streaming platform, codenamed Otter: Next.js UI, backend with twenty releases in ten months, and a 7,810-commit second-generation codebase.",
    "url": null,
-   "repos": [],
+   "repos": [
+    "spacedevin/otter-vercel-wtf"
+   ],
    "privateRepos": 3,
    "start": "2020-12-23",
    "end": "2021-10-07",
@@ -5467,7 +6010,8 @@
     "knoeone/ionic-video-chat",
     "knoeone/ionic-video-chat-v2",
     "knoeone/ionic-video-chat-server",
-    "knoeone/ionic-video-chat-web"
+    "knoeone/ionic-video-chat-web",
+    "knoeone/ionic-video-chat-support"
    ],
    "privateRepos": 3,
    "start": "2017-01-19",
@@ -5605,46 +6149,6 @@
    ],
    "descriptionConfidence": 0.7,
    "commits": 3,
-   "source": "github"
-  },
-  {
-   "packages": {
-    "npm": [],
-    "cargo": [],
-    "packagist": []
-   },
-   "stars": 0,
-   "languages": [
-    "HTML"
-   ],
-   "items": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null,
-   "id": "mootropic",
-   "title": "Mootropic Energy",
-   "family": "personal",
-   "kind": "site",
-   "status": "archived",
-   "description": "Single-page landing site for a fictional nootropic brain-fuel energy drink, built as a static HTML page with a custom SVG logo, animated background color and a CNAME for a custom domain. A one-day brand concept.",
-   "url": null,
-   "repos": [
-    "spacedevin/mootropic"
-   ],
-   "privateRepos": 1,
-   "start": "2022-06-23",
-   "end": "2022-06-24",
-   "lastActivity": "2022-06-24",
-   "attachTo": null,
-   "tags": [
-    "landing-page",
-    "html",
-    "branding",
-    "concept",
-    "beverage"
-   ],
-   "descriptionConfidence": 0.7,
-   "commits": 4,
    "source": "github"
   },
   {
@@ -5877,10 +6381,13 @@
    "url": null,
    "repos": [
     "knoeone/moonshyne-native",
-    "knoeone/moonshyne-api"
+    "knoeone/moonshyne-api",
+    "knoeone/moonshyne.co",
+    "moonshyne/assets",
+    "knoeone/moonshyne-socket"
    ],
    "privateRepos": 2,
-   "start": "2017-03-07",
+   "start": "2017-03-03",
    "end": "2017-06-07",
    "lastActivity": "2022-04-01",
    "attachTo": null,
@@ -6476,7 +6983,8 @@
    "description": "The 2021 version of my personal site space.la: a Next.js app (package name devin2020) with glslify/glsl-noise shader effects and highlight.js, deployed on Vercel; 66 commits, April-June 2021, private.",
    "url": "space-la-arzynik.vercel.app",
    "repos": [
-    "spacedevin/space-la"
+    "spacedevin/space-la",
+    "spacedevin/space-la-placeholder"
    ],
    "privateRepos": 1,
    "start": "2021-04-10",
@@ -7052,7 +7560,10 @@
    "description": "Expo + Next.js universal weather app built at Agency Enterprise in 2020 (93 commits), later wrapped with Capacitor; sits beside a second expo-next scaffold on the drive.",
    "url": null,
    "repos": [
-    "agencyenterprise/weather-next"
+    "agencyenterprise/weather-next",
+    "devin-la/weather-server",
+    "devin-la/weather-next",
+    "spacedevin/weather-next"
    ],
    "privateRepos": 1,
    "start": "2020-03-21",
@@ -7243,7 +7754,8 @@
    "description": "The codebase for my mobile charity donation platform (CharityCall / MobileDonor / Give.mobi, 2008-2012): a PHP 5.6 application with MySQL/T-SQL schemas, Mailgun mail, cron jobs, subdomain sites, native app assets and a Heroku Procfile, with a getting-started guide. 479 commits, kept private.",
    "url": "http://give.mobi",
    "repos": [
-    "knoeone/give-mobi"
+    "knoeone/give-mobi",
+    "knoeone/give-mobi-content"
    ],
    "privateRepos": 1,
    "start": "2011-01-25",
@@ -7399,7 +7911,8 @@
    "description": "Agency Enterprise's fork of Lotus, the Go implementation of the Filecoin Distributed Storage Network, from the 2019 Protocol Labs / Filecoin engagement where I contributed to the testnet-era codebase (chain, miner, paych, retrieval modules).",
    "url": null,
    "repos": [
-    "agencyenterprise/lotus"
+    "agencyenterprise/lotus",
+    "filecoin-project/lotus"
    ],
    "privateRepos": 1,
    "start": "2019-06-25",
@@ -7442,7 +7955,10 @@
    "description": "A Unity multiplayer top-down city game prototype using Photon Unity Networking and NavMesh, with a small Node toolchain for C# linting (uncrustify) and icon formatting; 379 commits, Oct-Dec 2019, private.",
    "url": null,
    "repos": [
-    "spacedevin/topdowncity"
+    "spacedevin/topdowncity",
+    "devin-la/functionalprototype-api",
+    "arzynik/functionalprototype-web",
+    "devin-la/functionalprototype-game"
    ],
    "privateRepos": 1,
    "start": "2019-10-09",
@@ -7852,12 +8368,13 @@
    "description": "Unity zombie game prototype; two commits ('initial', 'pushing buttons').",
    "url": null,
    "repos": [
-    "spacedevin/zombie"
+    "spacedevin/zombie",
+    "spacedevin/zombie2"
    ],
    "privateRepos": 1,
    "start": "2019-05-01",
    "end": "2019-05-03",
-   "lastActivity": "2019-05-03",
+   "lastActivity": "2019-05-17",
    "attachTo": null,
    "tags": [
     "unity",
@@ -7889,7 +8406,8 @@
    "description": "Unity zombie/robot survival prototype (robonew) with NavMesh AI and a build folder, pushed to devin-la/zombie in May 2019.",
    "url": null,
    "repos": [
-    "devin-la/zombie"
+    "devin-la/zombie",
+    "devin-la/zombie2"
    ],
    "privateRepos": 1,
    "start": "2019-05-01",
@@ -8212,7 +8730,8 @@
    "url": null,
    "repos": [
     "agencyenterprise/shirt-app-mobile",
-    "agencyenterprise/shirt-app-web"
+    "agencyenterprise/shirt-app-web",
+    "knoeone/shirt-app-expo"
    ],
    "privateRepos": 2,
    "start": "2018-01-22",
@@ -9164,7 +9683,8 @@
    "description": "A web-based file manager (cheryl.io) built on PHP with my Tipsy framework and AngularJS, with an Ace code editor, local or database-backed storage, and a one-click Heroku deploy using Nginx and Postgres; released through v3.0 and a v4.0 beta, 2013-2018.",
    "url": "http://cheryl.io",
    "repos": [
-    "spacedevin/cheryl"
+    "spacedevin/cheryl",
+    "devin-la/cheryl.io"
    ],
    "privateRepos": 0,
    "start": "2013-12-07",
@@ -9245,7 +9765,8 @@
    "url": null,
    "repos": [
     "knoeone/diet",
-    "knoeone/diet-server"
+    "knoeone/diet-server",
+    "devin-la/diet-server"
    ],
    "privateRepos": 2,
    "start": "2017-11-15",
@@ -9457,7 +9978,8 @@
    "repos": [
     "knoeone/juryoku",
     "knoeone/juryoku-web",
-    "knoeone/juryoku-node"
+    "knoeone/juryoku-node",
+    "devin-la/juryoku-web"
    ],
    "privateRepos": 3,
    "start": "2014-06-09",
@@ -9534,9 +10056,9 @@
    "id": "apibtc",
    "title": "apibtc",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "archived",
-   "description": "[![npm package](https://nodei.co/npm/apibtc.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/apibtc/)",
+   "description": "Small Node wrapper for a Bitcoin API, published to npm as apibtc in November 2017 during the AE Studio period. Two versions, ending at 1.0.1; the package description is only an npm badge.",
    "url": null,
    "repos": [],
    "privateRepos": 0,
@@ -9544,6 +10066,13 @@
    "end": "2017-11-02",
    "lastActivity": "2017-11-02",
    "attachTo": null,
+   "tags": [
+    "npm",
+    "javascript",
+    "bitcoin",
+    "api-client"
+   ],
+   "descriptionConfidence": 0.55,
    "commits": 0,
    "source": "npm"
   },
@@ -9730,11 +10259,11 @@
    "majors": 0,
    "latestRelease": null,
    "id": "woodpecker",
-   "title": "woodpecker",
+   "title": "Woodpecker API",
    "family": "personal",
-   "kind": "personal",
+   "kind": "library",
    "status": "archived",
-   "description": "Woodpecker API",
+   "description": "Node client for the Woodpecker cold-email API, published to npm as woodpecker-api in October 2017 while at AE Studio (agencyenterprise). Three versions, starting at 1.1.0.",
    "url": "https://github.com/agencyenterprise/woodpecker#readme",
    "repos": [
     "agencyenterprise/woodpecker"
@@ -9744,6 +10273,14 @@
    "end": "2017-10-18",
    "lastActivity": "2017-10-18",
    "attachTo": null,
+   "tags": [
+    "npm",
+    "javascript",
+    "api-client",
+    "ae-studio",
+    "email"
+   ],
+   "descriptionConfidence": 0.7,
    "commits": 0,
    "source": "npm"
   },
@@ -10045,7 +10582,8 @@
    "description": "A node REST service for Luma Pictures' ftrack delivery matrix, packaged as a Docker container with install/update/build shell scripts for the VM; 170 commits, LumaPictures/ftrack_deliv_matrix.",
    "url": null,
    "repos": [
-    "lumapictures/ftrack_deliv_matrix"
+    "lumapictures/ftrack_deliv_matrix",
+    "devin-la/ftrack_deliv_matrix"
    ],
    "privateRepos": 1,
    "start": "2016-02-13",
@@ -10814,7 +11352,9 @@
    "status": "archived",
    "description": "Chargeback Disputer, a service that automates credit card chargeback disputes.",
    "url": null,
-   "repos": [],
+   "repos": [
+    "youbeo/chargebackdisputer.com"
+   ],
    "privateRepos": 1,
    "start": "2016-01-01",
    "end": "2016-12-16",
@@ -10851,7 +11391,8 @@
    "repos": [
     "spacedevin/wowstat-legacy",
     "knoeone/wowstat-web",
-    "spacedevin/wowstat"
+    "spacedevin/wowstat",
+    "knoeone/moonbase"
    ],
    "privateRepos": 1,
    "start": "2007-06-20",
@@ -11251,7 +11792,8 @@
    "description": "Performance benchmark of Node.js/Express with Postgres inserts, the JavaScript side of a Node-vs-Scala comparison I ran under the tracknfield org.",
    "url": null,
    "repos": [
-    "tracknfield/track-js"
+    "tracknfield/track-js",
+    "tracknfield/track-scala"
    ],
    "privateRepos": 1,
    "start": "2016-08-30",
@@ -11491,7 +12033,8 @@
    "description": "An iOS/iPad app for controlling Philips Hue lights with preset animated colour transitions, built with Cordova (config.xml, platforms, plugins, www) in a private repo; 54 commits from December 2013.",
    "url": null,
    "repos": [
-    "knoeone/colos.io"
+    "knoeone/colos.io",
+    "spacedevin/colos-web"
    ],
    "privateRepos": 1,
    "start": "2013-12-12",
@@ -11989,7 +12532,8 @@
    "description": "Kidadmit, a preschool admissions startup and Agency Enterprise client: I worked on its Django 1.7/Python API with Braintree payments (599 commits) and its AngularJS/gulp front end (762 commits), from 2015.",
    "url": null,
    "repos": [
-    "kidadmit/api"
+    "kidadmit/api",
+    "kidadmit/frontend"
    ],
    "privateRepos": 1,
    "start": "2015-04-14",
@@ -13951,7 +14495,8 @@
    "description": "My mobile/web game (\"Help Calvin survive the giant worms\") with an ios folder, a node backend and a www build; 34 local commits from 2012. Later reworked as a WebGL build and a Unity platformer.",
    "url": null,
    "repos": [
-    "devin-la/cluckbutton"
+    "devin-la/cluckbutton",
+    "youbeo/cluckbutton-webgl"
    ],
    "privateRepos": 1,
    "start": "2011-02-07",
@@ -15458,7 +16003,8 @@
    "description": "PHP library for PayPal's Mobile Checkout NVP API written by me in June 2009, usable standalone or with Caffeine Engine and Zend Framework; includes a Curl wrapper and example.",
    "url": null,
    "repos": [
-    "arzynik/paypalcheckout"
+    "arzynik/paypalcheckout",
+    "spacedevin/cana-paypal"
    ],
    "privateRepos": 1,
    "start": "2010-09-23",
@@ -20354,31 +20900,6 @@
    },
    "items": [
     "birdland"
-   ],
-   "start": null,
-   "end": null,
-   "lastActivity": null,
-   "stars": 0,
-   "languages": [],
-   "releases": 0,
-   "majors": 0,
-   "latestRelease": null
-  },
-  {
-   "id": "chuggie.dev",
-   "title": "chuggie.dev",
-   "family": "schlop",
-   "kind": "company",
-   "status": "shipped",
-   "description": "Homepage and docs for the Chuggie GBA engine",
-   "url": "https://chuggie.dev",
-   "repos": [],
-   "packages": {
-    "npm": [],
-    "cargo": []
-   },
-   "items": [
-    "chuggie-dev"
    ],
    "start": null,
    "end": null,
@@ -25659,6 +26180,19 @@
    "url": null
   },
   {
+   "projectId": "drive-paypalcheckout",
+   "repo": "spacedevin/cana-paypal",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2010-09-24",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "cana-paypal started (creator, 7 commits)",
+   "url": "https://github.com/spacedevin/cana-paypal"
+  },
+  {
    "projectId": "osfilemanager",
    "repo": "spacedevin/osFileManager",
    "type": "created",
@@ -26208,6 +26742,19 @@
    "major": false,
    "count": 1,
    "summary": "lmm (7 files on the drive)",
+   "url": null
+  },
+  {
+   "projectId": "give-mobi",
+   "repo": "knoeone/give-mobi-content",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2011-02-15",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "give-mobi-content started (creator, 14 commits)",
    "url": null
   },
   {
@@ -27126,6 +27673,71 @@
    "count": 1,
    "summary": "cana-growl local history starts (3 commits on the drive)",
    "url": null
+  },
+  {
+   "projectId": "cana",
+   "repo": "spacedevin/cana-emoji",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2012-04-03",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "cana-emoji started (creator, 3 commits)",
+   "url": "https://github.com/spacedevin/cana-emoji"
+  },
+  {
+   "projectId": "cana",
+   "repo": "spacedevin/cana-facebook",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2012-04-03",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "cana-facebook started (creator, 3 commits)",
+   "url": "https://github.com/spacedevin/cana-facebook"
+  },
+  {
+   "projectId": "cana",
+   "repo": "spacedevin/cana-colorblender",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2012-04-03",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "cana-colorblender started (creator, 3 commits)",
+   "url": "https://github.com/spacedevin/cana-colorblender"
+  },
+  {
+   "projectId": "cana",
+   "repo": "spacedevin/cana-sitemap",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2012-04-03",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "cana-sitemap started (creator, 3 commits)",
+   "url": "https://github.com/spacedevin/cana-sitemap"
+  },
+  {
+   "projectId": "cana",
+   "repo": "spacedevin/cana-growl",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2012-04-03",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "cana-growl started (creator, 3 commits)",
+   "url": "https://github.com/spacedevin/cana-growl"
   },
   {
    "projectId": "phppowerbrowse",
@@ -28726,6 +29338,19 @@
    "count": 1,
    "summary": "colos.io local history starts (54 commits on the drive)",
    "url": null
+  },
+  {
+   "projectId": "colos-io",
+   "repo": "spacedevin/colos-web",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2013-12-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "colos-web started (creator, 21 commits)",
+   "url": "https://github.com/spacedevin/colos-web"
   },
   {
    "projectId": "colos-io",
@@ -30431,6 +31056,32 @@
    "url": null
   },
   {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-blog",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2015-11-26",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "tipsy-example-blog started (creator, 38 commits)",
+   "url": "https://github.com/tipsyphp/tipsy-example-blog"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-blog",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2015-11-27",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-example-blog/releases/tag/undefined"
+  },
+  {
    "projectId": "beerplease",
    "repo": "arzynik/beerplease",
    "type": "created",
@@ -30455,6 +31106,19 @@
    "count": 1,
    "summary": "tipsy-hello-world local history starts (13 commits on the drive)",
    "url": null
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-blog",
+   "type": "release",
+   "tag": "v1.0.0",
+   "name": "v1.0.0",
+   "date": "2015-11-28",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-example-blog/releases/tag/v1.0.0"
   },
   {
    "projectId": "beerplease",
@@ -30562,6 +31226,32 @@
   },
   {
    "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-hello-world",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2015-11-29",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "tipsy-hello-world started (creator, 24 commits)",
+   "url": "https://github.com/tipsyphp/tipsy-hello-world"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-blog",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2015-11-29",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-example-blog/releases/tag/undefined"
+  },
+  {
+   "projectId": "tipsy",
    "repo": "tipsyphp/tipsy",
    "type": "release",
    "tag": "v0.10.3",
@@ -30572,6 +31262,32 @@
    "count": 1,
    "summary": "Added url parsing for DB config",
    "url": "https://github.com/tipsyphp/tipsy/releases/tag/v0.10.3"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-hello-world",
+   "type": "release",
+   "tag": "v1.0.0",
+   "name": "v1.0.0",
+   "date": "2015-11-29",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-hello-world/releases/tag/v1.0.0"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-blog",
+   "type": "release",
+   "tag": "v1.0.1",
+   "name": "v1.0.1",
+   "date": "2015-11-29",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-example-blog/releases/tag/v1.0.1"
   },
   {
    "projectId": "beerplease",
@@ -30764,6 +31480,45 @@
   },
   {
    "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-mvc",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2015-12-04",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "tipsy-example-mvc started (creator, 41 commits)",
+   "url": "https://github.com/tipsyphp/tipsy-example-mvc"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-mvc",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2015-12-04",
+   "prerelease": false,
+   "major": false,
+   "count": 3,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-example-mvc/releases/tag/undefined"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-mvc",
+   "type": "release",
+   "tag": "v1.0.1",
+   "name": "v1.0.0",
+   "date": "2015-12-04",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-example-mvc/releases/tag/v1.0.0"
+  },
+  {
+   "projectId": "tipsy",
    "repo": "arzynik/tipsy-mvc",
    "type": "publish",
    "tag": "v1.0.1",
@@ -30787,6 +31542,19 @@
    "count": 3,
    "summary": "tipsyphp/tipsy-mvc first published to packagist",
    "url": "https://packagist.org/packages/tipsyphp/tipsy-mvc"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-mvc",
+   "type": "release",
+   "tag": "v1.1.0",
+   "name": "v1.1.0",
+   "date": "2015-12-05",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-example-mvc/releases/tag/v1.1.0"
   },
   {
    "projectId": "composer-dependency-auto-update",
@@ -30943,6 +31711,19 @@
    "count": 1,
    "summary": "tipsy-example-doctrine local history starts (8 commits on the drive)",
    "url": null
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-doctrine",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2015-12-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "tipsy-example-doctrine started (creator, 31 commits)",
+   "url": "https://github.com/tipsyphp/tipsy-example-doctrine"
   },
   {
    "projectId": "tipsy",
@@ -32763,6 +33544,19 @@
    "url": null
   },
   {
+   "projectId": "wowstat",
+   "repo": "knoeone/moonbase",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2016-08-24",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "moonbase started (creator, 3 commits)",
+   "url": null
+  },
+  {
    "projectId": "drive-development-blam",
    "repo": null,
    "type": "created",
@@ -33516,6 +34310,19 @@
   },
   {
    "projectId": "ionic-video-chat",
+   "repo": "knoeone/ionic-video-chat-support",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2017-02-02",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "ionic-video-chat-support started (creator, 9 commits)",
+   "url": "https://github.com/knoeone/ionic-video-chat-support"
+  },
+  {
+   "projectId": "ionic-video-chat",
    "repo": "knoeone/ionic-video-chat-server",
    "type": "release",
    "tag": "v1.1.0",
@@ -33854,6 +34661,19 @@
   },
   {
    "projectId": "moonshyne",
+   "repo": "knoeone/moonshyne.co",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2017-03-03",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "moonshyne.co started (creator, 15 commits)",
+   "url": null
+  },
+  {
+   "projectId": "moonshyne",
    "repo": "knoeone/moonshyne-native",
    "type": "created",
    "tag": null,
@@ -34065,6 +34885,19 @@
    "count": 1,
    "summary": "dontcomeknocking started (creator, 2 commits)",
    "url": "https://github.com/spacedevin/dontcomeknocking"
+  },
+  {
+   "projectId": "moonshyne",
+   "repo": "knoeone/moonshyne-socket",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2017-05-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "moonshyne-socket started (creator, 8 commits)",
+   "url": null
   },
   {
    "projectId": "ae-internal-tools",
@@ -35256,6 +36089,19 @@
    "url": null
   },
   {
+   "projectId": "drive-agencyenterprise-shirt",
+   "repo": "knoeone/shirt-app-expo",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2018-04-28",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "shirt-app-expo started (creator, 30 commits)",
+   "url": null
+  },
+  {
    "projectId": "ride",
    "repo": "spacedevin/ride",
    "type": "created",
@@ -35812,6 +36658,19 @@
    "major": false,
    "count": 1,
    "summary": "zombie started (creator, 2 commits)",
+   "url": null
+  },
+  {
+   "projectId": "zombie",
+   "repo": "spacedevin/zombie2",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2019-05-17",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "zombie2 started (creator, 1 commits)",
    "url": null
   },
   {
@@ -36786,6 +37645,19 @@
    "major": false,
    "count": 1,
    "summary": "space-la local history starts (66 commits on the drive)",
+   "url": null
+  },
+  {
+   "projectId": "space-la",
+   "repo": "spacedevin/space-la-placeholder",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2021-04-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "space-la-placeholder started (creator, 4 commits)",
    "url": null
   },
   {
@@ -37765,6 +38637,19 @@
   },
   {
    "projectId": "expo-ai-images-router",
+   "repo": "knoeone/next-ai-images",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2023-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "next-ai-images started (creator, 5 commits)",
+   "url": null
+  },
+  {
+   "projectId": "expo-ai-images-router",
    "repo": "knoeone/expo-ai-images-router",
    "type": "created",
    "tag": null,
@@ -37894,6 +38779,19 @@
    "url": null
   },
   {
+   "projectId": "knoeone",
+   "repo": "knoeone/knoeone-ai",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2023-10-19",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "knoeone-ai started (creator, 5 commits)",
+   "url": null
+  },
+  {
    "projectId": "work-aeg-presents",
    "repo": null,
    "type": "work",
@@ -37931,6 +38829,32 @@
    "count": 1,
    "summary": "soundsetr started (creator, 77 commits)",
    "url": "https://github.com/knoeone/soundsetr"
+  },
+  {
+   "projectId": "soundsetr",
+   "repo": "knoeone/soundsetr-soundsets",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2023-11-26",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "soundsetr-soundsets started (creator, 23 commits)",
+   "url": "https://github.com/knoeone/soundsetr-soundsets"
+  },
+  {
+   "projectId": "soundsetr",
+   "repo": "knoeone/soundsetr-auth-edge",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2023-11-27",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "soundsetr-auth-edge started (creator, 4 commits)",
+   "url": "https://github.com/knoeone/soundsetr-auth-edge"
   },
   {
    "projectId": "pr",
@@ -37999,6 +38923,32 @@
   },
   {
    "projectId": "soundsetr",
+   "repo": "knoeone/soundsetr-soundsets",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2023-12-01",
+   "prerelease": false,
+   "major": false,
+   "count": 3,
+   "summary": null,
+   "url": "https://github.com/knoeone/soundsetr-soundsets/releases/tag/undefined"
+  },
+  {
+   "projectId": "soundsetr",
+   "repo": "knoeone/soundsetr-soundsets",
+   "type": "release",
+   "tag": "v2",
+   "name": "soundsets.json",
+   "date": "2023-12-01",
+   "prerelease": false,
+   "major": false,
+   "count": 3,
+   "summary": null,
+   "url": "https://github.com/knoeone/soundsetr-soundsets/releases/tag/soundsets.json"
+  },
+  {
+   "projectId": "soundsetr",
    "repo": "knoeone/soundsetr",
    "type": "tag",
    "tag": null,
@@ -38012,6 +38962,32 @@
   },
   {
    "projectId": "soundsetr",
+   "repo": "knoeone/soundsetr-soundsets",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2023-12-03",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/knoeone/soundsetr-soundsets/releases/tag/undefined"
+  },
+  {
+   "projectId": "soundsetr",
+   "repo": "knoeone/soundsetr.com",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2023-12-03",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "soundsetr.com started (creator, 4 commits)",
+   "url": "https://github.com/knoeone/soundsetr.com"
+  },
+  {
+   "projectId": "soundsetr",
    "repo": "knoeone/soundsetr",
    "type": "release",
    "tag": "v0.0.1",
@@ -38022,6 +38998,19 @@
    "count": 1,
    "summary": null,
    "url": "https://github.com/knoeone/soundsetr/releases/tag/v0.0.1"
+  },
+  {
+   "projectId": "soundsetr",
+   "repo": "knoeone/soundsetr-soundsets",
+   "type": "release",
+   "tag": "v6",
+   "name": "v6",
+   "date": "2023-12-03",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/knoeone/soundsetr-soundsets/releases/tag/v6"
   },
   {
    "projectId": "soundsetr",
@@ -38128,6 +39117,19 @@
    "url": "https://web.archive.org/web/20240403/http://hypery.ai/"
   },
   {
+   "projectId": "strata-turbo",
+   "repo": "spacedevin/strata-turbo",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2024-05-28",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "strata-turbo started (1 commits)",
+   "url": null
+  },
+  {
    "projectId": "drive-web-devin-smith",
    "repo": null,
    "type": "created",
@@ -38191,6 +39193,32 @@
    "count": 1,
    "summary": "cana.io first captured by the Wayback Machine as \"Cana.io might be for sale. Request the price today.\"",
    "url": "https://web.archive.org/web/20241115/http://cana.io/"
+  },
+  {
+   "projectId": "matrix",
+   "repo": "spacedevin/matrix",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2024-11-15",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "matrix started (creator, 2 commits)",
+   "url": null
+  },
+  {
+   "projectId": "eeep",
+   "repo": "spacedevin/eeep",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2024-11-21",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "eeep started (creator, 2 commits)",
+   "url": null
   },
   {
    "projectId": "drive-motherchristmas",
@@ -38632,6 +39660,19 @@
    "major": false,
    "count": 1,
    "summary": "aaaiii started (creator, 15 commits)",
+   "url": null
+  },
+  {
+   "projectId": "hypery",
+   "repo": "hyperyai/hypery",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2025-08-25",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "hypery started (creator, 678 commits)",
    "url": null
   },
   {
@@ -39106,6 +40147,32 @@
    "url": null
   },
   {
+   "projectId": "zectre-platform",
+   "repo": "knoeone/zectre-cli",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-03-01",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "zectre-cli started (creator, 15 commits)",
+   "url": null
+  },
+  {
+   "projectId": "tish",
+   "repo": "tishlang/tish-docs",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-03-04",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "tish-docs started (creator, 23 commits)",
+   "url": null
+  },
+  {
    "projectId": "tish",
    "repo": "tishlang/tish",
    "type": "created",
@@ -39221,6 +40288,19 @@
    "count": 1,
    "summary": "tishlang/tish-vscode created",
    "url": "https://github.com/tishlang/tish-vscode"
+  },
+  {
+   "projectId": "tish",
+   "repo": "tishlang/tish-docs",
+   "type": "archived",
+   "tag": null,
+   "name": null,
+   "date": "2026-03-19",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "tish-docs archived",
+   "url": null
   },
   {
    "projectId": "tish",
@@ -39571,6 +40651,19 @@
    "count": 1,
    "summary": "tish-floem started (creator, 7 commits)",
    "url": "https://github.com/spacedevin/tish-floem"
+  },
+  {
+   "projectId": "zectre-platform",
+   "repo": "knoeone/zectre-web",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-03-28",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "zectre-web started (creator, 9 commits)",
+   "url": null
   },
   {
    "projectId": "lattish",
@@ -39945,6 +41038,32 @@
    "url": null
   },
   {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-04-24",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "dune-ide started (creator, 609 commits)",
+   "url": null
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide-old",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-04-24",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "dune-ide-old started (creator, 149 commits)",
+   "url": null
+  },
+  {
    "projectId": "drive-backupviewer",
    "repo": null,
    "type": "created",
@@ -39982,32 +41101,6 @@
    "count": 2,
    "summary": null,
    "url": "https://www.npmjs.com/package/create-tish-app"
-  },
-  {
-   "projectId": "tish",
-   "repo": "tishlang/tish-pg",
-   "type": "archived",
-   "tag": null,
-   "name": null,
-   "date": "2026-05-04",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "tish-pg archived",
-   "url": null
-  },
-  {
-   "projectId": "tish",
-   "repo": "tishlang/tish-pg",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2026-05-04",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "tish-pg started (creator, 2 commits)",
-   "url": null
   },
   {
    "projectId": "tish",
@@ -40197,7 +41290,7 @@
    "prerelease": false,
    "major": false,
    "count": 1,
-   "summary": "Nihmbus started (177 commits)",
+   "summary": "nihmbus started (177 commits)",
    "url": null
   },
   {
@@ -40601,6 +41694,19 @@
    "count": 1,
    "summary": "fix: ci matrix packaging to unblock semver issues (#71) (eeecff4)",
    "url": "https://github.com/tishlang/tish/releases/tag/v1.13.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-06-05",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft-app started (2220 commits)",
+   "url": null
   },
   {
    "projectId": "tumeric",
@@ -41266,19 +42372,6 @@
   },
   {
    "projectId": "tish",
-   "repo": "tishlang/.github",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2026-06-13",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": ".github started (creator, 2 commits)",
-   "url": "https://github.com/tishlang/.github"
-  },
-  {
-   "projectId": "tish",
    "repo": "tishlang/tish-vscode",
    "type": "release",
    "tag": "v0.4.0",
@@ -41628,6 +42721,19 @@
    "count": 1,
    "summary": "tishlang/tish-syntax-highlight created",
    "url": "https://github.com/tishlang/tish-syntax-highlight"
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide-old",
+   "type": "archived",
+   "tag": null,
+   "name": null,
+   "date": "2026-07-04",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "dune-ide-old archived",
+   "url": null
   },
   {
    "projectId": "hypery",
@@ -41983,6 +43089,19 @@
    "count": 1,
    "summary": "npm: `@tishlang/tish-macos`, `@tishlang/tish-ios`",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.0.0"
+  },
+  {
+   "projectId": "chuggie",
+   "repo": "schlopai/tish-gba",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-07-24",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "tish-gba started (creator, 528 commits)",
+   "url": null
   },
   {
    "projectId": "tish",
@@ -42708,6 +43827,32 @@
    "url": "https://github.com/tishlang/tish/releases/tag/v3.1.0"
   },
   {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-01",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "release",
+   "tag": "v1.1.0",
+   "name": "v1.0.0",
+   "date": "2026-08-01",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
+  },
+  {
    "projectId": "schlopai-card-gba",
    "repo": "schlopai/card-gba",
    "type": "created",
@@ -42905,6 +44050,19 @@
    "url": "https://github.com/tishlang/tish/releases/tag/v3.2.2"
   },
   {
+   "projectId": "chuggie.dev",
+   "repo": "schlopai/chuggie.dev",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-04",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "chuggie.dev started (creator, 31 commits)",
+   "url": null
+  },
+  {
    "projectId": "deck",
    "repo": "spacedevin/deck",
    "type": "publish",
@@ -42983,6 +44141,32 @@
    "url": "https://www.npmjs.com/package/create-tish-app"
   },
   {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "release",
+   "tag": "v1.2.0",
+   "name": "v1.2.0",
+   "date": "2026-08-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
    "projectId": "spacedevin-github-io",
    "repo": "spacedevin/spacedevin.github.io",
    "type": "created",
@@ -42994,6 +44178,45 @@
    "count": 1,
    "summary": "spacedevin.github.io started (creator, 6 commits)",
    "url": "https://github.com/spacedevin/spacedevin.github.io"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-blog",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-example-blog/releases/tag/undefined"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-mvc",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-example-mvc/releases/tag/undefined"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-doctrine",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-example-doctrine/releases/tag/undefined"
   },
   {
    "projectId": "tipsy",
@@ -43046,6 +44269,58 @@
    "count": 1,
    "summary": "tipsyphp/tipsy-doctrine v2.0.0 (major)",
    "url": "https://packagist.org/packages/tipsyphp/tipsy-doctrine"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-blog",
+   "type": "release",
+   "tag": "v2.0.0",
+   "name": "v2.0.0",
+   "date": "2026-08-07",
+   "prerelease": false,
+   "major": true,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-example-blog/releases/tag/v2.0.0"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-hello-world",
+   "type": "release",
+   "tag": "v2.0.0",
+   "name": "v2.0.0",
+   "date": "2026-08-07",
+   "prerelease": false,
+   "major": true,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-hello-world/releases/tag/v2.0.0"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-mvc",
+   "type": "release",
+   "tag": "v2.0.0",
+   "name": "v2.0.0",
+   "date": "2026-08-07",
+   "prerelease": false,
+   "major": true,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-example-mvc/releases/tag/v2.0.0"
+  },
+  {
+   "projectId": "tipsy",
+   "repo": "tipsyphp/tipsy-example-doctrine",
+   "type": "release",
+   "tag": "v2.0.0",
+   "name": "v2.0.0",
+   "date": "2026-08-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tipsyphp/tipsy-example-doctrine/releases/tag/v2.0.0"
   },
   {
    "projectId": "tish",
@@ -43384,6 +44659,19 @@
    "url": "https://github.com/tishlang/tish/releases/tag/v3.8.6"
   },
   {
+   "projectId": "dune",
+   "repo": "duneyou/dune-web",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-19",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "dune-web started (creator, 34 commits)",
+   "url": null
+  },
+  {
    "projectId": "chuggie",
    "repo": "schlopai/chuggie",
    "type": "created",
@@ -43397,6 +44685,19 @@
    "url": "https://github.com/schlopai/chuggie"
   },
   {
+   "projectId": "chuggie",
+   "repo": "schlopai/tish-gba",
+   "type": "archived",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-25",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "tish-gba archived",
+   "url": null
+  },
+  {
    "projectId": "create-tish",
    "repo": "tishlang/tish",
    "type": "publish",
@@ -43408,19 +44709,6 @@
    "count": 2,
    "summary": null,
    "url": "https://www.npmjs.com/package/create-tish-app"
-  },
-  {
-   "projectId": "dune",
-   "repo": "duneyou/dune-assets",
-   "type": "created",
-   "tag": null,
-   "name": null,
-   "date": "2026-08-25",
-   "prerelease": false,
-   "major": false,
-   "count": 1,
-   "summary": "dune-assets started (creator, 1 commits)",
-   "url": null
   },
   {
    "projectId": "tish",
@@ -43551,6 +44839,32 @@
   },
   {
    "projectId": "dune",
+   "repo": "duneyou/dune-fastlane",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-26",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "dune-fastlane started (creator, 8 commits)",
+   "url": null
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-26",
+   "prerelease": false,
+   "major": false,
+   "count": 7,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "dune",
    "repo": "duneyou/dune",
    "type": "first-release",
    "tag": "v1.5.4",
@@ -43567,6 +44881,19 @@
    ],
    "summary": "Dune IDE v1.5.4",
    "url": "https://github.com/duneyou/dune/releases/tag/v1.5.4"
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "release",
+   "tag": "v1.5.4",
+   "name": "v1.3.0",
+   "date": "2026-08-26",
+   "prerelease": false,
+   "major": false,
+   "count": 7,
+   "summary": null,
+   "url": null
   },
   {
    "projectId": "tish",
@@ -43712,6 +45039,19 @@
   },
   {
    "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-27",
+   "prerelease": false,
+   "major": false,
+   "count": 5,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "dune",
    "repo": "duneyou/dune",
    "type": "release",
    "tag": "v1.5.9",
@@ -43722,6 +45062,19 @@
    "count": 1,
    "summary": "Dune IDE v1.5.9",
    "url": "https://github.com/duneyou/dune/releases/tag/v1.5.9"
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "release",
+   "tag": "v1.5.9",
+   "name": "v1.5.5",
+   "date": "2026-08-27",
+   "prerelease": false,
+   "major": false,
+   "count": 5,
+   "summary": null,
+   "url": null
   },
   {
    "projectId": "tish",
@@ -43825,6 +45178,19 @@
   },
   {
    "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-28",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "dune",
    "repo": "duneyou/dune",
    "type": "release",
    "tag": "v1.5.10",
@@ -43835,6 +45201,19 @@
    "count": 1,
    "summary": "Dune IDE v1.5.10",
    "url": "https://github.com/duneyou/dune/releases/tag/v1.5.10"
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "release",
+   "tag": "v1.5.10",
+   "name": "v1.5.10",
+   "date": "2026-08-28",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
   },
   {
    "projectId": "tish",
@@ -43939,6 +45318,19 @@
   },
   {
    "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-29",
+   "prerelease": false,
+   "major": false,
+   "count": 3,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "dune",
    "repo": "duneyou/dune",
    "type": "release",
    "tag": "v1.5.13",
@@ -43953,6 +45345,19 @@
    ],
    "summary": "Dune IDE v1.5.13",
    "url": "https://github.com/duneyou/dune/releases/tag/v1.5.13"
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "release",
+   "tag": "v1.5.13",
+   "name": "v1.5.11",
+   "date": "2026-08-29",
+   "prerelease": false,
+   "major": false,
+   "count": 3,
+   "summary": null,
+   "url": null
   },
   {
    "projectId": "tish",
@@ -43992,6 +45397,32 @@
    "count": 1,
    "summary": "npm: `@tishlang/tish-macos`, `@tishlang/tish-ios`",
    "url": "https://github.com/tishlang/tish-apple/releases/tag/v1.2.1"
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2026-08-30",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "release",
+   "tag": "v1.5.14",
+   "name": "v1.5.14",
+   "date": "2026-08-30",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
   },
   {
    "projectId": "tish",
@@ -44161,6 +45592,19 @@
   },
   {
    "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-02",
+   "prerelease": false,
+   "major": false,
+   "count": 3,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "dune",
    "repo": "duneyou/dune",
    "type": "release",
    "tag": "v1.7.0",
@@ -44175,6 +45619,32 @@
    ],
    "summary": "Dune IDE v1.7.0",
    "url": "https://github.com/duneyou/dune/releases/tag/v1.7.0"
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "release",
+   "tag": "v1.7.0",
+   "name": "v1.5.15",
+   "date": "2026-09-02",
+   "prerelease": false,
+   "major": false,
+   "count": 3,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "tish",
+   "repo": "tishlang/orbit",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-02",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "orbit started (creator, 13 commits)",
+   "url": "https://github.com/tishlang/orbit"
   },
   {
    "projectId": "tish",
@@ -44257,6 +45727,32 @@
    ],
    "summary": "fix(runtime): subscription-based Promise.race/any — no thread per pending input (#732) (4dd6036)",
    "url": "https://github.com/tishlang/tish/releases/tag/v3.10.11"
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "tag",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-03",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "dune",
+   "repo": "duneyou/dune-ide",
+   "type": "release",
+   "tag": "v1.7.2",
+   "name": "v1.7.1",
+   "date": "2026-09-03",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
   },
   {
    "projectId": "dune",
@@ -44395,6 +45891,19 @@
    "url": "https://github.com/duneyou/dune/releases/tag/v1.10.0"
   },
   {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-14",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft-desktop started (creator, 84 commits)",
+   "url": null
+  },
+  {
    "projectId": "hypery",
    "repo": "hyperyai/hypery-sdk",
    "type": "release",
@@ -44412,6 +45921,435 @@
    "url": "https://github.com/hyperyai/hypery-sdk/releases/tag/v1.3.1"
   },
   {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.4.1",
+   "name": "v0.0.1",
+   "date": "2026-09-16",
+   "prerelease": false,
+   "major": false,
+   "count": 6,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "gamewiz",
+   "repo": "knoeone/gamewiz",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-18",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "gamewiz started (creator, 64 commits)",
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-18",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft started (creator, 4 commits)",
+   "url": "https://github.com/getpopcraft/popcraft"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft",
+   "type": "release",
+   "tag": "v0.4.2",
+   "name": "v0.4.1",
+   "date": "2026-09-18",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": "https://github.com/getpopcraft/popcraft/releases/tag/v0.4.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.4.2",
+   "name": "v0.4.2",
+   "date": "2026-09-18",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/plugins",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-20",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "plugins started (creator, 29 commits)",
+   "url": "https://github.com/getpopcraft/plugins"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popprint",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-20",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popprint started (creator, 2 commits)",
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/plugins",
+   "type": "release",
+   "tag": "v0.1.0",
+   "name": "v0.1.0",
+   "date": "2026-09-20",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/getpopcraft/plugins/releases/tag/v0.1.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/plugins",
+   "type": "release",
+   "tag": "v1.0.0",
+   "name": "v1.0.0",
+   "date": "2026-09-20",
+   "prerelease": false,
+   "major": true,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/getpopcraft/plugins/releases/tag/v1.0.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.5.0",
+   "name": "v0.5.0",
+   "date": "2026-09-21",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "bovanova",
+   "repo": "knoeone/bovanova",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-22",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "bovanova started (creator, 50 commits)",
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft",
+   "type": "release",
+   "tag": "v0.5.1",
+   "name": "v0.5.0",
+   "date": "2026-09-23",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": "https://github.com/getpopcraft/popcraft/releases/tag/v0.5.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.5.1",
+   "name": "v0.5.1",
+   "date": "2026-09-23",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-fastlane",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-24",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft-fastlane started (creator, 7 commits)",
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/publisher-import",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-24",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "publisher-import started (2 commits)",
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft",
+   "type": "release",
+   "tag": "v0.5.2",
+   "name": "v0.5.2",
+   "date": "2026-09-24",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/getpopcraft/popcraft/releases/tag/v0.5.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.5.2",
+   "name": "v0.5.2",
+   "date": "2026-09-24",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "chuchulu",
+   "repo": "knoeone/chuchulu",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-25",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "chuchulu started (creator, 1 commits)",
+   "url": null
+  },
+  {
+   "projectId": "pickleball",
+   "repo": "spacedevin/pickleball",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-27",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "pickleball started (creator, 2 commits)",
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.6.1",
+   "name": "v0.6.0",
+   "date": "2026-09-28",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/eps-io",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-29",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "eps-io started (creator, 3 commits)",
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/illustrator-io",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-09-29",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "illustrator-io started (creator, 1 commits)",
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft",
+   "type": "release",
+   "tag": "v0.6.2",
+   "name": "v0.6.2",
+   "date": "2026-09-30",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": "https://github.com/getpopcraft/popcraft/releases/tag/v0.6.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.6.3",
+   "name": "v0.6.2",
+   "date": "2026-09-30",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/moo",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-03",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "moo started (creator, 63 commits)",
+   "url": "https://github.com/moomoi/moo"
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/plugins",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-03",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "plugins started (creator, 11 commits)",
+   "url": "https://github.com/moomoi/plugins"
+  },
+  {
+   "projectId": "moo",
+   "repo": "knoeone/moo",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-03",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "moo started (creator, 47 commits)",
+   "url": null
+  },
+  {
+   "projectId": "saaspop",
+   "repo": "spacedevin/saaspop",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-03",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "saaspop started (creator, 11 commits)",
+   "url": null
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/homebrew-moo",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-04",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "homebrew-moo started (creator, 1 commits)",
+   "url": "https://github.com/moomoi/homebrew-moo"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/examples",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-04",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "examples started (creator, 9 commits)",
+   "url": "https://github.com/getpopcraft/examples"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "tag",
+   "tag": "v0.1.0",
+   "name": null,
+   "date": "2026-10-04",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.5.0",
+   "name": "v0.2.0",
+   "date": "2026-10-04",
+   "prerelease": false,
+   "major": false,
+   "count": 5,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "knoeone",
+   "repo": "knoeone/knoeone-brand",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-05",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "knoeone-brand started (creator, 40 commits)",
+   "url": null
+  },
+  {
    "projectId": "lattish",
    "repo": "tishlang/lattish",
    "type": "release",
@@ -44423,6 +46361,71 @@
    "count": 1,
    "summary": "fix: run Lattish on non-DOM hosts (the tish VM, AppKit) (#18) (2ca8a67)",
    "url": "https://github.com/tishlang/lattish/releases/tag/v4.0.4"
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/moo",
+   "type": "release",
+   "tag": "v0.1.0",
+   "name": "Moo v0.1.0",
+   "date": "2026-10-05",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "Moo v0.1.0",
+   "url": "https://github.com/moomoi/moo/releases/tag/v0.1.0"
+  },
+  {
+   "projectId": "moo",
+   "repo": "knoeone/moo",
+   "type": "release",
+   "tag": "v0.2.0",
+   "name": "v0.1.0",
+   "date": "2026-10-05",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/moo",
+   "type": "tag",
+   "tag": "v0.2.0",
+   "name": null,
+   "date": "2026-10-05",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/moomoi/moo/releases/tag/v0.2.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-05",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "homebrew-popcraft started (creator, 4 commits)",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.6.0",
+   "name": "v0.5.1",
+   "date": "2026-10-05",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
   },
   {
    "projectId": "tish",
@@ -44454,6 +46457,318 @@
    ],
    "summary": "fix(release): publish tishlang_ffi_guest (#751) (102ec30)",
    "url": "https://github.com/tishlang/tish/releases/tag/v3.15.1"
+  },
+  {
+   "projectId": "moo",
+   "repo": "knoeone/moo",
+   "type": "release",
+   "tag": "v0.3.0",
+   "name": "v0.3.0",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/moo",
+   "type": "release",
+   "tag": "v0.3.1",
+   "name": "Moo v0.3.1",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "Moo v0.3.1",
+   "url": "https://github.com/moomoi/moo/releases/tag/v0.3.1"
+  },
+  {
+   "projectId": "moo",
+   "repo": "knoeone/moo",
+   "type": "release",
+   "tag": "v0.4.0",
+   "name": "v0.3.1",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/moo",
+   "type": "tag",
+   "tag": "v0.4.0",
+   "name": null,
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": "https://github.com/moomoi/moo/releases/tag/v0.3.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.6.0",
+   "name": "popcraft 0.6.0",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.6.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.6.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft",
+   "type": "release",
+   "tag": "v0.6.4",
+   "name": "v0.6.3",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": "https://github.com/getpopcraft/popcraft/releases/tag/v0.6.3"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.6.5",
+   "name": "v0.6.4",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft",
+   "type": "release",
+   "tag": "v0.6.6",
+   "name": "v0.6.6",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/getpopcraft/popcraft/releases/tag/v0.6.6"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.6.7",
+   "name": "v0.6.6",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.7.0",
+   "name": "v0.7.0",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.7.1",
+   "name": "popcraft 0.7.1",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.7.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.7.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.7.1",
+   "name": "v0.7.1",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.8.0",
+   "name": "popcraft 0.8.0",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.8.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.8.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.8.0",
+   "name": "v0.8.0",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.8.1",
+   "name": "popcraft 0.8.1",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.8.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.8.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.8.1",
+   "name": "v0.8.1",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.8.2",
+   "name": "popcraft 0.8.2",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.8.2",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.8.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.8.2",
+   "name": "v0.8.2",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.8.3",
+   "name": "popcraft 0.8.3",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.8.3",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.8.3"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.8.3",
+   "name": "v0.8.3",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.8.4",
+   "name": "popcraft 0.8.4",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.8.4",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.8.4"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.8.4",
+   "name": "v0.8.4",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.8.5",
+   "name": "popcraft 0.8.5",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.8.5",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.8.5"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.8.5",
+   "name": "v0.8.5",
+   "date": "2026-10-06",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
   },
   {
    "projectId": "tish",
@@ -44502,6 +46817,318 @@
    "count": 1,
    "summary": "chore!: license under MIT instead of PIF (#19) (c492b2f)",
    "url": "https://github.com/tishlang/lattish/releases/tag/v5.0.0"
+  },
+  {
+   "projectId": "moo",
+   "repo": "knoeone/moo",
+   "type": "release",
+   "tag": "v0.7.0",
+   "name": "v0.4.1",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 4,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/moo",
+   "type": "tag",
+   "tag": "v0.7.0",
+   "name": null,
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 4,
+   "summary": null,
+   "url": "https://github.com/moomoi/moo/releases/tag/v0.4.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft",
+   "type": "release",
+   "tag": "v0.6.8",
+   "name": "v0.6.8",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": "https://github.com/getpopcraft/popcraft/releases/tag/v0.6.8"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.6.9",
+   "name": "v0.6.8",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.9.0",
+   "name": "popcraft 0.9.0",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.9.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.9.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.9.0",
+   "name": "v0.9.0",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.9.1",
+   "name": "popcraft 0.9.1",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.9.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.9.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.9.1",
+   "name": "v0.9.1",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.9.2",
+   "name": "popcraft 0.9.2",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.9.2",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.9.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.9.2",
+   "name": "v0.9.2",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.9.3",
+   "name": "popcraft 0.9.3",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.9.3",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.9.3"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.9.3",
+   "name": "v0.9.3",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.9.4",
+   "name": "popcraft 0.9.4",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.9.4",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.9.4"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.9.4",
+   "name": "v0.9.4",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.9.5",
+   "name": "popcraft 0.9.5",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.9.5",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.9.5"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.9.5",
+   "name": "v0.9.5",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.9.6",
+   "name": "popcraft 0.9.6",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.9.6",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.9.6"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.9.6",
+   "name": "v0.9.6",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.9.7",
+   "name": "popcraft 0.9.7",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.9.7",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.9.7"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.9.7",
+   "name": "v0.9.7",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.9.8",
+   "name": "popcraft 0.9.8",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.9.8",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.9.8"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.9.8",
+   "name": "v0.9.8",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "tish",
+   "repo": "tishlang/orbit",
+   "type": "tag",
+   "tag": "v0.1.0",
+   "name": null,
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tishlang/orbit/releases/tag/v0.1.0"
+  },
+  {
+   "projectId": "tish",
+   "repo": "tishlang/orbit",
+   "type": "release",
+   "tag": "v0.1.2",
+   "name": "v0.1.1",
+   "date": "2026-10-07",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": "https://github.com/tishlang/orbit/releases/tag/v0.1.1"
   },
   {
    "projectId": "tish",
@@ -44659,6 +47286,253 @@
    "url": "https://github.com/hyperyai/hypery-sdk/releases/tag/v1.5.1"
   },
   {
+   "projectId": "moo",
+   "repo": "knoeone/moo",
+   "type": "archived",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "moo archived",
+   "url": null
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/plugins",
+   "type": "release",
+   "tag": "v0.1.0",
+   "name": "v0.1.0",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/moomoi/plugins/releases/tag/v0.1.0"
+  },
+  {
+   "projectId": "moo",
+   "repo": "knoeone/moo",
+   "type": "release",
+   "tag": "v0.8.1",
+   "name": "v0.8.0",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/moo",
+   "type": "tag",
+   "tag": "v0.8.1",
+   "name": null,
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": "https://github.com/moomoi/moo/releases/tag/v0.8.0"
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/moo",
+   "type": "release",
+   "tag": "v0.9.0",
+   "name": "v0.8.2",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": "https://github.com/moomoi/moo/releases/tag/v0.8.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.10.0",
+   "name": "popcraft 0.10.0",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.10.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.10.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.10.0",
+   "name": "v0.10.0",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.11.0",
+   "name": "popcraft 0.11.0",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.11.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.11.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.11.0",
+   "name": "v0.11.0",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.11.1",
+   "name": "popcraft 0.11.1",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.11.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.11.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.11.1",
+   "name": "v0.11.1",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.12.0",
+   "name": "popcraft 0.12.0",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.12.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.12.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.12.0",
+   "name": "v0.12.0",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.13.0",
+   "name": "popcraft 0.13.0",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.13.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.13.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.13.0",
+   "name": "v0.13.0",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.13.1",
+   "name": "popcraft 0.13.1",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.13.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.13.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.13.1",
+   "name": "v0.13.1",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/plugins",
+   "type": "release",
+   "tag": "v1.1.0",
+   "name": "v1.1.0",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/getpopcraft/plugins/releases/tag/v1.1.0"
+  },
+  {
+   "projectId": "tish",
+   "repo": "tishlang/orbit",
+   "type": "release",
+   "tag": "v0.1.3",
+   "name": "v0.1.3",
+   "date": "2026-10-08",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tishlang/orbit/releases/tag/v0.1.3"
+  },
+  {
    "projectId": "tish",
    "repo": "tishlang/tish-apple",
    "type": "release",
@@ -44685,6 +47559,214 @@
    "url": "https://github.com/tishlang/tish-syntax-highlight/releases/tag/v1.1.0"
   },
   {
+   "projectId": "moo",
+   "repo": "moomoi/moo",
+   "type": "release",
+   "tag": "v0.10.0",
+   "name": "v0.10.0",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/moomoi/moo/releases/tag/v0.10.0"
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/plugins",
+   "type": "release",
+   "tag": "v0.2.0",
+   "name": "v0.2.0",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/moomoi/plugins/releases/tag/v0.2.0"
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/moo",
+   "type": "release",
+   "tag": "v0.9.1",
+   "name": "v0.9.1",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/moomoi/moo/releases/tag/v0.9.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.13.2",
+   "name": "popcraft 0.13.2",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.13.2",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.13.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.13.2",
+   "name": "v0.13.2",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.14.0",
+   "name": "popcraft 0.14.0",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.14.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.14.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.14.0",
+   "name": "v0.14.0",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.15.0",
+   "name": "popcraft 0.15.0",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.15.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.15.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.15.0",
+   "name": "v0.15.0",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.16.0",
+   "name": "popcraft 0.16.0",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.16.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.16.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.16.0",
+   "name": "v0.16.0",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.17.0",
+   "name": "popcraft 0.17.0",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.17.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.17.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.17.0",
+   "name": "v0.17.0",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/plugins",
+   "type": "release",
+   "tag": "v1.2.0",
+   "name": "v1.2.0",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/getpopcraft/plugins/releases/tag/v1.2.0"
+  },
+  {
+   "projectId": "tish",
+   "repo": "tishlang/tish-ms",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "tish-ms started (creator, 6 commits)",
+   "url": "https://github.com/tishlang/tish-ms"
+  },
+  {
+   "projectId": "tish",
+   "repo": "tishlang/tish-ms",
+   "type": "release",
+   "tag": "v1.1.0",
+   "name": "v1.0.0",
+   "date": "2026-10-09",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": "https://github.com/tishlang/tish-ms/releases/tag/v1.0.0"
+  },
+  {
    "projectId": "tish",
    "repo": "tishlang/tish",
    "type": "release",
@@ -44700,6 +47782,864 @@
    ],
    "summary": "fix(native): Windows and Linux cross builds keep their capabilities (#759) (b1ead2f)",
    "url": "https://github.com/tishlang/tish/releases/tag/v4.1.1"
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/moo",
+   "type": "release",
+   "tag": "v0.12.0",
+   "name": "v0.11.0",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": "https://github.com/moomoi/moo/releases/tag/v0.11.0"
+  },
+  {
+   "projectId": "mootropic",
+   "repo": "knoeone/mootropic",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "mootropic started (creator, 19 commits)",
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.18.0",
+   "name": "popcraft 0.18.0",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.18.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.18.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.18.0",
+   "name": "v0.18.0",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.19.0",
+   "name": "popcraft 0.19.0",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.19.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.19.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.19.0",
+   "name": "v0.19.0",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.20.0",
+   "name": "popcraft 0.20.0",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.20.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.20.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.20.0",
+   "name": "v0.20.0",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.20.1",
+   "name": "popcraft 0.20.1",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.20.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.20.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.20.1",
+   "name": "v0.20.1",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.20.2",
+   "name": "popcraft 0.20.2",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.20.2",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.20.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.20.2",
+   "name": "v0.20.2",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.20.3",
+   "name": "popcraft 0.20.3",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.20.3",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.20.3"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.20.3",
+   "name": "v0.20.3",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.21.0",
+   "name": "popcraft 0.21.0",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.21.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.21.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.21.0",
+   "name": "v0.21.0",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/plugins",
+   "type": "release",
+   "tag": "v1.2.4",
+   "name": "v1.2.1",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 4,
+   "summary": null,
+   "url": "https://github.com/getpopcraft/plugins/releases/tag/v1.2.1"
+  },
+  {
+   "projectId": "tish",
+   "repo": "tishlang/tish-ms",
+   "type": "release",
+   "tag": "v1.2.0",
+   "name": "v1.2.0",
+   "date": "2026-10-10",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": "https://github.com/tishlang/tish-ms/releases/tag/v1.2.0"
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/.github",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": ".github started (creator, 6 commits)",
+   "url": "https://github.com/moomoi/.github"
+  },
+  {
+   "projectId": "moo",
+   "repo": "moomoi/moo",
+   "type": "release",
+   "tag": "v0.12.1",
+   "name": "Moo v0.12.1",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "Moo v0.12.1",
+   "url": "https://github.com/moomoi/moo/releases/tag/v0.12.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.22.0",
+   "name": "v0.22.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.23.0",
+   "name": "popcraft 0.23.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.23.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.23.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.23.0",
+   "name": "v0.23.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.23.1",
+   "name": "popcraft 0.23.1",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.23.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.23.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.23.1",
+   "name": "v0.23.1",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.23.2",
+   "name": "popcraft 0.23.2",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.23.2",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.23.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.23.2",
+   "name": "v0.23.2",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.24.0",
+   "name": "popcraft 0.24.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.24.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.24.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.24.0",
+   "name": "v0.24.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.24.1",
+   "name": "popcraft 0.24.1",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.24.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.24.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.24.1",
+   "name": "v0.24.1",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.24.2",
+   "name": "popcraft 0.24.2",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.24.2",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.24.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.24.2",
+   "name": "v0.24.2",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.24.3",
+   "name": "popcraft 0.24.3",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.24.3",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.24.3"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.24.3",
+   "name": "v0.24.3",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.25.0",
+   "name": "popcraft 0.25.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.25.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.25.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.25.0",
+   "name": "v0.25.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.26.0",
+   "name": "popcraft 0.26.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.26.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.26.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.26.0",
+   "name": "v0.26.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.26.1",
+   "name": "popcraft 0.26.1",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.26.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.26.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.26.1",
+   "name": "v0.26.1",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.27.0",
+   "name": "popcraft 0.27.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.27.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.27.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.27.0",
+   "name": "v0.27.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.28.0",
+   "name": "popcraft 0.28.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.28.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.28.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.28.0",
+   "name": "v0.28.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.29.0",
+   "name": "popcraft 0.29.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.29.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.29.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.29.0",
+   "name": "v0.29.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.30.0",
+   "name": "popcraft 0.30.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.30.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.30.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.30.0",
+   "name": "v0.30.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.31.0",
+   "name": "popcraft 0.31.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.31.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.31.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.31.0",
+   "name": "v0.31.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.32.0",
+   "name": "popcraft 0.32.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.32.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.32.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.32.0",
+   "name": "v0.32.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.32.1",
+   "name": "popcraft 0.32.1",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.32.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.32.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.32.1",
+   "name": "v0.32.1",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.33.0",
+   "name": "popcraft 0.33.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.33.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.33.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.33.0",
+   "name": "v0.33.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.34.0",
+   "name": "popcraft 0.34.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.34.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.34.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.34.0",
+   "name": "v0.34.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.34.1",
+   "name": "popcraft 0.34.1",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.34.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.34.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.34.1",
+   "name": "v0.34.1",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.34.2",
+   "name": "popcraft 0.34.2",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.34.2",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.34.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.34.2",
+   "name": "v0.34.2",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.34.3",
+   "name": "popcraft 0.34.3",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.34.3",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.34.3"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.34.3",
+   "name": "v0.34.3",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.7.1",
+   "name": "v0.7.0",
+   "date": "2026-10-11",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
   },
   {
    "projectId": "tish",
@@ -44719,6 +48659,474 @@
    "url": "https://github.com/tishlang/tish/releases/tag/v4.1.5"
   },
   {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.10.0",
+   "name": "v0.10.0",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.35.0",
+   "name": "popcraft 0.35.0",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.35.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.35.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.35.0",
+   "name": "v0.35.0",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.35.1",
+   "name": "popcraft 0.35.1",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.35.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.35.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.35.1",
+   "name": "v0.35.1",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.35.2",
+   "name": "popcraft 0.35.2",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.35.2",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.35.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.35.2",
+   "name": "v0.35.2",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.36.0",
+   "name": "popcraft 0.36.0",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.36.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.36.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.36.0",
+   "name": "v0.36.0",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.37.0",
+   "name": "popcraft 0.37.0",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.37.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.37.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.37.0",
+   "name": "v0.37.0",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.38.0",
+   "name": "popcraft 0.38.0",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.38.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.38.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.38.0",
+   "name": "v0.38.0",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.38.1",
+   "name": "popcraft 0.38.1",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.38.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.38.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.38.1",
+   "name": "v0.38.1",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.38.2",
+   "name": "popcraft 0.38.2",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.38.2",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.38.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.38.2",
+   "name": "v0.38.2",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.38.3",
+   "name": "popcraft 0.38.3",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.38.3",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.38.3"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.38.3",
+   "name": "v0.38.3",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.38.4",
+   "name": "popcraft 0.38.4",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.38.4",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.38.4"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.38.4",
+   "name": "v0.38.4",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.38.5",
+   "name": "popcraft 0.38.5",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.38.5",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.38.5"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.38.5",
+   "name": "v0.38.5",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.38.6",
+   "name": "popcraft 0.38.6",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.38.6",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.38.6"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.38.6",
+   "name": "v0.38.6",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.38.7",
+   "name": "popcraft 0.38.7",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.38.7",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.38.7"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.38.7",
+   "name": "v0.38.7",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.39.0",
+   "name": "popcraft 0.39.0",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.39.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.39.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.39.0",
+   "name": "v0.39.0",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.39.1",
+   "name": "popcraft 0.39.1",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.39.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.39.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.39.1",
+   "name": "v0.39.1",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.39.2",
+   "name": "popcraft 0.39.2",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.39.2",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.39.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.39.3",
+   "name": "v0.39.2",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 2,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.40.0",
+   "name": "popcraft 0.40.0",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.40.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.40.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.40.0",
+   "name": "v0.40.0",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.9.2",
+   "name": "v0.8.0",
+   "date": "2026-10-12",
+   "prerelease": false,
+   "major": false,
+   "count": 4,
+   "summary": null,
+   "url": null
+  },
+  {
    "projectId": "hypery",
    "repo": "hyperyai/hypery-sdk",
    "type": "release",
@@ -44730,6 +49138,201 @@
    "count": 1,
    "summary": "ui: ship styles.css, restyle components to match hypery.ai, add /testing (#36) (650ed7d)",
    "url": "https://github.com/hyperyai/hypery-sdk/releases/tag/v1.6.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.11.0",
+   "name": "v0.11.0",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.40.1",
+   "name": "popcraft 0.40.1",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.40.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.40.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.40.1",
+   "name": "v0.40.1",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.40.2",
+   "name": "popcraft 0.40.2",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.40.2",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.40.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.40.2",
+   "name": "v0.40.2",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.40.3",
+   "name": "popcraft 0.40.3",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.40.3",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.40.3"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.40.3",
+   "name": "v0.40.3",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.40.4",
+   "name": "popcraft 0.40.4",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.40.4",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.40.4"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.40.4",
+   "name": "v0.40.4",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.40.5",
+   "name": "popcraft 0.40.5",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.40.5",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.40.5"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.40.5",
+   "name": "v0.40.5",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.40.6",
+   "name": "popcraft 0.40.6",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.40.6",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.40.6"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.40.6",
+   "name": "v0.40.6",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.41.0",
+   "name": "popcraft 0.41.0",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.41.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.41.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.41.0",
+   "name": "v0.41.0",
+   "date": "2026-10-13",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
   },
   {
    "projectId": "tish",
@@ -44763,6 +49366,97 @@
    "url": "https://github.com/hyperyai/hypery-sdk/releases/tag/v2.1.0"
   },
   {
+   "projectId": "popcraft",
+   "repo": "knoeone/popcraft-desktop",
+   "type": "release",
+   "tag": "v0.11.1",
+   "name": "v0.11.1",
+   "date": "2026-10-14",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.42.0",
+   "name": "popcraft 0.42.0",
+   "date": "2026-10-14",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.42.0",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.42.0"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.42.0",
+   "name": "v0.42.0",
+   "date": "2026-10-14",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.42.1",
+   "name": "popcraft 0.42.1",
+   "date": "2026-10-14",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.42.1",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.42.1"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.42.1",
+   "name": "v0.42.1",
+   "date": "2026-10-14",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.42.2",
+   "name": "popcraft 0.42.2",
+   "date": "2026-10-14",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.42.2",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.42.2"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.42.2",
+   "name": "v0.42.2",
+   "date": "2026-10-14",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
    "projectId": "tish",
    "repo": "tishlang/tish-desktop",
    "type": "release",
@@ -44794,6 +49488,201 @@
    ],
    "summary": "fix: package exports, Promise/delay with build features, scoped collection locals, generic .d.ts types (#773) (97a7972)",
    "url": "https://github.com/tishlang/tish/releases/tag/v4.2.5"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "tag",
+   "tag": "v0.42.3",
+   "name": null,
+   "date": "2026-10-15",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.42.4",
+   "name": "popcraft 0.42.4",
+   "date": "2026-10-15",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.42.4",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.42.4"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.42.4",
+   "name": "v0.42.4",
+   "date": "2026-10-15",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.42.5",
+   "name": "popcraft 0.42.5",
+   "date": "2026-10-15",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.42.5",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.42.5"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.42.5",
+   "name": "v0.42.5",
+   "date": "2026-10-15",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "sciiio-scii",
+   "repo": "sciiio/.github",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-15",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": ".github started (creator, 1 commits)",
+   "url": "https://github.com/sciiio/.github"
+  },
+  {
+   "projectId": "sciiio-scii",
+   "repo": "sciiio/homebrew-scii",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-15",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "homebrew-scii started (creator, 1 commits)",
+   "url": "https://github.com/sciiio/homebrew-scii"
+  },
+  {
+   "projectId": "sciiio-scii",
+   "repo": "sciiio/scii-popcraft",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-15",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "scii-popcraft started (creator, 1 commits)",
+   "url": "https://github.com/sciiio/scii-popcraft"
+  },
+  {
+   "projectId": "sciiio-scii",
+   "repo": "sciiio/scii-releases",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-15",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "scii-releases started (creator, 2 commits)",
+   "url": "https://github.com/sciiio/scii-releases"
+  },
+  {
+   "projectId": "sciiio-scii",
+   "repo": "sciiio/scii-releases",
+   "type": "release",
+   "tag": "v0.4.0",
+   "name": "v0.2.0",
+   "date": "2026-10-15",
+   "prerelease": false,
+   "major": false,
+   "count": 5,
+   "summary": null,
+   "url": "https://github.com/sciiio/scii-releases/releases/tag/v0.2.0"
+  },
+  {
+   "projectId": "nihmbus",
+   "repo": "knoeone/nihmbus-extension",
+   "type": "created",
+   "tag": null,
+   "name": null,
+   "date": "2026-10-16",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "nihmbus-extension started (creator, 3 commits)",
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.42.6",
+   "name": "popcraft 0.42.6",
+   "date": "2026-10-16",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.42.6",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.42.6"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.42.6",
+   "name": "v0.42.6",
+   "date": "2026-10-16",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/homebrew-popcraft",
+   "type": "release",
+   "tag": "v0.42.7",
+   "name": "popcraft 0.42.7",
+   "date": "2026-10-16",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": "popcraft 0.42.7",
+   "url": "https://github.com/getpopcraft/homebrew-popcraft/releases/tag/v0.42.7"
+  },
+  {
+   "projectId": "popcraft",
+   "repo": "getpopcraft/popcraft-app",
+   "type": "release",
+   "tag": "v0.42.7",
+   "name": "v0.42.7",
+   "date": "2026-10-16",
+   "prerelease": false,
+   "major": false,
+   "count": 1,
+   "summary": null,
+   "url": null
   }
  ]
 }
